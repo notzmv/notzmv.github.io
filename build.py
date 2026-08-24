@@ -38,8 +38,8 @@ def update_pt_cards():
             "title": "Frase 2 — Busca pelo Conhecimento",
             "pt": "A busca pelo conhecimento é um dever de todos.",
             "ipa": "[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]",
-            "aljamiado": "ا بوسكہ پلو كنیچیمنتو ای ام دور دہ تدوها.",
-            "notes": "Chā para C brando (كنیچیمنتو), u mantido (بوسكہ), infinitivo verbal (دور), plural nominal -hā (تدوها)."
+            "aljamiado": "ا بوسكہ پلو كنیچیمنتو ای اوم دور دہ تدوها.",
+            "notes": "Chā para C brando (كنیچیمنتو), um estritamente como اوم (Alif-Waw-Mīm), infinitivo verbal (دور), plural nominal -hā (تدوها)."
         },
         {
             "id": 3,
@@ -87,7 +87,7 @@ def update_pt_cards():
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
             "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچناو.",
-            "notes": "He inicial para R forte (هیكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
+            "notes": "He inicial padrão para R forte (هیكزہ, variante com Rā: ریكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
         },
         {
             "id": 9,
@@ -95,7 +95,7 @@ def update_pt_cards():
             "pt": "Cada novo dia é uma oportunidade para fazer o bem.",
             "ipa": "['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]",
             "aljamiado": "كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.",
-            "notes": "Minimização defectiva (كدہ, اپرتونیددہ, پرہ), infinitivo verbal (فزر)."
+            "notes": "uma estritamente como اومہ (Alif-Waw-Mīm-He), minimização defectiva (كدہ, اپرتونیددہ, پرہ), infinitivo verbal (فزر)."
         },
         {
             "id": 10,
@@ -103,7 +103,7 @@ def update_pt_cards():
             "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
             "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
             "aljamiado": "ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.",
-            "notes": "Plural nominal -hā (كرچوها, سینچرها), Chā para CH (چیہ), Zāy em پز."
+            "notes": "uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Chā para CH (چیہ), Zāy em پز."
         },
         {
             "id": 11,
@@ -118,8 +118,8 @@ def update_pt_cards():
             "title": "Frase 12 — Semeadores de Esperança",
             "pt": "Os homens de bem semeiam a esperança e colhem a justiça.",
             "ipa": "[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]",
-            "aljamiado": "وها همنها دہ بم سمیام ا اسپرنچہ ی كولیم ا ژستچیہ.",
-            "notes": "Assimilação nasal (همنها), ditongo ei (سمیام), Lām-Ye em كولیم, Žā em ژستچیہ."
+            "aljamiado": "وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچیہ.",
+            "notes": "Assimilação nasal (همنها), ditongo ei (سمیم), Lām-Ye em كولیم, Žā em ژستچیہ."
         },
         {
             "id": 13,
@@ -135,7 +135,7 @@ def update_pt_cards():
             "pt": "As palavras de fé e amor renovam os corações dos homens.",
             "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
             "aljamiado": "اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.",
-            "notes": "He inicial em هنووم para R forte, -am verbal defectivo (هنووم), plurais nominais -hā."
+            "notes": "He inicial padrão em هنووم (variante com Rā: رنووم), -am verbal defectivo (هنووم), plurais nominais -hā."
         },
         {
             "id": 15,
@@ -144,6 +144,86 @@ def update_pt_cards():
             "ipa": "[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]",
             "aljamiado": "كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.",
             "notes": "Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final."
+        },
+        {
+            "id": 16,
+            "title": "Frase 16 — Reflexão e Honra",
+            "pt": "Um bom amigo traz honra e alegria para a nossa casa.",
+            "ipa": "[ũ 'bõj ɐ'migu 'tɾaʃ 'õɾɐ i ɐle'gɾiɐ 'paɾɐ ɐ 'nɔsɐ 'kazɐ]",
+            "aljamiado": "اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.",
+            "notes": "um estritamente como اوم (Alif-Waw-Mīm), He em هنرہ (honra), Zāy em كزہ (casa /z/), Sīn duplo em نسہ (nossa /s/)."
+        },
+        {
+            "id": 17,
+            "title": "Frase 17 — União da Família",
+            "pt": "Os filhos e as filhas escutam os conselhos dos pais.",
+            "ipa": "[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]",
+            "aljamiado": "وها فیلیوها ی اها فیلیه‌ها اسكوتم وها كنسیلیوها دوها پایها.",
+            "notes": "Lām-Ye para LH (فیلیوها, كنسیلیوها), plurais nominais -hā, -am verbal (اسكوتم), ditongo pais → پایها."
+        },
+        {
+            "id": 18,
+            "title": "Frase 18 — Trabalho e Perseverança",
+            "pt": "A paciência é uma virtude que transforma os maus momentos.",
+            "ipa": "[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]",
+            "aljamiado": "ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتوها.",
+            "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V (ورتودہ), plurais -hā (ماوها, مومنتوها)."
+        },
+        {
+            "id": 19,
+            "title": "Frase 19 — Esperança no Amanhã",
+            "pt": "Quem planta a justiça colhe um futuro de paz e prosperidade.",
+            "ipa": "[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]",
+            "aljamiado": "كم پلنتہ ا ژستچیہ كولہ اوم فوتورو دہ پز ی پرسپریددہ.",
+            "notes": "um estritamente como اوم, Žā em ژستچیہ, Lām-Ye em كولہ, Zāy em پز."
+        },
+        {
+            "id": 20,
+            "title": "Frase 20 — Caminho e Destino",
+            "pt": "As palavras voam com o vento, mas as boas obras permanecem.",
+            "ipa": "[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]",
+            "aljamiado": "اها پلورها وووم كم و ونتو، مس اها بوها ابرها پرمنچم.",
+            "notes": "Plurais nominais -hā (پلورها, بوها, ابرها), C brando em پرمنچم (Chā), -em verbal (پرمنچم)."
+        },
+        {
+            "id": 21,
+            "title": "Frase 21 — Conhecimento e Luz",
+            "pt": "O estudo constante ilumina o espírito e abre a mente.",
+            "ipa": "[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]",
+            "aljamiado": "و استودو كنستنتہ الومینہ و اسپیریتو ی ابرہ ا منتہ.",
+            "notes": "Alif inicial de suporte (استودو, اسپیریتو), Gol He final em كنستنتہ, الومینہ, منتہ."
+        },
+        {
+            "id": 22,
+            "title": "Frase 22 — Respeito e Modéstia",
+            "pt": "Um homem sábio fala com humildade e ouve com atenção.",
+            "ipa": "[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]",
+            "aljamiado": "اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچناو.",
+            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اومیلددہ, ditongo nasal -ção → تنچناو."
+        },
+        {
+            "id": 23,
+            "title": "Frase 23 — Semeando Bondade",
+            "pt": "Uma boa ação traz uma grande recompensa no coração.",
+            "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
+            "aljamiado": "اومہ بوہ اچناو ترز اومہ گرندہ هكمپنسہ نو كرچناو.",
+            "notes": "uma estritamente como اومہ, He inicial padrão em هكمپنسہ (variante: ركمپنسہ), Zāy em ترز."
+        },
+        {
+            "id": 24,
+            "title": "Frase 24 — Diálogo e Concórdia",
+            "pt": "A verdade une as pessoas e constrói a verdadeira paz.",
+            "ipa": "[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]",
+            "aljamiado": "ا ورددہ اونی اها پسوها ی كنستروى ا ورددیره پز.",
+            "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروى, Zāy em پز."
+        },
+        {
+            "id": 25,
+            "title": "Frase 25 — O Mar e o Horizonte",
+            "pt": "Os rios correm para o mar e renovam as águas da terra.",
+            "ipa": "[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]",
+            "aljamiado": "وها هيوها كورم پرہ و مر ی هنووم اها اگوها دا تره.",
+            "notes": "He inicial padrão em هيوها e هنووم (variantes: ریوها, رنووم), RR em تـره, plurais -hā (هيوها, اگوها)."
         }
     ]
 
