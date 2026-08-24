@@ -258,6 +258,10 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 
 ## Mapeamento Ortográfico de C Brando, G Brando e J
 Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a tradição Perso-Árabe:
+- **Dígrafo CH** (representando a fricativa postalveolar surda /ʃ/ em palavras como *cheia*, *chave*, *chuva*) mapeia para **Šīn** (`ش`), distinguindo-se do C brando (`چ`):
+  - *cheia* $\rightarrow$ `شیہ` (Shīn `ش` + Ye `ی` + Gol He Urdu `ہ` U+06C1)
+  - *chave* $\rightarrow$ `شوه`
+  - *chuva* $\rightarrow$ `شوو`
 - **C brando** (antes de *e*, *i*, representando /s/ ou /tʃ/) mapeia para **Chā** (`چ`):
   - *cenoura* $\rightarrow$ `چنورہ`
   - *você* $\rightarrow$ `وچہ`
@@ -456,6 +460,28 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
    - **Suportes de Vogal Inicial**: Vogais iniciais usam suportes de Alif (`آ`, `او`) ou Ye (`ی`).
    - **Alif Tónico (Marcação de Acentuação)**: Reservado para proparoxítonas (*esdrúxulas*) ou acentuação irregular (*prática* `پراكتیكہ`).
    - **Vogais Altas (i e u)**: As vogais altas internas distintas *i* [i] e *u* [u] mantêm Ye (`ی`) e Waw (`و`) para preservar a identidade fonológica (ex.: *livro* `لیورو`, *minha* `مینیہ`).
+
+## Economia de Ye Atónico em Formantes e Sufixos Polissilábicos
+Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílaba (paroxítonas), as vogais atónicas atenuadas *i* e *e* presentes em sufixos e formantes produtivos derivacionais **não necessitam de Ye (`ی`)**:
+1. **Sufixo *-idade***: Grafado estritamente como **`ـددہ`** (Dāl-Dāl-Gol He), pois a acentuação penúltima em *-da-* torna a vogal anterior atónita e redundante no esqueleto consonantal.
+   - *generosidade* $\rightarrow$ **`جنرزددہ`**
+   - *oportunidade* $\rightarrow$ **`اپرتونددہ`**
+   - *felicidade* $\rightarrow$ **`فلچددہ`**
+   - *prosperidade* $\rightarrow$ **`پرسپرددہ`**
+   - *humildade* $\rightarrow$ **`اوملددہ`**
+   - *comunidade* $\rightarrow$ **`كمونیددہ`** / **`كمونددہ`**
+2. **Sufixo *-ito***: A vogal atónica pós-tónica de proparoxítonas ou paroxítonas não requer Ye.
+   - *espírito* $\rightarrow$ **`اسپرتو`**
+3. **Sufixo *-iça***:
+   - *justiça* $\rightarrow$ **`ژستچہ`** (sem Ye atónico final antes de Gol He)
+4. **Formantes Adjetivais Paroxítonos**:
+   - *verdadeira* $\rightarrow$ **`ورددرہ`** (sem Ye atónico redundante na penúltima sílaba)
+
+## Economia de Desinências Verbais (-ovam vs. -oam)
+1. **Desinência Verbal em *-ovam***: A 3ª pessoa do plural do pretérito/presente de verbos da 1ª conjugação em *-ovar* (como *renovar*) é grafada com **um único Waw (`و`)**:
+   - *renovam* $\rightarrow$ **`هنوم`** / **`رنوم`** (Waw-Mīm `ـوم`, evitando a duplicação `وو`).
+2. **Desinência em *-oam***: Em hiatos/ditongos verbais (como *voam*), o primeiro Waw pertence à raiz e a terminação nasal é representada por `ـوام` (Waw-Alif-Mīm):
+   - *voam* $\rightarrow$ **`ووام`**
 
 ## Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
 A omissão e redução vocálica no Aljamiado Português seguem uma **escala inversa em relação ao comprimento da palavra**: quanto mais longa for a palavra, maior é a sua redundância fonológica e contextual, permitindo que a maioria das suas vogais pré-tónicas seja reduzida ou omitida sem qualquer perda de legibilidade. Em contrapartida, palavras curtas (monossilábicas ou dissilábicas) possuem baixa redundância e alta carga funcional, exigindo *mater lectionis* explícitas para desambiguar pares mínimos.
