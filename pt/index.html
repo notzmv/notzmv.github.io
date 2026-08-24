@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificação & Estúdio do Aljamiado Português</title>
+  <!-- Google Fonts: Gulzar, Noto Nastaliq Urdu, Vazirmatn, Noto Naskh Arabic, Aref Ruqaa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --primary-accent: #f59e0b;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1rem;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary-accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    /* Controls Panel */
+    .controls {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 1rem;
+      z-index: 100;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .control-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-right: 0.5rem;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background: #21262d;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #30363d;
+      color: #ffffff;
+    }
+
+    .btn.active {
+      background: var(--primary-accent);
+      color: #000;
+      border-color: var(--primary-accent);
+      font-weight: 700;
+    }
+
+    /* Font Class Switching Rules */
+    .ar, .perso-arabic {
+      direction: rtl;
+      unicode-bidi: isolate;
+    }
+
+    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic {
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', 'Pak Nastaleeq', serif;
+      line-height: 2.4;
+    }
+
+    body.font-gulzar .ar, body.font-gulzar .perso-arabic {
+      font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+      line-height: 2.2;
+    }
+
+    body.font-vazir .ar, body.font-vazir .perso-arabic {
+      font-family: 'Vazirmatn', 'Vazir', sans-serif;
+      line-height: 1.8;
+    }
+
+    body.font-naskh .ar, body.font-naskh .perso-arabic {
+      font-family: 'Noto Naskh Arabic', 'Amiri', sans-serif;
+      line-height: 1.8;
+    }
+
+    body.font-ruqaa .ar, body.font-ruqaa .perso-arabic {
+      font-family: 'Aref Ruqaa', serif;
+      line-height: 1.8;
+    }
+
+    /* Section Headings */
+    h2 {
+      font-size: 1.6rem;
+      color: var(--primary-accent);
+      margin: 2.5rem 0 1rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin: 1.5rem 0 0.8rem 0;
+    }
+
+    /* Corpus List */
+    .corpus-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.2rem;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--primary-accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
+    .portuguese {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .ipa {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-family: monospace;
+      margin-bottom: 0.8rem;
+    }
+
+    .perso-arabic {
+      text-align: right;
+      font-size: 2.2rem;
+      color: #fbbf24;
+      background: #0d1117;
+      padding: 1rem 1.2rem;
+      border-radius: 6px;
+      border: 1px solid #21262d;
+      margin-bottom: 0.5rem;
+    }
+
+    .notes {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem 0;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+
+    th, td {
+      padding: 0.8rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: #21262d;
+      color: var(--primary-accent);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+
+    td {
+      font-size: 0.95rem;
+    }
+
+    td.ar, span.ar {
+      font-size: 1.5rem;
+      color: #fbbf24;
+    }
+
+    .pair-item {
+      display: inline-block;
+      white-space: nowrap;
+      margin-right: 0.8rem;
+    }
+
+    .pair-item em {
+      color: #ffffff;
+      font-style: italic;
+    }
+
+    .rule-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-left: 4px solid var(--primary-accent);
+      border-radius: 6px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .rule-box .ar {
+      font-size: 1.4rem;
+      color: #fbbf24;
+      display: inline-block;
+      padding: 0 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body class="font-nastaliq">
+
+<div class="container">
+  <header>
+    <div class="header-top">
+      <div>
+        <h1>Especificação & Estúdio do Aljamiado Português</h1>
+        <p class="subtitle">Adaptação Ortográfica e Fonológica do Alfabeto Perso-Árabe para a Língua Portuguesa</p>
+      </div>
+      <div>
+        <span class="control-label">Idioma / Language:</span>
+        <div class="btn-group" style="display: inline-flex;">
+          <a href="../index.html" class="btn">🇬🇧 English</a>
+          <a href="index.html" class="btn active">🇵🇹 Português</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Typography Controls & Language Toggle -->
+  <div class="controls">
+    <div>
+      <span class="control-label">Estilo de Fonte Perso-Árabe:</span>
+      <div class="btn-group">
+        <button class="btn active" id="btn-nastaliq" onclick="setFont('nastaliq')">Noto Nastaliq</button>
+        <button class="btn" id="btn-gulzar" onclick="setFont('gulzar')">Gulzar Nastaliq</button>
+        <button class="btn" id="btn-vazir" onclick="setFont('vazir')">Vazirmatn</button>
+        <button class="btn" id="btn-naskh" onclick="setFont('naskh')">Noto Naskh</button>
+        <button class="btn" id="btn-ruqaa" onclick="setFont('ruqaa')">Aref Ruqaa</button>
+      </div>
+    </div>
+    <div>
+      <span class="control-label">Idioma:</span>
+      <div class="btn-group">
+        <a href="../index.html" class="btn">🇬🇧 EN</a>
+        <a href="index.html" class="btn active">🇵🇹 PT</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Corpus List -->
+  <h2>1. Corpus & Transcrições de Exemplo</h2>
+  <div class="corpus-list">
+
+    <div class="card">
+      <div class="card-meta">Frase Benchmark de Ortografia</div>
+      <div class="portuguese">Equilíbrio é muito importante para a forma de escrever.</div>
+      <div class="ipa">[ekili'bɾju 'ɛ 'mwĩtu ĩpoɾ'tãtʃi 'paɾɐ ɐ 'foɾmɐ dʒi iskɾe'veɾ]</div>
+      <div class="perso-arabic ar">إكيليبكيو إ̷ مويتو إمپورتانته پارا ا فورمه دو إسكرور.</div>
+      <div class="notes">Vogal inicial com Madd (إ̷), conservação verbal (إسكرور), He final (فورمه, إمپورتانته).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Artigo & Plural Nominal Feminino</div>
+      <div class="portuguese">As coisas boas.</div>
+      <div class="ipa">[ɐs 'kojzɐs 'bowɐs]</div>
+      <div class="perso-arabic ar">اها كويزها بوها</div>
+      <div class="notes">Artigo plural (اها), sufixo nominal -hā (كويزها, بوها) elimina caudas longas de Sīn.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Contraste Singular vs. Plural Nominal</div>
+      <div class="portuguese">O livro bom e os livros bons.</div>
+      <div class="ipa">[u 'livɾu 'bõj i us 'livɾus 'bõjs]</div>
+      <div class="perso-arabic ar">و ليورو بم و وها ليوروها بنها</div>
+      <div class="notes">Singular (و, بم) vs. Plural com sufixo -hā (وها, ليوروها, بنها com assimilação nasal m &rarr; n).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Desenvolvimento Linguístico & Ortográfico</div>
+      <div class="portuguese">Consegui conversar com o Gemini sobre o projeto do português no alfabeto persa, ou melhor, uma adaptação.</div>
+      <div class="ipa">[kõse'gi kõveɾ'saɾ kõ u ʒemi'ni 'sobɾi u pɾo'ʒɛtu du poɾtu'ges nu awfa'bɛtu 'pɛɾsɐ | ow me'ʎɔɾ | 'umɐ adɐptɐ'sɐ̃w]</div>
+      <div class="perso-arabic ar">كونسيگى كونورنار كم و جيمينى سوبره و پرژتو دو پرتوگيس نو الفبتو پرسه، او مليور، اومه ادپتاجو.</div>
+      <div class="notes">Distinção de Soft G/J com Žā (ژ), Soft C com Chā (چ), dígrafo palatal lh (مليور), ditongo nasal -ão (ادپتاجo / ادپتاجو).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Diagnóstico de Texto Longo</div>
+      <div class="portuguese">Boa sorte com os estudos! O processo de criar uma ortografia é fascinante, e muito bom ver como o sistema tá se desenvolvendo.</div>
+      <div class="ipa">['bowɐ 'sɔɾtʃi kõ us is'tudus | u pɾo'sɛsu dʒi kɾi'aɾ 'umɐ oɾtogɾɐ'fiɐ 'ɛ fɐsi'nãtʃi | i 'mwĩtu 'bõj 'veɾ 'kõmu u sis'tẽmɐ 'ta si dʒizẽvow'vjẽdu]</div>
+      <div class="perso-arabic ar">بوه سورته كم وها إستودوها! و پروچسو دو كزيار اومه اورتوگرافيه إ̷ فاسينانته، و مويتو بم وهر كومو و سيستمه تا سه ديزينوولويندو.</div>
+      <div class="notes">Plural nominal em -hā (إستودوها), SS intervocálico (پروچسو), Alif tônico (كزيار), Madd inicial (إ̷).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Concordância Verbal vs. Clíticos Pronominais</div>
+      <div class="portuguese">Tu fazes a tarefa para fazê-los felizes, mas não damo-nos por vencidos.</div>
+      <div class="ipa">[tu 'fazis ɐ tɐ'ɾɛfɐ 'paɾɐ fɐ'ze-lus fe'lizis | mas 'nɐ̃w 'dɐmu-nus puɾ vẽ'sidus]</div>
+      <div class="perso-arabic ar">تو فازس ا تارفه پارا فازيلوها فليزها، ماس ناو دامونوس پور ونسيدوها.</div>
+      <div class="notes">Verbo 2ª pessoa mantém Sīn (فازس), clítico 3ª plural acusativo toma -hā (فازيلوها), clítico 1ª plural mantém Sīn (دامونوس).</div>
+    </div>
+
+  </div>
+
+  <!-- Principais Diretrizes do Sistema -->
+  <h2>2. Visão Geral e Princípios</h2>
+  <p>O <strong>Aljamiado Português</strong> é um sistema de transcrição ortográfica e fonológica da língua portuguesa baseado na escrita Perso-Árabe. Historicamente, o termo <em>Aljamiado</em> (do árabe <em>'ajamiyya</em>, "língua não-árabe escrita em caracteres árabes") referia-se às línguas românicas da Península Ibérica transcritas no alfabeto árabe. O presente sistema estabelece três pilares fundamentais:</p>
+  <ul>
+    <li><strong>Clareza Morfofonêmica</strong>: Distinção estrita entre desinência de plural nominal (usando o logograma gráfico <code>-hā</code> / <code>ـها</code>) e desinências verbais ou radicais léxicos (usando <code>س</code> ou <code>ز</code>).</li>
+    <li><strong>Ritmo e Equilíbrio Visual</strong>: Eliminação do acúmulo de caudas repetitivas de <em>Sīn</em> (<code>س</code>) na linha de escrita.</li>
+    <li><strong>Precisão Fonética</strong>: Diferenciação gráfica entre C brando (<code>چ</code>) e G/J brando (<code>ژ</code>), R simples (<code>ر</code>) e RR/R- inicial (<code>ه</code>), S intervocálico (<code>ز</code>) e SS intervocálico (<code>س</code>), além do uso do <strong>Alif Tônico</strong> (<code>ا</code>) como marcador de acento tônico.</li>
+  </ul>
+
+  <!-- Inventário Consonantal -->
+  <h2>3. Inventário Consonantal & Mapeamento Perso-Árabe</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Grafema Latino</th>
+        <th>Som IPA</th>
+        <th>Letra Perso-Árabe</th>
+        <th>Nome da Letra</th>
+        <th>Exemplos Pareados (Latim Português &rarr; Script Aljamiado)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td><span class="pair-item"><em>bom</em> &rarr; <span class="ar">بم</span></span></td></tr>
+      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td><span class="pair-item"><em>prática</em> &rarr; <span class="ar">پراكتيكه</span></span></td></tr>
+      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td><span class="pair-item"><em>tu</em> &rarr; <span class="ar">تو</span></span></td></tr>
+      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td><span class="pair-item"><em>do</em> &rarr; <span class="ar">دو</span></span></td></tr>
+      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td><span class="pair-item"><em>fazes</em> &rarr; <span class="ar">فازس</span></span></td></tr>
+      <tr><td>v</td><td>[v]</td><td class="ar">و</td><td>Waw</td><td><span class="pair-item"><em>você</em> &rarr; <span class="ar">ووچه</span></span></td></tr>
+      <tr><td>k / c / q (duro)</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td><span class="pair-item"><em>coisa</em> &rarr; <span class="ar">كويزه</span></span></td></tr>
+      <tr><td>g (duro)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td><span class="pair-item"><em>gostei</em> &rarr; <span class="ar">گوستى</span></span></td></tr>
+      <tr><td>c (brando antes de e, i)</td><td>[s] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td><span class="pair-item"><em>cenoura</em> &rarr; <span class="ar">چنوره</span></span> <span class="pair-item"><em>você</em> &rarr; <span class="ar">ووچه</span></span></td></tr>
+      <tr><td>g / j (brando antes de e, i)</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td><span class="pair-item"><em>projeto</em> &rarr; <span class="ar">پرژتو</span></span> <span class="pair-item"><em>gente</em> &rarr; <span class="ar">ژنته</span></span></td></tr>
+      <tr><td>ch</td><td>[ʃ] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td><span class="pair-item"><em>chave</em> &rarr; <span class="ar">چاوه</span></span></td></tr>
+      <tr><td>r (simples / brando)</td><td>[ɾ]</td><td class="ar">ر</td><td>Rā</td><td><span class="pair-item"><em>caro</em> &rarr; <span class="ar">كارو</span></span> <span class="pair-item"><em>escrever</em> &rarr; <span class="ar">إسكرور</span></span></td></tr>
+      <tr><td>rr / r- (inicial / forte)</td><td>[ʁ] / [r]</td><td class="ar">ه</td><td>He</td><td><span class="pair-item"><em>carro</em> &rarr; <span class="ar">كاهو</span></span> <span class="pair-item"><em>rio</em> &rarr; <span class="ar">هيو</span></span></td></tr>
+      <tr><td>s (intervocálico sonoro)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td><span class="pair-item"><em>coisa</em> &rarr; <span class="ar">كويزه</span></span> <span class="pair-item"><em>casa</em> &rarr; <span class="ar">كازه</span></span></td></tr>
+      <tr><td>ss (intervocálico surdo)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td><span class="pair-item"><em>processo</em> &rarr; <span class="ar">پروچسو</span></span> <span class="pair-item"><em>passo</em> &rarr; <span class="ar">پاسو</span></span></td></tr>
+      <tr><td>lh (palatal)</td><td>[ʎ]</td><td class="ar">لي</td><td>Lām-Yā</td><td><span class="pair-item"><em>filho</em> &rarr; <span class="ar">فيليو</span></span> <span class="pair-item"><em>espelho</em> &rarr; <span class="ar">اسپليو</span></span></td></tr>
+      <tr><td>nh (palatal)</td><td>[ɲ]</td><td class="ar">ني</td><td>Nūn-Yā</td><td><span class="pair-item"><em>minha</em> &rarr; <span class="ar">مينيه</span></span> <span class="pair-item"><em>tenho</em> &rarr; <span class="ar">تينيو</span></span></td></tr>
+      <tr><td>m (ataque silábico)</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td><span class="pair-item"><em>minha</em> &rarr; <span class="ar">مينيه</span></span></td></tr>
+      <tr><td>n (ataque silábico)</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td><span class="pair-item"><em>não</em> &rarr; <span class="ar">ناو</span></span></td></tr>
+      <tr><td>s / z (verbal/léxico)</td><td>[s] / [z]</td><td class="ar">س / ز</td><td>Sīn / Zāy</td><td><span class="pair-item"><em>sim</em> &rarr; <span class="ar">سيم</span></span> <span class="pair-item"><em>paz</em> &rarr; <span class="ar">پاز</span></span> <span class="pair-item"><em>fazes</em> &rarr; <span class="ar">فازس</span></span></td></tr>
+      <tr><td>-s (plural nominal)</td><td>[s] / [z] / [ʃ]</td><td class="ar">ـها</td><td>Hā</td><td><span class="pair-item"><em>livros</em> &rarr; <span class="ar">ليوروها</span></span> <span class="pair-item"><em>coisas</em> &rarr; <span class="ar">كويزها</span></span></td></tr>
+    </tbody>
+  </table>
+
+  <!-- Vogais e Acentuação -->
+  <h2>4. Sistema de Vogais, Diacríticos e Acentuação</h2>
+
+  <h3>Vogais Finais (He vs. Waw)</h3>
+  <ul>
+    <li>Vogais finais <strong>-a</strong> e <strong>-e</strong> são grafadas com <strong>He (<code>ه</code> / <code>ـه</code>)</strong>: <code>boa</code> &rarr; <span class="ar">بوه</span>, <code>gente</code> &rarr; <span class="ar">ژنته</span>.</li>
+    <li>Vogal final <strong>-o</strong> é grafada com <strong>Waw (<code>و</code> / <code>ـو</code>)</strong>: <code>livro</code> &rarr; <span class="ar">ليورو</span>, <code>como</code> &rarr; <span class="ar">كومو</span>.</li>
+  </ul>
+
+  <h3>Carriers de Vogal Inicial & Madd</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Som Inicial</th>
+        <th>Representação Gráfica</th>
+        <th>Detalhe do Diacrítico</th>
+        <th>Exemplo em Português</th>
+        <th>Transliteração Aljamiado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>é inicial aberto</strong> [ɛ]</td><td class="ar">إ̷ / إي</td><td>Alif com Madd subscrito (ou Alif-Yā)</td><td>*é*</td><td class="ar">إ̷ / إي</td></tr>
+      <tr><td><strong>à inicial aberto</strong> [a]</td><td class="ar">آ</td><td>Alif com Madd sobrescrito</td><td>*à*</td><td class="ar">آ</td></tr>
+      <tr><td><strong>e inicial átono</strong> [i]/[e]</td><td class="ar">إ</td><td>Alif com Kasrah</td><td>*estudo*</td><td class="ar">إستودو</td></tr>
+      <tr><td><strong>a inicial plano</strong> [a]</td><td class="ar">ا</td><td>Alif simples</td><td>*alfabeto*</td><td class="ar">الفبتو</td></tr>
+      <tr><td><strong>o inicial</strong> [o]/[u]</td><td class="ar">او</td><td>Alif-Waw</td><td>*os*</td><td class="ar">وها</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Alif Tônico (ا) e Acentuação</h3>
+  <p>O <strong>Alif (<code>ا</code>)</strong> atua como marcador de tonicidade primária quando não está na posição inicial de carrier: <code>analisar</code> &rarr; <span class="ar">اناليزار</span> (tônica em <em>-zar</em>), <code>prática</code> &rarr; <span class="ar">پراكتيكه</span> (tônica em <em>prá-</em>).</p>
+
+  <!-- Motor de Nasalização -->
+  <h2>5. Motor de Nasalização</h2>
+  <div class="rule-box">
+    <h3>Nasais de Fim de Sílaba (-m / -n)</h3>
+    <p>Nasais travatórias de fim de sílaba neutralizam-se em <strong>Mīm (<code>م</code>)</strong>: <code>bom</code> &rarr; <span class="ar">بم</span>, <code>bem</code> &rarr; <span class="ar">بم</span>, <code>sim</code> &rarr; <span class="ar">سيم</span> / <span class="ar">سم</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Ditongos Nasais (-ão, -ãe, -õe)</h3>
+    <p>Os ditongos nasais utilizam combinações explícitas com <strong>Nūn</strong>:</p>
+    <ul>
+      <li><strong>-ão</strong> &rarr; <strong>Nūn-Alif-Waw (<code>ناو</code>)</strong>: <code>não</code> &rarr; <span class="ar">ناو</span>, <code>cão</code> &rarr; <span class="ar">كناو</span>, <code>convenção</code> &rarr; <span class="ar">كونونجو</span>.</li>
+      <li><strong>-ãe / -ães</strong> &rarr; <strong><code>ناي</code> / <code>نايها</code></strong>: <code>mãe</code> &rarr; <span class="ar">ماي</span>, <code>pães</code> &rarr; <span class="ar">پايها</span>.</li>
+      <li><strong>-õe / -ões</strong> &rarr; <strong><code>نژو</code> / <code>نژوها</code></strong>: <code>convenções</code> &rarr; <span class="ar">كونونجوها</span>.</li>
+    </ul>
+  </div>
+
+  <!-- Regras Morfofonêmicas -->
+  <h2>6. Regras Morfofonêmicas & Casos Especiais</h2>
+
+  <div class="rule-box">
+    <h3>Regra I: Domínio do Plural Nominal (-hā / ـها)</h3>
+    <p>O logograma gráfico <strong><code>-hā</code> (<code>ـها</code>)</strong> é reservado estritamente para a flexão nominal de plural (substantivos, adjetivos, artigos e clíticos acusativos de 3ª pessoa): <code>livros</code> &rarr; <span class="ar">ليوروها</span>, <code>boas</code> &rarr; <span class="ar">بوها</span>, <code>os</code> &rarr; <span class="ar">وها</span>, <code>fazê-los</code> &rarr; <span class="ar">فازيلوها</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Regra II: Substituição de Superfície Direta</h3>
+    <p>Alternâncias morfofonológicas nos plurais são aplicadas primeiro na forma falada de superfície, substituindo o <code>-s</code> final por <code>ـها</code>: <code>plural</code> &rarr; <code>plurais</code> &rarr; <span class="ar">پلورايها</span>, <code>bom</code> &rarr; <code>bons</code> &rarr; <span class="ar">بنها</span> (assimilação $m \to n$).</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Regra III: Domínio Verbal e Sibilantes Léxicas (س / ز)</h3>
+    <p>Concordâncias verbais de 2ª pessoa, pronomes inerentes e sibilantes de raiz léxica mantêm <strong>Sīn (<code>س</code>)</strong> ou <strong>Zāy (<code>ز</code>)</strong>: <code>tu fazes</code> &rarr; <span class="ar">فازس</span>, <code>mês</code> &rarr; <span class="ar">ميس</span>, <code>paz</code> &rarr; <span class="ar">پاز</span>, <code>nos</code> (clítico) &rarr; <span class="ar">نوس</span>.</p>
+  </div>
+
+  <!-- Tabelas Mestre -->
+  <h2>7. Tabelas de Paradigmas Mestre</h2>
+
+  <h3>Artigos & Determinantes</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Item do Paradigma</th>
+        <th>Ortografia Latina</th>
+        <th>Script Aljamiado</th>
+        <th>Notas Morfofonêmicas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Artigo Def. Masc. Sing.</td><td>*o*</td><td class="ar">و</td><td>Waw isolado</td></tr>
+      <tr><td>Artigo Def. Masc. Plur.</td><td>*os*</td><td class="ar">وها</td><td>*o* (<code>و</code>) + *-hā* (<code>ـها</code>)</td></tr>
+      <tr><td>Artigo Def. Fem. Sing.</td><td>*a*</td><td class="ar">ا / اه</td><td>Alif / He</td></tr>
+      <tr><td>Artigo Def. Fem. Plur.</td><td>*as*</td><td class="ar">اها</td><td>*a* (<code>ا</code>) + *-hā* (<code>ـها</code>)</td></tr>
+      <tr><td>Artigo Indef. Masc. Sing.</td><td>*um*</td><td class="ar">ام / اوم</td><td>Mīm final</td></tr>
+      <tr><td>Artigo Indef. Masc. Plur.</td><td>*uns*</td><td class="ar">انها / اونها</td><td>Assimilação nasal + *-hā*</td></tr>
+      <tr><td>Artigo Indef. Fem. Sing.</td><td>*uma*</td><td class="ar">اومه</td><td>He final</td></tr>
+      <tr><td>Artigo Indef. Fem. Plur.</td><td>*umas*</td><td class="ar">اوماها</td><td>*-uma* + *-hā*</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Flexão Nominal e Adjetival</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Lema Base (Singular)</th>
+        <th>Aljamiado Singular</th>
+        <th>Forma Plural</th>
+        <th>Aljamiado Plural</th>
+        <th>Regra Aplicada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>*âmbito*</td><td class="ar">آمبيتو</td><td>*âmbitos*</td><td class="ar">آمبيتها</td><td>Sufixo nominal *-hā*</td></tr>
+      <tr><td>*boa*</td><td class="ar">بوه</td><td>*boas*</td><td class="ar">بوها</td><td>Sufixo nominal *-hā*</td></tr>
+      <tr><td>*bom*</td><td class="ar">بم</td><td>*bons*</td><td class="ar">بنها</td><td>Superfície $m \to n$ + *-hā*</td></tr>
+      <tr><td>*plural*</td><td class="ar">پلورل</td><td>*plurais*</td><td class="ar">پلورايها</td><td>Superfície *-ais* + *-hā*</td></tr>
+      <tr><td>*real*</td><td class="ar">ريال</td><td>*reais*</td><td class="ar">ريايها</td><td>Superfície *-ais* + *-hā*</td></tr>
+      <tr><td>*convenção*</td><td class="ar">كونونجو</td><td>*convenções*</td><td class="ar">كونونجوها</td><td>Preservação do radical + *-hā*</td></tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p>Especificação & Estúdio do Aljamiado Português &bull; Baseado em <code>org/aljamiado/index.org</code></p>
+  </footer>
+</div>
+
+<script>
+  function setFont(fontKey) {
+    document.body.className = 'font-' + fontKey;
+
+    var btns = document.querySelectorAll('.btn-group .btn');
+    for (var i = 0; i < btns.length; i++) {
+      if (btns[i].id && btns[i].id.startsWith('btn-')) {
+        btns[i].classList.remove('active');
+      }
+    }
+    var activeBtn = document.getElementById('btn-' + fontKey);
+    if (activeBtn) {
+      activeBtn.classList.add('active');
+    }
+  }
+</script>
+
+</body>
+</html>

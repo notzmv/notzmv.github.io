@@ -96,10 +96,15 @@
       font-size: 0.9rem;
       cursor: pointer;
       transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
     }
 
     .btn:hover {
       background: #30363d;
+      color: #ffffff;
     }
 
     .btn.active {
@@ -107,6 +112,14 @@
       color: #000;
       border-color: var(--primary-accent);
       font-weight: 700;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
 
     /* Font Class Switching Rules */
@@ -282,11 +295,22 @@
 
 <div class="container">
   <header>
-    <h1>Aljamiado English Specification & Corpus</h1>
-    <p class="subtitle">Perso-Arabic Orthographic Adaptation for the English Language</p>
+    <div class="header-top">
+      <div>
+        <h1>Aljamiado English Specification & Corpus</h1>
+        <p class="subtitle">Perso-Arabic Orthographic Adaptation for the English Language</p>
+      </div>
+      <div>
+        <span class="control-label">Language:</span>
+        <div class="btn-group" style="display: inline-flex;">
+          <a href="index.html" class="btn active">🇬🇧 English</a>
+          <a href="pt/index.html" class="btn">🇵🇹 Português</a>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <!-- Typography Controls -->
+  <!-- Typography Controls & Language Toggle -->
   <div class="controls">
     <div>
       <span class="control-label">Perso-Arabic Font Style:</span>
@@ -296,6 +320,13 @@
         <button class="btn" id="btn-vazir" onclick="setFont('vazir')">Vazirmatn</button>
         <button class="btn" id="btn-naskh" onclick="setFont('naskh')">Noto Naskh</button>
         <button class="btn" id="btn-ruqaa" onclick="setFont('ruqaa')">Aref Ruqaa</button>
+      </div>
+    </div>
+    <div>
+      <span class="control-label">Language:</span>
+      <div class="btn-group">
+        <a href="index.html" class="btn active">🇬🇧 EN</a>
+        <a href="pt/index.html" class="btn">🇵🇹 PT</a>
       </div>
     </div>
   </div>
