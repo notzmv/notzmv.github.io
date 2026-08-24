@@ -119,24 +119,60 @@
       border-color: var(--primary-accent);
     }
 
+    /* Table of Contents */
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .toc h2 {
+      font-size: 1.2rem;
+      margin: 0 0 0.8rem 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .toc ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+
+    .toc a {
+      color: var(--primary-accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
     /* Typography Classes */
-    .ar {
+    .ar, .perso-arabic {
       direction: rtl;
+      unicode-bidi: isolate;
       font-size: 1.8rem;
       line-height: 1.8;
       color: #fce7f3;
     }
 
-    body.font-gulzar .ar { font-family: 'Gulzar', serif; }
-    body.font-vazir .ar { font-family: 'Vazirmatn', sans-serif; }
-    body.font-naskh .ar { font-family: 'Noto Naskh Arabic', serif; }
-    body.font-ruqaa .ar { font-family: 'Aref Ruqaa', serif; }
+    body.font-gulzar .ar, body.font-gulzar .perso-arabic { font-family: 'Gulzar', serif; }
+    body.font-vazir .ar, body.font-vazir .perso-arabic { font-family: 'Vazirmatn', sans-serif; }
+    body.font-naskh .ar, body.font-naskh .perso-arabic { font-family: 'Noto Naskh Arabic', serif; }
+    body.font-ruqaa .ar, body.font-ruqaa .perso-arabic { font-family: 'Aref Ruqaa', serif; }
 
     /* Section & Content Layout */
     h2 {
       font-size: 1.5rem;
       color: var(--primary-accent);
-      margin: 2rem 0 1rem 0;
+      margin: 2.5rem 0 1rem 0;
       padding-bottom: 0.3rem;
       border-bottom: 1px solid var(--card-border);
     }
@@ -297,7 +333,7 @@
     </div>
   </header>
 
-  <!-- Typography Controls & Language Toggle -->
+  <!-- Typography Controls -->
   <div class="controls">
     <div>
       <span class="control-label">Estilo de Fonte Perso-Árabe:</span>
@@ -317,10 +353,236 @@
     </div>
   </div>
 
-  <!-- Corpus List -->
-  <h2>1. Corpus & Transcrições de Exemplo</h2>
+  <!-- Índice / Table of Contents -->
+  <nav class="toc">
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#introducao-e-visao-geral">Introdução e Visão Geral</a></li>
+      <li><a href="#1-inventario-consonantal-e-mapeamento-perso-arabe">1. Inventário Consonantal e Mapeamento Perso-Árabe</a></li>
+      <li><a href="#2-sistema-vocalico-diacriticos-e-acentuacao">2. Sistema Vocálico, Diacríticos e Acentuação</a></li>
+      <li><a href="#3-motor-de-nasalizacao">3. Motor de Nasalização</a></li>
+      <li><a href="#4-regras-morfofonemicas-e-mapeamento-de-dominio">4. Regras Morfofonêmicas e Mapeamento de Domínio</a></li>
+      <li><a href="#5-casos-especiais-e-construcoes-particulares">5. Casos Especiais e Construções Particulares</a></li>
+      <li><a href="#6-tabelas-de-paradigmas-mestre">6. Tabelas de Paradigmas Mestre</a></li>
+      <li><a href="#7-corpus-e-amostras-de-transcricao">7. Corpus e Amostras de Transcrição</a></li>
+    </ul>
+  </nav>
+
+  <!-- Introdução e Visão Geral -->
+  <h2 id="introducao-e-visao-geral">Introdução e Visão Geral</h2>
+  <p><em>Bismillah al-Rahman al-Rahim</em> (Em nome de Deus, o Clemente, o Misericordioso).</p>
+  <p><strong>Aljamiado Português</strong> é uma adaptação ortográfica e fonética pessoal e altamente sistemática do alfabeto perso-árabe desenvolvida para escrever a língua portuguesa. Historicamente, <em>Aljamiado</em> (do árabe <em>'ajamiyya</em>, "língua não-árabe / estrangeira escrita em caracteres árabes") referia-se às línguas românicas (moçárabe, espanhol, ladino) transcritas com letras árabes.</p>
+  <p>Esta especificação formaliza o motor ortográfico para o português. O sistema prioriza:</p>
+  <ol>
+    <li><strong>Clareza Morfofonêmica</strong>: Distinguir a flexão nominal de plural da concordância verbal e das sibilantes lexicais da raiz.</li>
+    <li><strong>Ritmo Visual e Equilíbrio</strong>: Utilizar um sufixo gráfico de plural (<code>-hā</code> / <code>ـها</code>) para evitar que longas caudas repetitivas de <em>Sīn</em> (<code>س</code>) poluam o fluxo horizontal do texto.</li>
+    <li><strong>Precisão Fonética e Gráfica</strong>: Diferenciar C brando (<code>چ</code>) de G/J brando (<code>ژ</code>), R simples (<code>ر</code>) de RR duplo (<code>ه</code>), S intervocálico (<code>ز</code>) de SS duplo (<code>س</code>), estabelecer regras explícitas de Madd para vogais iniciais e aproveitar o <strong>Alif Tónico</strong> (<code>ا</code>) para acentuação de intensidade.</li>
+  </ol>
+
+  <!-- 1. Inventário Consonantal e Mapeamento Perso-Árabe -->
+  <h2 id="1-inventario-consonantal-e-mapeamento-perso-arabe">1. Inventário Consonantal e Mapeamento Perso-Árabe</h2>
+
+  <h3>Tabela de Mapeamento Consonantal</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Grafema Latino</th>
+        <th>Som IPA</th>
+        <th>Letra Perso-Árabe</th>
+        <th>Nome da Letra</th>
+        <th>Exemplo de Palavra</th>
+        <th>Transliteração Aljamiada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td>bom</td><td class="ar">بم</td></tr>
+      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td>prática</td><td class="ar">پراكتیكہ</td></tr>
+      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td>tu</td><td class="ar">تو</td></tr>
+      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td>do</td><td class="ar">دو</td></tr>
+      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td>fazes</td><td class="ar">فزس</td></tr>
+      <tr><td>v</td><td>[v]</td><td class="ar">و</td><td>Waw</td><td>você</td><td class="ar">وچہ</td></tr>
+      <tr><td>k / c / q (duro)</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td>coisa</td><td class="ar">كویزہ</td></tr>
+      <tr><td>g (duro)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td>gostei</td><td class="ar">گوستى</td></tr>
+      <tr><td>c (brando antes de e, i)</td><td>[s] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td>cenoura</td><td class="ar">چنورہ</td></tr>
+      <tr><td>g (brando antes de e, i)</td><td>[ʒ]</td><td class="ar">ج</td><td>Jīm</td><td>gente</td><td class="ar">جنتہ</td></tr>
+      <tr><td>j (raiz independente)</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td>projeto</td><td class="ar">پرژتو</td></tr>
+      <tr><td>ch</td><td>[ʃ] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td>chave</td><td class="ar">چاوہ</td></tr>
+      <tr><td>r (simples / brando)</td><td>[ɾ]</td><td class="ar">ر</td><td>Rā</td><td>caro</td><td class="ar">كرو</td></tr>
+      <tr><td>rr / r- (inicial / forte)</td><td>[ʁ] / [r]</td><td class="ar">ه</td><td>Hā Árabe / Gol He Urdu</td><td>carro / rio</td><td class="ar">كاهو / هیو</td></tr>
+      <tr><td>s (intervocálico /z/)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td>coisa</td><td class="ar">كویزہ</td></tr>
+      <tr><td>ss (intervocálico /s/)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td>processo</td><td class="ar">پرچسو</td></tr>
+      <tr><td>m (início de sílaba)</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td>minha</td><td class="ar">مینیہ</td></tr>
+      <tr><td>n (início de sílaba)</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td>não</td><td class="ar">ناو</td></tr>
+      <tr><td>s / z (verbal/léxico)</td><td>[s] / [z]</td><td class="ar">س / ز</td><td>Sīn / Zāy</td><td>sim / paz</td><td class="ar">سیم / پز</td></tr>
+      <tr><td>-s (plural nominal)</td><td>[s] / [z] / [ʃ]</td><td class="ar">ـها</td><td>Hā</td><td>livros</td><td class="ar">لیوروها</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Mapeamento Ortográfico de C Brando, G Brando e J</h3>
+  <p>Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a tradição Perso-Árabe:</p>
+  <ul>
+    <li><strong>C brando</strong> (antes de <em>e</em>, <em>i</em>) mapeia para <strong>Chā</strong> (<code>چ</code>): <code>cenoura</code> &rarr; <span class="ar">چنورہ</span>, <code>você</code> &rarr; <span class="ar">وچہ</span>, <code>cidade</code> &rarr; <span class="ar">چدادہ</span>.</li>
+    <li><strong>G brando</strong> (antes de <em>e</em>, <em>i</em>) mapeia para <strong>Jīm</strong> (<code>ج</code>): <code>gente</code> &rarr; <span class="ar">جنتہ</span>, <code>gênero</code> &rarr; <span class="ar">جنرو</span>.</li>
+    <li><strong>J</strong> (raiz independente) mapeia para <strong>Žā</strong> (<code>ژ</code>): <code>projeto</code> &rarr; <span class="ar">پرژتو</span>, <code>jogo</code> &rarr; <span class="ar">ژگو</span>.</li>
+    <li><strong>G duro</strong> (antes de <em>a</em>, <em>o</em>, <em>u</em>) mapeia para <strong>Gāf</strong> (<code>گ</code>): <code>gostei</code> &rarr; <span class="ar">گوستى</span>.</li>
+  </ul>
+
+  <h3>Distinção R vs. RR (Rā vs. He)</h3>
+  <ul>
+    <li><strong>R simples intervocálico / tepe</strong>: <strong>Rā</strong> (<code>ر</code>): <code>caro</code> &rarr; <span class="ar">كرو</span>, <code>para</code> &rarr; <span class="ar">پرہ</span>.</li>
+    <li><strong>RR duplo / R inicial forte</strong>: <strong>He</strong> (<code>ه</code> / <code>ـہ</code>): <code>carro</code> &rarr; <span class="ar">كاهو</span>, <code>rio</code> &rarr; <span class="ar">هیو</span>.</li>
+  </ul>
+
+  <h3>Contraste S vs. SS Intervocálico (Zāy vs. Sīn)</h3>
+  <ul>
+    <li><strong>S intervocálico sonoro /z/</strong>: <strong>Zāy</strong> (<code>ز</code>): <code>coisa</code> &rarr; <span class="ar">كویزہ</span>, <code>casa</code> &rarr; <span class="ar">كزہ</span>.</li>
+    <li><strong>SS intervocálico surdo /s/</strong>: <strong>Sīn</strong> (<code>س</code>): <code>processo</code> &rarr; <span class="ar">پرچسو</span>, <code>passo</code> &rarr; <span class="ar">پسو</span>.</li>
+  </ul>
+
+  <h3>Dígrafos Palatais (lh, nh)</h3>
+  <ul>
+    <li><strong>lh</strong> [ʎ] &rarr; <strong>Lām-Ye</strong> (<code>لی</code>): <code>filho</code> &rarr; <span class="ar">فیلیio</span>, <code>espelho</code> &rarr; <span class="ar">اسپلیو</span>.</li>
+    <li><strong>nh</strong> [ɲ] &rarr; <strong>Nūn-Ye</strong> (<code>نی</code>): <code>minha</code> &rarr; <span class="ar">مینیہ</span>, <code>tenho</code> &rarr; <span class="ar">تینیو</span>.</li>
+  </ul>
+
+  <!-- 2. Sistema Vocálico, Diacríticos e Acentuação -->
+  <h2 id="2-sistema-vocalico-diacriticos-e-acentuacao">2. Sistema Vocálico, Diacríticos e Acentuação</h2>
+
+  <h3>Vogais em Fim de Palavra (Urdu Gol He vs. Waw)</h3>
+  <ul>
+    <li><strong>-a e -e finais</strong> mapeiam para <strong>Urdu Gol He</strong> (<code>ه</code> / <code>ـہ</code> - U+06C1): <code>boa</code> &rarr; <span class="ar">بوہ</span>, <code>gente</code> &rarr; <span class="ar">جنتہ</span>.</li>
+    <li><strong>-o final</strong> mapeia para <strong>Waw</strong> (<code>و</code> / <code>ـو</code>): <code>livro</code> &rarr; <span class="ar">لیورو</span>, <code>como</code> &rarr; <span class="ar">كمو</span>.</li>
+  </ul>
+
+  <h3>Suportes de Vogal Inicial & Madd</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Som Inicial</th>
+        <th>Representação Gráfica</th>
+        <th>Detalhe Diacrítico</th>
+        <th>Exemplo em Português</th>
+        <th>Transliteração Aljamiada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>é aberto inicial [ɛ]</td><td class="ar">ای / یی</td><td>Alif-Ye / Ye Duplo</td><td>é</td><td class="ar">ای / یی</td></tr>
+      <tr><td>à aberto inicial [a]</td><td class="ar">آ</td><td>Alif com Madd sobrescrito</td><td>à</td><td class="ar">آ</td></tr>
+      <tr><td>e inicial [i]/[e]</td><td class="ar">ی / ا / zero</td><td>Ye simples / Alif / Omissão</td><td>estudo / escrever</td><td class="ar">یستدو / اسكرور / سكرور</td></tr>
+      <tr><td>a inicial [a]</td><td class="ar">ا</td><td>Alif simples</td><td>alfabeto</td><td class="ar">الفبتو</td></tr>
+      <tr><td>o inicial [o]/[u]</td><td class="ar">او</td><td>Alif-Waw</td><td>os</td><td class="ar">وها</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Alif Tónico (ا) e Inferência de Acentuação</h3>
+  <p>O <strong>Alif Tónico (<code>ا</code>)</strong> funciona como marcador especializado de proparoxítonas (ex.: <code>prática</code> &rarr; <span class="ar">پراكتیكہ</span>). Verbos no infinitivo (*-ar*, *-er*, *-ir*) e palavras terminadas em *-r*, *-l*, *-z* <strong>nunca</strong> levam Alif antes da consoante final (ex.: <code>estudar</code> &rarr; <span class="ar">استدر</span>, <code>analisar</code> &rarr; <span class="ar">انلیزر</span>).</p>
+
+  <h3>Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas)</h3>
+  <p>As vogais breves/médias internas (<strong>a</strong>, <strong>e</strong>, <strong>o</strong>) são por padrão defectivas para maximizar a compacidade do esqueleto consonantal (<em>Rasm</em>):</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Termo Português</th>
+        <th>Escrita Aljamiada Defectiva</th>
+        <th>Análise Ortográfica</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ortografia</td><td class="ar">ارتگرفیہ</td><td>Apenas Alif inicial, vogal alta *i* e Gol He final mantidos</td></tr>
+      <tr><td>morfologia</td><td class="ar">مرفلجیہ</td><td>*m-r-f-l* + Jīm (<code>ج</code>) + Ye-Gol He final</td></tr>
+      <tr><td>fonética</td><td class="ar">فنيتكہ</td><td>*fn* + Ye (<code>ی</code>) para *e* tónico + *tika* (<code>تيكہ</code>)</td></tr>
+      <tr><td>sintaxe</td><td class="ar">سينتسہ</td><td>*Sīn-Ye-Nūn* (<code>سين</code>), *t* (<code>ت</code>), *x* como Sīn (<code>س</code>), Gol He final</td></tr>
+      <tr><td>isoglossa</td><td class="ar">ایزگلسہ</td><td>Zāy (<code>ز</code>) para *s* intervocálico /z/, Gol He final</td></tr>
+      <tr><td>paradigma</td><td class="ar">پردگمہ</td><td>*a* e *i* internos breves defectivos omitidos</td></tr>
+    </tbody>
+  </table>
+
+  <!-- 3. Motor de Nasalização -->
+  <h2 id="3-motor-de-nasalizacao">3. Motor de Nasalização</h2>
+  <div class="rule-box">
+    <h3>Nasais de Fim de Sílaba (-m / -n)</h3>
+    <p>Nasais travatórias de fim de sílaba neutralizam-se em <strong>Mīm (<code>م</code>)</strong>: <code>bom</code> &rarr; <span class="ar">بم</span>, <code>bem</code> &rarr; <span class="ar">بم</span>, <code>sim</code> &rarr; <span class="ar">سیم</span>.</p>
+  </div>
+  <div class="rule-box">
+    <h3>Ditongos Nasais (-ão, -ãe, -õe)</h3>
+    <p>Os ditongos nasais utilizam combinações explícitas com <strong>Nūn</strong>:</p>
+    <ul>
+      <li><strong>-ão</strong> &rarr; <strong>Nūn-Alif-Waw (<code>ناو</code>)</strong>: <code>não</code> &rarr; <span class="ar">ناو</span>, <code>cão</code> &rarr; <span class="ar">كناو</span>.</li>
+      <li><strong>-ãe / -ães</strong> &rarr; <strong><code>نای</code> / <code>نايها</code></strong>: <code>mãe</code> &rarr; <span class="ar">مای</span>, <code>pães</code> &rarr; <span class="ar">پایها</span>.</li>
+      <li><strong>-õe / -ões</strong> &rarr; <strong><code>نژو</code> / <code>نژوها</code></strong>: <code>convenções</code> &rarr; <span class="ar">كونونجوها</span>.</li>
+    </ul>
+  </div>
+
+  <!-- 4. Regras Morfofonêmicas e Mapeamento de Domínio -->
+  <h2 id="4-regras-morfofonemicas-e-mapeamento-de-dominio">4. Regras Morfofonêmicas e Mapeamento de Domínio</h2>
+  <div class="rule-box">
+    <h3>Regra I: Domínio do Plural Nominal (-hā / ـها)</h3>
+    <p>O logograma gráfico <strong><code>-hā</code> (<code>ـها</code>)</strong> é reservado estritamente para a flexão nominal de plural: <code>livros</code> &rarr; <span class="ar">لیوروها</span>, <code>boas</code> &rarr; <span class="ar">بوها</span>, <code>os</code> &rarr; <span class="ar">وها</span>, <code>fazê-los</code> &rarr; <span class="ar">فازیلوها</span>.</p>
+  </div>
+  <div class="rule-box">
+    <h3>Regra II: Substituição de Superfície Direta</h3>
+    <p>Alternâncias morfofonológicas nos plurais são aplicadas primeiro na forma falada de superfície, substituindo o <code>-s</code> final por <code>ـها</code>: <code>plural</code> &rarr; <code>plurais</code> &rarr; <span class="ar">پلورایها</span>, <code>homem</code> &rarr; <code>homens</code> &rarr; <span class="ar">همنها</span>.</p>
+  </div>
+  <div class="rule-box">
+    <h3>Regra III: Domínio Verbal e Sibilantes Léxicas (س / ز)</h3>
+    <p>Concordâncias verbais de 2ª pessoa e sibilantes de raiz lexicais mantêm <strong>Sīn (<code>س</code>)</strong> ou <strong>Zāy (<code>ز</code>)</strong>: <code>tu fazes</code> &rarr; <span class="ar">فزس</span>, <code>mês</code> &rarr; <span class="ar">میس</span>, <code>paz</code> &rarr; <span class="ar">پز</span>. Opcionalmente, palavras lexicais em *-s* podem usar **Zāy (<code>ز</code>)**: <span class="ar">مز</span>, <span class="ar">ترز</span>, <span class="ar">انگلز</span>, <span class="ar">پرتگز</span>.</p>
+  </div>
+
+  <!-- 5. Casos Especiais e Construções Particulares -->
+  <h2 id="5-casos-especiais-e-construcoes-particulares">5. Casos Especiais e Construções Particulares</h2>
+  <p>Preposições como <strong>de</strong> e <strong>da</strong> utilizam grafia neutra com Gol He (<code>دہ</code>), podendo usar Kasrah/Fathah ou <code>دی</code>/<code>دا</code> para desambiguação estrita. Contrações de preposição + artigo: <code>do</code> &rarr; <span class="ar">دو</span>, <code>dos</code> &rarr; <span class="ar">دوها</span>, <code>no</code> &rarr; <span class="ar">نو</span>, <code>nos</code> &rarr; <span class="ar">نوها</span>.</p>
+
+  <!-- 6. Tabelas de Paradigmas Mestre -->
+  <h2 id="6-tabelas-de-paradigmas-mestre">6. Tabelas de Paradigmas Mestre</h2>
+
+  <h3>Artigos & Determinantes</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Item do Paradigma</th>
+        <th>Ortografia Latina</th>
+        <th>Script Aljamiado</th>
+        <th>Notas Morfofonêmicas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Artigo Def. Masc. Sing.</td><td>*o*</td><td class="ar">و</td><td>Waw isolado</td></tr>
+      <tr><td>Artigo Def. Masc. Plur.</td><td>*os*</td><td class="ar">وها</td><td>*o* (<code>و</code>) + *-hā* (<code>ـها</code>)</td></tr>
+      <tr><td>Artigo Def. Fem. Sing.</td><td>*a*</td><td class="ar">ا / اه</td><td>Alif / He Urdu</td></tr>
+      <tr><td>Artigo Def. Fem. Plur.</td><td>*as*</td><td class="ar">اها</td><td>*a* (<code>ا</code>) + *-hā* (<code>ـها</code>)</td></tr>
+      <tr><td>Artigo Indef. Masc. Sing.</td><td>*um*</td><td class="ar">ام / اوم</td><td>Mīm final</td></tr>
+      <tr><td>Artigo Indef. Masc. Plur.</td><td>*uns*</td><td class="ar">انها / اونها</td><td>Assimilação nasal + *-hā*</td></tr>
+      <tr><td>Artigo Indef. Fem. Sing.</td><td>*uma*</td><td class="ar">اومه</td><td>He final</td></tr>
+      <tr><td>Artigo Indef. Fem. Plur.</td><td>*umas*</td><td class="ar">اوماها</td><td>*-uma* + *-hā*</td></tr>
+      <tr><td>Demonstrativo Masc. Sing.</td><td>*este*</td><td class="ar">استہ / ستہ</td><td>Suporte Alif / zero Alif</td></tr>
+      <tr><td>Demonstrativo Masc. Plur.</td><td>*estes*</td><td class="ar">استها / ستها</td><td>Radical *este* + *-hā* nominal</td></tr>
+      <tr><td>Demonstrativo Neutro</td><td>*isto*</td><td class="ar">ایستو / ستو</td><td>Vogal alta *i* + Waw final</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Flexão Nominal e Alternâncias de Plural</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Lema Base (Singular)</th>
+        <th>Forma Plural Latina</th>
+        <th>Aljamiado Singular</th>
+        <th>Aljamiado Plural</th>
+        <th>Regra Aplicada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>*canal*</td><td>*canais*</td><td class="ar">كنل</td><td class="ar">كنایها</td><td>Substituição *-ais* + *-hā*</td></tr>
+      <tr><td>*papel*</td><td>*papéis*</td><td class="ar">پپل</td><td class="ar">پپیسها</td><td>Ditongo *-éis* + *-hā* nominal</td></tr>
+      <tr><td>*homem*</td><td>*homens*</td><td class="ar">همم</td><td class="ar">همنها</td><td>Assimilação $m \to n$ + *-hā*</td></tr>
+      <tr><td>*razão*</td><td>*razões*</td><td class="ar">هژو</td><td class="ar">هژوها</td><td>Rā forte He (<code>ه</code>) + Zāy + `وها`</td></tr>
+    </tbody>
+  </table>
+
+  <!-- 7. Corpus & Amostras de Transcrição -->
+  <h2 id="7-corpus-e-amostras-de-transcricao">7. Corpus e Amostras de Transcrição</h2>
   <div class="corpus-list">
-                <div class="card">
+        <div class="card">
       <div class="card-meta">Frase 1 — Saudação e Bênção</div>
       <div class="portuguese">Que a paz e as bênçãos estejam com você e sua família.</div>
       <div class="ipa">[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]</div>
@@ -439,192 +701,10 @@
       <div class="perso-arabic ar">كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.</div>
       <div class="notes">Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final.</div>
     </div>
-
   </div>
-
-  <!-- Principais Diretrizes do Sistema -->
-  <p>O <strong>Aljamiado Português</strong> é um sistema de transcrição ortográfica e fonológica da língua portuguesa baseado na escrita Perso-Árabe. Historicamente, o termo <em>Aljamiado</em> (do árabe <em>'ajamiyya</em>, "língua não-árabe escrita em caracteres árabes") referia-se às línguas românicas da Península Ibérica transcritas no alfabeto árabe. O presente sistema estabelece três pilares fundamentais:</p>
-  <ul>
-    <li><strong>Clareza Morfofonêmica</strong>: Distinção estrita entre desinência de plural nominal (usando o logograma gráfico <code>-hā</code> / <code>ـها</code>) e desinências verbais ou radicais léxicos (usando <code>س</code> ou <code>ز</code>).</li>
-    <li><strong>Ritmo e Equilíbrio Visual</strong>: Eliminação do acúmulo de caudas repetitivas de <em>Sīn</em> (<code>س</code>) na linha de escrita.</li>
-    <li><strong>Precisão Fonética e Gráfica</strong>: Diferenciação gráfica entre C brando (<code>چ</code>) e G/J brando (<code>ج</code> / <code>ژ</code>), R simples (<code>ر</code>) e RR/R- inicial (<code>ه</code>), S intervocálico (<code>ز</code>) e SS intervocálico (<code>س</code>), além do uso do <strong>Alif Tônico</strong> (<code>ا</code>) como marcador de acento tônico.</li>
-  </ul>
-
-  <!-- Inventário Consonantal -->
-  <h2>3. Inventário Consonantal & Mapeamento Perso-Árabe</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Grafema Latino</th>
-        <th>Som IPA</th>
-        <th>Letra Perso-Árabe</th>
-        <th>Nome da Letra</th>
-        <th>Exemplos Pareados (Latim Português &rarr; Script Aljamiado)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td><span class="pair-item"><em>bom</em> &rarr; <span class="ar">بم</span></span></td></tr>
-      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td><span class="pair-item"><em>prática</em> &rarr; <span class="ar">پراكتیكہ</span></span></td></tr>
-      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td><span class="pair-item"><em>tu</em> &rarr; <span class="ar">تو</span></span></td></tr>
-      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td><span class="pair-item"><em>do</em> &rarr; <span class="ar">دو</span></span></td></tr>
-      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td><span class="pair-item"><em>fazes</em> &rarr; <span class="ar">فزس</span></span></td></tr>
-      <tr><td>v</td><td>[v]</td><td class="ar">و</td><td>Waw</td><td><span class="pair-item"><em>você</em> &rarr; <span class="ar">وچہ</span></span></td></tr>
-      <tr><td>k / c / q (duro)</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td><span class="pair-item"><em>coisa</em> &rarr; <span class="ar">كویزہ</span></span></td></tr>
-      <tr><td>g (duro)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td><span class="pair-item"><em>gostei</em> &rarr; <span class="ar">گوستى</span></span></td></tr>
-      <tr><td>c (brando antes de e, i)</td><td>[s] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td><span class="pair-item"><em>cenoura</em> &rarr; <span class="ar">چنورہ</span></span> <span class="pair-item"><em>você</em> &rarr; <span class="ar">وچہ</span></span></td></tr>
-      <tr><td>g (brando antes de e, i)</td><td>[ʒ]</td><td class="ar">ج</td><td>Jīm</td><td><span class="pair-item"><em>gente</em> &rarr; <span class="ar">جنتہ</span></span> <span class="pair-item"><em>Gemini</em> &rarr; <span class="ar">جمینى</span></span></td></tr>
-      <tr><td>j (raiz independente)</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td><span class="pair-item"><em>projeto</em> &rarr; <span class="ar">پرژتو</span></span> <span class="pair-item"><em>jogo</em> &rarr; <span class="ar">ژگو</span></span></td></tr>
-      <tr><td>ch</td><td>[ʃ] / [tʃ]</td><td class="ar">چ</td><td>Chā</td><td><span class="pair-item"><em>chave</em> &rarr; <span class="ar">چاوہ</span></span></td></tr>
-      <tr><td>r (simples / brando)</td><td>[ɾ]</td><td class="ar">ر</td><td>Rā</td><td><span class="pair-item"><em>caro</em> &rarr; <span class="ar">كرو</span></span> <span class="pair-item"><em>escrever</em> &rarr; <span class="ar">اسكرور</span></span></td></tr>
-      <tr><td>rr / r- (inicial / forte)</td><td>[ʁ] / [r]</td><td class="ar">ه</td><td>He (Urdu Gol He)</td><td><span class="pair-item"><em>carro</em> &rarr; <span class="ar">كاهو</span></span> <span class="pair-item"><em>rio</em> &rarr; <span class="ar">هیو</span></span></td></tr>
-      <tr><td>s (intervocálico sonoro)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td><span class="pair-item"><em>coisa</em> &rarr; <span class="ar">كویزہ</span></span> <span class="pair-item"><em>casa</em> &rarr; <span class="ar">كزہ</span></span></td></tr>
-      <tr><td>ss (intervocálico surdo)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td><span class="pair-item"><em>processo</em> &rarr; <span class="ar">پرچسو</span></span> <span class="pair-item"><em>passo</em> &rarr; <span class="ar">پسو</span></span></td></tr>
-      <tr><td>lh (palatal)</td><td>[ʎ]</td><td class="ar">لی</td><td>Lām-Yā</td><td><span class="pair-item"><em>filho</em> &rarr; <span class="ar">فیلیو</span></span> <span class="pair-item"><em>espelho</em> &rarr; <span class="ar">اسپلیو</span></span></td></tr>
-      <tr><td>nh (palatal)</td><td>[ɲ]</td><td class="ar">نی</td><td>Nūn-Yā</td><td><span class="pair-item"><em>minha</em> &rarr; <span class="ar">مینیہ</span></span> <span class="pair-item"><em>tenho</em> &rarr; <span class="ar">تینیو</span></span></td></tr>
-      <tr><td>m (ataque silábico)</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td><span class="pair-item"><em>minha</em> &rarr; <span class="ar">مینیہ</span></span></td></tr>
-      <tr><td>n (ataque silábico)</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td><span class="pair-item"><em>não</em> &rarr; <span class="ar">ناو</span></span></td></tr>
-      <tr><td>s / z (verbal/léxico)</td><td>[s] / [z]</td><td class="ar">س / ز</td><td>Sīn / Zāy</td><td><span class="pair-item"><em>sim</em> &rarr; <span class="ar">سیم</span></span> <span class="pair-item"><em>paz</em> &rarr; <span class="ar">پز</span></span> <span class="pair-item"><em>fazes</em> &rarr; <span class="ar">فزس</span></span></td></tr>
-      <tr><td>-s (plural nominal)</td><td>[s] / [z] / [ʃ]</td><td class="ar">ـها</td><td>Hā</td><td><span class="pair-item"><em>livros</em> &rarr; <span class="ar">لیوروها</span></span> <span class="pair-item"><em>coisas</em> &rarr; <span class="ar">كویزها</span></span></td></tr>
-    </tbody>
-  </table>
-
-  <!-- Vogais e Acentuação -->
-  <h2>4. Sistema de Vogais, Diacríticos e Acentuação</h2>
-
-  <h3>Vogais Finais (Urdu Gol He vs. Waw)</h3>
-  <ul>
-    <li>Vogais finais <strong>-a</strong> e <strong>-e</strong> são grafadas com <strong>Urdu Gol He (<code>ه</code> / <code>ـہ</code> - U+06C1)</strong>: <code>boa</code> &rarr; <span class="ar">بوہ</span>, <code>gente</code> &rarr; <span class="ar">جنتہ</span>.</li>
-    <li>Vogal final <strong>-o</strong> é grafada com <strong>Waw (<code>و</code> / <code>ـو</code>)</strong>: <code>livro</code> &rarr; <span class="ar">لیورو</span>, <code>como</code> &rarr; <span class="ar">كمو</span>.</li>
-  </ul>
-
-  <h3>Carriers de Vogal Inicial & Madd</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Som Inicial</th>
-        <th>Representação Gráfica</th>
-        <th>Detalhe do Diacrítico</th>
-        <th>Exemplo em Português</th>
-        <th>Transliteração Aljamiado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>é inicial aberto</strong> [ɛ]</td><td class="ar">ای / یی</td><td>Alif-Ye (ای) / Ye Duplo (یی)</td><td>*é*</td><td class="ar">ای / یی</td></tr>
-      <tr><td><strong>à inicial aberto</strong> [a]</td><td class="ar">آ</td><td>Alif com Madd sobrescrito</td><td>*à*</td><td class="ar">آ</td></tr>
-      <tr><td><strong>e inicial átono</strong> [i]/[e]</td><td class="ar">ی / ا / zero</td><td>Ye simples / Alif / Omissão</td><td>*estudo* / *escrever*</td><td class="ar">یستدو / اسكرور / سكرور</td></tr>
-      <tr><td><strong>a inicial plano</strong> [a]</td><td class="ar">ا</td><td>Alif simples</td><td>*alfabeto*</td><td class="ar">الفبتو</td></tr>
-      <tr><td><strong>o inicial</strong> [o]/[u]</td><td class="ar">او</td><td>Alif-Waw</td><td>*os*</td><td class="ar">وها</td></tr>
-    </tbody>
-  </table>
-
-  <h3>Alif Tónico (ا) e Inferência de Acentuação</h3>
-  <p>O <strong>Alif Tónico (<code>ا</code>)</strong> funciona como marcador especializado de proparoxítonas (ex.: <code>prática</code> &rarr; <span class="ar">پراكتیكہ</span>). Verbos no infinitivo (*-ar*, *-er*, *-ir*) e paroxítonas padrão terminadas em consoante (ex.: <code>estudar</code> &rarr; <span class="ar">استدر</span>, <code>analisar</code> &rarr; <span class="ar">انلیزر</span>) <strong>nunca</strong> levam Alif antes de <em>-r</em> final, pois a acentuação tónica é automaticamente inferida.</p>
-
-  <h3>Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas)</h3>
-  <p>As vogais breves/médias internas (<strong>a</strong>, <strong>e</strong>, <strong>o</strong>) são por padrão defectivas (omitidas do esqueleto consonantal) para maximizar o ritmo visual semítico (<em>Rasm</em>):</p>
-  <table>
-    <thead>
-      <tr>
-        <th>Termo Português</th>
-        <th>Escrita Aljamiada Defectiva</th>
-        <th>Análise Ortográfica</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>ortografia</td><td class="ar">ارتگرفیہ</td><td>*o-r-t-o-g-r-a-f-i-a*: apenas Alif inicial, vogal alta *i* e Gol He final mantidos</td></tr>
-      <tr><td>morfologia</td><td class="ar">مرفلجیہ</td><td>*m-r-f-l* + Jīm (`ج`) + Ye-Gol He final (`ی-ہ`)</td></tr>
-      <tr><td>fonética</td><td class="ar">فنيتكہ</td><td>*fn* + Ye (`ی`) para *e* tónico não-paroxítono + *tika* (`تيكہ`)</td></tr>
-      <tr><td>sintaxe</td><td class="ar">سينتسہ</td><td>*Sīn-Ye-Nūn* (`سين`), *t* (`ت`), *x* como Sīn (`س`), Gol He final</td></tr>
-      <tr><td>semântica</td><td class="ar">سمنتیكہ</td><td>Nūn nasalizador interno, *i* alto mantido</td></tr>
-      <tr><td>filologia</td><td class="ar">فللجیہ</td><td>Esqueleto *f-l-l* + Jīm (`ج`) para G brando + Ye-Gol He final</td></tr>
-      <tr><td>isoglossa</td><td class="ar">ایزگلسہ</td><td>Zāy (`ز`) para *s* intervocálico /z/, Gol He final</td></tr>
-      <tr><td>paradigma</td><td class="ar">پردگمہ</td><td>*a* e *i* internos breves defectivos omitidos</td></tr>
-    </tbody>
-  </table>
-
-  <!-- Motor de Nasalização -->
-  <h2>5. Motor de Nasalização & Regras Morfofonêmicas</h2>
-  <div class="rule-box">
-    <h3>Nasais de Fim de Sílaba (-m / -n)</h3>
-    <p>Nasais travatórias de fim de sílaba neutralizam-se em <strong>Mīm (<code>م</code>)</strong>: <code>bom</code> &rarr; <span class="ar">بم</span>, <code>bem</code> &rarr; <span class="ar">بم</span>, <code>sim</code> &rarr; <span class="ar">سیم</span>.</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Ditongos Nasais (-ão, -ãe, -õe)</h3>
-    <p>Os ditongos nasais utilizam combinações explícitas com <strong>Nūn</strong>:</p>
-    <ul>
-      <li><strong>-ão</strong> &rarr; <strong>Nūn-Alif-Waw (<code>ناو</code>)</strong>: <code>não</code> &rarr; <span class="ar">ناو</span>, <code>cão</code> &rarr; <span class="ar">كناو</span>, <code>convenção</code> &rarr; <span class="ar">كونونجو</span>.</li>
-      <li><strong>-ãe / -ães</strong> &rarr; <strong><code>نای</code> / <code>نايها</code></strong>: <code>mãe</code> &rarr; <span class="ar">مای</span>, <code>pães</code> &rarr; <span class="ar">پایها</span>.</li>
-      <li><strong>-õe / -ões</strong> &rarr; <strong><code>نژو</code> / <code>نژوها</code></strong>: <code>convenções</code> &rarr; <span class="ar">كونونجوها</span>.</li>
-    </ul>
-  </div>
-
-  <div class="rule-box">
-    <h3>Regra I: Domínio do Plural Nominal (-hā / ـها)</h3>
-    <p>O logograma gráfico <strong><code>-hā</code> (<code>ـها</code>)</strong> é reservado estritamente para a flexão nominal de plural (substantivos, adjetivos, artigos e clíticos acusativos de 3ª pessoa): <code>livros</code> &rarr; <span class="ar">لیوروها</span>, <code>boas</code> &rarr; <span class="ar">بوها</span>, <code>os</code> &rarr; <span class="ar">وها</span>, <code>fazê-los</code> &rarr; <span class="ar">فازیلوها</span>.</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Regra II: Substituição de Superfície Direta</h3>
-    <p>Alternâncias morfofonológicas nos plurais são aplicadas primeiro na forma falada de superfície, substituindo o <code>-s</code> final por <code>ـها</code>: <code>plural</code> &rarr; <code>plurais</code> &rarr; <span class="ar">كنایها</span>, <code>homem</code> &rarr; <code>homens</code> &rarr; <span class="ar">همنها</span> (assimilação $m \to n$).</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Regra III: Domínio Verbal e Sibilantes Léxicas (س / ز)</h3>
-    <p>Concordâncias verbais de 2ª pessoa, pronomes inerentes e sibilantes de raiz léxica mantêm <strong>Sīn (<code>س</code>)</strong> ou <strong>Zāy (<code>ز</code>)</strong>: <code>tu fazes</code> &rarr; <span class="ar">فزس</span>, <code>mês</code> &rarr; <span class="ar">میس</span>, <code>paz</code> &rarr; <span class="ar">پز</span>. Historicamente, palavras lexicais em *-s* (como *mas*, *três*, *inglês*, *português*) podem ser escritas com <strong>Zāy (<code>ز</code>)</strong>: <span class="ar">مز</span>, <span class="ar">ترز</span>, <span class="ar">انگلز</span>, <span class="ar">پرتگز</span>.</p>
-  </div>
-
-  <!-- Tabelas Mestre -->
-  <h2>6. Tabelas de Paradigmas Mestre & Glossário Lingüístico</h2>
-
-  <h3>Artigos & Determinantes</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Item do Paradigma</th>
-        <th>Ortografia Latina</th>
-        <th>Script Aljamiado</th>
-        <th>Notas Morfofonêmicas</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Artigo Def. Masc. Sing.</td><td>*o*</td><td class="ar">و</td><td>Waw isolado</td></tr>
-      <tr><td>Artigo Def. Masc. Plur.</td><td>*os*</td><td class="ar">وها</td><td>*o* (<code>و</code>) + *-hā* (<code>ـها</code>)</td></tr>
-      <tr><td>Artigo Def. Fem. Sing.</td><td>*a*</td><td class="ar">ا / اه</td><td>Alif / He Urdu</td></tr>
-      <tr><td>Artigo Def. Fem. Plur.</td><td>*as*</td><td class="ar">اها</td><td>*a* (<code>ا</code>) + *-hā* (<code>ـها</code>)</td></tr>
-      <tr><td>Artigo Indef. Masc. Sing.</td><td>*um*</td><td class="ar">ام / اوم</td><td>Mīm final</td></tr>
-      <tr><td>Artigo Indef. Masc. Plur.</td><td>*uns*</td><td class="ar">انها / اونها</td><td>Assimilação nasal + *-hā*</td></tr>
-      <tr><td>Artigo Indef. Fem. Sing.</td><td>*uma*</td><td class="ar">اومه</td><td>He final</td></tr>
-      <tr><td>Artigo Indef. Fem. Plur.</td><td>*umas*</td><td class="ar">اوماها</td><td>*-uma* + *-hā*</td></tr>
-      <tr><td>Demonstrativo Masc. Sing.</td><td>*este*</td><td class="ar">استہ / ستہ</td><td>Suporte Alif / zero Alif</td></tr>
-      <tr><td>Demonstrativo Masc. Plur.</td><td>*estes*</td><td class="ar">استها / ستها</td><td>Radical *este* + *-hā* nominal</td></tr>
-      <tr><td>Demonstrativo Neutro</td><td>*isto*</td><td class="ar">ایستو / ستو</td><td>Vogal alta *i* + Waw final</td></tr>
-    </tbody>
-  </table>
-
-  <h3>Flexão Nominal e Alternâncias de Plural</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Lema Base (Singular)</th>
-        <th>Forma Plural Latina</th>
-        <th>Aljamiado Singular</th>
-        <th>Aljamiado Plural</th>
-        <th>Regra Aplicada</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>*canal*</td><td>*canais*</td><td class="ar">كنل</td><td class="ar">كنایها</td><td>Substituição de superfície *-ais* + *-hā*</td></tr>
-      <tr><td>*papel*</td><td>*papéis*</td><td class="ar">پپل</td><td class="ar">پپیسها / پپییسها</td><td>Ditongo aberto *-éis* + *-hā* nominal</td></tr>
-      <tr><td>*azul*</td><td>*azuis*</td><td class="ar">ازول</td><td class="ar">ازویسها</td><td>Ditongo *-uis* + *-hā* nominal</td></tr>
-      <tr><td>*homem*</td><td>*homens*</td><td class="ar">همم / همين</td><td class="ar">همنها</td><td>Assimilação nasal $m \to n$ + *-hā*</td></tr>
-      <tr><td>*convenção*</td><td>*convenções*</td><td class="ar">كونونجو</td><td class="ar">كونونجوها</td><td>Sufixo nasal *-ção* &rarr; `جو`, plural `جوها`</td></tr>
-      <tr><td>*razão*</td><td class="ar">razões</td><td class="ar">هژو</td><td class="ar">هژوها</td><td>Rā forte He (`ه`) + Zāy (`ژ`/`ز`) + `وها`</td></tr>
-    </tbody>
-  </table>
 
   <footer>
-    <p>Especificação & Estúdio do Aljamiado Português &bull; Baseado em <code>org/aljamiado/index.org</code></p>
+    <p>Especificação & Estúdio do Aljamiado Português &bull; Baseado em <code>pt/index.org</code></p>
   </footer>
 </div>
 
