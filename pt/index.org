@@ -555,19 +555,18 @@ As desinências verbais átonas de 3ª pessoa do plural em **-am** e **-em** tê
 - *semeiam* $\rightarrow$ `سمیم`
 
 ** Ditongos Nasais (-ão, -ãe, -õe)
-Os ditongos nasais distinguem a **nasalidade etimológica de raiz** da **sufixação derivacional**:
-1. **Nasais Etimológicas de Raiz (com Nūn `ن`)**: Monossílabos e palavras primárias com *n* etimológico na raiz latina (*canem*, *panem*, *manum*, *non*) mantêm o **Nūn** (`ن`) do radical antecedendo o ditongo vocálico (`او`, `ای`):
-   - *não* $\rightarrow$ **`ناو`** (*non* $\rightarrow$ Nūn `ن` + `-ão` `او`)
-   - *cão* $\rightarrow$ **`كناو`** (*canem* $\rightarrow$ Kāf `ك` + Nūn `ن` + `او`; plural *cães* $\rightarrow$ **`كنایها`**)
-   - *pão* $\rightarrow$ **`پناو`** (*panem* $\rightarrow$ Pā `پ` + Nūn `ن` + `او`)
-   - *mão* $\rightarrow$ **`مناو`** (*manum* $\rightarrow$ Mīm `م` + Nūn `ن` + `او`)
-2. **Sufixos Derivacionais em *-ção*, *-dão*, *-são***: Nos sufixos nominais derivacionais (ex.: *coração*, *gratidão*, *atenção*, *ação*, *convenção*), o ditongo nasal em *-ão* grafar-se-á com **`ـاو`** (*Alif-Waw*) anexado diretamente à consoante da raiz/sufixo, sem adicionar um Nūn (`ن`) epentético redundante:
-   - *coração* $\rightarrow$ **`كرچاو`** (Chā `چ` + `-ão` `او`)
-   - *gratidão* $\rightarrow$ **`گرتیداو`** (Dāl `د` + `-ão` `او`)
-   - *atenção* $\rightarrow$ **`اتنچاو`** (Chā `چ` + `-ão` `او`)
-   - *ação* $\rightarrow$ **`اچاو`** (Chā `چ` + `-ão` `او`)
-   - *convenção* $\rightarrow$ **`كنونچاو`** / **`كونونچاو`**
-   - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
+Os ditongos nasais grafam-se de forma pura e sintética com **`او`** (*Alif-Waw* para *-ão*), **`ای`** (*Alif-Ye* para *-ãe*), e **`وی`** (*Waw-Ye* para *-õe-*), **SEM QUALQUER Nūn (`ن`) EPENTÉTICO OU REDUNDANTE**:
+- **-ão** $\rightarrow$ **`او`** (*Alif-Waw*):
+  - *não* $\rightarrow$ **`ناو`** (consoante inicial Nūn `ن` da raiz + `-ão` `او`)
+  - *cão* $\rightarrow$ **`كاو`** (Kāf `ك` + `-ão` `او`; NUNCA inserir Nūn `ن`, formas como `كناو` são estritamente proibidas; plural *cães* $\rightarrow$ **`كایها`**)
+  - *pão* $\rightarrow$ **`پاو`** (Pā `پ` + `-ão` `او`)
+  - *mão* $\rightarrow$ **`ماو`** (Mīm `م` + `-ão` `او`)
+  - *coração* $\rightarrow$ **`كرچاو`** (Chā `چ` + `-ão` `او`)
+  - *gratidão* $\rightarrow$ **`گرتیداو`** (Dāl `د` + `-ão` `او`)
+  - *atenção* $\rightarrow$ **`اتنچاو`** (Chā `چ` + `-ão` `او`)
+  - *ação* $\rightarrow$ **`اچاو`** (Chā `چ` + `-ão` `او`)
+  - *convenção* $\rightarrow$ **`كنونچاو`** / **`كونونچاو`**
+  - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
 - **-õe- / -ões** $\rightarrow$ **ویها** / **ـوها** (Waw-Ye `وی` para marcar a ditongação *-oe-* / *-õe-*, ou Waw `و` defectivo + logograma *-hā* `ـها`):
   - *Alif-Waw* (`او`) é válido para *au* e *-ão* (*pau* `پاو`, *razão* `هزاو`), mas **estritamente proibido para *-oe-* / *-ões***, pois o ditongo não começa em /a/ (Alif `ا`).
   - *razão* $\rightarrow$ `هزاو` / `رزاو` (com *Alif-Waw* `او` para *-ão*)
@@ -614,7 +613,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
 | **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
-| **cão** | *cães* | `كناو` | `كنایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
+| **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 * 5. Casos Especiais e Construções Particulares
 
@@ -695,7 +694,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
 | **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
-| **cão** | *cães* | `كناو` | `كنایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
+| **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ** Verbos vs. Concordância e Sibilantes
 
