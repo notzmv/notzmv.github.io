@@ -309,7 +309,7 @@ ightarrow$ `پروچسیمو` / `پرچسیمو`
   - *exame* $
 ightarrow$ `إزامہ` / `ازمہ`
   - *exemplo* $
-ightarrow$ `إزملو` / `ازملo` $\rightarrow$ `إزملو` / `ازملو`
+ightarrow$ `إزملو` / `ازملو` $\rightarrow$ `إزملو` / `ازملو`
 
 ** Distinção R vs. RR (Rā vs. He)
 As vibrantes e tepes são divididas com base na posição silábica e no contraste fonológico:
@@ -363,7 +363,7 @@ ightarrow$ `پروچسیمو` / `پرچسیمو`
   - *exame* $
 ightarrow$ `إزامہ` / `ازمہ`
   - *exemplo* $
-ightarrow$ `إزملو` / `ازملo` $\rightarrow$ `إزملو` / `ازملو`
+ightarrow$ `إزملو` / `ازملو` $\rightarrow$ `إزملو` / `ازملو`
 - **SS duplo intervocálico (surdo /s/)** mapeia para **Sīn** (`س`):
   - *processo* $\rightarrow$ `پرچسو`
   - *passo* $\rightarrow$ `پسو`

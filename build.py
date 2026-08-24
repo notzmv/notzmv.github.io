@@ -86,7 +86,7 @@ def update_pt_cards():
             "title": "Frase 8 — Generosidade",
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
-            "aljamiado": "ا ورددرہ ریكزہ استa نہ جنرزددہ دو كرچاو.",
+            "aljamiado": "ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.",
             "notes": "Rā em riqueza (ریكزہ) para desambiguar com Hā mudo inicial (هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ)."
         },
         {
@@ -291,7 +291,7 @@ def update_en_cards():
             "title": "Velar Nasal (Sağır Kāf ڭ vs Nūn-Gāf نگ)",
             "english": "I am writing a new writing system for English using Perso-Arabic script.",
             "ipa": "[aɪ æm ˈraɪtɪŋ ə njuː ˈraɪtɪŋ ˈsɪstəm fɔːr ˈɪŋɡlɪʃ ˈjuːzɪŋ ˈpɜːrʒoʊ ˈærəbɪk skrɪpt]",
-            "aljamiado": "ای ام رایتڭ ا نیo رایتڭ سیستم فور إنگلش یوزڭ پرسو-اربیك سكریپت.",
+            "aljamiado": "ای ام رایتڭ ا نیو رایتڭ سیستم فور إنگلش یوزڭ پرسو-اربیك سكریپت.",
             "notes": "Option A (Sağır Kāf ڭ): رایتڭ, یوزڭ. Option B (Nūn-Gāf نگ): رایتنگ, یوزنگ."
         },
         {
