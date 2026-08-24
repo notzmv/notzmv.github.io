@@ -39,15 +39,27 @@
 # Introdução e Visão Geral
 
 #+BEGIN_EXPORT html
-<div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2.5rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-  <div class="ar-basmala ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Aref Ruqaa', 'Amiri', 'Noto Naskh Arabic', serif; margin-bottom: 0.6rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
-  <div class="aljamiado-basmala ar" style="font-size: 1.5rem; color: #34d399;  margin-bottom: 0.4rem;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو.</div>
+<div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <div class="ar-basmala ar" style="font-size: 2.6rem; color: var(--primary-accent); margin-bottom: 0.6rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
+  <div class="aljamiado-basmala ar" style="font-size: 1.5rem; color: #34d399; margin-bottom: 0.4rem;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو.</div>
   <div class="pt-basmala" style="font-size: 1.1rem; color: var(--text-muted); font-style: italic;">Em nome de Deus, o Clemente, o Misericordioso.</div>
 </div>
+
+<div class="script-explanation-box" style="background: var(--card-bg); border: 1px solid #3b82f6; border-left: 6px solid #3b82f6; border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0 2rem 0;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+    <h3 style="margin: 0; color: #60a5fa; font-size: 1.2rem;">📖 Estilos Caligráficos: Nastaliq vs. Naskh</h3>
+    <button id="font-toggle-btn-inline" class="btn-big-toggle" onclick="toggleScriptFont()" style="margin: 0;">
+      ✨ Estilo Atual: <strong>Nastaliq (Persa/Urdu)</strong> &mdash; Clique para Naskh (Árabe)
+    </button>
+  </div>
+  <p style="margin-bottom: 0.75rem; color: #e2e8f0; font-size: 0.95rem; line-height: 1.6;">
+    O <strong>Aljamiado Português</strong> utiliza por padrão o estilo caligráfico <strong>Nastaliq</strong> (Persa/Urdu), caracterizado por seu fluxo elegante e inclinado, tradicionalmente empregado na escrita de línguas não-árabes.
+  </p>
+  <p style="margin-bottom: 0; color: #94a3b8; font-size: 0.9rem; line-height: 1.6;">
+    Como a maioria dos leitores e muçulmanos está habituada ao estilo <strong>Naskh</strong> (o estilo linear padronizado da caligrafia árabe e das edições do Alcorão), disponibilizamos o botão acima e o controle flutuante no canto da tela para alternar instantaneamente entre <strong>Nastaliq</strong> e <strong>Naskh</strong> em toda a documentação.
+  </p>
+</div>
 #+END_EXPORT
-
-
-*Bismillah al-Rahman al-Rahim* (Em nome de Deus, o Clemente, o Misericordioso).
 
 **Aljamiado Português** é uma adaptação ortográfica e fonética pessoal e altamente sistemática do alfabeto perso-árabe desenvolvida para escrever a língua portuguesa. Historicamente, *Aljamiado* (do árabe *'ajamiyya*, "língua não-árabe / estrangeira escrita em carateres árabes") referia-se às línguas românicas (moçárabe, espanhol, ladino) transcritas com letras árabes.
 
