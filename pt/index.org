@@ -41,7 +41,7 @@
 #+BEGIN_EXPORT html
 <div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2.5rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   <div class="ar-basmala ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Aref Ruqaa', 'Amiri', 'Noto Naskh Arabic', serif; margin-bottom: 0.6rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
-  <div class="aljamiado-basmala ar" style="font-size: 1.5rem; color: #34d399; font-family: 'Vazirmatn', 'Gulzar', sans-serif; margin-bottom: 0.4rem;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو.</div>
+  <div class="aljamiado-basmala ar" style="font-size: 1.5rem; color: #34d399;  margin-bottom: 0.4rem;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو.</div>
   <div class="pt-basmala" style="font-size: 1.1rem; color: var(--text-muted); font-style: italic;">Em nome de Deus, o Clemente, o Misericordioso.</div>
 </div>
 #+END_EXPORT
