@@ -42,6 +42,8 @@ This specification formalizes the orthographic engine for English. The system pr
 1. **Morphophonemic Clarity**: Distinguishing nominal plural inflection (`-hā` / `ـها`) from verbal agreement sibilants (`س` / `ز`), preventing cluttered horizontal text flow.
 2. **Graphic & Historical Precision**: Leveraging **Sā** (`ث`) for voiceless *th* [θ], **Zāl** (`ذ`) for voiced *th* [ð], **Sağır Kāf** (`ڭ`) for velar nasal [ŋ], and **Vā** (`ڤ`) for [v].
 3. **Dual-Track Vowel Flexibility**: Providing both direct **Matres Lectionis** (dropping unpronounced final silent *e*) and explicit **Silent-e Retention** (`ه` / `ـہ`) to evaluate reading/writing ergonomics.
+4. **Keyboard Recommendation (Urdu GBoard)**: The best mobile keyboard to use is **GBoard set to Urdu**, which exhibits the desired orthographic behavior (except for a final *he* followed by *-hā*, where you can long-press the key to type the correct second *he* form).
+
 
 * 1. Consonant Inventory & Perso-Arabic Mapping
 

@@ -45,6 +45,8 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 1. **Clareza Morfofonêmica**: Distinguir a flexão nominal de plural da concordância verbal e das sibilantes lexicais da raiz.
 2. **Ritmo Visual e Equilíbrio**: Utilizar um sufixo gráfico de plural (*-hā* / `ـها`) para evitar que longas caudas repetitivas de *sīn* (`س`) poluam o fluxo horizontal do texto.
 3. **Precisão Fonética e Gráfica**: Diferenciar *c* brando (`چ`) de *g/j* brando (`ژ`), *r* simples (`ر`) de *rr* duplo (`ه`), *s* intervocálico (`ز`) de *ss* duplo (`س`), estabelecer regras explícitas de Madd para vogais iniciais e aproveitar o **Alif Tónico** (`ا`) para acentuação de intensidade.
+4. **Recomendação de Teclado (GBoard Urdu)**: O melhor teclado para digitação é o **GBoard configurado para o idioma Urdu**, que possui o comportamento ortográfico desejado (exceto para a sequência de *He* final seguido do sufixo *-hā*, em que se pode pressionar e segurar o botão do *He* para digitar o segundo *He* correto).
+
 
 * 1. Inventário Consonantal e Mapeamento Perso-Árabe
 
