@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aljamiado English Specification & Corpus Studio</title>
+  <!-- Google Fonts: Gulzar, Noto Nastaliq Urdu, Vazirmatn, Noto Naskh Arabic, Aref Ruqaa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --primary-accent: #f59e0b;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary-accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    /* Controls Panel */
+    .controls {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 1rem;
+      z-index: 100;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .control-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-right: 0.5rem;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background: #21262d;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn:hover {
+      background: #30363d;
+    }
+
+    .btn.active {
+      background: var(--primary-accent);
+      color: #000;
+      border-color: var(--primary-accent);
+      font-weight: 700;
+    }
+
+    /* Font Class Switching Rules */
+    .ar, .perso-arabic {
+      direction: rtl;
+      unicode-bidi: isolate;
+    }
+
+    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic {
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', 'Pak Nastaleeq', serif;
+      line-height: 2.4;
+    }
+
+    body.font-gulzar .ar, body.font-gulzar .perso-arabic {
+      font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+      line-height: 2.2;
+    }
+
+    body.font-vazir .ar, body.font-vazir .perso-arabic {
+      font-family: 'Vazirmatn', 'Vazir', sans-serif;
+      line-height: 1.8;
+    }
+
+    body.font-naskh .ar, body.font-naskh .perso-arabic {
+      font-family: 'Noto Naskh Arabic', 'Amiri', sans-serif;
+      line-height: 1.8;
+    }
+
+    body.font-ruqaa .ar, body.font-ruqaa .perso-arabic {
+      font-family: 'Aref Ruqaa', serif;
+      line-height: 1.8;
+    }
+
+    /* Section Headings */
+    h2 {
+      font-size: 1.6rem;
+      color: var(--primary-accent);
+      margin: 2.5rem 0 1rem 0;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin: 1.5rem 0 0.8rem 0;
+    }
+
+    /* Corpus List */
+    .corpus-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.2rem;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--primary-accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
+    .english {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .ipa {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-family: monospace;
+      margin-bottom: 0.8rem;
+    }
+
+    .perso-arabic {
+      text-align: right;
+      font-size: 2.2rem;
+      color: #fbbf24;
+      background: #0d1117;
+      padding: 1rem 1.2rem;
+      border-radius: 6px;
+      border: 1px solid #21262d;
+      margin-bottom: 0.5rem;
+    }
+
+    .notes {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem 0;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+
+    th, td {
+      padding: 0.8rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: #21262d;
+      color: var(--primary-accent);
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+
+    td {
+      font-size: 0.95rem;
+    }
+
+    td.ar {
+      text-align: right;
+      font-size: 1.6rem;
+      color: #fbbf24;
+    }
+
+    .rule-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-left: 4px solid var(--primary-accent);
+      border-radius: 6px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .rule-box .ar {
+      font-size: 1.4rem;
+      color: #fbbf24;
+      display: inline-block;
+      padding: 0 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body class="font-nastaliq">
+
+<div class="container">
+  <header>
+    <h1>Aljamiado English Specification & Corpus</h1>
+    <p class="subtitle">Perso-Arabic Orthographic Adaptation for the English Language</p>
+  </header>
+
+  <!-- Typography Controls -->
+  <div class="controls">
+    <div>
+      <span class="control-label">Perso-Arabic Font Style:</span>
+      <div class="btn-group">
+        <button class="btn active" id="btn-nastaliq" onclick="setFont('nastaliq')">Noto Nastaliq</button>
+        <button class="btn" id="btn-gulzar" onclick="setFont('gulzar')">Gulzar Nastaliq</button>
+        <button class="btn" id="btn-vazir" onclick="setFont('vazir')">Vazirmatn</button>
+        <button class="btn" id="btn-naskh" onclick="setFont('naskh')">Noto Naskh</button>
+        <button class="btn" id="btn-ruqaa" onclick="setFont('ruqaa')">Aref Ruqaa</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Corpus List -->
+  <h2>1. Corpus & Sample Transcriptions</h2>
+  <div class="corpus-list">
+
+    <div class="card">
+      <div class="card-meta">Pangram & Benchmark</div>
+      <div class="english">The quick brown fox jumps over the lazy dog.</div>
+      <div class="ipa">[ðə kwɪk braʊn fɒks dʒʌmps ˈoʊvər ðə ˈleɪzi dɒɡ]</div>
+      <div class="perso-arabic ar">ذا كويك براون فاكس جمپس اوڤر ذا ليزى داگ.</div>
+      <div class="notes">Voiced th (ذ), v (ڤ), nominal agreement, silent-e dropped.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Literature & Drama</div>
+      <div class="english">To be, or not to be, that is the question.</div>
+      <div class="ipa">[tuː biː ɔːr nɒt tuː biː ðæt ɪz ðə ˈkwɛstʃən]</div>
+      <div class="perso-arabic ar">تو به، اور نات تو به، ذات إز ذا كوإسچن.</div>
+      <div class="notes">Selective monosyllabic He (به), th (ث / ذ), ch (چ).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Famous Speech</div>
+      <div class="english">I have a dream that one day this nation will rise up.</div>
+      <div class="ipa">[aɪ hæv ə driːm ðæt wʌn deɪ ðɪs ˈneɪʃən wɪl raɪz ʌp]</div>
+      <div class="perso-arabic ar">اي هڤ ا دريم ذات وان دي ذس نيشن وِل رايز اپ.</div>
+      <div class="notes">Diphthong ay (اي), voiced th (ذ), w (و), sh (ش).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Historical Document</div>
+      <div class="english">We hold these truths to be self-evident, that all men are created equal.</div>
+      <div class="ipa">[wiː hoʊld ðiːz truːðz tuː biː sɛlf ˈɛvɪdənt ðæt ɔːl mɛn ɑːr kriːˈeɪtɪd ˈiːkwəl]</div>
+      <div class="perso-arabic ar">وى هولد ذيز ثروثها تو به سلف-إڤدنت، ذات آل من آر كرييتد ايكول.</div>
+      <div class="notes">Nominal plural -hā (ثروثها), past tense -ed (كرييتد), broad aw (آل).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Velar Nasal (Sağır Kāf ڭ vs Nūn-Gāf نگ)</div>
+      <div class="english">I am writing a new writing system for English using Perso-Arabic script.</div>
+      <div class="ipa">[aɪ æm ˈraɪtɪŋ ə njuː ˈraɪtɪŋ ˈsɪstəm fɔːr ˈɪŋɡlɪʃ ˈjuːzɪŋ ˈpɜːrʒoʊ ˈærəbɪk skrɪpt]</div>
+      <div class="perso-arabic ar">اي ام رايتڭ ا نيو رايتڭ سيستم فور إنگلش يوزڭ پرسو-اربيك سكريپت.</div>
+      <div class="notes">Option A (Sağır Kāf ڭ): رايتڭ, يوزڭ. Option B (Nūn-Gāf نگ): رايتنگ, يوزنگ.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Daily Conversation & Plurals</div>
+      <div class="english">She bought three books, two laptops, and five new pens.</div>
+      <div class="ipa">[ʃiː bɔːt θriː bʊks tuː ˈlæptɒps ænd faɪv njuː pɛnz]</div>
+      <div class="perso-arabic ar">شه بات ثرى بوكها، تو لپتاپها، اند فايل نيو پنها.</div>
+      <div class="notes">Nominal plurals systematically take -hā (بوكها, لپتاپها, پنها).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Verbal vs Nominal Contrast</div>
+      <div class="english">He speaks fast while reading many books.</div>
+      <div class="ipa">[hiː spiːks fæst waɪl ˈriːdɪŋ ˈmɛni bʊks]</div>
+      <div class="perso-arabic ar">هى اسپيكس فاست وايل ريدڭ منى بوكها.</div>
+      <div class="notes">Verbal agreement retains Sīn (اسپيكس) while nominal plural uses -hā (بوكها).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Past Tense Morphophonemics</div>
+      <div class="english">She walked to the city and played music for her friends.</div>
+      <div class="ipa">[ʃiː wɔːkt tuː ðə ˈsɪti ænd pleɪd ˈmjuːzɪk fɔːr hɜːr frɛndz]</div>
+      <div class="perso-arabic ar">شه واكت تو ذا ستى اند پلايد ميوزك فور هر فرندها.</div>
+      <div class="notes">Surface past tense -t (واكت) vs -d (پلايد).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Song & Music</div>
+      <div class="english">The king was singing a long song in the house.</div>
+      <div class="ipa">[ðə kɪŋ wɒz ˈsɪŋɪŋ ə lɒŋ sɒŋ ɪn ðə haʊs]</div>
+      <div class="perso-arabic ar">ذا كڭ واز سڭڭ ا لاڭ ساڭ إن ذا هاوس.</div>
+      <div class="notes">Sağır Kāf (كڭ, سڭڭ, لاڭ, ساڭ) compact velar nasals.</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Classic Proverb</div>
+      <div class="english">Actions speak louder than words.</div>
+      <div class="ipa">[ˈækʃənz spiːk ˈlaʊdər ðæn wɜːdz]</div>
+      <div class="perso-arabic ar">آكشنها اسپيك لاودر ذان وردها.</div>
+      <div class="notes">Initial Alif Madd (آكشنها), plural -hā (آكشنها, وردها).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Classic Proverb</div>
+      <div class="english">A journey of a thousand miles begins with a single step.</div>
+      <div class="ipa">[ə ˈdʒɜːrni ɒv ə ˈθaʊzənd maɪlz bɪˈɡɪnz wɪð ə ˈsɪŋɡəl stɛp]</div>
+      <div class="perso-arabic ar">ا جرنى اوڤ ا ثاوزند مايلها بگينز وث ا سنگل ستپ.</div>
+      <div class="notes">j (ج), v (ڤ), th (ث), plural -hā (مايلها), agreement (بگينز).</div>
+    </div>
+
+    <div class="card">
+      <div class="card-meta">Poetry</div>
+      <div class="english">Two roads diverged in a yellow wood, and I took the one less traveled by.</div>
+      <div class="ipa">[tuː roʊdz daɪˈvɜːrdʒd ɪn ə ˈjɛloʊ wʊd ænd aɪ tʊk ðə wʌn lɛs ˈtrævəld baɪ]</div>
+      <div class="perso-arabic ar">تو رودها داىڤرجد إن ا يلو وود، اند اي توك ذا وان لس ترڤلد باي.</div>
+      <div class="notes">Plural (رودها), past tense -d (داىڤرجد, ترڤلد), diphthong eye (اي, باي).</div>
+    </div>
+
+  </div>
+
+  <!-- Complete System Description & Specification -->
+  <h2>2. System Overview & Principles</h2>
+  <p><strong>Aljamiado English</strong> is a morphophonemic adaptation of the Perso-Arabic script for the English language, modeled directly after <code>aljamiado/index.org</code> (Aljamiado Português). It prioritizes horizontal rhythm, phonetic precision, and morphological clarity.</p>
+
+  <h2>3. Consonant Inventory</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Latin Grapheme</th>
+        <th>IPA</th>
+        <th>Perso-Arabic Letter</th>
+        <th>Letter Name</th>
+        <th>Example</th>
+        <th>Aljamiado Script</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td>book</td><td class="ar">بوك</td></tr>
+      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td>park</td><td class="ar">پارك</td></tr>
+      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td>time</td><td class="ar">تايم</td></tr>
+      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td>day</td><td class="ar">داي</td></tr>
+      <tr><td>k / c / q</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td>cat, kind</td><td class="ar">كات، كايند</td></tr>
+      <tr><td>g (hard)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td>good, go</td><td class="ar">گود، گو</td></tr>
+      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td>find</td><td class="ar">فايند</td></tr>
+      <tr><td>v</td><td>[v]</td><td class="ar">ڤ</td><td>Vā</td><td>very, voice</td><td class="ar">ڤرى، ڤويس</td></tr>
+      <tr><td>th (voiceless)</td><td>[θ]</td><td class="ar">ث</td><td>Sā</td><td>thin, think</td><td class="ar">ثن، ثنك</td></tr>
+      <tr><td>th (voiced)</td><td>[ð]</td><td class="ar">ذ</td><td>Zāl</td><td>this, the</td><td class="ar">ذس، ذ</td></tr>
+      <tr><td>s (voiceless)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td>sun, city</td><td class="ar">سن، ستى</td></tr>
+      <tr><td>z / s (voiced)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td>zoo, easy</td><td class="ar">زو، إيزى</td></tr>
+      <tr><td>sh</td><td>[ʃ]</td><td class="ar">ش</td><td>Shīn</td><td>ship, show</td><td class="ar">شپ، شو</td></tr>
+      <tr><td>ch</td><td>[tʃ]</td><td class="ar">چ</td><td>Chā</td><td>chair, much</td><td class="ar">چير، مچ</td></tr>
+      <tr><td>j / soft g</td><td>[dʒ]</td><td class="ar">ج</td><td>Jīm</td><td>job, page</td><td class="ar">جاب، پيج</td></tr>
+      <tr><td>zh</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td>vision, measure</td><td class="ar">ڤژين، مژر</td></tr>
+      <tr><td>m</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td>man</td><td class="ar">مان</td></tr>
+      <tr><td>n</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td>name</td><td class="ar">نيم</td></tr>
+      <tr><td>ng (Option A)</td><td>[ŋ]</td><td class="ar">ڭ</td><td>Sağır Kāf</td><td>sing, thing</td><td class="ar">سڭ، ثڭ</td></tr>
+      <tr><td>ng (Option B)</td><td>[ŋ]</td><td class="ar">نگ</td><td>Nūn-Gāf</td><td>sing, thing</td><td class="ar">سنگ، ثنگ</td></tr>
+      <tr><td>l</td><td>[l]</td><td class="ar">ل</td><td>Lām</td><td>light</td><td class="ar">لايت</td></tr>
+      <tr><td>r</td><td>[ɹ]</td><td class="ar">ر</td><td>Rā</td><td>red, road</td><td class="ar">رد، رود</td></tr>
+      <tr><td>w</td><td>[w]</td><td class="ar">و</td><td>Waw</td><td>water, win</td><td class="ar">واتر، ون</td></tr>
+      <tr><td>y</td><td>[j]</td><td class="ar">ي</td><td>Yā</td><td>yes, you</td><td class="ar">يس، يو</td></tr>
+      <tr><td>h</td><td>[h]</td><td class="ar">ه / ح</td><td>He</td><td>hope, hand</td><td class="ar">هوپ، هند</td></tr>
+    </tbody>
+  </table>
+
+  <h2>4. Vowel System & Matres Lectionis</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Vowel Sound</th>
+        <th>IPA</th>
+        <th>Graphic Carrier</th>
+        <th>Reasoning & Rule</th>
+        <th>Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Short i</td><td>[ɪ]</td><td class="ar">إ / implicit</td><td>Kasrah vowel; unwritten medially in closed syllables.</td><td class="ar">إن، إت، ست، وث</td></tr>
+      <tr><td>Short e</td><td>[ɛ]</td><td class="ar">إ / implicit</td><td>Fatḥah/kasrah; unwritten medially to distinguish from long ee.</td><td class="ar">إند، گت، ذم، بد</td></tr>
+      <tr><td>Short a</td><td>[æ]</td><td class="ar">ا</td><td>Plain Alif medially in key roots for broad open /æ/.</td><td class="ar">ذات، مان، هڤ، كات</td></tr>
+      <tr><td>Short o</td><td>[ɒ]/[ɑː]</td><td class="ar">او / ا</td><td>Alif or implicit ḍammah/fatḥah.</td><td class="ar">اون، نات، هات، فرام</td></tr>
+      <tr><td>Short u</td><td>[ʌ]</td><td class="ar">ا / implicit</td><td>Central vowel; unwritten medially.</td><td class="ar">اپ، بس، رن، بت</td></tr>
+      <tr><td>Short oo</td><td>[ʊ]</td><td class="ar">و</td><td>Mirrors "oo" orthography for readability.</td><td class="ar">گود، لوك، بوك، پوت</td></tr>
+      <tr><td>Long ee</td><td>[iː]</td><td class="ar">ي</td><td>Standard front long vowel letter.</td><td class="ar">به، سى، هى، شه</td></tr>
+      <tr><td>Long oo</td><td>[uː]</td><td class="ar">و</td><td>Standard back long vowel letter.</td><td class="ar">تو، دو، هو، يو</td></tr>
+      <tr><td>Broad aw</td><td>[ɔː]</td><td class="ar">آ</td><td>Denotes open broad back long vowel.</td><td class="ar">آل، كال، لا، واتر</td></tr>
+      <tr><td>Diphthong ay</td><td>[eɪ]</td><td class="ar">اي / ي</td><td>Open vowel + front glide.</td><td class="ar">ميك، داي، ذاي</td></tr>
+      <tr><td>Diphthong eye</td><td>[aɪ]</td><td class="ar">اي / آي</td><td>Open Alif + front Yā glide.</td><td class="ar">اي، ماي، تايم، لايك</td></tr>
+      <tr><td>Diphthong oh</td><td>[oʊ]</td><td class="ar">او / و</td><td>Open Alif + back Waw glide.</td><td class="ar">گو، سو، نو، هوم</td></tr>
+      <tr><td>Diphthong ow</td><td>[aʊ]</td><td class="ar">او / آو</td><td>Broad Alif + Waw glide.</td><td class="ar">آوت، ناو، هاو، داون</td></tr>
+      <tr><td>Diphthong oy</td><td>[ɔɪ]</td><td class="ar">وي</td><td>Back Waw + front Yā glide.</td><td class="ar">بوي، ڤويس، پوينت</td></tr>
+    </tbody>
+  </table>
+
+  <h2>5. Morphophonemic Rules</h2>
+
+  <div class="rule-box">
+    <h3>Rule I: Nominal Plural Domain (-hā / ـها)</h3>
+    <p>Plural nouns (<code>-s</code> / <code>-es</code>) attach the graphic logogram <strong><code>-hā</code> (<code>ـها</code>)</strong> to eliminate long Sīn tails and distinguish nominal plurals from verbal agreement: <code>books</code> &rarr; <span class="ar">بوكها</span>, <code>cats</code> &rarr; <span class="ar">كتها</span>, <code>dogs</code> &rarr; <span class="ar">داگها</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule II: Verbal Agreement & Lexical Sibilants (س / ز)</h3>
+    <p>3rd-person singular present verbs retain explicit phonetic <strong><code>س</code> / <code>ز</code></strong> so they are never confused with plural nouns: <code>he speaks</code> &rarr; <span class="ar">هى اسپيكس</span>, <code>she runs</code> &rarr; <span class="ar">شه رنز</span>. Lexical sibilants retain Sīn/Zāy: <code>this</code> &rarr; <span class="ar">ذس</span>, <code>was</code> &rarr; <span class="ar">واز</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule III: Verbal Past Tense (-d / -t: ـد / ـت)</h3>
+    <p>Past tense <code>-ed</code> uses surface morphophonemic <strong><code>-d</code> (<code>ـد</code>)</strong> or <strong><code>-t</code> (<code>ـت</code>)</strong>: <code>walked</code> [t] &rarr; <span class="ar">واكت</span>, <code>played</code> [d] &rarr; <span class="ar">پلايد</span>, <code>wanted</code> [ɪd] &rarr; <span class="ar">وانتد</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule IV: Selective Silent He (ه / ـه)</h3>
+    <p>Long vowels drop silent final <em>e</em> by default (<code>make</code> &rarr; <span class="ar">ميك</span>, <code>bite</code> &rarr; <span class="ar">بايت</span>). Silent <strong>He (<code>ه</code> / <code>ـه</code>)</strong> is reserved for short monosyllabic words (<code>be</code> &rarr; <span class="ar">به</span>, <code>me</code> &rarr; <span class="ar">مه</span>, <code>she</code> &rarr; <span class="ar">شه</span>) or explicit final <em>-es</em> / <em>-as</em> markers.</p>
+  </div>
+
+  <footer>
+    <p>Aljamiado English Specification & Corpus &bull; Modeled on <code>aljamiado/index.org</code></p>
+  </footer>
+</div>
+
+<script>
+  function setFont(fontKey) {
+    document.body.className = 'font-' + fontKey;
+
+    var btns = document.querySelectorAll('.btn-group .btn');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].classList.remove('active');
+    }
+    var activeBtn = document.getElementById('btn-' + fontKey);
+    if (activeBtn) {
+      activeBtn.classList.add('active');
+    }
+  }
+</script>
+
+</body>
+</html>
