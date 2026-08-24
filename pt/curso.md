@@ -655,6 +655,50 @@ No árabe e no persa, o uso repetido de caudas de *sīn* (`س`) no final de pala
 </div>
 #+END_EXPORT
 
+# Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
+
+A tabela abaixo sintetiza a **cobertura posicional total** de todas as 21 letras adaptadas no Aljamiado Português, fornecendo pelo menos uma palavra em português para cada posição gráfica válida (Isolada, Inicial, Medial e Final):
+
+#+BEGIN_EXPORT html
+<div class="course-table-wrapper">
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Letra</th>
+      <th>Nome</th>
+      <th>Forma Isolada</th>
+      <th>Forma Inicial</th>
+      <th>Forma Medial</th>
+      <th>Forma Final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>ا</strong></td><td>Alif</td><td><span class="aljamiado-naskh ar">ا</span> (<i>a</i>)</td><td>&mdash;</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">دا</span> (<i>da</i>), <span class="aljamiado-naskh ar">ژا</span> (<i>já</i>)</td></tr>
+    <tr><td><strong>ب</strong></td><td>Bā</td><td><span class="aljamiado-naskh ar">ب</span> (<i>b</i>)</td><td><span class="aljamiado-naskh ar">بوہ</span> (<i>boa</i>)</td><td><span class="aljamiado-naskh ar">سبدریہ</span> (<i>sabedoria</i>)</td><td><span class="aljamiado-naskh ar">سب</span> (<i>sob</i>)</td></tr>
+    <tr><td><strong>پ</strong></td><td>Pā</td><td><span class="aljamiado-naskh ar">پ</span> (<i>p</i>)</td><td><span class="aljamiado-naskh ar">پرہ</span> (<i>para</i>)</td><td><span class="aljamiado-naskh ar">اسپرنچہ</span> (<i>esperança</i>)</td><td><span class="aljamiado-naskh ar">ستریپ</span> (<i>strip</i>)</td></tr>
+    <tr><td><strong>ت</strong></td><td>Tā</td><td><span class="aljamiado-naskh ar">تو</span> (<i>tu</i>)</td><td><span class="aljamiado-naskh ar">تودو</span> (<i>tudo</i>)</td><td><span class="aljamiado-naskh ar">فروتو</span> (<i>fruto</i>)</td><td><span class="aljamiado-naskh ar">اتى</span> (<i>até</i>)</td></tr>
+    <tr><td><strong>ج</strong></td><td>Jīm</td><td><span class="aljamiado-naskh ar">ج</span> (<i>gênero</i>)</td><td><span class="aljamiado-naskh ar">جنتہ</span> (<i>gente</i>)</td><td><span class="aljamiado-naskh ar">جنرزددہ</span> (<i>generosidade</i>)</td><td><span class="aljamiado-naskh ar">جم</span> (<i>gem</i>)</td></tr>
+    <tr><td><strong>چ</strong></td><td>Chā</td><td><span class="aljamiado-naskh ar">چہ</span> (<i>cê</i>)</td><td><span class="aljamiado-naskh ar">چددہ</span> (<i>cidade</i>)</td><td><span class="aljamiado-naskh ar">وچہ</span> (<i>você</i>)</td><td><span class="aljamiado-naskh ar">فيچو</span> (<i>fixo</i>)</td></tr>
+    <tr><td><strong>د</strong></td><td>Dāl</td><td><span class="aljamiado-naskh ar">دہ</span> (<i>de</i>)</td><td><span class="aljamiado-naskh ar">دو</span> (<i>do</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">ویدہ</span> (<i>vida</i>)</td></tr>
+    <tr><td><strong>ر</strong></td><td>Rā</td><td><span class="aljamiado-naskh ar">ریو</span> (<i>rio</i>)</td><td><span class="aljamiado-naskh ar">روه</span> (<i>rua</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">ور</span> (<i>ver</i>), <span class="aljamiado-naskh ar">مر</span> (<i>mar</i>)</td></tr>
+    <tr><td><strong>ز</strong></td><td>Zāy</td><td><span class="aljamiado-naskh ar">زہ</span> (<i>zé</i>)</td><td><span class="aljamiado-naskh ar">زرو</span> (<i>zero</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">پز</span> (<i>paz</i>), <span class="aljamiado-naskh ar">ترز</span> (<i>traz</i>)</td></tr>
+    <tr><td><strong>ژ</strong></td><td>Žā</td><td><span class="aljamiado-naskh ar">ژا</span> (<i>já</i>)</td><td><span class="aljamiado-naskh ar">ژگو</span> (<i>jogo</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">وهژہ</span> (<i>hoje</i>)</td></tr>
+    <tr><td><strong>س</strong></td><td>Sīn</td><td><span class="aljamiado-naskh ar">سہ</span> (<i>se</i>)</td><td><span class="aljamiado-naskh ar">سوه</span> (<i>sua</i>)</td><td><span class="aljamiado-naskh ar">پرچسو</span> (<i>processo</i>)</td><td><span class="aljamiado-naskh ar">مس</span> (<i>mas</i>)</td></tr>
+    <tr><td><strong>ش</strong></td><td>Shīn</td><td><span class="aljamiado-naskh ar">شا</span> (<i>chá</i>)</td><td><span class="aljamiado-naskh ar">شوه</span> (<i>chave</i>)</td><td><span class="aljamiado-naskh ar">لیشو</span> (<i>lixo</i>)</td><td><span class="aljamiado-naskh ar">فلاش</span> (<i>flash</i>)</td></tr>
+    <tr><td><strong>ف</strong></td><td>Fā</td><td><span class="aljamiado-naskh ar">فی</span> (<i>fé</i>)</td><td><span class="aljamiado-naskh ar">فز</span> (<i>faz</i>)</td><td><span class="aljamiado-naskh ar">پرفسرہ</span> (<i>professora</i>)</td><td><span class="aljamiado-naskh ar">اف</span> (<i>off</i>)</td></tr>
+    <tr><td><strong>ك</strong></td><td>Kāf</td><td><span class="aljamiado-naskh ar">كہ</span> (<i>que</i>)</td><td><span class="aljamiado-naskh ar">كدہ</span> (<i>cada</i>)</td><td><span class="aljamiado-naskh ar">بوسكہ</span> (<i>busca</i>)</td><td><span class="aljamiado-naskh ar">چك</span> (<i>check</i>)</td></tr>
+    <tr><td><strong>گ</strong></td><td>Gāf</td><td><span class="aljamiado-naskh ar">گوستى</span> (<i>gostei</i>)</td><td><span class="aljamiado-naskh ar">گیہ</span> (<i>guia</i>)</td><td><span class="aljamiado-naskh ar">آگوه</span> (<i>água</i>)</td><td><span class="aljamiado-naskh ar">بلگ</span> (<i>blog</i>)</td></tr>
+    <tr><td><strong>ل</strong></td><td>Lām</td><td><span class="aljamiado-naskh ar">إلى</span> (<i>ele</i>)</td><td><span class="aljamiado-naskh ar">لوز</span> (<i>luz</i>)</td><td><span class="aljamiado-naskh ar">پلو</span> (<i>pelo</i>)</td><td><span class="aljamiado-naskh ar">سل</span> (<i>sol</i>)</td></tr>
+    <tr><td><strong>م</strong></td><td>Mīm</td><td><span class="aljamiado-naskh ar">مہ</span> (<i>me</i>)</td><td><span class="aljamiado-naskh ar">مویتو</span> (<i>muito</i>)</td><td><span class="aljamiado-naskh ar">كمو</span> (<i>como</i>)</td><td><span class="aljamiado-naskh ar">بم</span> (<i>bom</i>)</td></tr>
+    <tr><td><strong>ن</strong></td><td>Nūn</td><td><span class="aljamiado-naskh ar">نہ</span> (<i>na</i>)</td><td><span class="aljamiado-naskh ar">ناو</span> (<i>não</i>)</td><td><span class="aljamiado-naskh ar">انالیزہ</span> (<i>análise</i>)</td><td><span class="aljamiado-naskh ar">ان</span> (<i>on</i>)</td></tr>
+    <tr><td><strong>و</strong></td><td>Waw</td><td><span class="aljamiado-naskh ar">و</span> (<i>o</i>)</td><td><span class="aljamiado-naskh ar">او</span> (<i>ou</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">لیورو</span> (<i>livro</i>)</td></tr>
+    <tr><td><strong>ه / ہ</strong></td><td>He</td><td><span class="aljamiado-naskh ar">هنرہ</span> (<i>honra</i>)</td><td><span class="aljamiado-naskh ar">همم</span> (<i>homem</i>)</td><td><span class="aljamiado-naskh ar">كهو</span> (<i>carro</i>)</td><td><span class="aljamiado-naskh ar">بوہ</span> (<i>boa</i>)</td></tr>
+    <tr><td><strong>ی</strong></td><td>Ye</td><td><span class="aljamiado-naskh ar">ی</span> (<i>e</i>)</td><td><span class="aljamiado-naskh ar">یلومنہ</span> (<i>ilumina</i>)</td><td><span class="aljamiado-naskh ar">مینیہ</span> (<i>minha</i>)</td><td><span class="aljamiado-naskh ar">اتى</span> (<i>até</i>)</td></tr>
+  </tbody>
+</table>
+</div>
+#+END_EXPORT
+
 ---
 
 **Parabéns!** Você concluiu o percurso gradual do **Aljamiado Português**. Para uma referência formal completa e aprofundamento nas regras linguísticas e no corpus de frases, consulte a [[file:index.org][Especificação Ortográfica Principal (index.org)]].
