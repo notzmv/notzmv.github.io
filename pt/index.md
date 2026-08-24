@@ -577,6 +577,16 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
   - *português* $\rightarrow$ **پرتگز** (grafado de preferência sem Ye `ی` em *-guês*)
 - Esta opção histórica/natural otimiza o ritmo visual, reduz o acúmulo de caudas de Sīn e aproveita uma tradição ortográfica românica/aljamiada arcaica bem atestada.
 
+## Flexão Nominal e Alternâncias de Plural
+
+| Lema Base (Singular) | Forma Plural Latina | Aljamiado Singular | Aljamiado Plural | Regra Aplicada |
+|----------------------+---------------------+--------------------+------------------+----------------|
+| **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
+| **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
+| **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
+| **razão** | *razões* | `هزاو` | `هزاوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + `-ão` (`او`) + `-hā` (`ـها`) |
+| **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
+
 # 5. Casos Especiais e Construções Particulares
 
 ## Representação das Preposições *de* e *da*
@@ -646,96 +656,16 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **etimologia** | `اتملجیہ` / `یتملجیہ` | Alif ou Ye inicial, *e*, *i*, *o* internos defectivos |
 | **filologia** | `فللجیہ` | Esqueleto *f-l-l* + Jīm (`ج`) para G brando + Ye-Gol He final (`ی-ہ`) |
 | **dialeto** / **dialecto** | `ديلتو` / `دالتم` | Ye para ditongo/hiato *ia*, Waw final |
-| **isoglossa** | `ایزgلسہ` -> `ایزگلسہ` | Zāy (`ز`) para *s* intervocálico /z/, Gol He final |
+| **isoglossa** | `ایزگلسہ` | Zāy (`ز`) para *s* intervocálico /z/, Gol He final |
 
-   - **IPA**: `[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]`
-   - **Aljamiado**: `كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.`
-   - **Notas**: Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, desinência verbal -am defectiva sem Alif (استژم).
+## Flexão Nominal e Alternâncias de Plural
 
-2. **Frase 2 — Busca pelo Conhecimento**
-   - **Português**: *A busca pelo conhecimento é um dever de todos.*
-   - **IPA**: `[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]`
-   - **Aljamiado**: `ا بوسكہ پلو كنیچیمntو` -> `ا بوسكہ پلو كنیچیمنتو ای ام دور دہ تدوها.`
-   - **Notas**: Chā para C brando (كنیچیمنتو), u mantido (بوسكہ), infinitivo verbal sem Alif (دور), plural nominal -hā (تدوها).
-
-3. **Frase 3 — Paciência e Gratidão**
-   - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
-   - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا پچنچیہ ی ا گرتیدناو ترزم پز ی سبدوریہ نو كرچناو.`
-   - **Notas**: Chā para C brando (پچنچیہ), Zāy em ترزم e پز, desinência verbal -em defectiva (ترزم), ditongo nasal -ão (گرتیدناو, كرچناو).
-
-4. **Frase 4 — Acolhimento e Comunidade**
-   - **Português**: *Seja muito bem-vindo à nossa comunidade.*
-   - **IPA**: `['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]`
-   - **Aljamiado**: `سژہ مویتو بم-ویندو آ نسہ كمونیددہ.`
-   - **Notas**: Žā para J/G brando (سژہ), ditongo ui (مویتو), Alif Madd inicial (آ), Gol He final.
-
-5. **Frase 5 — Boas Ações e Palavras Sinceras**
-   - **Português**: *As boas ações e as palavras sinceras transformam o mundo.*
-   - **IPA**: `[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]`
-   - **Aljamiado**: `اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.`
-   - **Notas**: Plurais nominais com -hā (اها, بوها, اچوها, پلورها, سینچرها), desinência verbal -am defectiva sem Alif (ترنسفرمم).
-
-6. **Frase 6 — Trabalho e Estudo**
-   - **Português**: *Que Deus abençoe o seu trabalho e os seus estudos.*
-   - **IPA**: `[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]`
-   - **Aljamiado**: `كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.`
-   - **Notas**: Lām-Ye em تربلیو, sufixo nominal -hā em plurais (وها, سیوها, استودوها).
-
-7. **Frase 7 — Sabedoria e Justiça**
-   - **Português**: *A verdade e a justiça iluminam o caminho dos homens.*
-   - **IPA**: `[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'minɐ̃w u kɐ'miɲu dus 'omẽjʃ]`
-   - **Aljamiado**: `ا ورددہ ی ا ژستچیہ الومینم و كمینیو دوها همنها.`
-   - **Notas**: Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), desinência verbal -am defectiva sem Alif (الومینم).
-
-8. **Frase 8 — Generosidade**
-   - **Português**: *A verdadeira riqueza está na generosidade do coração.*
-   - **IPA**: `[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچناو.`
-   - **Notas**: He inicial para R forte (هیكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico, Alif tónico em استا.
-
-9. **Frase 9 — Oportunidade e Recomeço**
-   - **Português**: *Cada novo dia é uma oportunidade para fazer o bem.*
-   - **IPA**: `['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]`
-   - **Aljamiado**: `كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.`
-   - **Notas**: Minimização defectiva (كدہ, اپرتونیددہ, پرہ), infinitivo verbal sem Alif (فزر).
-
-10. **Frase 10 — União e Harmonia**
-    - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
-    - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
-    - **Aljamiado**: `ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.`
-    - **Notas**: Plural nominal -hā (كرچوها, سینچرها), Chā para CH (چیہ), Zāy em پز.
-
-11. **Frase 11 — Sabedoria e Razão**
-    - **Português**: *A sabedoria ilumina a mente e o conhecimento fortalece a alma.*
-    - **IPA**: `[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]`
-    - **Aljamiado**: `ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.`
-    - **Notas**: Desinência verbal de 3ª pessoa do singular em -a com Gol He (الومینہ), C brando em فرتلچہ (Chā), Gol He final.
-
-12. **Frase 12 — Semeadores de Esperança**
-    - **Português**: *Os homens de bem semeiam a esperança e colhem a justiça.*
-    - **IPA**: `[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]`
-    - **Aljamiado**: `وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچیہ.`
-    - **Notas**: Desinências verbais de 3ª pessoa do plural -am (سمیم) e -em (كولیم) defectivas sem Alif, Lām-Ye em كولیم, Žā em ژستچیہ.
-
-13. **Frase 13 — Caminho da Verdade**
-    - **Português**: *A luz da verdade guia os nossos passos pelo caminho da paz.*
-    - **IPA**: `[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]`
-    - **Aljamiado**: `ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.`
-    - **Notas**: Zāy final em لوز e پز, Sīn duplo intervocálico em نسوها e پسوها com sufixo -hā.
-
-14. **Frase 14 — Palavras de Fé**
-    - **Português**: *As palavras de fé e amor renovam os corações dos homens.*
-    - **IPA**: `[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]`
-    - **Aljamiado**: `اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.`
-    - **Notas**: He inicial em هنووم para R forte, desinência verbal -am defectiva sem Alif (هنووم), plurais nominais com -hā.
-
-15. **Frase 15 — Busca pela Felicidade**
-    - **Português**: *Quem busca a sabedoria encontra a verdadeira felicidade na vida.*
-    - **IPA**: `[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]`
-    - **Aljamiado**: `كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
-    - **Notas**: Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final.
-| **razão** | *razões* | `هژو` | `هژوها` | Rā forte He (`ه`) + Zāy (`ژ` / `ز`) + `وها` |
+| Lema Base (Singular) | Forma Plural Latina | Aljamiado Singular | Aljamiado Plural | Regra Aplicada |
+|----------------------+---------------------+--------------------+------------------+----------------|
+| **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
+| **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
+| **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
+| **razão** | *razões* | `هزاو` | `هزاوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + `-ão` (`او`) + `-hā` (`ـها`) |
 | **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ## Verbos vs. Concordância e Sibilantes
