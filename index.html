@@ -43,6 +43,14 @@
       padding-bottom: 1rem;
     }
 
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
     h1 {
       font-size: 2.2rem;
       font-weight: 700;
@@ -91,32 +99,72 @@
       background: #21262d;
       border: 1px solid var(--card-border);
       color: var(--text-main);
-      padding: 0.5rem 1rem;
+      padding: 0.4rem 0.8rem;
       border-radius: 6px;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       cursor: pointer;
-      transition: all 0.15s ease;
+      text-decoration: none;
+      transition: all 0.2s ease;
     }
 
     .btn:hover {
       background: #30363d;
+      border-color: var(--text-muted);
     }
 
     .btn.active {
       background: var(--primary-accent);
       color: #000;
+      font-weight: 600;
       border-color: var(--primary-accent);
-      font-weight: 700;
+    }
+
+    /* Table of Contents */
+    .toc {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .toc h2 {
+      font-size: 1.2rem;
+      margin: 0 0 0.8rem 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .toc ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+
+    .toc li {
+      margin-bottom: 0.4rem;
+    }
+
+    .toc a {
+      color: var(--primary-accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
     }
 
     /* Font Class Switching Rules */
     .ar, .perso-arabic {
       direction: rtl;
       unicode-bidi: isolate;
+      font-size: 1.8rem;
+      line-height: 1.8;
+      color: #fbbf24;
     }
 
     body.font-nastaliq .ar, body.font-nastaliq .perso-arabic {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', 'Pak Nastaleeq', serif;
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
       line-height: 2.4;
     }
 
@@ -153,6 +201,30 @@
       font-size: 1.2rem;
       color: #ffffff;
       margin: 1.5rem 0 0.8rem 0;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #d1d5db;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: #d1d5db;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    code {
+      background: #21262d;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      color: #f472b6;
     }
 
     /* Corpus List */
@@ -236,11 +308,6 @@
       font-size: 0.95rem;
     }
 
-    td.ar, span.ar {
-      font-size: 1.5rem;
-      color: #fbbf24;
-    }
-
     .pair-item {
       display: inline-block;
       white-space: nowrap;
@@ -261,13 +328,6 @@
       margin-bottom: 1rem;
     }
 
-    .rule-box .ar {
-      font-size: 1.4rem;
-      color: #fbbf24;
-      display: inline-block;
-      padding: 0 0.3rem;
-    }
-
     footer {
       text-align: center;
       margin-top: 4rem;
@@ -282,8 +342,19 @@
 
 <div class="container">
   <header>
-    <h1>Aljamiado English Specification & Corpus</h1>
-    <p class="subtitle">Perso-Arabic Orthographic Adaptation for the English Language</p>
+    <div class="header-top">
+      <div>
+        <h1>Aljamiado English Specification & Corpus Studio</h1>
+        <p class="subtitle">Perso-Arabic Orthographic & Morphophonemic Adaptation for the English Language</p>
+      </div>
+      <div>
+        <span class="control-label">Language / Idioma:</span>
+        <div class="btn-group" style="display: inline-flex;">
+          <a href="index.html" class="btn active">🇬🇧 English</a>
+          <a href="pt/index.html" class="btn">🇵🇹 Português</a>
+        </div>
+      </div>
+    </div>
   </header>
 
   <!-- Typography Controls -->
@@ -298,13 +369,238 @@
         <button class="btn" id="btn-ruqaa" onclick="setFont('ruqaa')">Aref Ruqaa</button>
       </div>
     </div>
+    <div>
+      <span class="control-label">Language:</span>
+      <div class="btn-group">
+        <a href="index.html" class="btn active">🇬🇧 EN</a>
+        <a href="pt/index.html" class="btn">🇵🇹 PT</a>
+      </div>
+    </div>
   </div>
 
-  <!-- Corpus List -->
-  <h2>1. Corpus & Sample Transcriptions</h2>
-  <div class="corpus-list">
+  <!-- Table of Contents -->
+  <nav class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#introduction--overview">Introduction & Overview</a></li>
+      <li><a href="#1-consonant-inventory--perso-arabic-mapping">1. Consonant Inventory & Perso-Arabic Mapping</a></li>
+      <li><a href="#2-vowel-system--orthographic-carrier-engine">2. Vowel System & Orthographic Carrier Engine</a></li>
+      <li><a href="#3-morphophonemic-rules--domain-mapping">3. Morphophonemic Rules & Domain Mapping</a></li>
+      <li><a href="#4-master-paradigm-lookup-tables">4. Master Paradigm Lookup Tables</a></li>
+      <li><a href="#5-expanded-corpus--sample-transcriptions">5. Expanded Corpus & Sample Transcriptions</a></li>
+    </ul>
+  </nav>
 
-    <div class="card">
+  <!-- Introduction & Overview -->
+  <h2 id="introduction--overview">Introduction & Overview</h2>
+  <p><em>Bismillah al-Rahman al-Rahim</em> (In the name of God, the Most Gracious, the Most Merciful).</p>
+  <p><strong>Aljamiado English</strong> (<em>English Aljamiado</em> / <em>Inglês Aljamiado</em>) is a systematic, morphophonemic adaptation of the Perso-Arabic script designed to write the English language. Modeled directly after the architectural framework of <em>Aljamiado Português</em>, this system adapts historic Perso-Arabic letterforms, orthographic logic, and specialized extensions (such as Ottoman Sağır Kāf <code>ڭ</code>) to transcribe English text cleanly.</p>
+  <p>This specification formalizes the orthographic engine for English. The system prioritizes:</p>
+  <ol>
+    <li><strong>Morphophonemic Clarity</strong>: Distinguishing nominal plural inflection (<code>-hā</code> / <code>ـها</code>) from verbal agreement sibilants (<code>س</code> / <code>ز</code>), preventing cluttered horizontal text flow.</li>
+    <li><strong>Graphic & Historical Precision</strong>: Leveraging <strong>Sā</strong> (<code>ث</code>) for voiceless <em>th</em> [θ], <strong>Zāl</strong> (<code>ذ</code>) for voiced <em>th</em> [ð], <strong>Sağır Kāf</strong> (<code>ڭ</code>) for velar nasal [ŋ], and <strong>Vā</strong> (<code>ڤ</code>) for [v].</li>
+    <li><strong>Dual-Track Vowel Flexibility</strong>: Providing both direct <strong>Matres Lectionis</strong> (dropping unpronounced final silent <em>e</em>) and explicit <strong>Silent-e Retention</strong> (<code>ه</code> / <code>ـہ</code>) to evaluate reading/writing ergonomics.</li>
+  </ol>
+
+  <!-- 1. Consonant Inventory & Perso-Arabic Mapping -->
+  <h2 id="1-consonant-inventory--perso-arabic-mapping">1. Consonant Inventory & Perso-Arabic Mapping</h2>
+
+  <h3>Consonant Mapping Table</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Latin Grapheme</th>
+        <th>IPA Sound</th>
+        <th>Perso-Arabic Letter</th>
+        <th>Letter Name</th>
+        <th>Example Word</th>
+        <th>Aljamiado Script</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td>book</td><td class="ar">بوك</td></tr>
+      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td>park</td><td class="ar">پارك</td></tr>
+      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td>time</td><td class="ar">تایم</td></tr>
+      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td>day</td><td class="ar">دای / دی</td></tr>
+      <tr><td>k / c / q (hard)</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td>cat / kind</td><td class="ar">كات / كایند</td></tr>
+      <tr><td>g (hard)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td>good / go</td><td class="ar">گود / گو</td></tr>
+      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td>find</td><td class="ar">فایند</td></tr>
+      <tr><td>v</td><td>[v]</td><td class="ar">ڤ</td><td>Vā</td><td>very / voice</td><td class="ar">ڤرى / ڤویس</td></tr>
+      <tr><td>th (voiceless)</td><td>[θ]</td><td class="ar">ث</td><td>Sā</td><td>thin / think</td><td class="ar">ثن / ثنك</td></tr>
+      <tr><td>th (voiced)</td><td>[ð]</td><td class="ar">ذ</td><td>Zāl</td><td>this / the</td><td class="ar">ذس / ذ</td></tr>
+      <tr><td>s (voiceless)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td>sun / city</td><td class="ar">سن / ستى</td></tr>
+      <tr><td>z / s (voiced)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td>zoo / easy</td><td class="ar">زو / إیزى</td></tr>
+      <tr><td>sh</td><td>[ʃ]</td><td class="ar">ش</td><td>Shīn</td><td>ship / show</td><td class="ar">شپ / شو</td></tr>
+      <tr><td>ch</td><td>[tʃ]</td><td class="ar">چ</td><td>Chā</td><td>chair / much</td><td class="ar">چیر / مچ</td></tr>
+      <tr><td>j / soft g</td><td>[dʒ]</td><td class="ar">ج</td><td>Jīm</td><td>job / page</td><td class="ar">جاب / پیج</td></tr>
+      <tr><td>zh</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td>vision / measure</td><td class="ar">ڤژین / مژر</td></tr>
+      <tr><td>m</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td>man</td><td class="ar">مان</td></tr>
+      <tr><td>n</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td>name</td><td class="ar">نیم</td></tr>
+      <tr><td>ng (Option A: Primary)</td><td>[ŋ]</td><td class="ar">ڭ</td><td>Sağır Kāf</td><td>sing / thing</td><td class="ar">سڭ / ثڭ</td></tr>
+      <tr><td>ng (Option B: Variant)</td><td>[ŋ]</td><td class="ar">نگ</td><td>Nūn-Gāf</td><td>sing / thing</td><td class="ar">سنگ / ثنگ</td></tr>
+      <tr><td>l</td><td>[l]</td><td class="ar">ل</td><td>Lām</td><td>light</td><td class="ar">لایت</td></tr>
+      <tr><td>r</td><td>[ɹ]</td><td class="ar">ر</td><td>Rā</td><td>red / road</td><td class="ar">رد / رود</td></tr>
+      <tr><td>w</td><td>[w]</td><td class="ar">و</td><td>Waw</td><td>water / win</td><td class="ar">واتر / ون</td></tr>
+      <tr><td>y (consonant)</td><td>[j]</td><td class="ar">ی</td><td>Ye</td><td>yes / you</td><td class="ar">یس / یو</td></tr>
+      <tr><td>h</td><td>[h]</td><td class="ar">ه / ح</td><td>He</td><td>hope / hand</td><td class="ar">هوپ / هند</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Dental Fricatives (th: Sā ث vs. Zāl ذ)</h3>
+  <ul>
+    <li><strong>Voiceless th</strong> [θ] maps to <strong>Sā</strong> (<code>ث</code>): <code>thin</code> &rarr; <span class="ar">ثن</span>, <code>think</code> &rarr; <span class="ar">ثنڭ</span>, <code>three</code> &rarr; <span class="ar">ثرى</span>.</li>
+    <li><strong>Voiced th</strong> [ð] maps to <strong>Zāl</strong> (<code>ذ</code>): <code>this</code> &rarr; <span class="ar">ذس</span>, <code>the</code> &rarr; <span class="ar">ذ</span> / <span class="ar">ذا</span>, <code>they</code> &rarr; <span class="ar">ذى</span>.</li>
+  </ul>
+
+  <h3>Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)</h3>
+  <ul>
+    <li><strong>Option A (Primary - Sağır Kāf <code>ڭ</code>)</strong>: Uses Ottoman three-dotted Kāf for compact [ŋ]: <code>sing</code> &rarr; <span class="ar">سڭ</span>, <code>writing</code> &rarr; <span class="ar">رایتڭ</span>.</li>
+    <li><strong>Option B (Variant - Nūn-Gāf <code>نگ</code>)</strong>: Uses Nūn-Gāf digraph: <code>sing</code> &rarr; <span class="ar">سنگ</span>, <code>writing</code> &rarr; <span class="ar">رایتنگ</span>.</li>
+  </ul>
+
+  <h3>Labial Fricatives & Semivowels (v ڤ vs. w و)</h3>
+  <ul>
+    <li><strong>v</strong> [v] maps to <strong>Vā</strong> (<code>ڤ</code>): <code>very</code> &rarr; <span class="ar">ڤرى</span>, <code>voice</code> &rarr; <span class="ar">ڤویس</span>.</li>
+    <li><strong>w</strong> [w] maps to <strong>Waw</strong> (<code>و</code>): <code>water</code> &rarr; <span class="ar">واتر</span>, <code>win</code> &rarr; <span class="ar">ون</span>.</li>
+  </ul>
+
+  <h3>Palatals & Affricates (ch چ, sh ش, j ج, zh ژ)</h3>
+  <ul>
+    <li><strong>ch</strong> [tʃ] &rarr; <strong>Chā</strong> (<code>چ</code>): <code>chair</code> &rarr; <span class="ar">چیر</span>.</li>
+    <li><strong>sh</strong> [ʃ] &rarr; <strong>Shīn</strong> (<code>ش</code>): <code>ship</code> &rarr; <span class="ar">شپ</span>.</li>
+    <li><strong>j / soft g</strong> [dʒ] &rarr; <strong>Jīm</strong> (<code>ج</code>): <code>job</code> &rarr; <span class="ar">جاب</span>, <code>page</code> &rarr; <span class="ar">پیج</span>.</li>
+    <li><strong>zh</strong> [ʒ] &rarr; <strong>Žā</strong> (<code>ژ</code>): <code>vision</code> &rarr; <span class="ar">ڤژین</span>.</li>
+  </ul>
+
+  <!-- 2. Vowel System & Orthographic Carrier Engine -->
+  <h2 id="2-vowel-system--orthographic-carrier-engine">2. Vowel System & Orthographic Carrier Engine</h2>
+
+  <h3>Vowel Inventory & Rationale Table</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Vowel Sound</th>
+        <th>IPA</th>
+        <th>Graphic Carrier</th>
+        <th>Reasoning & Rule</th>
+        <th>Frequent Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Short i</td><td>[ɪ]</td><td class="ar">إ / implicit / ی</td><td>Kasrah vowel; unwritten medially in closed syllables.</td><td>in <span class="ar">إن</span>, it <span class="ar">إت</span>, sit <span class="ar">ست</span></td></tr>
+      <tr><td>Short e</td><td>[ɛ]</td><td class="ar">إ / implicit</td><td>Fatḥah/kasrah; unwritten medially to distinguish from long ee.</td><td>end <span class="ar">إند</span>, get <span class="ar">گت</span>, bed <span class="ar">بد</span></td></tr>
+      <tr><td>Short a</td><td>[æ]</td><td class="ar">ا</td><td>Plain Alif medially in key roots for broad open /æ/.</td><td>that <span class="ar">ذات</span>, man <span class="ar">مان</span>, cat <span class="ar">كات</span></td></tr>
+      <tr><td>Short o</td><td>[ɒ]/[ɑː]</td><td class="ar">او / ا</td><td>Alif or implicit ḍammah/fatḥah.</td><td>on <span class="ar">اون</span>, not <span class="ar">نات</span>, hot <span class="ar">هات</span></td></tr>
+      <tr><td>Short u</td><td>[ʌ]</td><td class="ar">ا / implicit</td><td>Central vowel; unwritten medially.</td><td>up <span class="ar">اپ</span>, bus <span class="ar">بس</span>, run <span class="ar">رن</span></td></tr>
+      <tr><td>Short oo</td><td>[ʊ]</td><td class="ar">و</td><td>Mirrors "oo" orthography for readability.</td><td>good <span class="ar">گود</span>, look <span class="ar">لوك</span>, book <span class="ar">بوك</span></td></tr>
+      <tr><td>Long ee</td><td>[iː]</td><td class="ar">ی</td><td>Standard front long vowel letter.</td><td>be <span class="ar">بہ</span>/<span class="ar">بى</span>, see <span class="ar">سى</span>, he <span class="ar">هى</span></td></tr>
+      <tr><td>Long oo</td><td>[uː]</td><td class="ar">و</td><td>Standard back long vowel letter.</td><td>too <span class="ar">تو</span>, do <span class="ar">دو</span>, you <span class="ar">یو</span></td></tr>
+      <tr><td>Broad aw</td><td>[ɔː]</td><td class="ar">آ</td><td>Denotes open broad back long vowel.</td><td>all <span class="ar">آل</span>, call <span class="ar">كال</span>, law <span class="ar">لا</span></td></tr>
+      <tr><td>Diphthong ay</td><td>[eɪ]</td><td class="ar">ای / ی</td><td>Open vowel + front glide.</td><td>make <span class="ar">میك</span>, day <span class="ar">دای</span>, they <span class="ar">ذای</span></td></tr>
+      <tr><td>Diphthong eye</td><td>[aɪ]</td><td class="ar">ای / آی</td><td>Open Alif + front Ye glide.</td><td>I <span class="ar">ای</span>, my <span class="ar">مای</span>, time <span class="ar">تایم</span></td></tr>
+      <tr><td>Diphthong oh</td><td>[oʊ]</td><td class="ar">او / و</td><td>Open Alif + back Waw glide.</td><td>go <span class="ar">گو</span>, so <span class="ar">سو</span>, home <span class="ar">هوم</span></td></tr>
+      <tr><td>Diphthong ow</td><td>[aʊ]</td><td class="ar">او / آو</td><td>Broad Alif + Waw glide.</td><td>out <span class="ar">آوت</span>, now <span class="ar">ناو</span>, how <span class="ar">هاو</span></td></tr>
+      <tr><td>Diphthong oy</td><td>[ɔɪ]</td><td class="ar">وی</td><td>Back Waw + front Ye glide.</td><td>boy <span class="ar">بوی</span>, voice <span class="ar">ڤویس</span>, point <span class="ar">پوینت</span></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Initial Vowel Carriers & Alif Madd Rules</h3>
+  <p>Initial vowels require <strong>Alif</strong> (<code>ا</code>) as graphic carrier: <code>apple</code> &rarr; <span class="ar">اپل</span> / <span class="ar">آپل</span>, <code>in</code> &rarr; <span class="ar">إن</span>, <code>open</code> &rarr; <span class="ar">اوپن</span>, <code>art</code> &rarr; <span class="ar">آرت</span>.</p>
+
+  <h3>Dual-Track Evaluation: Matres Lectionis vs. Silent 'e' Retention</h3>
+  <ul>
+    <li><strong>Track A (Direct Matres Lectionis - Default)</strong>: Silent final <em>e</em> is dropped: <code>make</code> &rarr; <span class="ar">میك</span>, <code>bite</code> &rarr; <span class="ar">بایت</span>, <code>note</code> &rarr; <span class="ar">نوت</span>.</li>
+    <li><strong>Track B (Silent 'e' Retention - Variant)</strong>: Preserves silent final <em>e</em> with He (<code>ه</code> / <code>ـہ</code>): <code>make</code> &rarr; <span class="ar">میكہ</span>, <code>bite</code> &rarr; <span class="ar">بایتہ</span>.</li>
+  </ul>
+
+  <!-- 3. Morphophonemic Rules & Domain Mapping -->
+  <h2 id="3-morphophonemic-rules--domain-mapping">3. Morphophonemic Rules & Domain Mapping</h2>
+
+  <div class="rule-box">
+    <h3>Rule I: Nominal Plural Domain (-hā / ـها)</h3>
+    <p>Plural nouns (<code>-s</code> / <code>-es</code>) attach the graphic logogram <strong><code>-hā</code> (<code>ـها</code>)</strong> to eliminate long Sīn tails and distinguish nominal plurals from verbal agreement: <code>books</code> &rarr; <span class="ar">بوكها</span>, <code>cats</code> &rarr; <span class="ar">كتها</span>, <code>dogs</code> &rarr; <span class="ar">داگها</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule II: Verbal Agreement & Lexical Sibilants (س / ز)</h3>
+    <p>3rd-person singular present verbs retain explicit phonetic <strong><code>س</code> / <code>ز</code></strong> so they are never confused with plural nouns: <code>he speaks</code> &rarr; <span class="ar">هى اسپیكس</span>, <code>she runs</code> &rarr; <span class="ar">شہ رنز</span>. Lexical sibilants retain Sīn/Zāy: <code>this</code> &rarr; <span class="ar">ذس</span>, <code>was</code> &rarr; <span class="ar">واز</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule III: Verbal Past Tense (-d / -t: ـد / ـت)</h3>
+    <p>Past tense <code>-ed</code> uses surface morphophonemic <strong><code>-d</code> (<code>ـد</code>)</strong> or <strong><code>-t</code> (<code>ـت</code>)</strong>: <code>walked</code> [t] &rarr; <span class="ar">واكت</span>, <code>played</code> [d] &rarr; <span class="ar">پلاید</span>, <code>wanted</code> [ɪd] &rarr; <span class="ar">وانتد</span>.</p>
+  </div>
+
+  <div class="rule-box">
+    <h3>Rule IV: Selective Silent He (ه / ـہ)</h3>
+    <p>Long vowels drop silent final <em>e</em> by default. Silent <strong>He (<code>ه</code> / <code>ـہ</code>)</strong> is reserved for short monosyllabic words (<code>be</code> &rarr; <span class="ar">بہ</span>, <code>me</code> &rarr; <span class="ar">مہ</span>, <code>she</code> &rarr; <span class="ar">شہ</span>) or explicit final <em>-es</em> / <em>-as</em> markers.</p>
+  </div>
+
+  <!-- 4. Master Paradigm Lookup Tables -->
+  <h2 id="4-master-paradigm-lookup-tables">4. Master Paradigm Lookup Tables</h2>
+
+  <h3>Determiners & Pronouns</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Word</th>
+        <th>IPA</th>
+        <th>Aljamiado Script</th>
+        <th>Morphophonemic Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>the</td><td>[ðə]</td><td class="ar">ذ / ذا</td><td>Voiced <em>th</em> (<code>ذ</code>)</td></tr>
+      <tr><td>this</td><td>[ðɪs]</td><td class="ar">ذس</td><td>Voiced <em>th</em> + Sīn</td></tr>
+      <tr><td>these</td><td>[ðiːz]</td><td class="ar">ذیزها / ذیسها</td><td>Nominal plural <code>-hā</code></td></tr>
+      <tr><td>that / those</td><td>[ðæt] / [ðoʊz]</td><td class="ar">ذات / ذوزها</td><td>Singular / Plural <code>-hā</code></td></tr>
+      <tr><td>I / my / me</td><td>[aɪ] / [maɪ] / [miː]</td><td class="ar">ای / مای / مہ</td><td>Personal pronouns</td></tr>
+      <tr><td>he / she / it</td><td>[hiː] / [ʃiː] / [ɪt]</td><td class="ar">هى / شہ / إت</td><td>3rd person singular</td></tr>
+      <tr><td>we / they</td><td>[wiː] / [ðeɪ]</td><td class="ar">وى / ذى</td><td>Personal plurals</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Nominal & Adjectival Inflection</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Base Lemma</th>
+        <th>Singular Script</th>
+        <th>Plural Form</th>
+        <th>Plural Script</th>
+        <th>Applied Rule</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>book</td><td class="ar">بوك</td><td>books</td><td class="ar">بوكها</td><td>Nominal <code>-hā</code></td></tr>
+      <tr><td>cat</td><td class="ar">كات</td><td>cats</td><td class="ar">كتها</td><td>Nominal <code>-hā</code></td></tr>
+      <tr><td>dog</td><td class="ar">داگ</td><td>dogs</td><td class="ar">داگها</td><td>Nominal <code>-hā</code></td></tr>
+      <tr><td>city</td><td class="ar">ستى</td><td>cities</td><td class="ar">ستیها</td><td>Nominal <code>-hā</code></td></tr>
+    </tbody>
+  </table>
+
+  <h3>Verbal Paradigms</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Example Construction</th>
+        <th>Aljamiado Script</th>
+        <th>Sibilant / Tense Handling</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>3rd Sing. Present</td><td>he speaks</td><td class="ar">هى اسپیكس</td><td>Verbal Sīn (<code>س</code>)</td></tr>
+      <tr><td>3rd Sing. Present</td><td>she runs</td><td class="ar">شہ رنز</td><td>Verbal Zāy (<code>ز</code>)</td></tr>
+      <tr><td>Past Tense (-t)</td><td>he walked</td><td class="ar">هى واكت</td><td>Surface past tense <code>-t</code> (<code>ـت</code>)</td></tr>
+      <tr><td>Past Tense (-d)</td><td>she played</td><td class="ar">شہ پلاید</td><td>Surface past tense <code>-d</code> (<code>ـد</code>)</td></tr>
+    </tbody>
+  </table>
+
+  <!-- 5. Expanded Corpus & Sample Transcriptions -->
+  <h2 id="5-expanded-corpus--sample-transcriptions">5. Expanded Corpus & Sample Transcriptions</h2>
+  <div class="corpus-list">
+        <div class="card">
       <div class="card-meta">Pangram & Benchmark</div>
       <div class="english">The quick brown fox jumps over the lazy dog.</div>
       <div class="ipa">[ðə kwɪk braʊn fɒks dʒʌmps ˈoʊvər ðə ˈleɪzi dɒɡ]</div>
@@ -399,106 +695,10 @@
       <div class="perso-arabic ar">تو رودها داىڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.</div>
       <div class="notes">Plural (رودها), past tense -d (داىڤرجد, ترڤلد), diphthong eye (ای, بای).</div>
     </div>
-
-  </div>
-
-  <!-- Complete System Description & Specification -->
-  <h2>2. System Overview & Principles</h2>
-  <p><strong>Aljamiado English</strong> is a morphophonemic adaptation of the Perso-Arabic script for the English language, modeled directly after <code>aljamiado/index.org</code> (Aljamiado Português). It prioritizes horizontal rhythm, phonetic precision, and morphological clarity.</p>
-
-  <h2>3. Consonant Inventory</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Latin Grapheme</th>
-        <th>IPA</th>
-        <th>Perso-Arabic Letter</th>
-        <th>Letter Name</th>
-        <th>Paired Examples (English Latin &rarr; Aljamiado Script)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>b</td><td>[b]</td><td class="ar">ب</td><td>Bā</td><td><span class="pair-item"><em>book</em> &rarr; <span class="ar">بوك</span></span></td></tr>
-      <tr><td>p</td><td>[p]</td><td class="ar">پ</td><td>Pā</td><td><span class="pair-item"><em>park</em> &rarr; <span class="ar">پارك</span></span></td></tr>
-      <tr><td>t</td><td>[t]</td><td class="ar">ت</td><td>Tā</td><td><span class="pair-item"><em>time</em> &rarr; <span class="ar">تایم</span></span></td></tr>
-      <tr><td>d</td><td>[d]</td><td class="ar">د</td><td>Dāl</td><td><span class="pair-item"><em>day</em> &rarr; <span class="ar">دای</span></span></td></tr>
-      <tr><td>k / c / q</td><td>[k]</td><td class="ar">ك</td><td>Kāf</td><td><span class="pair-item"><em>cat</em> &rarr; <span class="ar">كات</span></span> <span class="pair-item"><em>kind</em> &rarr; <span class="ar">كایند</span></span></td></tr>
-      <tr><td>g (hard)</td><td>[ɡ]</td><td class="ar">گ</td><td>Gāf</td><td><span class="pair-item"><em>good</em> &rarr; <span class="ar">گود</span></span> <span class="pair-item"><em>go</em> &rarr; <span class="ar">گو</span></span></td></tr>
-      <tr><td>f</td><td>[f]</td><td class="ar">ف</td><td>Fā</td><td><span class="pair-item"><em>find</em> &rarr; <span class="ar">فایند</span></span></td></tr>
-      <tr><td>v</td><td>[v]</td><td class="ar">ڤ</td><td>Vā</td><td><span class="pair-item"><em>very</em> &rarr; <span class="ar">ڤرى</span></span> <span class="pair-item"><em>voice</em> &rarr; <span class="ar">ڤویس</span></span></td></tr>
-      <tr><td>th (voiceless)</td><td>[θ]</td><td class="ar">ث</td><td>Sā</td><td><span class="pair-item"><em>thin</em> &rarr; <span class="ar">ثن</span></span> <span class="pair-item"><em>think</em> &rarr; <span class="ar">ثنك</span></span></td></tr>
-      <tr><td>th (voiced)</td><td>[ð]</td><td class="ar">ذ</td><td>Zāl</td><td><span class="pair-item"><em>this</em> &rarr; <span class="ar">ذس</span></span> <span class="pair-item"><em>the</em> &rarr; <span class="ar">ذ</span></span></td></tr>
-      <tr><td>s (voiceless)</td><td>[s]</td><td class="ar">س</td><td>Sīn</td><td><span class="pair-item"><em>sun</em> &rarr; <span class="ar">سن</span></span> <span class="pair-item"><em>city</em> &rarr; <span class="ar">ستى</span></span></td></tr>
-      <tr><td>z / s (voiced)</td><td>[z]</td><td class="ar">ز</td><td>Zāy</td><td><span class="pair-item"><em>zoo</em> &rarr; <span class="ar">زو</span></span> <span class="pair-item"><em>easy</em> &rarr; <span class="ar">إیزى</span></span></td></tr>
-      <tr><td>sh</td><td>[ʃ]</td><td class="ar">ش</td><td>Shīn</td><td><span class="pair-item"><em>ship</em> &rarr; <span class="ar">شپ</span></span> <span class="pair-item"><em>show</em> &rarr; <span class="ar">شو</span></span></td></tr>
-      <tr><td>ch</td><td>[tʃ]</td><td class="ar">چ</td><td>Chā</td><td><span class="pair-item"><em>chair</em> &rarr; <span class="ar">چیر</span></span> <span class="pair-item"><em>much</em> &rarr; <span class="ar">مچ</span></span></td></tr>
-      <tr><td>j / soft g</td><td>[dʒ]</td><td class="ar">ج</td><td>Jīm</td><td><span class="pair-item"><em>job</em> &rarr; <span class="ar">جاب</span></span> <span class="pair-item"><em>page</em> &rarr; <span class="ar">پیج</span></span></td></tr>
-      <tr><td>zh</td><td>[ʒ]</td><td class="ar">ژ</td><td>Žā</td><td><span class="pair-item"><em>vision</em> &rarr; <span class="ar">ڤژین</span></span> <span class="pair-item"><em>measure</em> &rarr; <span class="ar">مژر</span></span></td></tr>
-      <tr><td>m</td><td>[m]</td><td class="ar">م</td><td>Mīm</td><td><span class="pair-item"><em>man</em> &rarr; <span class="ar">مان</span></span></td></tr>
-      <tr><td>n</td><td>[n]</td><td class="ar">ن</td><td>Nūn</td><td><span class="pair-item"><em>name</em> &rarr; <span class="ar">نیم</span></span></td></tr>
-      <tr><td>ng (Option A)</td><td>[ŋ]</td><td class="ar">ڭ</td><td>Sağır Kāf</td><td><span class="pair-item"><em>sing</em> &rarr; <span class="ar">سڭ</span></span> <span class="pair-item"><em>thing</em> &rarr; <span class="ar">ثڭ</span></span></td></tr>
-      <tr><td>ng (Option B)</td><td>[ŋ]</td><td class="ar">نگ</td><td>Nūn-Gāf</td><td><span class="pair-item"><em>sing</em> &rarr; <span class="ar">سنگ</span></span> <span class="pair-item"><em>thing</em> &rarr; <span class="ar">ثنگ</span></span></td></tr>
-      <tr><td>l</td><td>[l]</td><td class="ar">ل</td><td>Lām</td><td><span class="pair-item"><em>light</em> &rarr; <span class="ar">لایت</span></span></td></tr>
-      <tr><td>r</td><td>[ɹ]</td><td class="ar">ر</td><td>Rā</td><td><span class="pair-item"><em>red</em> &rarr; <span class="ar">رد</span></span> <span class="pair-item"><em>road</em> &rarr; <span class="ar">رود</span></span></td></tr>
-      <tr><td>w</td><td>[w]</td><td class="ar">و</td><td>Waw</td><td><span class="pair-item"><em>water</em> &rarr; <span class="ar">واتر</span></span> <span class="pair-item"><em>win</em> &rarr; <span class="ar">ون</span></span></td></tr>
-      <tr><td>y</td><td>[j]</td><td class="ar">ی</td><td>Ye</td><td><span class="pair-item"><em>yes</em> &rarr; <span class="ar">یس</span></span> <span class="pair-item"><em>you</em> &rarr; <span class="ar">یو</span></span></td></tr>
-      <tr><td>h</td><td>[h]</td><td class="ar">ه / ح</td><td>He</td><td><span class="pair-item"><em>hope</em> &rarr; <span class="ar">هوپ</span></span> <span class="pair-item"><em>hand</em> &rarr; <span class="ar">هند</span></span></td></tr>
-    </tbody>
-  </table>
-
-  <h2>4. Vowel System & Matres Lectionis</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Vowel Sound</th>
-        <th>IPA</th>
-        <th>Graphic Carrier</th>
-        <th>Reasoning & Rule</th>
-        <th>Paired Examples (English Latin &rarr; Aljamiado Script)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Short i</td><td>[ɪ]</td><td class="ar">إ / implicit</td><td>Kasrah vowel; unwritten medially in closed syllables.</td><td><span class="pair-item"><em>in</em> &rarr; <span class="ar">إن</span></span> <span class="pair-item"><em>it</em> &rarr; <span class="ar">إت</span></span> <span class="pair-item"><em>sit</em> &rarr; <span class="ar">ست</span></span> <span class="pair-item"><em>with</em> &rarr; <span class="ar">وث</span></span></td></tr>
-      <tr><td>Short e</td><td>[ɛ]</td><td class="ar">إ / implicit</td><td>Fatḥah/kasrah; unwritten medially to distinguish from long ee.</td><td><span class="pair-item"><em>end</em> &rarr; <span class="ar">إند</span></span> <span class="pair-item"><em>get</em> &rarr; <span class="ar">گت</span></span> <span class="pair-item"><em>them</em> &rarr; <span class="ar">ذم</span></span> <span class="pair-item"><em>bed</em> &rarr; <span class="ar">بد</span></span></td></tr>
-      <tr><td>Short a</td><td>[æ]</td><td class="ar">ا</td><td>Plain Alif medially in key roots for broad open /æ/.</td><td><span class="pair-item"><em>that</em> &rarr; <span class="ar">ذات</span></span> <span class="pair-item"><em>man</em> &rarr; <span class="ar">مان</span></span> <span class="pair-item"><em>have</em> &rarr; <span class="ar">هڤ</span></span> <span class="pair-item"><em>cat</em> &rarr; <span class="ar">كات</span></span></td></tr>
-      <tr><td>Short o</td><td>[ɒ]/[ɑː]</td><td class="ar">او / ا</td><td>Alif or implicit ḍammah/fatḥah.</td><td><span class="pair-item"><em>on</em> &rarr; <span class="ar">اون</span></span> <span class="pair-item"><em>not</em> &rarr; <span class="ar">نات</span></span> <span class="pair-item"><em>hot</em> &rarr; <span class="ar">هات</span></span> <span class="pair-item"><em>from</em> &rarr; <span class="ar">فرام</span></span></td></tr>
-      <tr><td>Short u</td><td>[ʌ]</td><td class="ar">ا / implicit</td><td>Central vowel; unwritten medially.</td><td><span class="pair-item"><em>up</em> &rarr; <span class="ar">اپ</span></span> <span class="pair-item"><em>bus</em> &rarr; <span class="ar">بس</span></span> <span class="pair-item"><em>run</em> &rarr; <span class="ar">رن</span></span> <span class="pair-item"><em>but</em> &rarr; <span class="ar">بت</span></span></td></tr>
-      <tr><td>Short oo</td><td>[ʊ]</td><td class="ar">و</td><td>Mirrors "oo" orthography for readability.</td><td><span class="pair-item"><em>good</em> &rarr; <span class="ar">گود</span></span> <span class="pair-item"><em>look</em> &rarr; <span class="ar">لوك</span></span> <span class="pair-item"><em>book</em> &rarr; <span class="ar">بوك</span></span> <span class="pair-item"><em>put</em> &rarr; <span class="ar">پوت</span></span></td></tr>
-      <tr><td>Long ee</td><td>[iː]</td><td class="ar">ی</td><td>Standard front long vowel letter.</td><td><span class="pair-item"><em>be</em> &rarr; <span class="ar">بہ</span></span> <span class="pair-item"><em>see</em> &rarr; <span class="ar">سى</span></span> <span class="pair-item"><em>he</em> &rarr; <span class="ar">هى</span></span> <span class="pair-item"><em>she</em> &rarr; <span class="ar">شہ</span></span></td></tr>
-      <tr><td>Long oo</td><td>[uː]</td><td class="ar">و</td><td>Standard back long vowel letter.</td><td><span class="pair-item"><em>too</em> &rarr; <span class="ar">تو</span></span> <span class="pair-item"><em>do</em> &rarr; <span class="ar">دو</span></span> <span class="pair-item"><em>who</em> &rarr; <span class="ar">هو</span></span> <span class="pair-item"><em>you</em> &rarr; <span class="ar">یو</span></span></td></tr>
-      <tr><td>Broad aw</td><td>[ɔː]</td><td class="ar">آ</td><td>Denotes open broad back long vowel.</td><td><span class="pair-item"><em>all</em> &rarr; <span class="ar">آل</span></span> <span class="pair-item"><em>call</em> &rarr; <span class="ar">كال</span></span> <span class="pair-item"><em>law</em> &rarr; <span class="ar">لا</span></span> <span class="pair-item"><em>water</em> &rarr; <span class="ar">واتر</span></span></td></tr>
-      <tr><td>Diphthong ay</td><td>[eɪ]</td><td class="ar">ای / ی</td><td>Open vowel + front glide.</td><td><span class="pair-item"><em>make</em> &rarr; <span class="ar">میك</span></span> <span class="pair-item"><em>day</em> &rarr; <span class="ar">دای</span></span> <span class="pair-item"><em>they</em> &rarr; <span class="ar">ذای</span></span></td></tr>
-      <tr><td>Diphthong eye</td><td>[aɪ]</td><td class="ar">ای / آی</td><td>Open Alif + front Ye glide.</td><td><span class="pair-item"><em>I</em> &rarr; <span class="ar">ای</span></span> <span class="pair-item"><em>my</em> &rarr; <span class="ar">مای</span></span> <span class="pair-item"><em>time</em> &rarr; <span class="ar">تایم</span></span> <span class="pair-item"><em>like</em> &rarr; <span class="ar">لایك</span></span></td></tr>
-      <tr><td>Diphthong oh</td><td>[oʊ]</td><td class="ar">او / و</td><td>Open Alif + back Waw glide.</td><td><span class="pair-item"><em>go</em> &rarr; <span class="ar">گو</span></span> <span class="pair-item"><em>so</em> &rarr; <span class="ar">سو</span></span> <span class="pair-item"><em>no</em> &rarr; <span class="ar">نو</span></span> <span class="pair-item"><em>home</em> &rarr; <span class="ar">هوم</span></span></td></tr>
-      <tr><td>Diphthong ow</td><td>[aʊ]</td><td class="ar">او / آو</td><td>Broad Alif + Waw glide.</td><td><span class="pair-item"><em>out</em> &rarr; <span class="ar">آوت</span></span> <span class="pair-item"><em>now</em> &rarr; <span class="ar">ناو</span></span> <span class="pair-item"><em>how</em> &rarr; <span class="ar">هاو</span></span> <span class="pair-item"><em>down</em> &rarr; <span class="ar">داون</span></span></td></tr>
-      <tr><td>Diphthong oy</td><td>[ɔɪ]</td><td class="ar">وی</td><td>Back Waw + front Ye glide.</td><td><span class="pair-item"><em>boy</em> &rarr; <span class="ar">بوی</span></span> <span class="pair-item"><em>voice</em> &rarr; <span class="ar">ڤویس</span></span> <span class="pair-item"><em>point</em> &rarr; <span class="ar">پوینت</span></span></td></tr>
-    </tbody>
-  </table>
-
-  <h2>5. Morphophonemic Rules</h2>
-
-  <div class="rule-box">
-    <h3>Rule I: Nominal Plural Domain (-hā / ـها)</h3>
-    <p>Plural nouns (<code>-s</code> / <code>-es</code>) attach the graphic logogram <strong><code>-hā</code> (<code>ـها</code>)</strong> to eliminate long Sīn tails and distinguish nominal plurals from verbal agreement: <code>books</code> &rarr; <span class="ar">بوكها</span>, <code>cats</code> &rarr; <span class="ar">كتها</span>, <code>dogs</code> &rarr; <span class="ar">داگها</span>.</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Rule II: Verbal Agreement & Lexical Sibilants (س / ز)</h3>
-    <p>3rd-person singular present verbs retain explicit phonetic <strong><code>س</code> / <code>ز</code></strong> so they are never confused with plural nouns: <code>he speaks</code> &rarr; <span class="ar">هى اسپیكس</span>, <code>she runs</code> &rarr; <span class="ar">شہ رنز</span>. Lexical sibilants retain Sīn/Zāy: <code>this</code> &rarr; <span class="ar">ذس</span>, <code>was</code> &rarr; <span class="ar">واز</span>.</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Rule III: Verbal Past Tense (-d / -t: ـد / ـت)</h3>
-    <p>Past tense <code>-ed</code> uses surface morphophonemic <strong><code>-d</code> (<code>ـد</code>)</strong> or <strong><code>-t</code> (<code>ـت</code>)</strong>: <code>walked</code> [t] &rarr; <span class="ar">واكت</span>, <code>played</code> [d] &rarr; <span class="ar">پلاید</span>, <code>wanted</code> [ɪd] &rarr; <span class="ar">وانتد</span>.</p>
-  </div>
-
-  <div class="rule-box">
-    <h3>Rule IV: Selective Silent He (ه / ـہ)</h3>
-    <p>Long vowels drop silent final <em>e</em> by default (<code>make</code> &rarr; <span class="ar">میك</span>, <code>bite</code> &rarr; <span class="ar">بایت</span>). Silent <strong>He (<code>ه</code> / <code>ـہ</code>)</strong> is reserved for short monosyllabic words (<code>be</code> &rarr; <span class="ar">بہ</span>, <code>me</code> &rarr; <span class="ar">مہ</span>, <code>she</code> &rarr; <span class="ar">شہ</span>) or explicit final <em>-es</em> / <em>-as</em> markers.</p>
   </div>
 
   <footer>
-    <p>Aljamiado English Specification & Corpus &bull; Modeled on <code>aljamiado/index.org</code></p>
+    <p>Aljamiado English Specification & Corpus &bull; Modeled on <code>index.org</code></p>
   </footer>
 </div>
 
@@ -508,7 +708,9 @@
 
     var btns = document.querySelectorAll('.btn-group .btn');
     for (var i = 0; i < btns.length; i++) {
-      btns[i].classList.remove('active');
+      if (btns[i].id && btns[i].id.startsWith('btn-')) {
+        btns[i].classList.remove('active');
+      }
     }
     var activeBtn = document.getElementById('btn-' + fontKey);
     if (activeBtn) {
