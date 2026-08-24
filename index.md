@@ -1,57 +1,54 @@
-# Aljamiado English: Orthographic & Morphophonemic Specification
+#+TITLE: Aljamiado English: Orthographic & Morphophonemic Specification
+#+AUTHOR: Umar
+#+DATE: [2026-08-23 Sun]
+#+FILETAGS: :aljamiado:english:orthography:linguistics:script:persian:
 
-**Author**: Umar  
-**Date**: 2026-08-23  
-**Tags**: `#aljamiado` `#english` `#orthography` `#linguistics` `#script` `#persian`
+# Table of Contents :toc:
+- Introduction & Overview
+- 1. Consonant Inventory & Perso-Arabic Mapping
+  - Consonant Mapping Table
+  - Dental Fricatives (th: Sā ث vs. Zāl ذ)
+  - Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)
+  - Labial Fricatives & Semivowels (v ڤ vs. w و)
+  - Palatals & Affricates (ch چ, sh ش, j ج, zh ژ)
+- 2. Vowel System & Orthographic Carrier Engine
+  - Vowel Inventory & Rationale Table
+  - Initial Vowel Carriers & Alif Madd Rules
+  - Dual-Track Evaluation: Matres Lectionis vs. Silent 'e' Retention
+- 3. Morphophonemic Rules & Domain Mapping
+  - Rule I: Nominal Plural Domain (-hā / ـها)
+  - Rule II: Verbal Agreement & Lexical Sibilant Domain (س / ز)
+  - Rule III: Verbal Past Tense Domain (-d / -t: ـد / ـت)
+  - Rule IV: Selective Silent He (ه / ـہ)
+- 4. Master Paradigm Lookup Tables
+  - Determiners & Pronouns
+  - Nominal & Adjectival Inflection
+  - Verbal Paradigms
+- 5. Expanded Corpus & Sample Transcriptions
+  - Pangrams & Benchmarks
+  - Literature & Classic Proverbs
+  - Famous Speeches & Historical Documents
+  - Technology & Modern Conversation
+  - Poetry & Rhymes
 
----
-
-## Table of Contents
-1. [Introduction & Overview](#introduction--overview)
-2. [1. Consonant Inventory & Perso-Arabic Mapping](#1-consonant-inventory--perso-arabic-mapping)
-   - [Consonant Mapping Table](#consonant-mapping-table)
-   - [Dental Fricatives (th: Sā ث vs. Zāl ذ)](#dental-fricatives-th-s%C4%81-%D8%AB-vs-z%C4%81l-%D8%B0)
-   - [Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)](#velar-nasal-ng-sa%C4%9F%C4%B1r-k%C4%81f-%DA%AD-vs-n%C5%ABn-g%C4%81f-%D9%86%DA%AF)
-   - [Labial Fricatives & Semivowels (v ڤ vs. w و)](#labial-fricatives--semivowels-v-%DA%A4-vs-w-%D9%88)
-   - [Palatals & Affricates (ch چ, sh ش, j ج, zh ژ)](#palatals--affricates-ch-%DA%86-sh-%D8%B4-j-%D8%AC-zh-%DA%98)
-3. [2. Vowel System & Orthographic Carrier Engine](#2-vowel-system--orthographic-carrier-engine)
-   - [Vowel Inventory & Rationale Table](#vowel-inventory--rationale-table)
-   - [Initial Vowel Carriers & Alif Madd Rules](#initial-vowel-carriers--alif-madd-rules)
-   - [Dual-Track Evaluation: Matres Lectionis vs. Silent 'e' Retention](#dual-track-evaluation-matres-lectionis-vs-silent-e-retention)
-4. [3. Morphophonemic Rules & Domain Mapping](#3-morphophonemic-rules--domain-mapping)
-   - [Rule I: Nominal Plural Domain (-hā / ـها)](#rule-i-nominal-plural-domain--h%C4%81---%D9%80%D9%87%D8%A7)
-   - [Rule II: Verbal Agreement & Lexical Sibilant Domain (س / ز)](#rule-ii-verbal-agreement--lexical-sibilant-domain-%D8%B3--%D8%B2)
-   - [Rule III: Verbal Past Tense Domain (-d / -t: ـد / ـت)](#rule-iii-verbal-past-tense-domain--d---t-%D9%80%D8%AF--%D9%80%D8%AA)
-   - [Rule IV: Selective Silent He (ه / ـہ)](#rule-iv-selective-silent-he-%D9%87--%D9%80%D9%87)
-5. [4. Master Paradigm Lookup Tables](#4-master-paradigm-lookup-tables)
-   - [Determiners & Pronouns](#determiners--pronouns)
-   - [Nominal & Adjectival Inflection](#nominal--adjectival-inflection)
-   - [Verbal Paradigms](#verbal-paradigms)
-6. [5. Expanded Corpus & Sample Transcriptions](#5-expanded-corpus--sample-transcriptions)
-
----
-
-## Introduction & Overview
-
+# Introduction & Overview
 *Bismillah al-Rahman al-Rahim* (In the name of God, the Most Gracious, the Most Merciful).
 
 **Aljamiado English** (*English Aljamiado* / *Inglês Aljamiado*) is a systematic, morphophonemic adaptation of the Perso-Arabic script designed to write the English language. Modeled directly after the architectural framework of *Aljamiado Português*, this system adapts historic Perso-Arabic letterforms, orthographic logic, and specialized extensions (such as Ottoman Sağır Kāf `ڭ`) to transcribe English text cleanly.
 
-An interactive typography studio with a **Dank Nasta'liq Font Toggle** is available in [index.html](index.html).
+An interactive typography studio with a **Dank Nasta'liq Font Toggle** is available in [[file:index.html][index.html]].
 
 This specification formalizes the orthographic engine for English. The system prioritizes:
 1. **Morphophonemic Clarity**: Distinguishing nominal plural inflection (`-hā` / `ـها`) from verbal agreement sibilants (`س` / `ز`), preventing cluttered horizontal text flow.
 2. **Graphic & Historical Precision**: Leveraging **Sā** (`ث`) for voiceless *th* [θ], **Zāl** (`ذ`) for voiced *th* [ð], **Sağır Kāf** (`ڭ`) for velar nasal [ŋ], and **Vā** (`ڤ`) for [v].
 3. **Dual-Track Vowel Flexibility**: Providing both direct **Matres Lectionis** (dropping unpronounced final silent *e*) and explicit **Silent-e Retention** (`ه` / `ـہ`) to evaluate reading/writing ergonomics.
 
----
+# 1. Consonant Inventory & Perso-Arabic Mapping
 
-## 1. Consonant Inventory & Perso-Arabic Mapping
-
-### Consonant Mapping Table
+## Consonant Mapping Table
 
 | Latin Grapheme | IPA Sound | Perso-Arabic Letter | Letter Name | Example Word | Aljamiado Script |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+|----------------+-----------+---------------------+-------------+--------------+------------------|
 | **b** | [b] | **ب** | Bā | *book* | `بوك` |
 | **p** | [p] | **پ** | Pā | *park* | `پارك` |
 | **t** | [t] | **ت** | Tā | *time* | `تایم` |
@@ -78,25 +75,33 @@ This specification formalizes the orthographic engine for English. The system pr
 | **y** (consonant) | [j] | **ی** | Ye | *yes* / *you* | `یس` / `یو` |
 | **h** | [h] | **ه** / **ح** | He | *hope* / *hand* | `هوپ` / `هند` |
 
-### Dental Fricatives (th: Sā ث vs. Zāl ذ)
+## Dental Fricatives (th: Sā ث vs. Zāl ذ)
 To maintain historical Arabic-Perso orthographic accuracy:
 - **Voiceless th** [θ] maps to **Sā** (`ث`): *thin* $\rightarrow$ `ثن`, *think* $\rightarrow$ `ثنڭ`, *three* $\rightarrow$ `ثرى`
 - **Voiced th** [ð] maps to **Zāl** (`ذ`): *this* $\rightarrow$ `ذس`, *the* $\rightarrow$ `ذ` / `ذا`, *they* $\rightarrow$ `ذى` / `ذای`
 
-### Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)
+## Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)
 - **Option A (Primary - Sağır Kāf `ڭ`)**: Uses Ottoman three-dotted Kāf to write [ŋ] compactly:
   - *sing* $\rightarrow$ `سڭ` | *thing* $\rightarrow$ `ثڭ` | *writing* $\rightarrow$ `رایتڭ` | *king* $\rightarrow$ `كڭ`
 - **Option B (Secondary Variant - Nūn-Gāf `نگ`)**: Digraph Nūn-Gāf:
   - *sing* $\rightarrow$ `سنگ` | *thing* $\rightarrow$ `ثنگ` | *writing* $\rightarrow$ `رایتنگ` | *king* $\rightarrow$ `كنگ`
 
----
+## Labial Fricatives & Semivowels (v ڤ vs. w و)
+- **v** [v] maps to **Vā** (`ڤ`): *very* $\rightarrow$ `ڤرى`, *voice* $\rightarrow$ `ڤویس`
+- **w** [w] maps to **Waw** (`و`): *water* $\rightarrow$ `واتر`, *win* $\rightarrow$ `ون`
 
-## 2. Vowel System & Orthographic Carrier Engine
+## Palatals & Affricates (ch چ, sh ش, j ج, zh ژ)
+- **ch** [tʃ] $\rightarrow$ **Chā** (`چ`): *chair* $\rightarrow$ `چیر`, *much* $\rightarrow$ `مچ`
+- **sh** [ʃ] $\rightarrow$ **Shīn** (`ش`): *ship* $\rightarrow$ `شپ`, *show* $\rightarrow$ `شو`
+- **j / soft g** [dʒ] $\rightarrow$ **Jīm** (`ج`): *job* $\rightarrow$ `جاب`, *page* $\rightarrow$ `پیج`
+- **zh** [ʒ] $\rightarrow$ **Žā** (`ژ`): *vision* $\rightarrow$ `ڤژین`, *measure* $\rightarrow$ `مژر`
 
-### Vowel Inventory & Rationale Table
+# 2. Vowel System & Orthographic Carrier Engine
+
+## Vowel Inventory & Rationale Table
 
 | Vowel Sound | IPA | Graphic Carrier | Reasoning & Orthographic Rule | Frequent Word Examples |
-| :--- | :--- | :--- | :--- | :--- |
+|-------------+-----+-----------------+--------------------------------+------------------------|
 | **Short i** | [ɪ] | `إ` / implicit / `ی` | Kasrah vowel; unwritten medially in closed syllables. | *in* `إن`, *it* `إت`, *is* `إز`, *sit* `ست`, *with* `وث` |
 | **Short e** | [ɛ] | `إ` / implicit | Fatḥah/kasrah; unwritten medially to distinguish from long *ee*. | *end* `إند`, *get* `گت`, *them* `ذم`, *bed* `بد` |
 | **Short a** | [æ] | `ا` (Alif) | Plain Alif medially in key roots for broad open /æ/. | *that* `ذات`, *man* `مان`, *have* `هڤ`, *cat* `كات` |
@@ -112,30 +117,33 @@ To maintain historical Arabic-Perso orthographic accuracy:
 | **Diphthong ow** | [aʊ] | `او` / `آو` | Broad Alif + Waw glide. | *out* `آوت`, *now* `ناو`, *how* `هاو`, *down* `داون` |
 | **Diphthong oy** | [ɔɪ] | `وی` | Back Waw + front Ye glide. | *boy* `بوی`, *voice* `ڤویس`, *point* `پوینت` |
 
----
+## Initial Vowel Carriers & Alif Madd Rules
+- Initial vowels require **Alif** (`ا`) as graphic carrier: *apple* $\rightarrow$ `اپل` / `آپل`, *in* $\rightarrow$ `إن`, *open* $\rightarrow$ `اوپن`, *art* $\rightarrow$ `آرت`.
 
-## 3. Morphophonemic Rules & Domain Mapping
+## Dual-Track Evaluation: Matres Lectionis vs. Silent 'e' Retention
+- **Track A (Direct Matres Lectionis - Default)**: Silent final *e* is dropped (`میك`, `بایت`, `نوت`, `كیوت`).
+- **Track B (Silent 'e' Retention - Variant)**: Preserves silent final *e* with He (`ه` / `ـہ`) (`میكہ`, `بایتہ`, `نوتہ`, `كیوتہ`).
 
-### Rule I: Nominal Plural Domain (-hā / ـها)
+# 3. Morphophonemic Rules & Domain Mapping
+
+## Rule I: Nominal Plural Domain (-hā / ـها)
 Nominal plurals (`-s` / `-es`) use graphic logogram **`-hā` (`ـها`)**: *books* $\rightarrow$ `بوكها`, *cats* $\rightarrow$ `كتها`, *dogs* $\rightarrow$ `داگها`, *cities* $\rightarrow$ `ستیها`.
 
-### Rule II: Verbal Agreement & Lexical Sibilant Domain (س / ز)
+## Rule II: Verbal Agreement & Lexical Sibilant Domain (س / ز)
 3rd-person singular verbs and lexical sibilants retain explicit `س` / `ز`: *he speaks* $\rightarrow$ `هى اسپیكس`, *she runs* $\rightarrow$ `شہ رنز`, *this* $\rightarrow$ `ذس`.
 
-### Rule III: Verbal Past Tense Domain (-d / -t: ـد / ـت)
+## Rule III: Verbal Past Tense Domain (-d / -t: ـد / ـت)
 Past tense `-ed` uses surface morphophonemic **`-d` (`ـد`)** or **`-t` (`ـت`)**: *walked* [t] $\rightarrow$ `واكت`, *played* [d] $\rightarrow$ `پلاید`, *wanted* [ɪd] $\rightarrow$ `وانتد`.
 
-### Rule IV: Selective Silent He (ه / ـہ)
+## Rule IV: Selective Silent He (ه / ـہ)
 Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or explicit *-es* / *-as* markers.
 
----
+# 4. Master Paradigm Lookup Tables
 
-## 4. Master Paradigm Lookup Tables
-
-### Determiners & Pronouns
+## Determiners & Pronouns
 
 | Word | IPA | Aljamiado Script | Morphophonemic Notes |
-| :--- | :--- | :--- | :--- |
+|------+-----+------------------+----------------------|
 | **the** | [ðə] | `ذ` / `ذا` | Voiced *th* (`ذ`) |
 | **this** | [ðɪs] | `ذس` | Voiced *th* + Sīn |
 | **these** | [ðiːz] | `ذیزها` / `ذیسها` | Nominal plural `-hā` |
@@ -144,16 +152,32 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
 | **he / she / it**| [hiː] / [ʃiː] / [ɪt]| `هى` / `شہ` / `إت` | 3rd person singular |
 | **we / they** | [wiː] / [ðeɪ] | `وى` / `ذى` | Personal plurals |
 
----
+## Nominal & Adjectival Inflection
 
-## 5. Expanded Corpus & Sample Transcriptions
+| Base Lemma | Singular Script | Plural Form | Plural Script | Applied Rule |
+|------------+-----------------+-------------+---------------+--------------|
+| **book** | `بوك` | *books* | `بوكها` | Nominal `-hā` |
+| **cat** | `كات` | *cats* | `كتها` | Nominal `-hā` |
+| **dog** | `داگ` | *dogs* | `داگها` | Nominal `-hā` |
+| **city** | `ستى` | *cities* | `ستیها` | Nominal `-hā` |
 
-### Pangrams & Benchmarks
+## Verbal Paradigms
+
+| Category | Example Construction | Aljamiado Script | Sibilant / Tense Handling |
+|----------+----------------------+------------------+---------------------------|
+| **3rd Sing. Present** | *he speaks* | `هى اسپیكس` | Verbal Sīn (`س`) |
+| **3rd Sing. Present** | *she runs* | `شہ رنز` | Verbal Zāy (`ز`) |
+| **Past Tense (-t)** | *he walked* | `هى واكت` | Surface past tense `-t` (`ـت`) |
+| **Past Tense (-d)** | *she played* | `شہ پلاید` | Surface past tense `-d` (`ـد`) |
+
+# 5. Expanded Corpus & Sample Transcriptions
+
+## Pangrams & Benchmarks
 1. **The quick brown fox jumps over the lazy dog.**
    - **Option A (Sağır Kāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.`
    - **Option B (Nūn-Gāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.`
 
-### Literature & Classic Proverbs
+## Literature & Classic Proverbs
 2. **To be, or not to be, that is the question.**
    - **Aljamiado**: `تو بہ، اور نات تو بہ، ذات إز ذا كوإسچن.`
 
@@ -163,14 +187,14 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
 4. **A journey of a thousand miles begins with a single step.**
    - **Option A (Sağır Kāf)**: `ا جرنى اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.`
 
-### Famous Speeches & Historical Documents
+## Famous Speeches & Historical Documents
 5. **We hold these truths to be self-evident, that all men are created equal.**
    - **Aljamiado**: `وى هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.`
 
 6. **I have a dream that one day this nation will rise up.**
    - **Aljamiado**: `ای هڤ ا دریم ذات وان دی ذس نیشن وِل رایز اپ.`
 
-### Technology & Modern Conversation
+## Technology & Modern Conversation
 7. **I am writing a new writing system for English using Perso-Arabic script.**
    - **Option A (Sağır Kāf)**: `ای ام رایتڭ ا نیو رایتڭ سیستم فور إنگلش یوزڭ پرسو-اربیك سكریپت.`
    - **Option B (Nūn-Gāf)**: `ای ام رایتنگ ا نیو رایتنگ سیستم فور إنگلش یوزنگ پرسو-اربیك سكریپت.`
@@ -181,7 +205,7 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
 9. **The computer processor runs very fast with new memory modules.**
    - **Aljamiado**: `ذا كمپیوتر پراسسر رنز ڤرى فاست وث نیو ممورى ماجیولها.`
 
-### Poetry & Rhymes
+## Poetry & Rhymes
 10. **Two roads diverged in a yellow wood, and I took the one less traveled by.**
     - **Aljamiado**: `تو رودها داىڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.`
 

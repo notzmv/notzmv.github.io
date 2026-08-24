@@ -1,0 +1,296 @@
+#!/usr/bin/env python3
+import os
+import re
+
+def convert_org_to_md(org_path, md_path):
+    if not os.path.exists(org_path):
+        print(f"Error: {org_path} not found.")
+        return
+
+    with open(org_path, "r", encoding="utf-8") as f:
+        org_content = f.read()
+
+    md_content = org_content
+    # Convert org headers (* Heading -> # Heading)
+    md_content = re.sub(r'^\* (.*)$', r'# \1', md_content, flags=re.MULTILINE)
+    md_content = re.sub(r'^\*\* (.*)$', r'## \1', md_content, flags=re.MULTILINE)
+    md_content = re.sub(r'^\*\*\* (.*)$', r'### \1', md_content, flags=re.MULTILINE)
+    # Internal links [[#anchor][label]] -> label
+    md_content = re.sub(r'\[\[#.*?\]\[(.*?)\]\]', r'\1', md_content)
+
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(md_content)
+    print(f"Successfully updated {md_path} from {org_path}")
+
+def update_pt_cards():
+    html_path = "pt/index.html"
+    sentences = [
+        {
+            "id": 1,
+            "title": "Frase 1 — Saudação e Bênção",
+            "pt": "Que a paz e as bênçãos estejam com você e sua família.",
+            "ipa": "[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]",
+            "aljamiado": "كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.",
+            "notes": "Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, verb ending -am (استژم)."
+        },
+        {
+            "id": 2,
+            "title": "Frase 2 — Busca pelo Conhecimento",
+            "pt": "A busca pelo conhecimento é um dever de todos.",
+            "ipa": "[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]",
+            "aljamiado": "ا بوسكہ پلو كنیچیمنتو ای ام دور دہ تدوها.",
+            "notes": "Chā para C brando (كنیچیمنتو), u mantido (بوسكہ), infinitivo verbal (دور), plural nominal -hā (تدوها)."
+        },
+        {
+            "id": 3,
+            "title": "Frase 3 — Paciência e Gratidão",
+            "pt": "A paciência e a gratidão trazem paz e sabedoria no coração.",
+            "ipa": "[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]",
+            "aljamiado": "ا پچنچیہ ی ا گرتیدناو ترزم پز ی سبدوریہ نو كرچناو.",
+            "notes": "Chā para C brando (پچنچیہ), Zāy em ترزم e پز, ditongo nasal (گرتیدناو, كرچناو)."
+        },
+        {
+            "id": 4,
+            "title": "Frase 4 — Acolhimento e Comunidade",
+            "pt": "Seja muito bem-vindo à nossa comunidade.",
+            "ipa": "['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]",
+            "aljamiado": "سژہ مویتو بم-ویندو آ نسہ كمونیددہ.",
+            "notes": "Žā para J/G brando (سژہ), ditongo ui (مویتو), Alif Madd inicial (آ)."
+        },
+        {
+            "id": 5,
+            "title": "Frase 5 — Boas Ações e Palavras Sinceras",
+            "pt": "As boas ações e as palavras sinceras transformam o mundo.",
+            "ipa": "[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]",
+            "aljamiado": "اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.",
+            "notes": "Plurais nominais com -hā (اها, بوها, اچوها, پلورها, سینچرها), -am verbal defectivo (ترنسفرمم)."
+        },
+        {
+            "id": 6,
+            "title": "Frase 6 — Trabalho e Estudo",
+            "pt": "Que Deus abençoe o seu trabalho e os seus estudos.",
+            "ipa": "[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]",
+            "aljamiado": "كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.",
+            "notes": "Lām-Ye em تربلیو, sufixo nominal -hā em plurais (وها, سیوها, استودوها)."
+        },
+        {
+            "id": 7,
+            "title": "Frase 7 — Sabedoria e Justiça",
+            "pt": "A verdade e a justiça iluminam o caminho dos homens.",
+            "ipa": "[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'mi nɐ̃w u kɐ'miɲu dus 'omẽjʃ]",
+            "aljamiado": "ا ورددہ ی ا ژستچیہ الومینم و كمینیو دوها همنها.",
+            "notes": "Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), -am verbal defectivo (الومینم)."
+        },
+        {
+            "id": 8,
+            "title": "Frase 8 — Generosidade",
+            "pt": "A verdadeira riqueza está na generosidade do coração.",
+            "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
+            "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچناو.",
+            "notes": "He inicial para R forte (هیكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
+        },
+        {
+            "id": 9,
+            "title": "Frase 9 — Oportunidade e Recomeço",
+            "pt": "Cada novo dia é uma oportunidade para fazer o bem.",
+            "ipa": "['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]",
+            "aljamiado": "كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.",
+            "notes": "Minimização defectiva (كدہ, اپرتونیددہ, پرہ), infinitivo verbal (فزر)."
+        },
+        {
+            "id": 10,
+            "title": "Frase 10 — União e Harmonia",
+            "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
+            "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
+            "aljamiado": "ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.",
+            "notes": "Plural nominal -hā (كرچوها, سینچرها), Chā para CH (چیہ), Zāy em پز."
+        },
+        {
+            "id": 11,
+            "title": "Frase 11 — Sabedoria e Razão",
+            "pt": "A sabedoria ilumina a mente e o conhecimento fortalece a alma.",
+            "ipa": "[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]",
+            "aljamiado": "ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.",
+            "notes": "Alif inicial em الومینہ e المہ, C brando em فرتلچہ (Chā), Gol He final."
+        },
+        {
+            "id": 12,
+            "title": "Frase 12 — Semeadores de Esperança",
+            "pt": "Os homens de bem semeiam a esperança e colhem a justiça.",
+            "ipa": "[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]",
+            "aljamiado": "وها همنها دہ بم سمیام ا اسپرنچہ ی كولیم ا ژستچیہ.",
+            "notes": "Assimilação nasal (همنها), ditongo ei (سمیام), Lām-Ye em كولیم, Žā em ژستچیہ."
+        },
+        {
+            "id": 13,
+            "title": "Frase 13 — Caminho da Verdade",
+            "pt": "A luz da verdade guia os nossos passos pelo caminho da paz.",
+            "ipa": "[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]",
+            "aljamiado": "ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.",
+            "notes": "Zāy final em لوز e پز, Sīn duplo intervocálico em نسوها e پسوها com sufixo -hā."
+        },
+        {
+            "id": 14,
+            "title": "Frase 14 — Palavras de Fé",
+            "pt": "As palavras de fé e amor renovam os corações dos homens.",
+            "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
+            "aljamiado": "اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.",
+            "notes": "He inicial em هنووم para R forte, -am verbal defectivo (هنووم), plurais nominais -hā."
+        },
+        {
+            "id": 15,
+            "title": "Frase 15 — Busca pela Felicidade",
+            "pt": "Quem busca a sabedoria encontra a verdadeira felicidade na vida.",
+            "ipa": "[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]",
+            "aljamiado": "كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.",
+            "notes": "Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final."
+        }
+    ]
+
+    cards_html = []
+    for s in sentences:
+        card = f'''    <div class="card">
+      <div class="card-meta">{s["title"]}</div>
+      <div class="portuguese">{s["pt"]}</div>
+      <div class="ipa">{s["ipa"]}</div>
+      <div class="perso-arabic ar">{s["aljamiado"]}</div>
+      <div class="notes">{s["notes"]}</div>
+    </div>'''
+        cards_html.append(card)
+
+    cards_block = "\n\n".join(cards_html)
+
+    if os.path.exists(html_path):
+        with open(html_path, "r", encoding="utf-8") as f:
+            html_content = f.read()
+
+        pattern = r'(<div class="corpus-list">\s*).*?(\s*</div>)'
+        replacement = r'\1' + cards_block + r'\2'
+        updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
+
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(updated_html)
+        print(f"Successfully updated {html_path} cards")
+
+def update_en_cards():
+    html_path = "index.html"
+    sentences = [
+        {
+            "title": "Pangram & Benchmark",
+            "english": "The quick brown fox jumps over the lazy dog.",
+            "ipa": "[ðə kwɪk braʊn fɒks dʒʌmps ˈoʊvər ðə ˈleɪzi dɒɡ]",
+            "aljamiado": "ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.",
+            "notes": "Voiced th (ذ), v (ڤ), nominal agreement, silent-e dropped."
+        },
+        {
+            "title": "Literature & Drama",
+            "english": "To be, or not to be, that is the question.",
+            "ipa": "[tuː biː ɔːr nɒt tuː biː ðæt ɪz ðə ˈkwɛstʃən]",
+            "aljamiado": "تو بہ، اور نات تو بہ، ذات إز ذا كوإسچن.",
+            "notes": "Selective monosyllabic He (بہ), th (ث / ذ), ch (چ)."
+        },
+        {
+            "title": "Famous Speech",
+            "english": "I have a dream that one day this nation will rise up.",
+            "ipa": "[aɪ hæv ə driːm ðæt wʌn deɪ ðɪs ˈneɪʃən wɪl raɪz ʌp]",
+            "aljamiado": "ای هڤ ا دریم ذات وان دی ذس نیشن وِل رایز اپ.",
+            "notes": "Diphthong ay (ای), voiced th (ذ), w (و), sh (ش)."
+        },
+        {
+            "title": "Historical Document",
+            "english": "We hold these truths to be self-evident, that all men are created equal.",
+            "ipa": "[wiː hoʊld ðiːz truːðz tuː biː sɛlf ˈɛvɪdənt ðæt ɔːl mɛn ɑːr kriːˈeɪtɪd ˈiːkwəl]",
+            "aljamiado": "وى هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.",
+            "notes": "Nominal plural -hā (ثروثها), past tense -ed (كرییتد), broad aw (آل)."
+        },
+        {
+            "title": "Velar Nasal (Sağır Kāf ڭ vs Nūn-Gāf نگ)",
+            "english": "I am writing a new writing system for English using Perso-Arabic script.",
+            "ipa": "[aɪ æm ˈraɪtɪŋ ə njuː ˈraɪtɪŋ ˈsɪstəm fɔːr ˈɪŋɡlɪʃ ˈjuːzɪŋ ˈpɜːrʒoʊ ˈærəbɪk skrɪpt]",
+            "aljamiado": "ای ام رایتڭ ا نیو رایتڭ سیستم فور إنگلش یوزڭ پرسو-اربیك سكریپت.",
+            "notes": "Option A (Sağır Kāf ڭ): رایتڭ, یوزڭ. Option B (Nūn-Gāf نگ): رایتنگ, یوزنگ."
+        },
+        {
+            "title": "Daily Conversation & Plurals",
+            "english": "She bought three books, two laptops, and five new pens.",
+            "ipa": "[ʃiː bɔːt θriː bʊks tuː ˈlæptɒps ænd faɪv njuː pɛnz]",
+            "aljamiado": "شہ بات ثرى بوكها، تو لپتاپها، اند فایل نیو پنها.",
+            "notes": "Nominal plurals systematically take -hā (بوكها, لپتاپها, پنها)."
+        },
+        {
+            "title": "Verbal vs Nominal Contrast",
+            "english": "He speaks fast while reading many books.",
+            "ipa": "[hiː spiːks fæst waɪl ˈriːdɪŋ ˈmɛni bʊks]",
+            "aljamiado": "هى اسپیكس فاست وایل ریدڭ منى بوكها.",
+            "notes": "Verbal agreement retains Sīn (اسپیكس) while nominal plural uses -hā (بوكها)."
+        },
+        {
+            "title": "Past Tense Morphophonemics",
+            "english": "She walked to the city and played music for her friends.",
+            "ipa": "[ʃiː wɔːkt tuː ðə ˈsɪti ænd pleɪd ˈmjuːzɪk fɔːr hɜːr frɛndz]",
+            "aljamiado": "شہ واكت تو ذا ستى اند پلاید میوزك فور هر فرندها.",
+            "notes": "Surface past tense -t (واكت) vs -d (پلاید)."
+        },
+        {
+            "title": "Song & Music",
+            "english": "The king was singing a long song in the house.",
+            "ipa": "[ðə kɪŋ wɒz ˈsɪŋɪŋ ə lɒŋ sɒŋ ɪn ðə haʊs]",
+            "aljamiado": "ذا كڭ واز سڭڭ ا لاڭ ساڭ إن ذا هاوس.",
+            "notes": "Sağır Kāf (كڭ, سڭڭ, لاڭ, ساڭ) compact velar nasals."
+        },
+        {
+            "title": "Classic Proverb",
+            "english": "Actions speak louder than words.",
+            "ipa": "[ˈækʃənz spiːk ˈlaʊdər ðæn wɜːdz]",
+            "aljamiado": "آكشنها اسپیك لاودر ذان وردها.",
+            "notes": "Initial Alif Madd (آكشنها), plural -hā (آكشنها, وردها)."
+        },
+        {
+            "title": "Classic Proverb",
+            "english": "A journey of a thousand miles begins with a single step.",
+            "ipa": "[ə ˈdʒɜːrni ɒv ə ˈθaʊzənd maɪlz bɪˈɡɪnz wɪð ə ˈsɪŋɡəl stɛp]",
+            "aljamiado": "ا جرنى اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.",
+            "notes": "j (ج), v (ڤ), th (ث), plural -hā (مایلها), agreement (بگینز)."
+        },
+        {
+            "title": "Poetry",
+            "english": "Two roads diverged in a yellow wood, and I took the one less traveled by.",
+            "ipa": "[tuː roʊdz daɪˈvɜːrdʒd ɪn ə ˈjɛloʊ wʊd ænd aɪ tʊk ðə wʌn lɛs ˈtrævəld baɪ]",
+            "aljamiado": "تو رودها داىڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.",
+            "notes": "Plural (رودها), past tense -d (داىڤرجد, ترڤلد), diphthong eye (ای, بای)."
+        }
+    ]
+
+    cards_html = []
+    for s in sentences:
+        card = f'''    <div class="card">
+      <div class="card-meta">{s["title"]}</div>
+      <div class="english">{s["english"]}</div>
+      <div class="ipa">{s["ipa"]}</div>
+      <div class="perso-arabic ar">{s["aljamiado"]}</div>
+      <div class="notes">{s["notes"]}</div>
+    </div>'''
+        cards_html.append(card)
+
+    cards_block = "\n\n".join(cards_html)
+
+    if os.path.exists(html_path):
+        with open(html_path, "r", encoding="utf-8") as f:
+            html_content = f.read()
+
+        pattern = r'(<div class="corpus-list">\s*).*?(\s*</div>)'
+        replacement = r'\1' + cards_block + r'\2'
+        updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
+
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(updated_html)
+        print(f"Successfully updated {html_path} cards")
+
+def build():
+    convert_org_to_md("pt/index.org", "pt/index.md")
+    convert_org_to_md("index.org", "index.md")
+    update_pt_cards()
+    update_en_cards()
+
+if __name__ == "__main__":
+    build()
