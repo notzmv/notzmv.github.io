@@ -44,10 +44,10 @@ def update_pt_cards():
         {
             "id": 3,
             "title": "Frase 3 — Paciência e Gratidão",
-            "pt": "A paciência e a gratidão trazem paz e sabedoria no coração.",
-            "ipa": "[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ نو كرچاو.",
-            "notes": "Chā para C brando (پچنچیہ), sabedoria sem Waw (سبدریہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو)."
+            "pt": "A paciência e a gratidão trazem paz e sabedoria ao coração.",
+            "ipa": "[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ aw koɾɐ'sɐ̃w]",
+            "aljamiado": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ او كرچاو.",
+            "notes": "Chā para C brando (پچنچیہ), sabedoria sem Waw (سبدریہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو), contração ao (او)."
         },
         {
             "id": 4,
@@ -77,33 +77,33 @@ def update_pt_cards():
             "id": 7,
             "title": "Frase 7 — Sabedoria e Justiça",
             "pt": "A verdade e a justiça iluminam o caminho dos homens.",
-            "ipa": "[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'mi nɐ̃w u kɐ'miɲu dus 'omẽjʃ]",
-            "aljamiado": "ا ورددہ ی ا ژستچیہ الومینم و كمینیو دوها همنها.",
-            "notes": "Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), -am verbal defectivo (الومینم)."
+            "ipa": "[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'minɐ̃w u kɐ'miɲu dus 'omẽjʃ]",
+            "aljamiado": "ا ورددہ ی ا ژستچہ الومینم و كمینیو دوها همنها.",
+            "notes": "Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), -am verbal defectivo (الومینم), justiça sem ye atónico (ژستچہ)."
         },
         {
             "id": 8,
             "title": "Frase 8 — Generosidade",
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
-            "aljamiado": "ا ورددیره ریكزہ استا نہ جنرزیددہ دو كرچاو.",
-            "notes": "Rā para R inicial (ریكزہ, variante com He: هیكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
+            "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزددہ دو كرچاو.",
+            "notes": "He inicial padrão para R forte (هیكزہ, variante com Rā: ریكزہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, generosidade sem ye (جنرزددہ)."
         },
         {
             "id": 9,
             "title": "Frase 9 — Oportunidade e Recomeço",
             "pt": "Cada novo dia é uma oportunidade para fazer o bem.",
             "ipa": "['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]",
-            "aljamiado": "كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.",
-            "notes": "uma estritamente como اومہ (Alif-Waw-Mīm-He), minimização defectiva (كدہ, اپرتونیددہ, پرہ), infinitivo verbal (فزر)."
+            "aljamiado": "كدہ نوو دیہ ای اومہ اپرتونددہ پرہ فزر و بم.",
+            "notes": "uma estritamente como اومہ (Alif-Waw-Mīm-He), minimização defectiva (كدہ, اپرتونددہ, پرہ), oportunidade sem ye (اپرتونددہ), infinitivo verbal (فزر)."
         },
         {
             "id": 10,
             "title": "Frase 10 — União e Harmonia",
             "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
             "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
-            "aljamiado": "ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.",
-            "notes": "uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Chā para CH (چیہ), Zāy em پز."
+            "aljamiado": "ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیه دہ پز.",
+            "notes": "uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Shīn para CH em cheia com Urdu gol he (شیہ), Zāy em پز."
         },
         {
             "id": 11,
@@ -111,15 +111,15 @@ def update_pt_cards():
             "pt": "A sabedoria ilumina a mente e o conhecimento fortalece a alma.",
             "ipa": "[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]",
             "aljamiado": "ا سبدریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.",
-            "notes": "sabedoria sem Waw (سبدریہ), Alif inicial em الومینہ e المہ, C brando em فرتلچہ (Chā), Gol He final."
+            "notes": "sabedoria sem Waw (سبدریہ), Alif/Ye em الومینہ/یلومینہ, Alif em المہ, C brando em فرتلچہ (Chā), Gol He final."
         },
         {
             "id": 12,
             "title": "Frase 12 — Semeadores de Esperança",
             "pt": "Os homens de bem semeiam a esperança e colhem a justiça.",
             "ipa": "[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]",
-            "aljamiado": "وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچیہ.",
-            "notes": "Assimilação nasal (همنها), ditongo ei (سمیم), Lām-Ye em كولیم, Žā em ژستچیہ."
+            "aljamiado": "وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچہ.",
+            "notes": "Assimilação nasal (همنها), ditongo ei (سمیم), Lām-Ye em كولیم, Žā em ژستچہ sem ye final (ژستچہ)."
         },
         {
             "id": 13,
@@ -134,16 +134,16 @@ def update_pt_cards():
             "title": "Frase 14 — Palavras de Fé",
             "pt": "As palavras de fé e amor renovam os corações dos homens.",
             "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
-            "aljamiado": "اها پلورها دہ فی ی امور رنووم وها كرچوها دوها همنها.",
-            "notes": "Rā para R inicial em رنووم (variante com He: هنووم), -am verbal defectivo (رنووم), plurais nominais -hā."
+            "aljamiado": "اها پلورها دہ فی ی امور هنوم وها كرچوها دوها همنها.",
+            "notes": "He inicial padrão em هنوم (variante com Rā: رنوم), single waw em renovam (هنوم), -am verbal defectivo, plurais nominais -hā."
         },
         {
             "id": 15,
             "title": "Frase 15 — Busca pela Felicidade",
             "pt": "Quem busca a sabedoria encontra a verdadeira felicidade na vida.",
             "ipa": "[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]",
-            "aljamiado": "كم بوسكہ ا سبدریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.",
-            "notes": "Kāf para Q (كم), sabedoria sem Waw (سبدریہ), C brando em فلچیددہ (Chā), Gol He final."
+            "aljamiado": "كم بوسكہ ا سبدریہ انكنترہ ا ورددرہ فلچددہ نہ ویدہ.",
+            "notes": "Kāf para Q (كم), sabedoria sem Waw (سبدریہ), C brando em فلچددہ (Chā), verdadeira sem ye (ورددرہ), felicidade sem ye (فلچددہ), Gol He final."
         },
         {
             "id": 16,
@@ -158,72 +158,72 @@ def update_pt_cards():
             "title": "Frase 17 — União da Família",
             "pt": "Os filhos e as filhas escutam os conselhos dos pais.",
             "ipa": "[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]",
-            "aljamiado": "وها فیلیوها ی اها فیلیه‌ها اسكوتم وها كنسیلیوها دوها پایها.",
-            "notes": "Lām-Ye para LH (فیلیوها, كنسیلیوها), plurais nominais -hā, -am verbal (اسكوتم), ditongo pais → پایها."
+            "aljamiado": "وها فیلیوها ی اها فیلیها اسكوتم وها كنسیلیوها دوها پایها.",
+            "notes": "Lām-Ye para LH (فیلیوها, فیلیها, كنسیلیوها), filhas sem he duplo (فیلیها), plurais nominais -hā, -am verbal (اسكوتم)."
         },
         {
             "id": 18,
             "title": "Frase 18 — Trabalho e Perseverança",
             "pt": "A paciência é uma virtude que transforma os maus momentos.",
             "ipa": "[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]",
-            "aljamiado": "ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتوها.",
-            "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V (ورتودہ), plurais -hā (ماوها, مومنتوها)."
+            "aljamiado": "ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.",
+            "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V (ورتودہ), momentos sem waw atónico (مومنتها), plurais -hā."
         },
         {
             "id": 19,
             "title": "Frase 19 — Esperança no Amanhã",
             "pt": "Quem planta a justiça colhe um futuro de paz e prosperidade.",
             "ipa": "[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]",
-            "aljamiado": "كم پلنتہ ا ژستچیہ كولہ اوم فوتورو دہ پز ی پرسپریددہ.",
-            "notes": "um estritamente como اوم, Žā em ژستچیہ, Lām-Ye em كولہ, Zāy em پز."
+            "aljamiado": "كم پلنتہ ا ژستچہ كولہ اوم فوتورو دہ پز ی پرسپرددہ.",
+            "notes": "um estritamente como اوم, Žā em ژستچہ sem ye final, Lām-Ye em كولہ, Zāy em پز, prosperidade sem ye (پرسپرددہ)."
         },
         {
             "id": 20,
             "title": "Frase 20 — Caminho e Destino",
             "pt": "As palavras voam com o vento, mas as boas obras permanecem.",
             "ipa": "[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]",
-            "aljamiado": "اها پلورها وووم كم و ونتو، مس اها بوها ابرها پرمنچم.",
-            "notes": "Plurais nominais -hā (پلورها, بوها, ابرها), C brando em پرمنچم (Chā), -em verbal (پرمنچم)."
+            "aljamiado": "اها پلورها ووام كم و ونتو، مس اها بوها ابرها پرمنچم.",
+            "notes": "Plurais nominais -hā (پلورها, بوها, ابرها), voam com Waw-Waw-Alif-Mīm (ووام), C brando em پرمنچم (Chā), -em verbal (پرمنچم)."
         },
         {
             "id": 21,
             "title": "Frase 21 — Conhecimento e Luz",
             "pt": "O estudo constante ilumina o espírito e abre a mente.",
             "ipa": "[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]",
-            "aljamiado": "و استودو كنستنتہ الومینہ و اسپیریتو ی ابرہ ا منتہ.",
-            "notes": "Alif inicial de suporte (استودو, اسپیریتو), Gol He final em كنستنتہ, الومینہ, منتہ."
+            "aljamiado": "و استودو كنستنتہ الومینہ و اسپرتو ی ابرہ ا منتہ.",
+            "notes": "Alif inicial de suporte (استودو, اسپرتو), espírito sem ye atónico (اسپرتو), Gol He final em كنستنتہ, الومینہ, منتہ."
         },
         {
             "id": 22,
             "title": "Frase 22 — Respeito e Modéstia",
             "pt": "Um homem sábio fala com humildade e ouve com atenção.",
             "ipa": "[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]",
-            "aljamiado": "اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچاو.",
-            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اومیلددہ, ditongo nasal -ção → تنچاو."
+            "aljamiado": "اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاو.",
+            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اوملددہ sem ye atónico, ditongo nasal -ção → تنچاو."
         },
         {
             "id": 23,
             "title": "Frase 23 — Semeando Bondade",
             "pt": "Uma boa ação traz uma grande recompensa no coração.",
             "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.",
-            "notes": "uma estritamente como اومہ, Rā para R inicial em ركمپنسہ (variante com He: هكمپنسہ), Zāy em ترز."
+            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.",
+            "notes": "uma estritamente como اومہ, He inicial padrão em هكمپنسہ (variante: ركمپنسہ), Zāy em ترز."
         },
         {
             "id": 24,
             "title": "Frase 24 — Diálogo e Concórdia",
             "pt": "A verdade une as pessoas e constrói a verdadeira paz.",
             "ipa": "[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]",
-            "aljamiado": "ا ورددہ اونی اها پسوها ی كنستروى ا ورددیره پز.",
-            "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروى, Zāy em پز."
+            "aljamiado": "ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.",
+            "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروى, Zāy em پز, verdadeira sem ye (ورددرہ)."
         },
         {
             "id": 25,
             "title": "Frase 25 — O Mar e o Horizonte",
             "pt": "Os rios correm para o mar e renovam as águas da terra.",
             "ipa": "[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]",
-            "aljamiado": "وها ریوها كوهم پرہ و مر ی رنووم اها اگوها دا تہہ.",
-            "notes": "Rā para R inicial em ریوها e رنووم (variantes com He: هيوها, هنووم), He para RR intervocálico em كوهم e تہہ, desinência verbal -em defectiva (كوهم), plurais -hā."
+            "aljamiado": "وها ریوها كوهم پرہ و مر ی هنوم اها اگوها دا تہہ.",
+            "notes": "Rā para R inicial em ریوها e رنوم (variantes com He: هيوها, هنوم), single waw em renovam (هنوم), He para RR intervocálico em كوهم e تہہ, desinência verbal -em defectiva (كوهم), plurais -hā (ریوها, اگوها)."
         }
     ]
 
@@ -231,7 +231,7 @@ def update_pt_cards():
     for s in sentences:
         card = f'''    <div class="card">
       <div class="card-meta">{s["title"]}</div>
-      <div class="portuguese">{s["pt"]}</div>
+      <div class="pt">{s["pt"]}</div>
       <div class="ipa">{s["ipa"]}</div>
       <div class="perso-arabic ar">{s["aljamiado"]}</div>
       <div class="notes">{s["notes"]}</div>

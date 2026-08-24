@@ -29,8 +29,8 @@ Replace the existing 10 meta-linguistic example sentences (which discuss concept
 ### Frase 3 — Paciência e Gratidão
 - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
 - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
-- **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرجاو.`
-- **Notas**: Soft C em Chā (`پچنچیہ`), Zāy em *ترزم* e *پز*, Nūn-Alif-Waw em *گرتیداو* e *كرجاو*.
+- **Aljamiado**: `ا پچنشیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرجاو.`
+- **Notas**: Soft C em Chā (`پچنشیہ`), Zāy em *ترزم* e *پز*, Nūn-Alif-Waw em *گرتیداو* e *كرجاو*.
 
 ### Frase 4 — Acolhimento e Comunidade
 - **Português**: *Seja muito bem-vindo à nossa comunidade.*
@@ -53,13 +53,13 @@ Replace the existing 10 meta-linguistic example sentences (which discuss concept
 ### Frase 7 — Sabedoria e Justiça
 - **Português**: *A verdade e a justiça iluminam o caminho dos homens.*
 - **IPA**: `[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'mi nɐ̃w u kɐ'miɲu dus 'omẽjʃ]`
-- **Aljamiado**: `ا ورددہ ی ا ژستچیہ الومنوا و كمینیو دوها همنها.`
+- **Aljamiado**: `ا ورددہ ی ا ژستچہ الومنوا و كمینیو دوها همنها.`
 - **Notas**: Nūn-Ye (`نی`) em *كمینیو*, assimilação $m \to n$ + `-hā` em *همنها*.
 
 ### Frase 8 — Generosidade e Riqueza da Alma
 - **Português**: *A verdadeira riqueza está na generosidade do coração.*
 - **IPA**: `[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]`
-- **Aljamiado**: `ا ورددیره هكزہ استا نہ ژنرزددہ دو كرجاو.`
+- **Aljamiado**: `ا ورددرہ هكزہ استا نہ ژنرزددہ دو كرجاو.`
 - **Notas**: He inicial para R forte em *هكزہ*, Zāy em *هكزہ*, Alif tônico em *استا*.
 
 ### Frase 9 — Oportunidade e Recomeço
@@ -72,7 +72,7 @@ Replace the existing 10 meta-linguistic example sentences (which discuss concept
 - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
 - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
 - **Aljamiado**: `ا انیاو دہ كرجوها سنچروها كنستروى اومہ ویدہ چیه دہ پز.`
-- **Notas**: Plural nominal `-hā` em *كرجوها* e *سنچروها*, Chā (`چ`) em *چیہ*, Zāy em *پز*.
+- **Notas**: Plural nominal `-hā` em *كرجوها* e *سنچروها*, Chā (`چ`) em *شیہ*, Zāy em *پز*.
 
 ---
 
