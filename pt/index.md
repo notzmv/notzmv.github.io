@@ -5,9 +5,11 @@
 
 # Índice :toc:
 - Introdução e Visão Geral
+- Corpus e Amostras de Transcrição
 - 1. Inventário Consonantal e Mapeamento Perso-Árabe
   - Tabela de Mapeamento Consonantal
   - Mapeamento Ortográfico de C Brando, G Brando e J
+  - Mapeamento Ortográfico da Letra X (Fono-Ortográfico)
   - Distinção R vs. RR (Rā vs. He)
   - Contraste S vs. SS Intervocálico (Zāy vs. Sīn)
   - Dígrafos Palatais (lh, nh)
@@ -72,6 +74,163 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 4. **Recomendação de Teclado (GBoard Urdu)**: O melhor teclado para digitação é o **GBoard configurado para o idioma Urdu**, que possui o comportamento ortográfico desejado (exceto para a sequência de *He* final seguido do sufixo *-hā*, em que se pode pressionar e segurar o botão do *He* para digitar o segundo *He* correto).
 
 
+
+
+# Corpus e Amostras de Transcrição
+
+Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais para o Aljamiado Português, cobrindo o rigor morfofonêmico, as sibilantes e o mapeamento consonantal:
+
+1. **Frase 1 — Saudação e Bênção**
+   - **Português**: *Que a paz e as bênçãos estejam com você e sua família.*
+   - **IPA**: `[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]`
+   - **Aljamiado**: `كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.`
+   - **Notas**: Gol He final (`كہ`, `سوه`, `فمیلیہ`), sufixo nominal `-hā` (`اها`, `بنچوها`), Zāy em `پز`, desinência verbal `-am` defectiva (`استژم`).
+
+2. **Frase 2 — Busca pelo Conhecimento**
+   - **Português**: *A busca pelo conhecimento é um dever de todos.*
+   - **IPA**: `[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]`
+   - **Aljamiado**: `ا بوسكہ پلو كنیچیمنتو ای اوم دور دہ تدوها.`
+   - **Notas**: Chā para C brando (`كنیچیمنتو`), *um* estritamente como `اوم` (Alif-Waw-Mīm), infinitivo verbal (`دور`), plural nominal `-hā` (`تدوها`).
+
+3. **Frase 3 — Paciência e Gratidão**
+   - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
+   - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
+   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.`
+   - **Notas**: Chā para C brando (`پچنچیہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیداو`, `كرچاو`).
+
+4. **Frase 4 — Acolhimento e Comunidade**
+   - **Português**: *Seja muito bem-vindo à nossa comunidade.*
+   - **IPA**: `['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]`
+   - **Aljamiado**: `سژہ مویتو بم-ویندو آ نسہ كمونیددہ.`
+   - **Notas**: Žā para J/G brando (`سژہ`), ditongo `ui` (`مویتo` -> `مویتو`), Alif Madd inicial (`آ`).
+
+5. **Frase 5 — Boas Ações e Palavras Sinceras**
+   - **Português**: *As boas ações e as palavras sinceras transformam o mundo.*
+   - **IPA**: `[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]`
+   - **Aljamiado**: `اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.`
+   - **Notas**: Plurais nominais com `-hā` (`اها`, `بوها`, `اچوها`, `پلورها`, `سینچرها`), `-am` verbal defectivo (`ترنسفرمم`).
+
+6. **Frase 6 — Trabalho e Estudo**
+   - **Português**: *Que Deus abençoe o seu trabalho e os seus estudos.*
+   - **IPA**: `[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]`
+   - **Aljamiado**: `كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.`
+   - **Notas**: Lām-Ye em `تربلیو`, sufixo nominal `-hā` em plurais (`وها`, `سیوها`, `استودوها`).
+
+7. **Frase 7 — Sabedoria e Justiça**
+   - **Português**: *A verdade e a justiça iluminam o caminho dos homens.*
+   - **IPA**: `[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'mi nɐ̃w u kɐ'miɲu dus 'omẽjʃ]`
+   - **Aljamiado**: `ا ورددہ ی ا ژستچیہ الومینم و كمینیو دوها همنها.`
+   - **Notas**: Nūn-Ye em `كمینیو`, assimilação nasal `m → n` no plural (`همنها`), `-am` verbal defectivo (`الومینم`).
+
+8. **Frase 8 — Generosidade**
+   - **Português**: *A verdadeira riqueza está na generosidade do coração.*
+   - **IPA**: `[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]`
+   - **Aljamiado**: `ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچاو.`
+   - **Notas**: He inicial padrão para R forte (`هیكزہ`, variante com Rā: `ریكزہ`), Jīm para G brando (`جنرزیددہ`), Zāy intervocálico.
+
+9. **Frase 9 — Oportunidade e Recomeço**
+   - **Português**: *Cada novo dia é uma oportunidade para fazer o bem.*
+   - **IPA**: `['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]`
+   - **Aljamiado**: `كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.`
+   - **Notas**: *uma* estritamente como `اومہ` (Alif-Waw-Mīm-He), minimização defectiva (`كدہ`, `اپرتونیددہ`, `پرہ`), infinitivo verbal (`فزر`).
+
+10. **Frase 10 — União e Harmonia**
+    - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
+    - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
+    - **Aljamiado**: `ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.`
+    - **Notas**: *uma* estritamente como `اومہ`, plural nominal `-hā` (`كرچوها`, `سینچرها`), Chā para CH (`چیہ`), Zāy em `پز`.
+
+11. **Frase 11 — Sabedoria e Razão**
+    - **Português**: *A sabedoria ilumina a mente e o conhecimento fortalece a alma.*
+    - **IPA**: `[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]`
+    - **Aljamiado**: `ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتo فرتلچہ ا المہ.`
+    - **Notas**: Alif inicial em `الومینہ` e `المہ`, C brando em `فرتلچہ` (Chā), Gol He final.
+
+12. **Frase 12 — Semeadores de Esperança**
+    - **Português**: *Os homens de bem semeiam a esperança e colhem a justiça.*
+    - **IPA**: `[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]`
+    - **Aljamiado**: `وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچیہ.`
+    - **Notas**: Assimilação nasal (`همنها`), ditongo `ei` (`سمیم`), Lām-Ye em `كولیم`, Žā em `ژستچیہ`.
+
+13. **Frase 13 — Caminho da Verdade**
+    - **Português**: *A luz da verdade guia os nossos passos pelo caminho da paz.*
+    - **IPA**: `[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]`
+    - **Aljamiado**: `ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.`
+    - **Notas**: Zāy final em `لوز` e `پز`, Sīn duplo intervocálico em `نسوها` e `پسوها` com sufixo `-hā`.
+
+14. **Frase 14 — Palavras de Fé**
+    - **Português**: *As palavras de fé e amor renovam os corações dos homens.*
+    - **IPA**: `[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]`
+    - **Aljamiado**: `اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.`
+    - **Notas**: He inicial padrão em `هنووم` (variante com Rā: `رنووم`), `-am` verbal defectivo (`هنووم`), plurais nominais `-hā`.
+
+15. **Frase 15 — Busca pela Felicidade**
+    - **Português**: *Quem busca a sabedoria encontra a verdadeira felicidade na vida.*
+    - **IPA**: `[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]`
+    - **Aljamiado**: `كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
+    - **Notas**: Kāf para Q (`كم`), C brando em `فلچیددہ` (Chā), Gol He final.
+
+16. **Frase 16 — Reflexão e Honra**
+    - **Português**: *Um bom amigo traz honra e alegria para a nossa casa.*
+    - **IPA**: `[ũ 'bõj ɐ'migu 'tɾaʃ 'õɾɐ i ɐle'gɾiɐ 'paɾɐ ɐ 'nɔsɐ 'kazɐ]`
+    - **Aljamiado**: `اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.`
+    - **Notas**: *um* estritamente como `اوم` (Alif-Waw-Mīm), He em `هنرہ` (honra), Zāy em `كزہ` (casa /z/), Sīn duplo em `نسہ` (nossa /s/).
+
+17. **Frase 17 — União da Família**
+    - **Português**: *Os filhos e as filhas escutam os conselhos dos pais.*
+    - **IPA**: `[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]`
+    - **Aljamiado**: `وها فیلیوها ی اها فیلیه‌ها اسكوتم وها كنسیلیوها دوها پایها.`
+    - **Notas**: Lām-Ye para LH (`فیلیوها`, `کنسیلیوها`), plurais nominais `-hā`, `-am` verbal (`اسكوتم`), ditongo `pais` $\rightarrow$ `پایها`.
+
+18. **Frase 18 — Trabalho e Perseverança**
+    - **Português**: *A paciência é uma virtude que transforma os maus momentos.*
+    - **IPA**: `[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]`
+    - **Aljamiado**: `ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتوها.`
+    - **Notas**: *uma* estritamente como `اومہ`, Chā em `پچنچیہ`, Waw para V (`ورتودہ`), plurais `-hā` (`ماوها`, `مومنتوها`).
+
+19. **Frase 19 — Esperança no Amanhã**
+    - **Português**: *Quem planta a justiça colhe um futuro de paz e prosperidade.*
+    - **IPA**: `[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]`
+    - **Aljamiado**: `كم پلنتہ ا ژستچیہ كولہ اوم فوتورو دہ پز ی پرسپریددہ.`
+    - **Notas**: *um* estritamente como `اوم`, Žā em `ژستچیہ`, Lām-Ye em `كولہ`, Zāy em `پز`.
+
+20. **Frase 20 — Caminho e Destino**
+    - **Português**: *As palavras voam com o vento, mas as boas obras permanecem.*
+    - **IPA**: `[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]`
+    - **Aljamiado**: `اها پلورها وووم كم و ونتو، مس اها بوها ابرها پرمنچم.`
+    - **Notas**: Plurais nominais `-hā` (`پلورها`, `بوها`, `ابرها`), C brando em `پرمنچم` (Chā), `-em` verbal (`پرمنچم`).
+
+21. **Frase 21 — Conhecimento e Luz**
+    - **Português**: *O estudo constante ilumina o espírito e abre a mente.*
+    - **IPA**: `[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]`
+    - **Aljamiado**: `و استودو كنستنتہ الومینہ و اسپیریتو ی ابرہ ا منتہ.`
+    - **Notas**: Alif inicial de suporte (`استودو`, `اسپیریتو`), Gol He final em `كنستنتہ`, `الومینہ`, `منتہ`.
+
+22. **Frase 22 — Respeito e Modéstia**
+    - **Português**: *Um homem sábio fala com humildade e ouve com atenção.*
+    - **IPA**: `[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]`
+    - **Aljamiado**: `اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچاو.`
+    - **Notas**: *um* estritamente como `اوم`, assimilação nasal `همم`, Hā mudo em `اومیلددہ`, ditongo nasal `-ção` $\rightarrow$ `تنچاو`.
+
+23. **Frase 23 — Semeando Bondade**
+    - **Português**: *Uma boa ação traz uma grande recompensa no coração.*
+    - **IPA**: `['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]`
+    - **Aljamiado**: `اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.`
+    - **Notas**: *uma* estritamente como `اومہ`, He inicial padrão em `هكمپنسہ` (variante: `ركمپنسہ`), Zāy em `ترز`.
+
+24. **Frase 24 — Diálogo e Concórdia**
+    - **Português**: *A verdade une as pessoas e constrói a verdadeira paz.*
+    - **IPA**: `[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]`
+    - **Aljamiado**: `ا ورددہ اونی اها پسوها ی كنستروى ا ورددیره پز.`
+    - **Notas**: Sīn duplo em `پسوها` com sufixo `-hā`, ditongo `oi` em `كنستروى`, Zāy em `پز`.
+
+25. **Frase 25 — O Mar e o Horizonte**
+    - **Português**: *Os rios correm para o mar e renovam as águas da terra.*
+    - **IPA**: `[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]`
+    - **Aljamiado**: `وها ریوها كوهم پرہ و مر ی رنووم اها اگوها دا تہہ.`
+    - **Notas**: Rā para R inicial em `ریوها` e `رنووم` (variantes com He: `هيوها`, `هنووم`), He para RR intervocálico em `كوهم` e `تہہ`, desinência verbal -em defectiva (`كوهم`), plurais `-hā` (`ریوها`, `اگوها`).
+
+
 # 1. Inventário Consonantal e Mapeamento Perso-Árabe
 
 ## Tabela de Mapeamento Consonantal
@@ -95,6 +254,7 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 | **n** (início de sílaba) | [n] | **ن** | Nūn | *não* | `ناو` |
 | **s / z** (verbal/lexical) | [s] / [z] | **س** / **ز** | Sīn / Zāy | *sim* / *paz* | `سیم` / `پز` |
 | **-s** (plural nominal) | [s] / [z] / [ʃ] | **ـها** | Hā | *livros* | `لیوروها` |
+| **x** (fonético /ks/, /ʃ/, /s/, /z/) | [ks] / [ʃ] / [s] / [z] | **چ** (/ks/) / **ش** (/ʃ/) / **س** (/s/) / **ز** (/z/) | Chā / Šīn / Sīn / Zāy | *táxi* / *lixo* / *texto* / *exame* | `تاچی` / `لیشو` / `تكستو` / `إزامہ` |
 
 ## Mapeamento Ortográfico de C Brando, G Brando e J
 Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a tradição Perso-Árabe:
@@ -119,6 +279,33 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
   - *gostei* $\rightarrow$ `گوستى`
   - *gramática* $\rightarrow$ `گرمتيكہ` (Alif tónico `ا` posicionado após o Mīm `م` na sílaba tónica *-má-*)
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
+
+
+## Mapeamento Ortográfico da Letra X (Fono-Ortográfico)
+A letra **X** não possui um valor único fixo e é mapeada estritamente de acordo com a sua realização fonética real:
+- **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *sintaxe*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
+  - *táxi* $\rightarrow$ `تاچی`
+  - *fixo* $\rightarrow$ `فيچو`
+  - *sintaxe* $\rightarrow$ `سينتچہ`
+  - *anexo* $\rightarrow$ `انيچو`
+  - *tóxico* $\rightarrow$ `توچیكو`
+- **X com som de /ʃ/** (som de *ch* / *sh*, ex.: *caixa*, *lixo*, *xadrez*, *enxame*): Mapeia para **Šīn** (`ش`) ou **Chā** (`چ`):
+  - *lixo* $
+ightarrow$ `لیشو` / `لیچو`
+  - *caixa* $
+ightarrow$ `كیشہ` / `كیچہ`
+  - *xadrez* $
+ightarrow$ `شدرز` / `چدرز`
+- **X com som de /s/** (som de *s* surdo, ex.: *texto*, *próximo*): Mapeia para **Sīn** (`س`):
+  - *texto* $
+ightarrow$ `تكستو`
+  - *próximo* $
+ightarrow$ `پروچسیمو` / `پرچسیمو`
+- **X com som de /z/** (som de *z* sonoro, ex.: *exame*, *exemplo*): Mapeia para **Zāy** (`ز`):
+  - *exame* $
+ightarrow$ `إزامہ` / `ازمہ`
+  - *exemplo* $
+ightarrow$ `إزملو` / `ازملo` $\rightarrow$ `إزملو` / `ازملو`
 
 ## Distinção R vs. RR (Rā vs. He)
 As vibrantes e tepes são divididas com base na posição silábica e no contraste fonológico:
@@ -146,6 +333,33 @@ Nas posições intervocálicas onde o português opõe a fricativa alveolar sono
   - *casa* $\rightarrow$ `كزہ`
   - *análise* (substantivo proparoxítono) $\rightarrow$ `انالیزہ` (com Alif tónico `ا` na sílaba *-ná-*), contrapondo ao verbo *analise* (paroxítono) $\rightarrow$ `انلیزہ` (sem Alif tónico)
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
+
+
+## Mapeamento Ortográfico da Letra X (Fono-Ortográfico)
+A letra **X** não possui um valor único fixo e é mapeada estritamente de acordo com a sua realização fonética real:
+- **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *sintaxe*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
+  - *táxi* $\rightarrow$ `تاچی`
+  - *fixo* $\rightarrow$ `فيچو`
+  - *sintaxe* $\rightarrow$ `سينتچہ`
+  - *anexo* $\rightarrow$ `انيچو`
+  - *tóxico* $\rightarrow$ `توچیكو`
+- **X com som de /ʃ/** (som de *ch* / *sh*, ex.: *caixa*, *lixo*, *xadrez*, *enxame*): Mapeia para **Šīn** (`ش`) ou **Chā** (`چ`):
+  - *lixo* $
+ightarrow$ `لیشو` / `لیچو`
+  - *caixa* $
+ightarrow$ `كیشہ` / `كیچہ`
+  - *xadrez* $
+ightarrow$ `شدرز` / `چدرز`
+- **X com som de /s/** (som de *s* surdo, ex.: *texto*, *próximo*): Mapeia para **Sīn** (`س`):
+  - *texto* $
+ightarrow$ `تكستو`
+  - *próximo* $
+ightarrow$ `پروچسیمو` / `پرچسیمو`
+- **X com som de /z/** (som de *z* sonoro, ex.: *exame*, *exemplo*): Mapeia para **Zāy** (`ز`):
+  - *exame* $
+ightarrow$ `إزامہ` / `ازمہ`
+  - *exemplo* $
+ightarrow$ `إزملو` / `ازملo` $\rightarrow$ `إزملو` / `ازملو`
 - **SS duplo intervocálico (surdo /s/)** mapeia para **Sīn** (`س`):
   - *processo* $\rightarrow$ `پرچسو`
   - *passo* $\rightarrow$ `پسو`
@@ -532,157 +746,3 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **Clítico 3ª Pessoa Plur.** | *fazê-los* | `فازیلوها` | Logograma *-hā* nominal (`ـها`) |
 | **Clítico 1ª Pessoa Plur.** | *damo-nos* | `دامونوس` | Sīn clítico inerente (`س`) |
 | **Clítico Reflexivo** | *disse-se* | `دیسیسہ` | Sīn clítico inerente (`س`) |
-
-# 7. Corpus e Amostras de Transcrição
-
-Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais para o Aljamiado Português, cobrindo o rigor morfofonêmico, as sibilantes e o mapeamento consonantal:
-
-1. **Frase 1 — Saudação e Bênção**
-   - **Português**: *Que a paz e as bênçãos estejam com você e sua família.*
-   - **IPA**: `[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]`
-   - **Aljamiado**: `كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.`
-   - **Notas**: Gol He final (`كہ`, `سوه`, `فمیلیہ`), sufixo nominal `-hā` (`اها`, `بنچوها`), Zāy em `پز`, desinência verbal `-am` defectiva (`استژم`).
-
-2. **Frase 2 — Busca pelo Conhecimento**
-   - **Português**: *A busca pelo conhecimento é um dever de todos.*
-   - **IPA**: `[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]`
-   - **Aljamiado**: `ا بوسكہ پلو كنیچیمنتو ای اوم دور دہ تدوها.`
-   - **Notas**: Chā para C brando (`كنیچیمنتو`), *um* estritamente como `اوم` (Alif-Waw-Mīm), infinitivo verbal (`دور`), plural nominal `-hā` (`تدوها`).
-
-3. **Frase 3 — Paciência e Gratidão**
-   - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
-   - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.`
-   - **Notas**: Chā para C brando (`پچنچیہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیداو`, `كرچاو`).
-
-4. **Frase 4 — Acolhimento e Comunidade**
-   - **Português**: *Seja muito bem-vindo à nossa comunidade.*
-   - **IPA**: `['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]`
-   - **Aljamiado**: `سژہ مویتو بم-ویندو آ نسہ كمونیددہ.`
-   - **Notas**: Žā para J/G brando (`سژہ`), ditongo `ui` (`مویتo` -> `مویتو`), Alif Madd inicial (`آ`).
-
-5. **Frase 5 — Boas Ações e Palavras Sinceras**
-   - **Português**: *As boas ações e as palavras sinceras transformam o mundo.*
-   - **IPA**: `[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]`
-   - **Aljamiado**: `اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.`
-   - **Notas**: Plurais nominais com `-hā` (`اها`, `بوها`, `اچوها`, `پلورها`, `سینچرها`), `-am` verbal defectivo (`ترنسفرمم`).
-
-6. **Frase 6 — Trabalho e Estudo**
-   - **Português**: *Que Deus abençoe o seu trabalho e os seus estudos.*
-   - **IPA**: `[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]`
-   - **Aljamiado**: `كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.`
-   - **Notas**: Lām-Ye em `تربلیو`, sufixo nominal `-hā` em plurais (`وها`, `سیوها`, `استودوها`).
-
-7. **Frase 7 — Sabedoria e Justiça**
-   - **Português**: *A verdade e a justiça iluminam o caminho dos homens.*
-   - **IPA**: `[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'mi nɐ̃w u kɐ'miɲu dus 'omẽjʃ]`
-   - **Aljamiado**: `ا ورددہ ی ا ژستچیہ الومینم و كمینیو دوها همنها.`
-   - **Notas**: Nūn-Ye em `كمینیو`, assimilação nasal `m → n` no plural (`همنها`), `-am` verbal defectivo (`الومینم`).
-
-8. **Frase 8 — Generosidade**
-   - **Português**: *A verdadeira riqueza está na generosidade do coração.*
-   - **IPA**: `[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچاو.`
-   - **Notas**: He inicial padrão para R forte (`هیكزہ`, variante com Rā: `ریكزہ`), Jīm para G brando (`جنرزیددہ`), Zāy intervocálico.
-
-9. **Frase 9 — Oportunidade e Recomeço**
-   - **Português**: *Cada novo dia é uma oportunidade para fazer o bem.*
-   - **IPA**: `['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]`
-   - **Aljamiado**: `كدہ نوو دیہ ای اومہ اپرتونیددہ پرہ فزر و بم.`
-   - **Notas**: *uma* estritamente como `اومہ` (Alif-Waw-Mīm-He), minimização defectiva (`كدہ`, `اپرتونیددہ`, `پرہ`), infinitivo verbal (`فزر`).
-
-10. **Frase 10 — União e Harmonia**
-    - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
-    - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
-    - **Aljamiado**: `ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ چیه دہ پز.`
-    - **Notas**: *uma* estritamente como `اومہ`, plural nominal `-hā` (`كرچوها`, `سینچرها`), Chā para CH (`چیہ`), Zāy em `پز`.
-
-11. **Frase 11 — Sabedoria e Razão**
-    - **Português**: *A sabedoria ilumina a mente e o conhecimento fortalece a alma.*
-    - **IPA**: `[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]`
-    - **Aljamiado**: `ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتo فرتلچہ ا المہ.`
-    - **Notas**: Alif inicial em `الومینہ` e `المہ`, C brando em `فرتلچہ` (Chā), Gol He final.
-
-12. **Frase 12 — Semeadores de Esperança**
-    - **Português**: *Os homens de bem semeiam a esperança e colhem a justiça.*
-    - **IPA**: `[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]`
-    - **Aljamiado**: `وها همنها دہ بم سمیم ا اسپرنچہ ی كولیم ا ژستچیہ.`
-    - **Notas**: Assimilação nasal (`همنها`), ditongo `ei` (`سمیم`), Lām-Ye em `كولیم`, Žā em `ژستچیہ`.
-
-13. **Frase 13 — Caminho da Verdade**
-    - **Português**: *A luz da verdade guia os nossos passos pelo caminho da paz.*
-    - **IPA**: `[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]`
-    - **Aljamiado**: `ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.`
-    - **Notas**: Zāy final em `لوز` e `پز`, Sīn duplo intervocálico em `نسوها` e `پسوها` com sufixo `-hā`.
-
-14. **Frase 14 — Palavras de Fé**
-    - **Português**: *As palavras de fé e amor renovam os corações dos homens.*
-    - **IPA**: `[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]`
-    - **Aljamiado**: `اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.`
-    - **Notas**: He inicial padrão em `هنووم` (variante com Rā: `رنووم`), `-am` verbal defectivo (`هنووم`), plurais nominais `-hā`.
-
-15. **Frase 15 — Busca pela Felicidade**
-    - **Português**: *Quem busca a sabedoria encontra a verdadeira felicidade na vida.*
-    - **IPA**: `[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]`
-    - **Aljamiado**: `كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
-    - **Notas**: Kāf para Q (`كم`), C brando em `فلچیددہ` (Chā), Gol He final.
-
-16. **Frase 16 — Reflexão e Honra**
-    - **Português**: *Um bom amigo traz honra e alegria para a nossa casa.*
-    - **IPA**: `[ũ 'bõj ɐ'migu 'tɾaʃ 'õɾɐ i ɐle'gɾiɐ 'paɾɐ ɐ 'nɔsɐ 'kazɐ]`
-    - **Aljamiado**: `اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.`
-    - **Notas**: *um* estritamente como `اوم` (Alif-Waw-Mīm), He em `هنرہ` (honra), Zāy em `كزہ` (casa /z/), Sīn duplo em `نسہ` (nossa /s/).
-
-17. **Frase 17 — União da Família**
-    - **Português**: *Os filhos e as filhas escutam os conselhos dos pais.*
-    - **IPA**: `[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]`
-    - **Aljamiado**: `وها فیلیوها ی اها فیلیه‌ها اسكوتم وها كنسیلیوها دوها پایها.`
-    - **Notas**: Lām-Ye para LH (`فیلیوها`, `کنسیلیوها`), plurais nominais `-hā`, `-am` verbal (`اسكوتم`), ditongo `pais` $\rightarrow$ `پایها`.
-
-18. **Frase 18 — Trabalho e Perseverança**
-    - **Português**: *A paciência é uma virtude que transforma os maus momentos.*
-    - **IPA**: `[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]`
-    - **Aljamiado**: `ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتوها.`
-    - **Notas**: *uma* estritamente como `اومہ`, Chā em `پچنچیہ`, Waw para V (`ورتودہ`), plurais `-hā` (`ماوها`, `مومنتوها`).
-
-19. **Frase 19 — Esperança no Amanhã**
-    - **Português**: *Quem planta a justiça colhe um futuro de paz e prosperidade.*
-    - **IPA**: `[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]`
-    - **Aljamiado**: `كم پلنتہ ا ژستچیہ كولہ اوم فوتورو دہ پز ی پرسپریددہ.`
-    - **Notas**: *um* estritamente como `اوم`, Žā em `ژستچیہ`, Lām-Ye em `كولہ`, Zāy em `پز`.
-
-20. **Frase 20 — Caminho e Destino**
-    - **Português**: *As palavras voam com o vento, mas as boas obras permanecem.*
-    - **IPA**: `[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]`
-    - **Aljamiado**: `اها پلورها وووم كم و ونتو، مس اها بوها ابرها پرمنچم.`
-    - **Notas**: Plurais nominais `-hā` (`پلورها`, `بوها`, `ابرها`), C brando em `پرمنچم` (Chā), `-em` verbal (`پرمنچم`).
-
-21. **Frase 21 — Conhecimento e Luz**
-    - **Português**: *O estudo constante ilumina o espírito e abre a mente.*
-    - **IPA**: `[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]`
-    - **Aljamiado**: `و استودو كنستنتہ الومینہ و اسپیریتو ی ابرہ ا منتہ.`
-    - **Notas**: Alif inicial de suporte (`استودو`, `اسپیریتو`), Gol He final em `كنستنتہ`, `الومینہ`, `منتہ`.
-
-22. **Frase 22 — Respeito e Modéstia**
-    - **Português**: *Um homem sábio fala com humildade e ouve com atenção.*
-    - **IPA**: `[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]`
-    - **Aljamiado**: `اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچاو.`
-    - **Notas**: *um* estritamente como `اوم`, assimilação nasal `همم`, Hā mudo em `اومیلددہ`, ditongo nasal `-ção` $\rightarrow$ `تنچاو`.
-
-23. **Frase 23 — Semeando Bondade**
-    - **Português**: *Uma boa ação traz uma grande recompensa no coração.*
-    - **IPA**: `['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]`
-    - **Aljamiado**: `اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.`
-    - **Notas**: *uma* estritamente como `اومہ`, He inicial padrão em `هكمپنسہ` (variante: `ركمپنسہ`), Zāy em `ترز`.
-
-24. **Frase 24 — Diálogo e Concórdia**
-    - **Português**: *A verdade une as pessoas e constrói a verdadeira paz.*
-    - **IPA**: `[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]`
-    - **Aljamiado**: `ا ورددہ اونی اها پسوها ی كنستروى ا ورددیره پز.`
-    - **Notas**: Sīn duplo em `پسوها` com sufixo `-hā`, ditongo `oi` em `كنستروى`, Zāy em `پز`.
-
-25. **Frase 25 — O Mar e o Horizonte**
-    - **Português**: *Os rios correm para o mar e renovam as águas da terra.*
-    - **IPA**: `[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]`
-    - **Aljamiado**: `وها ریوها كوهم پرہ و مر ی رنووم اها اگوها دا تہہ.`
-    - **Notas**: Rā para R inicial em `ریوها` e `رنووم` (variantes com He: `هيوها`, `هنووم`), He para RR intervocálico em `كوهم` e `تہہ`, desinência verbal -em defectiva (`كوهم`), plurais `-hā` (`ریوها`, `اگوها`).
