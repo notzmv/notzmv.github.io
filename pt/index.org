@@ -473,9 +473,9 @@ A omissão e redução vocálica no Aljamiado Português seguem uma **escala inv
 3. **O Triad Morfológico de `convenco`, `convencao` e `convencos`**:
    A distinção entre formas verbais e nominais derivadas da mesma raiz (*convencer / convenção*) demonstra a eficiência deste sistema morfofonêmico e do sufixo de plural `-hā` (`ـها`):
    - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
-   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `كنونچ` + ditongo nasal `-ção` `ـچاو` escrito com Alif-Waw `او`, sem Nūn redundante).
-   - **`convencos`** (*convenções*, substantivo feminino plural): Grafado como **`كنونچوها`** / **`كونونچوها`** (radical com vocalização temático-nominal + sufixo gráfico de plural `-hā` `ـها`).
-   - *Explicação Ortográfica Crucial*: A forma plural **`كنونچوها`** (*convenções*) **não necessita de uma letra vocálica extra no radical** para se diferenciar de *convenço* (`كنونچو`) ou *convenção* (`كنونچاو`), visto que o próprio logograma de plural nominal `-hā` (`ـها`) fornece uma desambiguação morfológica total e imediata.
+   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `كنونچ` + ditongo nasal `-ção` `ـچاو` escrito com Alif-Waw `او`). A combinação Alif-Waw (`او`) é válida para *au* e *-ão*, mas **estritamente proibida para *-oe-* / *-ões***.
+   - **`convencos`** (*convenções*, substantivo feminino plural): Grafado como **`كنونچویها`** / **`كنونچوها`** (com Waw-Ye `وی` para a ditongação *-õe-*, ou Waw `و` defectivo + sufixo gráfico de plural `-hā` `ـها`).
+   - *Explicação Ortográfica Crucial*: Alif-Waw (`او`) é **estritamente proibido para *-oe-* / *-ões*** porque o ditongo inicia-se na vogal posterior /o/ (Waw `و`), não em /a/ (Alif `ا`). Em palavras como *razões*, utiliza-se a sequência **Waw-Ye (`وی`)** (**`هزویها`** / **`رزویها`**) para assinalar o ditongo *-oe-* e evitar homografia com *raso/rasos* (`رسو` / `رسوها`), admitindo-se a variante defectiva **`هزوها`** / **`رزوها`**.
 
 ** Encontros Vocálicos e Mater Lectionis
 Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocálicos (ditongos orais, tritongos e hiatos) com precisão matemática, o **Aljamiado Português** emprega um mapeamento explícito de *mater lectionis* (*ḥaraka / ḥarf 'illa*) para cada fone vocálico da sequência:
@@ -539,12 +539,12 @@ Os ditongos nasais combinam a base vocálica nasal com semivogais explícitas se
   - *ação* $\rightarrow$ `اچاو`
   - *convenção* $\rightarrow$ `كنونچاو` / `كونونچاو`
   - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
-- **-ãe / -ães** $\rightarrow$ **ای** / **ایها**:
-  - *mãe* $\rightarrow$ `مای`
-  - *pães* $\rightarrow$ `پایها`
-- **-ões** $\rightarrow$ **ـوها** (base com *-o* + logograma *-hā* `ـها`):
+- **-õe- / -ões** $\rightarrow$ **ویها** / **ـوها** (Waw-Ye `وی` para marcar a ditongação *-oe-* / *-õe-*, ou Waw `و` defectivo + logograma *-hā* `ـها`):
+  - *Alif-Waw* (`او`) é válido para *au* e *-ão* (*pau* `پاو`, *razão* `هزاو`), mas **estritamente proibido para *-oe-* / *-ões***, pois o ditongo não começa em /a/ (Alif `ا`).
+  - *razão* $\rightarrow$ `هزاو` / `رزاو` (com *Alif-Waw* `او` para *-ão*)
+  - *razões* $\rightarrow$ `هزویها` / `رزویها` (com *Waw-Ye* `وی` para marcar o ditongo *-oe-*, evitando homografia com *rasos* `رسوها`, ou defectivamente `هزوها` / `رزوها`)
   - *convenção* $\rightarrow$ `كنونچاو`
-  - *convenções* $\rightarrow$ `كنونچوها`
+  - *convenções* $\rightarrow$ `كنونچویها` / `كنونچوها`
 
 * 4. Regras Morfofonêmicas e Mapeamento de Domínio
 
@@ -584,7 +584,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
-| **razão** | *razões* | `هزاو` | `هزاوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + `-ão` (`او`) + `-hā` (`ـها`) |
+| **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
 | **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 * 5. Casos Especiais e Construções Particulares
@@ -665,7 +665,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
-| **razão** | *razões* | `هزاو` | `هزاوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + `-ão` (`او`) + `-hā` (`ـها`) |
+| **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
 | **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ** Verbos vs. Concordância e Sibilantes
