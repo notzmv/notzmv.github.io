@@ -283,10 +283,9 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
 
 ## Mapeamento Ortográfico da Letra X (Fono-Ortográfico)
 A letra **X** não possui um valor único fixo e é mapeada estritamente de acordo com a sua realização fonética real:
-- **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *sintaxe*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
+- **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
   - *táxi* $\rightarrow$ `تاچی`
   - *fixo* $\rightarrow$ `فيچو`
-  - *sintaxe* $\rightarrow$ `سينتچہ`
   - *anexo* $\rightarrow$ `انيچو`
   - *tóxico* $\rightarrow$ `توچیكو`
 - **X com som de /ʃ/** (som de *ch* / *sh*, ex.: *caixa*, *lixo*, *xadrez*, *enxame*): Mapeia para **Šīn** (`ش`) ou **Chā** (`چ`):
@@ -296,7 +295,8 @@ ightarrow$ `لیشو` / `لیچو`
 ightarrow$ `كیشہ` / `كیچہ`
   - *xadrez* $
 ightarrow$ `شدرز` / `چدرز`
-- **X com som de /s/** (som de *s* surdo, ex.: *texto*, *próximo*): Mapeia para **Sīn** (`س`):
+- **X com som de /s/** (som de *s* surdo, ex.: *sintaxe*, *texto*, *próximo*): Mapeia para **Sīn** (`س`):
+  - *sintaxe* $\rightarrow$ **`سينتسہ`** (pronunciado *sintasse* com /s/)
   - *texto* $
 ightarrow$ `تكستو`
   - *próximo* $
