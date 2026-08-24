@@ -107,7 +107,7 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
 - **G brando** (antes de *e*, *i*, representando a fricativa palatal sonora /ʒ/) mapeia para **Jīm** (`ج`):
   - *gente* $\rightarrow$ `جنتہ`
   - *gênero* $\rightarrow$ `جینرو` / `جنرو` (proparoxítona, com Ye `ی` tónico opcional para preservação da identidade vocálica)
-  - *gerúndio* $\rightarrow$ `جرندیو` / `ژرندیو` (preservando o hiato/ditongo proparoxítono `-dio` `دیو`)
+  - *gerúndio* $\rightarrow$ `جروندیو` / `جرندیو` (grafado estritamente com Jīm `ج` por ter raiz com *g*; com opção de Waw `و` após o Rā `ر` para marcar a vogal tónica em *-rú-*)
   - *giringonça* $\rightarrow$ `جرنگنسہ` (sem Waw `و` no sufixo paroxítono *-onça*)
   - *Gemini* $\rightarrow$ `جمینى`
 - **J** (grafema independente *j*, representando /ʒ/ lexical da raiz) mapeia para **Žā** (`ژ`):
@@ -155,7 +155,7 @@ Nas posições intervocálicas onde o português opõe a fricativa alveolar sono
 ** Dígrafos Palatais (lh, nh)
 As consoantes palatais são representadas como ligaduras de consoante-semivogal usando *Lām-Ye* (`لی`) e *Nūn-Ye* (`نی`):
 - **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیو`, *espelho* $\rightarrow$ `اسپلیو` / `سپلیو`, *folha* $\rightarrow$ `فلها` (paroxítona, sem Waw `و`), *detalhe* $\rightarrow$ `دتلیہ`
-- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تنهو` (paroxítona, sem Ye `ی` no radical), *linhas* $\rightarrow$ `لینیها` / `لینی-ها` (`liniha` ou `lini-ha` com sufixo `-hā`), *desenho* $\rightarrow$ `دزنیو`
+- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تنهو` (paroxítona, sem Ye `ی` no radical), *linhas* $\rightarrow$ `لینیها` / `لینی‌ها` (`liniha` ou `lini‌ha` com ZWNJ `U+200C` antes de `-hā`), *desenho* $\rightarrow$ `دزنیو`
 
 * 2. Sistema Vocálico, Diacríticos e Acentuação
 
@@ -187,23 +187,16 @@ Ambas as convenções são variantes ortográficas plenamente válidas no Aljami
   - ***é* aberto** [ɛ] (ex.: verbo *ser*: *é*) mapeia principalmente para **Ye Duplo** (`یی`).
   - ***e* átono** [e]/[i] (ex.: conjunção *e*, *e-* inicial em *estudar*, *estudo*, *escrever*) mapeia para **Ye Simples** (`ی`):
     - *estudar* [iʃtuˈdaɾ] $\rightarrow$ **یستدر** / **استدر** / **ستدر** (com opção de dropar o suporte inicial inteiramente `ستدر`)
-    - *estudo* [iʃˈtudu] $\rightarrow$ **یستدو** / **ستدو**
+    - *estudo* [iʃˈtudu] $\rightarrow$ **استودو** / **ستودو** (com Waw `و` no *-tú-* tónico e no *-do* final)
     - *escrever* [iʃkɾɨˈveɾ] $\rightarrow$ **یسكرور** / **اسكرور** / **سكرور** (escrever $\rightarrow$ *screver* `سكرور`)
   - **Omissão do Suporte Vocálico Inicial**: Em palavras com base latina iniciadas por *e-* protético (*escrever*, *estudar*, *estar*), existe a liberdade ortográfica de omitir completamente o Alif/Ye inicial, escrevendo diretamente o esqueleto consonantal (`سكرور`, `ستدر`, `ستر`).
   - **Regra de Ausência de Hamzah no Alif**: O Alif nunca carrega Hamzah (`إ` ou `أ`). Neste sistema, o Hamzah é reservado exclusivamente para assinalar hiato/ditongo sobre Ye (`ئ`) e Waw (`ؤ`). As vogais iniciais escritas com Alif usam Alif simples (`ا`) ou Alif com Madd (`آ`), podendo também ser representadas por Ye direto (`ی`) e Ye Duplo (`یی`).
 
-** Alif Tónico (ا) e Inferência de Acentuação em Consoante Final (*-r*, *-l*, *-z*)
-O **Alif Tónico** (`ا`) funciona como um **marcador especializado de proparoxítonas / acentuação irregular**:
-- **Inferência Padrão de Acentuação e Ausência de Alif antes de *-r*, *-l*, *-z* Finais**:
-  Paroxítonas padrão (acentuação na penúltima sílaba em palavras terminadas em vogal como *casa*, *livro*) e oxítonas padrão terminadas em consoante (*-r*, *-l*, *-z*) **nunca** levam Alif `ا` antes da consoante final. Nos verbos no infinitivo (*-ar*, *-er*, *-ir*) e palavras terminadas em *-r*, *-l*, *-z*, a acentuação na última sílaba é automaticamente inferida através da própria consoante:
-  - *estudar* [iʃtuˈdaɾ] $\rightarrow$ **استدر** / **یستدر** (Sílaba *-dar* escrita `در`, sem Alif `ا` antes de `ر`, pois o acento tónico é completamente compreendido pelo `ر` final)
-  - *analisar* [ɐnɐliˈzaɾ] $\rightarrow$ **انلیزر** (Sílaba *-zar* escrita `زر`, sem Alif `ا` antes de `ر`)
-  - *conversar* [kõvɨɾˈsaɾ] $\rightarrow$ **كنورسر** (Sílaba *-sar* escrita `سر`, sem Alif `ا` antes de `ر`)
-  - *escrever* [iʃkɾɨˈveɾ] $\rightarrow$ **اسكرور** / **یسكرور** (Sílaba *-ver* escrita `ور`, acentuação inferida pelo `ر` final)
-  - *criar* [kɾiˈaɾ] $\rightarrow$ **كریر** (Escrito `ریر`, acentuação inferida pelo `ر` final)
-- **Marcação Proparoxítona**: O Alif Tónico é estritamente reservado para **proparoxítonas** (*palavras esdrúxulas*) ou acentuação irregular que rompa com os padrões:
-  - *prática* [ˈpɾatika] $\rightarrow$ `پراكتیكہ` (Alif Tónico inserido após *p-r-* para marcar a acentuação na primeira sílaba)
-  - *gênero* [ˈʒenɨɾu] $\rightarrow$ `جانرو` / `جنِرو`
+** Alif Tónico (ا) e Mater Lectionis em Proparoxítonas
+- **Uso Estrito do Alif Tónico (`ا`)**: O uso do Alif tónico como marcador de proparoxítona é **limitado estritamente à vogal tónica *a*** (ex.: *prática* `پراكتیكہ`, *gramática* `گرمتيكہ`, *análise* `انالیزہ`), ou para quando se tornar estritamente necessário distinguir entre **e** tónico e **i** tónico em pares mínimos proparoxítonos.
+- **Proparoxítonas com e / i / o / u Tónicos**: Quando não houver tal necessidade de diferenciação de pares mínimos:
+  - **e** e **i** tónicos em proparoxítonas grafam-se com **Ye (`ی`)** (ex.: *gênero* $\rightarrow$ **`جینرو`**, *fonética* $\rightarrow$ **`فنيتكہ`**).
+  - **o** e **u** tónicos em proparoxítonas (e em tonicidades vocálicas primárias) grafam-se analogamente com **Waw (`و`)** (ex.: *estudo* $\rightarrow$ **`استودو`**, *gerúndio* $\rightarrow$ **`جروندیو`**).
 
 ** Contrastes de Vogais Abertas vs. Fechadas (avô vs. avó)
 Os contrastes de timbre nas vogais médias utilizam combinações de Alif e Waw:
