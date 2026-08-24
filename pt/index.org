@@ -87,7 +87,7 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 | **k / c / q** (duro) | [k] | **ك** | Kāf | *coisa* | `كویزہ` |
 | **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
 | **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
-| **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كاهو` / `تـره` |
+| **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كاهو` / `تہہ` |
 | **r-** (inicial forte) | [ʁ] / [r] | **ر** (frequente) / **ه** | Rā / He | *rio* / *rua* | `ریو` / `روه` (ou `هیو` / `هوه`) |
 | **s** (intervocálico /z/) | [z] | **ز** | Zāy | *coisa* | `كویزہ` |
 | **ss** (intervocálico /s/) | [s] | **س** | Sīn | *processo* | `پرچسو` |
@@ -130,7 +130,7 @@ As vibrantes e tepes são divididas com base na posição silábica e no contras
   - *escrever* $\rightarrow$ `اسكرور` / `سكرور`
 - **RR duplo intervocálico ([ʁ] / [h])**: Mapeia **prioritariamente para He** (`ه` / `ـہ` - Gol He Urdu) para estabelecer uma oposição gráfica imediata com o R simples intervocálico (*caro* `كرو` vs. *carro* `كاهو`). A escrita de RR com **Rā** (`ر`) é secundária, reservada especificamente para dialetos com vibrante alveolar (*trill* [r]):
   - *carro* $\rightarrow$ **`كاهو`** (variante dialetal com Rā: `كارو`)
-  - *terra* $\rightarrow$ **`تـره`** (variante dialetal com Rā: `تره`)
+  - *terra* $\rightarrow$ **`تہہ`** (um *He* `ه` para *rr* + um *He* final `ہ` para *-a*; variante dialetal com Rā: `تره`)
 - **R inicial (word-initial R-)**: Ao contrário do RR intervocálico, o R inicial é grafado **com mais frequência e naturalidade por Rā (`ر`)** (ex.: *rio* `ریو`, *rua* `روه`, *raiz* `رایز`), enquanto o **He (`ه`)** é uma variante gráfica válida para quem deseja destacar a articulação glotal/velar ou evitar ambiguidade:
   - *rio* $\rightarrow$ **`ریو`** (padrão com Rā; variante com He: `هیو`)
   - *rua* $\rightarrow$ **`روه`** (padrão com Rā; variante com He: `هوه`)
@@ -691,5 +691,5 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 25. **Frase 25 — O Mar e o Horizonte**
     - **Português**: *Os rios correm para o mar e renovam as águas da terra.*
     - **IPA**: `[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]`
-    - **Aljamiado**: `وها هيوها كورم پرہ و مر ی هنووم اها اگوها دا تره.`
-    - **Notas**: He inicial padrão em `هيوها` e `هنووم` (variantes: `ریوها`, `رنووم`), RR em `تـره`, plurais `-hā` (`هيوها`, `اگوها`).
+    - **Aljamiado**: `وها ریوها كوهم پرہ و مر ی رنووم اها اگوها دا تہہ.`
+    - **Notas**: Rā para R inicial em `ریوها` e `رنووم` (variantes com He: `هيوها`, `هنووم`), He para RR intervocálico em `كوهم` e `تہہ`, desinência verbal -em defectiva (`كوهم`), plurais `-hā` (`ریوها`, `اگوها`).

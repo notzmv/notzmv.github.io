@@ -222,8 +222,8 @@ def update_pt_cards():
             "title": "Frase 25 — O Mar e o Horizonte",
             "pt": "Os rios correm para o mar e renovam as águas da terra.",
             "ipa": "[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]",
-            "aljamiado": "وها ریوها كورم پرہ و مر ی رنووم اها اگوها دا تره.",
-            "notes": "Rā para R inicial em ریوها e رنووم (variantes com He: هيوها, هنووم), He para RR intervocálico em تـره, plurais -hā."
+            "aljamiado": "وها ریوها كوهم پرہ و مر ی رنووم اها اگوها دا تہہ.",
+            "notes": "Rā para R inicial em ریوها e رنووم (variantes com He: هيوها, هنووم), He para RR intervocálico em كوهم e تہہ, desinência verbal -em defectiva (كوهم), plurais -hā."
         }
     ]
 
