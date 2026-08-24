@@ -375,6 +375,7 @@ def update_en_cards():
         print(f"Successfully updated {html_path} cards")
 
 def build():
+    convert_org_to_md("pt/curso.org", "pt/curso.md")
     convert_org_to_md("pt/index.org", "pt/index.md")
     convert_org_to_md("index.org", "index.md")
     update_pt_cards()
