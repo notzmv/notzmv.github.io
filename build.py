@@ -28,10 +28,10 @@ def update_pt_cards():
         {
             "id": 1,
             "title": "Frase 1 — Saudação e Bênção",
-            "pt": "Que a paz e as bênçãos estejam com você e sua família.",
-            "ipa": "[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]",
-            "aljamiado": "كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.",
-            "notes": "Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, verb ending -am (استژم)."
+            "pt": "Que a paz e as bênçãos de Allah estejam com o profeta Muhammad e sua família.",
+            "ipa": "[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ dʒi a'lːa es'tejɐ̃w kõ u pɾo'fɛtɐ mu'xɐmɐd i 'suɐ fɐ'miljɐ]",
+            "aljamiado": "كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.",
+            "notes": "Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, Allah (اللّٰہ), Muhammad com Ḥā/7 (محمّد)."
         },
         {
             "id": 2,
@@ -46,8 +46,8 @@ def update_pt_cards():
             "title": "Frase 3 — Paciência e Gratidão",
             "pt": "A paciência e a gratidão trazem paz e sabedoria no coração.",
             "ipa": "[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.",
-            "notes": "Chā para C brando (پچنچیہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو)."
+            "aljamiado": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ نو كرچاو.",
+            "notes": "Chā para C brando (پچنچیہ), sabedoria sem Waw (سبدریہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو)."
         },
         {
             "id": 4,
@@ -55,7 +55,7 @@ def update_pt_cards():
             "pt": "Seja muito bem-vindo à nossa comunidade.",
             "ipa": "['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]",
             "aljamiado": "سژہ مویتو بم-ویندو آ نسہ كمونیددہ.",
-            "notes": "Žā para J/G brando (سژہ), ditongo ui (مویتو), Alif Madd inicial (آ)."
+            "notes": "Žā para J/G brando (سژہ), hífen em mídia digital / ZWNJ em manuscrito (بم-ویندو / بم‌ویندو), Alif Madd inicial (آ)."
         },
         {
             "id": 5,
@@ -110,8 +110,8 @@ def update_pt_cards():
             "title": "Frase 11 — Sabedoria e Razão",
             "pt": "A sabedoria ilumina a mente e o conhecimento fortalece a alma.",
             "ipa": "[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]",
-            "aljamiado": "ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.",
-            "notes": "Alif inicial em الومینہ e المہ, C brando em فرتلچہ (Chā), Gol He final."
+            "aljamiado": "ا سبدریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.",
+            "notes": "sabedoria sem Waw (سبدریہ), Alif inicial em الومینہ e المہ, C brando em فرتلچہ (Chā), Gol He final."
         },
         {
             "id": 12,
@@ -142,8 +142,8 @@ def update_pt_cards():
             "title": "Frase 15 — Busca pela Felicidade",
             "pt": "Quem busca a sabedoria encontra a verdadeira felicidade na vida.",
             "ipa": "[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]",
-            "aljamiado": "كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.",
-            "notes": "Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final."
+            "aljamiado": "كم بوسكہ ا سبدریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.",
+            "notes": "Kāf para Q (كم), sabedoria sem Waw (سبدریہ), C brando em فلچیددہ (Chā), Gol He final."
         },
         {
             "id": 16,
@@ -244,9 +244,13 @@ def update_pt_cards():
         with open(html_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
-        pattern = r'<div class="corpus-list">.*?(?=\s*<script>|\s*</body>)'
-        replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>\n\n'
-        updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
+        if "<!-- CORPUS_START -->" in html_content and "<!-- CORPUS_END -->" in html_content:
+            pattern = r'<!-- CORPUS_START -->.*?<!-- CORPUS_END -->'
+            replacement = '<!-- CORPUS_START -->\n<div class="corpus-list">\n' + cards_block + '\n</div>\n<!-- CORPUS_END -->'
+        else:
+            pattern = r'<div class="corpus-list">.*?</div>'
+            replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>'
+        updated_html = re.sub(pattern, replacement, html_content, count=1, flags=re.DOTALL)
 
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(updated_html)
@@ -358,9 +362,13 @@ def update_en_cards():
         with open(html_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
-        pattern = r'<div class="corpus-list">.*?(?=\s*<script>|\s*</body>)'
-        replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>\n\n'
-        updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
+        if "<!-- CORPUS_START -->" in html_content and "<!-- CORPUS_END -->" in html_content:
+            pattern = r'<!-- CORPUS_START -->.*?<!-- CORPUS_END -->'
+            replacement = '<!-- CORPUS_START -->\n<div class="corpus-list">\n' + cards_block + '\n</div>\n<!-- CORPUS_END -->'
+        else:
+            pattern = r'<div class="corpus-list">.*?</div>'
+            replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>'
+        updated_html = re.sub(pattern, replacement, html_content, count=1, flags=re.DOTALL)
 
         with open(html_path, "w", encoding="utf-8") as f:
             f.write(updated_html)

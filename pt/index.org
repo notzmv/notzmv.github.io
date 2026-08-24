@@ -81,10 +81,10 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais para o Aljamiado Português, cobrindo o rigor morfofonêmico, as sibilantes e o mapeamento consonantal:
 
 1. **Frase 1 — Saudação e Bênção**
-   - **Português**: *Que a paz e as bênçãos estejam com você e sua família.*
-   - **IPA**: `[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ es'tejɐ̃w kõ vo'se i 'suɐ fɐ'miljɐ]`
-   - **Aljamiado**: `كہ ا پز ی اها بنچوها استژم كم وچہ ی سوہ فمیلیہ.`
-   - **Notas**: Gol He final (`كہ`, `سوه`, `فمیلیہ`), sufixo nominal `-hā` (`اها`, `بنچوها`), Zāy em `پز`, desinência verbal `-am` defectiva (`استژم`).
+   - **Português**: *Que a paz e as bênçãos de Allah estejam com o profeta Muhammad e sua família.*
+   - **IPA**: `[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ dʒi a'lːa es'tejɐ̃w kõ u pɾo'fɛtɐ mu'xɐmɐd i 'suɐ fɐ'miljɐ]`
+   - **Aljamiado**: `كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.`
+   - **Notas**: Gol He final (`كہ`, `سوه`, `فمیلیہ`), sufixo nominal `-hā` (`اها`, `بنچوها`), Zāy em `پز`, nome sagrado de Allah (`اللّٰہ`), nome profético em grafia árabe clássica com Ḥā (`محمّد`).
 
 2. **Frase 2 — Busca pelo Conhecimento**
    - **Português**: *A busca pelo conhecimento é um dever de todos.*
@@ -95,14 +95,14 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 3. **Frase 3 — Paciência e Gratidão**
    - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
    - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.`
-   - **Notas**: Chā para C brando (`پچنچیہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیداو`, `كرچاو`).
+   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ نو كرچاو.`
+   - **Notas**: Chā para C brando (`پچنچیہ`), *sabedoria* sem Waw (`سبدریہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیداو`, `كرچاو`).
 
 4. **Frase 4 — Acolhimento e Comunidade**
    - **Português**: *Seja muito bem-vindo à nossa comunidade.*
    - **IPA**: `['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]`
    - **Aljamiado**: `سژہ مویتو بم-ویندو آ نسہ كمونیددہ.`
-   - **Notas**: Žā para J/G brando (`سژہ`), ditongo `ui` (`مویتo` -> `مویتو`), Alif Madd inicial (`آ`).
+   - **Notas**: Žā para J/G brando (`سژہ`), hífen em mídia digital / ZWNJ em manuscrito (`بم-ویندو` / `بم‌ویندو`), Alif Madd inicial (`آ`).
 
 5. **Frase 5 — Boas Ações e Palavras Sinceras**
    - **Português**: *As boas ações e as palavras sinceras transformam o mundo.*
@@ -143,8 +143,8 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 11. **Frase 11 — Sabedoria e Razão**
     - **Português**: *A sabedoria ilumina a mente e o conhecimento fortalece a alma.*
     - **IPA**: `[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]`
-    - **Aljamiado**: `ا سبدوریہ الومینہ ا منتہ ی و كنیچیمنتo فرتلچہ ا المہ.`
-    - **Notas**: Alif inicial em `الومینہ` e `المہ`, C brando em `فرتلچہ` (Chā), Gol He final.
+    - **Aljamiado**: `ا سبدریہ الومینہ ا منتہ ی و كنیچیمنتو فرتلچہ ا المہ.`
+    - **Notas**: *sabedoria* sem Waw (`سبدریہ`), Alif inicial em `الومینہ` e `المہ`, C brando em `فرتلچہ` (Chā), Gol He final.
 
 12. **Frase 12 — Semeadores de Esperança**
     - **Português**: *Os homens de bem semeiam a esperança e colhem a justiça.*
@@ -167,8 +167,8 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 15. **Frase 15 — Busca pela Felicidade**
     - **Português**: *Quem busca a sabedoria encontra a verdadeira felicidade na vida.*
     - **IPA**: `[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]`
-    - **Aljamiado**: `كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
-    - **Notas**: Kāf para Q (`كم`), C brando em `فلچیددہ` (Chā), Gol He final.
+    - **Aljamiado**: `كم بوسكہ ا سبدریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
+    - **Notas**: Kāf para Q (`كم`), *sabedoria* sem Waw (`سبدریہ`), C brando em `فلچیددہ` (Chā), Gol He final.
 
 16. **Frase 16 — Reflexão e Honra**
     - **Português**: *Um bom amigo traz honra e alegria para a nossa casa.*
@@ -591,6 +591,10 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 
 ** Hiato vs. Ditongos (país vs. pais)
 - **Ditongos**: *pais* (plural de *pai*) $\rightarrow$ `پایها` (*pai* + *-hā*)
+
+** Anexação de Clíticos e Hifenização
+- **Compostos com Hífen (*bem-vindo*, *bem-estar*)**:
+  Em mídias digitais e dactilografia, encoraja-se o uso do hífen latino (`-`) para manter a clareza e ritmo de digitação: *bem-vindo* $\rightarrow$ **`بم-ویندو`**. Em caligrafia manuscrita tradicional, é igualmente aceito e válido o uso de ZWNJ (`‌`): **`بم‌ویندو`**.
 
 * 6. Tabelas de Paradigmas Mestre
 
