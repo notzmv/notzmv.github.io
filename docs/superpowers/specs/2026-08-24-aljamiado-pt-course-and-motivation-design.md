@@ -47,32 +47,32 @@ The course is structured into 7 form-based lessons, ordering letter shape famili
 - As 4 posições (Isolada, Inicial, Medial, Final).
 - Sistema de alternância Naskh/Nastaliq.
 
-### Lição 1: Não-Conectores Fundamentais — Alif (`ا`), Waw (`و`) e Família Rā (`ر`, `ز`)
-- **Formas**: Haste vertical (`ا`), gancho (`و`), curva descendente simples (`ر`, `ز`).
-- **Rendimento de Vocabulário**: *a* (`ا`), *o* (`و`), *ou* (`او`), *ao* (`او`), *ar* (`ار`), *ver* (`ور`), *por* (`پور`), *voz* (`وز`), *dor* (`دور`).
+### Lição 1: Não-Conectores Fundamentais (`ا`, `و`, `ر`, `ز`) e o Gol He Final (`ہ` / `ـه`)
+- **Formas & Função**: Haste vertical (`ا`), gancho (`و`), curva descendente (`ر`, `ز`) e o **Gol He final** (`ہ` / `ـه`), essencial por marcar vogais atónicas finais (*-a*, *-e*, *-o*).
+- **Rendimento de Vocabulário**: *a* (`ا`), *o* (`و`), *de* (`دہ`), *que* (`كہ`), *para* (`پرہ`), *ou* (`او`), *ao* (`او`), *ar* (`ار`), *ver* (`ور`), *por* (`پور`), *voz* (`وز`), *dor* (`دور`).
 
 ### Lição 2: Traço Baixo — Bā' (`ب`, `پ`, `ت`) e Gancho Dāl (`د`)
 - **Formas**: Traço horizontal inferior com pontos + curva angular de Dāl.
-- **Novas Palavras**: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *para* (`پرہ`), *tudo* (`تودو`), *até* (`اتى`), *boa* (`بوہ`).
+- **Novas Palavras & Vogais**: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *tudo* (`تودo`), *até* (`اتى`), *boa* (`بوہ`).
 
-### Lição 3: Cúpulas & Hastes — Kāf/Gāf (`ك`, `گ`) e Gol He (`ہ` / `ـه`)
-- **Formas**: Haste com diagonal superior + laço fechado de He.
-- **Novas Palavras**: *que* (`كہ`), *com* (`كم`), *como* (`كمو`), *cada* (`كدہ`), *vida* (`ویدہ`), *faz* (`فز`).
+### Lição 3: Cúpulas & Hastes — Kāf/Gāf (`ك`, `گ`) e Encontros Vocálicos Iniciais
+- **Suportes Iniciais**: Alif (`ا`), Alif Madd (`آ`), Alif-Waw (`او`), Alif-Ye (`ای`).
+- **Novas Palavras**: *que* (`كہ`), *com* (`كم`), *como* (`كمو`), *cada* (`كدہ`), *vida* (`ویدہ`), *faz* (`فز`), *até* (`اتى`).
 
-### Lição 4: Laços Circulares — Mīm (`م`), Nūn (`ن`) e Ye (`ی`)
-- **Formas**: Círculo com cauda (`م`), tigela com ponto (`ن`), curva em S (`ی`).
-- **Novas Palavras**: *em* (`ام`), *um* (`اوم`), *uma* (`اومہ`), *não* (`ناو`), *na* (`نہ`), *no* (`نو`), *nem* (`نم`), *mais* (`میس`), *minha* (`مینیہ`).
+### Lição 4: Laços Circulares — Mīm (`م`), Nūn (`ن`), Ye (`ی`) e o Motor de Nasalização
+- **Formas & Nasalização**: Círculo com cauda (`م`), tigela com ponto (`ن`), curva em S (`ی`).
+- **Ditongos & Nasais**: *em* (`ام`), *um* (`اوم`), *uma* (`اومہ`), *não* (`ناو`), *na* (`نہ`), *no* (`نو`), *nem* (`نم`), *mais* (`میس`), *minha* (`مینیہ`).
 
-### Lição 5: Dentes & Barrigas Curvas — Sīn/Shīn (`س`, `ش`), Chā (`چ`), Žā (`ژ`)
-- **Formas**: Três dentes curvos + barriga curva com 3 pontos.
+### Lição 5: Dentes & Barrigas Curvas — Sīn/Shīn (`س`, `ش`), Chā (`چ`), Žā (`ژ`) e Nuances de Hiato vs. Ditongo
+- **Formas & Hiato**: Três dentes curvos + barriga curva com 3 pontos; uso de Hamza/Ye em hiato (*país* vs. *pais*).
 - **Novas Palavras**: *se* (`سہ`), *seu* (`سیو`), *sua* (`سوه`), *paz* (`پز`), *já* (`ژا`), *hoje* (`وهژہ`), *chega* (`چگہ`).
 
-### Lição 6: Hastes Altas & Dígrafos — Lām (`ل`), LH (`ل-ی`), NH (`ن-ی`), RR (`ه`)
-- **Formas**: Haste vertical longa conectiva e combinações palatais.
-- **Novas Palavras**: *ele* (`إلى`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهو`).
+### Lição 6: Hastes Altas & Dígrafos — Lām (`ل`), LH (`ل-ی`), NH (`ن-y`), RR (`ه`)
+- **Formas**: Haste vertical longa conectiva e combinações palatais; contraste R (`ر`) vs. RR (`ه`).
+- **Novas Palavras**: *ele* (`إلى`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهo`).
 
-### Lição 7: Sufixo Nominal de Plural (`-hā` / `ـها`)
-- **Formas**: Conexão mediana de He com Alif.
+### Lição 7: Sufixo Nominal de Plural (`-hā` / `ـها`) e Paradigmas Morfofonêmicos Completos
+- **Formas**: Conexão mediana de He com Alif (`ـها`).
 - **Novas Palavras**: *os* (`وها`), *as* (`اها`), *dos* (`دوها`), *das* (`داها`), *todos* (`تدوها`), *palavras* (`پلورها`).
 
 ---
