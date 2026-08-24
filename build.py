@@ -102,7 +102,7 @@ def update_pt_cards():
             "title": "Frase 10 — União e Harmonia",
             "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
             "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
-            "aljamiado": "ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.",
+            "aljamiado": "ا انیاو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.",
             "notes": "uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز."
         },
         {

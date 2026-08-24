@@ -448,6 +448,25 @@ Nas palavras **paroxítonas** (acentuação regular na penúltima sílaba), as v
 
 Em contraste, as **não-paroxítonas** (proparoxítonas e oxítonas) exigem letras de *mater lectionis* tónicas quando necessário (ex.: *gramática* `گرامتیكہ` com Alif tónico `ا`, *fonética* `فنيتكہ` com Ye tónico `ی`).
 
+** Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
+O sistema vocálico aljamiado opera sob o princípio da **economia escalar por comprimento de palavra**:
+
+1. **Palavras Curtas (Monossílabos e Dissílabos)**: Devido à escassez de contexto consonantal, palavras curtas exigem a marcação explícita de vogais/ditongos para desambiguar pares mínimos:
+   - *bom* $\rightarrow$ **`بم`**
+   - *bum* $\rightarrow$ **`بوم`**
+   - *bim* $\rightarrow$ **`بیم`**
+
+2. **Palavras Longas (Polissílabos)**: Palavras longas possuem redundância consonantal suficiente para dispensar *mater lectionis* atónicas internas, mantendo uma escrita altamente defectiva sem perda de legibilidade:
+   - *misericordioso* $\rightarrow$ **`مزریكردیوزو`** / **`مزركردیوزو`** (preservando apenas as vogais tónicas/essenciais).
+
+3. **Tríade de Convenções e o Logograma `-hā`**:
+   O comportamento do sufixo nominal de plural **`-hā`** (`ـها`) interage harmoniosamente com a economia vocálica no grupo derivacional de *convenção*:
+   - *convenço* (1ª pess. sing. pres. ind.) $\rightarrow$ **`كنونچو`** (terminado em Waw `و` verbal).
+   - *convenção* (substantivo sing.) $\rightarrow$ **`كنونچاو`** (terminado em `-ão` `او`).
+   - *convenções* (substantivo plur.) $\rightarrow$ **`كنونچوها`** (com sufixo nominal `-hā` `ـها` anexado diretamente a `كنونچو`).
+
+   A anexação do logograma **`-hā`** a **`كنونچو`** gera **`كنونچوها`**, que é distinguido de *convenço* (`كنونچو`) pelo próprio logograma de plural, dispensando a necessidade de inserir uma letra vocálica interna extra para marcar o ditongo secundário *-õe-*.
+
 ** Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)
 Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica semítica clássica (*Rasm*), as vogais médias/baixas breves (**a**, **e**, **o**) dentro de sílabas internas simples e não-ditongais **não** requerem letras explícitas de *mater lectionis* (Alif `ا`, Ye `ی`, Waw `و`).
 
