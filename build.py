@@ -86,8 +86,8 @@ def update_pt_cards():
             "title": "Frase 8 — Generosidade",
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
-            "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچاو.",
-            "notes": "He inicial padrão para R forte (هیكزہ, variante com Rā: ریكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
+            "aljamiado": "ا ورددیره ریكزہ استا نہ جنرزیددہ دو كرچاو.",
+            "notes": "Rā para R inicial (ریكزہ, variante com He: هیكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
         },
         {
             "id": 9,
@@ -134,8 +134,8 @@ def update_pt_cards():
             "title": "Frase 14 — Palavras de Fé",
             "pt": "As palavras de fé e amor renovam os corações dos homens.",
             "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
-            "aljamiado": "اها پلورها دہ فی ی امور هنووم وها كرچوها دوها همنها.",
-            "notes": "He inicial padrão em هنووم (variante com Rā: رنووم), -am verbal defectivo (هنووم), plurais nominais -hā."
+            "aljamiado": "اها پلورها دہ فی ی امور رنووم وها كرچوها دوها همنها.",
+            "notes": "Rā para R inicial em رنووم (variante com He: هنووم), -am verbal defectivo (رنووم), plurais nominais -hā."
         },
         {
             "id": 15,
@@ -206,8 +206,8 @@ def update_pt_cards():
             "title": "Frase 23 — Semeando Bondade",
             "pt": "Uma boa ação traz uma grande recompensa no coração.",
             "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.",
-            "notes": "uma estritamente como اومہ, He inicial padrão em هكمپنسہ (variante: ركمپنسہ), Zāy em ترز."
+            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.",
+            "notes": "uma estritamente como اومہ, Rā para R inicial em ركمپنسہ (variante com He: هكمپنسہ), Zāy em ترز."
         },
         {
             "id": 24,
@@ -222,8 +222,8 @@ def update_pt_cards():
             "title": "Frase 25 — O Mar e o Horizonte",
             "pt": "Os rios correm para o mar e renovam as águas da terra.",
             "ipa": "[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]",
-            "aljamiado": "وها هيوها كورم پرہ و مر ی هنووم اها اگوها دا تره.",
-            "notes": "He inicial padrão em هيوها e هنووم (variantes: ریوها, رنووم), RR em تـره, plurais -hā (هيوها, اگوها)."
+            "aljamiado": "وها ریوها كورم پرہ و مر ی رنووم اها اگوها دا تره.",
+            "notes": "Rā para R inicial em ریوها e رنووم (variantes com He: هيوها, هنووم), He para RR intervocálico em تـره, plurais -hā."
         }
     ]
 

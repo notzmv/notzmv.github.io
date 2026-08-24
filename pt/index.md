@@ -87,7 +87,8 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 | **k / c / q** (duro) | [k] | **ك** | Kāf | *coisa* | `كویزہ` |
 | **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
 | **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
-| **rr / r-** (inicial / forte) | [ʁ] / [r] | **ه** (padrão) / **ر** | Hā / Rā | *carro* / *rio* | `كاهو` / `هیو` (ou `ریو`) |
+| **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كاهو` / `تـره` |
+| **r-** (inicial forte) | [ʁ] / [r] | **ر** (frequente) / **ه** | Rā / He | *rio* / *rua* | `ریو` / `روه` (ou `هیو` / `هوه`) |
 | **s** (intervocálico /z/) | [z] | **ز** | Zāy | *coisa* | `كویزہ` |
 | **ss** (intervocálico /s/) | [s] | **س** | Sīn | *processo* | `پرچسو` |
 | **m** (início de sílaba) | [m] | **م** | Mīm | *minha* | `مینیہ` |
@@ -120,23 +121,23 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
 
 ## Distinção R vs. RR (Rā vs. He)
-As vibrantes e tepes são divididas com base na posição silábica e no peso de articulação fonética:
-- **R simples intervocálico ou brando (tepe alveolar [ɾ])** mapeia estritamente para **Rā** (`ر`):
+As vibrantes e tepes são divididas com base na posição silábica e no contraste fonológico:
+- **R simples intervocálico ou brando (tepe alveolar [ɾ])**: Mapeia estritamente para **Rā** (`ر`):
   - *caro* $\rightarrow$ `كرو`
   - *para* $\rightarrow$ `پرہ`
   - *gramática* $\rightarrow$ `گرامتیكہ`
   - *morfema* $\rightarrow$ `مرفمہ`
   - *escrever* $\rightarrow$ `اسكرور` / `سكرور`
-- **RR duplo intervocálico e R inicial forte (vibrante/fricativa velar/uvular [ʁ] / [r])** mapeiam por padrão para **He** (`ه` / `ـہ` - Hā / Gol He Urdu):
-  - *carro* $\rightarrow$ `كاہو`
-  - *rio* $\rightarrow$ `هیو` (variante com Rā: `ریو`)
-  - *rua* $\rightarrow$ `هوه` (variante com Rā: `روه`)
-  - *raiz* $\rightarrow$ `هایز` (variante com Rā: `رایز`)
-  - *regra* $\rightarrow$ `هگراہ` / `هگرہ` (variante com Rā: `رگرہ`)
-  - *riqueza* $\rightarrow$ `هیكزہ` (variante com Rā: `ریكزہ`)
-  - *renovam* $\rightarrow$ `هنووم` (variante com Rā: `رنووم`)
-- **Nota sobre a Escolha Ortográfica do R Inicial (He vs. Rā)**:
-  O uso de **He** (`ه`) como padrão no R inicial é especialmente recomendado para leitores que desejam evitar qualquer confusão visual ou fonética do *Rā* (`ر`) ao alternar com a leitura/recitação do Alcorão (Tajweed), aceitando a pequena complexidade adicional do traço. A escrita do R inicial com **Rā** (`ر`) permanece uma alternativa simplificada e plenamente válida no Aljamiado Português.
+- **RR duplo intervocálico ([ʁ] / [h])**: Mapeia **prioritariamente para He** (`ه` / `ـہ` - Gol He Urdu) para estabelecer uma oposição gráfica imediata com o R simples intervocálico (*caro* `كرو` vs. *carro* `كاهو`). A escrita de RR com **Rā** (`ر`) é secundária, reservada especificamente para dialetos com vibrante alveolar (*trill* [r]):
+  - *carro* $\rightarrow$ **`كاهو`** (variante dialetal com Rā: `كارو`)
+  - *terra* $\rightarrow$ **`تـره`** (variante dialetal com Rā: `تره`)
+- **R inicial (word-initial R-)**: Ao contrário do RR intervocálico, o R inicial é grafado **com mais frequência e naturalidade por Rā (`ر`)** (ex.: *rio* `ریو`, *rua* `روه`, *raiz* `رایز`), enquanto o **He (`ه`)** é uma variante gráfica válida para quem deseja destacar a articulação glotal/velar ou evitar ambiguidade:
+  - *rio* $\rightarrow$ **`ریو`** (padrão com Rā; variante com He: `هیو`)
+  - *rua* $\rightarrow$ **`روه`** (padrão com Rā; variante com He: `هوه`)
+  - *raiz* $\rightarrow$ **`رایز`** (padrão com Rā; variante com He: `هایز`)
+  - *regra* $\rightarrow$ **`رگرہ`** (padrão com Rā; variante com He: `هگرہ`)
+  - *riqueza* $\rightarrow$ **`ریكزہ`** (padrão com Rā; variante com He: `هیكزہ`)
+  - *renovam* $\rightarrow$ **`رنووم`** (padrão com Rā; variante com He: `هنووم`)
 
 ## Contraste S vs. SS Intervocálico (Zāy vs. Sīn)
 Nas posições intervocálicas onde o português opõe a fricativa alveolar sonora /z/ e a surda /s/:
