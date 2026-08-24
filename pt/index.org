@@ -1,271 +1,448 @@
-#+TITLE: Aljamiado Português: Orthographic & Phonological Specification
+#+TITLE: Aljamiado Português: Especificação Ortográfica e Fonológica
 #+AUTHOR: Umar
 #+DATE: [2026-08-22 Sat]
 #+FILETAGS: :aljamiado:portuguese:orthography:linguistics:script:
 
-* Table of Contents :toc:
-- [[#introduction--overview][Introduction & Overview]]
-- [[#1-consonant-inventory--perso-arabic-mapping][1. Consonant Inventory & Perso-Arabic Mapping]]
-  - [[#consonant-mapping-table][Consonant Mapping Table]]
-  - [[#soft-c-vs-soft-gj-distinction][Soft C vs. Soft G/J Distinction]]
-  - [[#r-vs-rr-distinction-r-vs-h][R vs. RR Distinction (Rā vs. He)]]
-  - [[#intervocalic-s-vs-ss-contrast-zāy-vs-sīn][Intervocalic S vs. SS Contrast (Zāy vs. Sīn)]]
-  - [[#palatal-digraphs-lh-nh][Palatal Digraphs (lh, nh)]]
-- [[#2-vowel-system-diacritics--accentuation][2. Vowel System, Diacritics & Accentuation]]
-  - [[#word-final-vowels-he-vs-waw][Word-Final Vowels (He vs. Waw)]]
-  - [[#initial-vowel-carriers--madd-diacritics][Initial Vowel Carriers & Madd Diacritics]]
-  - [[#tonic-alif-ا-stress-accentuation][Tonic Alif (ا) Stress Accentuation]]
-  - [[#open-vs-closed-vowel-contrasts-avô-vs-avó][Open vs. Closed Vowel Contrasts (avô vs. avó)]]
-- [[#3-nasalization-engine][3. Nasalization Engine]]
-  - [[#monosyllabic--syllable-final-nasals][Monosyllabic & Syllable-Final Nasals]]
-  - [[#nasal-diphthongs--ão--ãe--õe][Nasal Diphthongs (-ão, -ãe, -õe)]]
-- [[#4-morphophonemic-rules--domain-mapping][4. Morphophonemic Rules & Domain Mapping]]
-  - [[#rule-i-nominal-number-domain--hā-ـها][Rule I: Nominal Number Domain (-hā / ـها)]]
-  - [[#rule-ii-direct-surface-substitution][Rule II: Direct Surface Substitution]]
-  - [[#rule-iii-verbal--lexical-sibilant-domain-س--ز][Rule III: Verbal & Lexical Sibilant Domain (س / ز)]]
-- [[#5-edge-cases--special-constructions][5. Edge Cases & Special Constructions]]
-  - [[#preposition--article-contractions][Preposition + Article Contractions]]
-  - [[#lexical-singulars-in--s--z-vs-plural-inflections][Lexical Singulars in -s / -z vs. Plural Inflections]]
-  - [[#hiatus-vs-diphthongs-país-vs-pais][Hiatus vs. Diphthongs (país vs. pais)]]
-  - [[#clitic-attachment--hyphenation][Clitic Attachment & Hyphenation]]
-  - [[#consonant-clusters][Consonant Clusters]]
-- [[#6-master-paradigm-lookup-tables][6. Master Paradigm Lookup Tables]]
-  - [[#determiners--articles][Determiners & Articles]]
-  - [[#nominal--adjectival-inflection][Nominal & Adjectival Inflection]]
-  - [[#verbal-agreement-vs-pronominal-clitics][Verbal Agreement vs. Pronominal Clitics]]
-- [[#7-corpus--sample-transcriptions][7. Corpus & Sample Transcriptions]]
+* Índice :toc:
+- [[#introdução-e-visão-geral][Introdução e Visão Geral]]
+- [[#1-inventário-consonantal-e-mapeamento-perso-árabe][1. Inventário Consonantal e Mapeamento Perso-Árabe]]
+  - [[#tabela-de-mapeamento-consonantal][Tabela de Mapeamento Consonantal]]
+  - [[#mapeamento-ortográfico-de-c-brando-g-brando-e-j][Mapeamento Ortográfico de C Brando, G Brando e J]]
+  - [[#distinção-r-vs-rr-rā-vs-he][Distinção R vs. RR (Rā vs. He)]]
+  - [[#contraste-s-vs-ss-intervocálico-zāy-vs-sīn][Contraste S vs. SS Intervocálico (Zāy vs. Sīn)]]
+  - [[#dígrafos-palatais-lh-nh][Dígrafos Palatais (lh, nh)]]
+- [[#2-sistema-vocálico-diacríticos-e-acentuação][2. Sistema Vocálico, Diacríticos e Acentuação]]
+  - [[#vogais-em-fim-de-palavra-urdu-gol-he-vs-waw][Vogais em Fim de Palavra (Urdu Gol He vs. Waw)]]
+  - [[#suportes-de-vogal-inicial-opções-de-alif-e-escolha-do-escritor-آ--ا-vs-ی--یی][Suportes de Vogal Inicial: Opções de Alif e Escolha do Escritor (`آ` / `ا` vs. `ی` / `یی`)]]
+  - [[#alif-tónico-ا-e-inferência-de-acentuação-em-consoante-final-r--l--z][Alif Tónico (ا) e Inferência de Acentuação em Consoante Final (*-r*, *-l*, *-z*)]]
+  - [[#contrastes-de-vogais-abertas-vs-fechadas-avô-vs-avó][Contrastes de Vogais Abertas vs. Fechadas (avô vs. avó)]]
+  - [[#princípio-da-vogal-defectiva-minimização-de-vogais-longas-internas-para-a-e-o][Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)]]
+  - [[#encontros-vocálicos-e-mater-lectionis][Encontros Vocálicos e Mater Lectionis]]
+- [[#3-motor-de-nasalização][3. Motor de Nasalização]]
+  - [[#nasais-monossilábicas-e-em-fim-de-sílaba][Nasais Monossilábicas e em Fim de Sílaba]]
+  - [[#ditongos-nasais--ão--ãe--õe][Ditongos Nasais (-ão, -ãe, -õe)]]
+- [[#4-regras-morfofonêmicas-e-mapeamento-de-domínio][4. Regras Morfofonêmicas e Mapeamento de Domínio]]
+  - [[#regra-i-domínio-de-número-nominal--hā--ـها][Regra I: Domínio de Número Nominal (-hā / ـها)]]
+  - [[#regra-ii-substituição-de-superfície-direta][Regra II: Substituição de Superfície Direta]]
+  - [[#regra-iii-domínio-sibilante-verbal-e-lexical-س--ز][Regra III: Domínio Sibilante Verbal e Lexical (س / ز)]]
+- [[#5-casos-especiais-e-construções-particulares][5. Casos Especiais e Construções Particulares]]
+  - [[#representação-das-preposições-de-e-da][Representação das Preposições *de* e *da*]]
+  - [[#singulares-lexicais-em--s---z-vs-flexões-de-plural][Singulares Lexicais em -s / -z vs. Flexões de Plural]]
+  - [[#hiato-vs-ditongos-país-vs-pais][Hiato vs. Ditongos (país vs. pais)]]
+  - [[#anexação-de-clíticos-e-hifenização][Anexação de Clíticos e Hifenização]]
+  - [[#grupos-consonânticos][Grupos Consonânticos]]
+  - [[#economia-ortográfica-e-variantes-etimológicas-omissão-de-alif-e-redução-vocálica][Economia Ortográfica e Variantes Etimológicas (Omissão de Alif e Redução Vocálica)]]
+- [[#6-tabelas-de-paradigmas-mestre][6. Tabelas de Paradigmas Mestre]]
+  - [[#determinantes-e-artigos][Determinantes e Artigos]]
+- [[#7-corpus-e-amostras-de-transcrição][7. Corpus e Amostras de Transcrição]]
 
-* Introduction & Overview
-*Bismillah al-Rahman al-Rahim* (In the name of God, the Most Gracious, the Most Merciful).
+* Introdução e Visão Geral
+*Bismillah al-Rahman al-Rahim* (Em nome de Deus, o Clemente, o Misericordioso).
 
-**Aljamiado Português** is a personal, highly systematic orthographic and phonetic adaptation of the Perso-Arabic script designed to write the Portuguese language. Historically, *Aljamiado* (from Arabic *'ajamiyya*, "non-Arabic / foreign language written in Arabic script") referred to Romance languages (Mozarabic, Spanish, Ladino) transcribed using Arabic letterforms.
+**Aljamiado Português** é uma adaptação ortográfica e fonética pessoal e altamente sistemática do alfabeto perso-árabe desenvolvida para escrever a língua portuguesa. Historicamente, *Aljamiado* (do árabe *'ajamiyya*, "língua não-árabe / estrangeira escrita em carateres árabes") referia-se às línguas românicas (moçárabe, espanhol, ladino) transcritas com letras árabes.
 
-This specification formalizes the orthographic engine for Portuguese. The system prioritizes:
-1. **Morphophonemic Clarity**: Distinguishing nominal plural inflection from verbal agreement and lexical root sibilants.
-2. **Visual Rhythm & Balance**: Utilizing a graphic plural suffix (*-hā* / `ـها`) to prevent long, repetitive *sīn* (`س`) tails from cluttering horizontal text flow.
-3. **Phonetic & Graphic Precision**: Differentiating soft *c* (`چ`) from soft *g/j* (`ژ`), single *r* (`ر`) from double *rr* (`ه`), intervocalic *s* (`ز`) from double *ss* (`س`), establishing explicit Madd rules for initial vowels, and leveraging **Tonic Alif** (`ا`) for stress accentuation.
+Esta especificação formaliza o motor ortográfico para o português. O sistema prioriza:
+1. **Clareza Morfofonêmica**: Distinguir a flexão nominal de plural da concordância verbal e das sibilantes lexicais da raiz.
+2. **Ritmo Visual e Equilíbrio**: Utilizar um sufixo gráfico de plural (*-hā* / `ـها`) para evitar que longas caudas repetitivas de *sīn* (`س`) poluam o fluxo horizontal do texto.
+3. **Precisão Fonética e Gráfica**: Diferenciar *c* brando (`چ`) de *g/j* brando (`ژ`), *r* simples (`ر`) de *rr* duplo (`ه`), *s* intervocálico (`ز`) de *ss* duplo (`س`), estabelecer regras explícitas de Madd para vogais iniciais e aproveitar o **Alif Tónico** (`ا`) para acentuação de intensidade.
 
-* 1. Consonant Inventory & Perso-Arabic Mapping
+* 1. Inventário Consonantal e Mapeamento Perso-Árabe
 
-** Consonant Mapping Table
+** Tabela de Mapeamento Consonantal
 
-| Latin Grapheme | IPA Sound | Perso-Arabic Letter | Letter Name | Example Word | Aljamiado Transliteration |
-|----------------+-----------+---------------------+-------------+--------------+---------------------------|
+| Grafema Latino | Som IPA | Letra Perso-Árabe | Nome da Letra | Exemplo de Palavra | Transliteração Aljamiada |
+|----------------+---------+-------------------+---------------+--------------------+--------------------------|
 | **b** | [b] | **ب** | Bā | *bom* | `بم` |
-| **p** | [p] | **پ** | Pā | *prática* | `پراكتيكه` |
+| **p** | [p] | **پ** | Pā | *prática* | `پراكتیكہ` |
 | **t** | [t] | **ت** | Tā | *tu* | `تو` |
 | **d** | [d] | **د** | Dāl | *do* | `دو` |
-| **f** | [f] | **ف** | Fā | *fazes* | `فازس` |
-| **v** | [v] | **و** | Waw | *você* | `ووچه` |
-| **k / c / q** (hard) | [k] | **ك** | Kāf | *coisa* | `كويزه` |
-| **g** (hard) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
-| **c** (soft before e, i) | [s] / [tʃ] | **چ** | Chā | *cenoura* | `چنوره` |
-| **g / j** (soft before e, i) | [ʒ] | **ژ** | Žā | *projeto* | `پرژتو` |
-| **ch** | [ʃ] / [tʃ] | **چ** | Chā | *chave* | `چاوه` |
-| **r** (single / tap) | [ɾ] | **ر** | Rā | *caro* | `كارو` |
-| **rr / r-** (initial / trill) | [ʁ] / [r] | **ه** | He | *carro* / *rio* | `كاهو` / `هيو` |
-| **s** (intervocalic /z/) | [z] | **ز** | Zāy | *coisa* | `كويزه` |
-| **ss** (intervocalic /s/) | [s] | **س** | Sīn | *processo* | `پروچسو` |
-| **m** (syllable onset) | [m] | **م** | Mīm | *minha* | `مينيه` |
-| **n** (syllable onset) | [n] | **ن** | Nūn | *não* | `ناو` |
-| **s / z** (lexical/verbal) | [s] / [z] | **س** / **ز** | Sīn / Zāy | *sim* / *paz* | `سيم` / `پاز` |
-| **-s** (nominal plural) | [s] / [z] / [ʃ] | **ـها** | Hā | *livros* | `ليوروها` |
+| **f** | [f] | **ف** | Fā | *fazes* | `فزس` |
+| **v** | [v] | **و** | Waw | *você* | `وچہ` |
+| **k / c / q** (duro) | [k] | **ك** | Kāf | *coisa* | `كویزہ` |
+| **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
+| **c** (brando antes de e, i) | [s] / [tʃ] | **چ** | Chā | *cenoura* | `چنورہ` |
+| **g** (brando antes de e, i) | [ʒ] | **ج** | Jīm | *gente* | `جنتہ` |
+| **j** | [ʒ] | **ژ** | Žā | *projeto* | `پرژتو` |
+| **ch** | [ʃ] / [tʃ] | **چ** | Chā | *chave* | `چاوہ` |
+| **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
+| **rr / r-** (inicial / forte) | [ʁ] / [r] | **ه** | Hā Árabe / Gol He Urdu | *carro* / *rio* | `كاہو` / `هیو` |
+| **s** (intervocálico /z/) | [z] | **ز** | Zāy | *coisa* | `كویزہ` |
+| **ss** (intervocálico /s/) | [s] | **س** | Sīn | *processo* | `پرچسو` |
+| **m** (início de sílaba) | [m] | **م** | Mīm | *minha* | `مینیہ` |
+| **n** (início de sílaba) | [n] | **ن** | Nūn | *não* | `ناو` |
+| **s / z** (lexical/verbal) | [s] / [z] | **س** / **ز** | Sīn / Zāy | *sim* / *paz* | `سیم` / `پز` |
+| **-s** (plural nominal) | [s] / [z] / [ʃ] | **ـها** | Hā | *livros* | `لیوروها` |
 
-** Soft C vs. Soft G/J Distinction
-To maintain precise graphic differentiation between Romance roots:
-- **Soft C** (before *e*, *i*) is written with **Chā** (`چ`):
-  - *cenoura* $\rightarrow$ `چنوره`
-  - *você* $\rightarrow$ `ووچه` / `وچه`
-- **Soft G / J** (before *e*, *i*) is written with **Žā** (`ژ`):
-  - *gente* $\rightarrow$ `ژنته`
+** Mapeamento Ortográfico de C Brando, G Brando e J
+Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a tradição Perso-Árabe:
+- **C brando** (antes de *e*, *i*, representando /s/ ou /tʃ/) mapeia para **Chā** (`چ`):
+  - *cenoura* $\rightarrow$ `چنورہ`
+  - *você* $\rightarrow$ `وچہ`
+  - *cidade* / *cidades* $\rightarrow$ `چدادہ` / `چدادها`
+  - *ciência* $\rightarrow$ `چینچیہ`
+  - *fácil* $\rightarrow$ `فاچل`
+- **G brando** (antes de *e*, *i*, representando a fricativa palatal sonora /ʒ/) mapeia para **Jīm** (`ج`):
+  - *gente* $\rightarrow$ `جنتہ`
+  - *gênero* $\rightarrow$ `جنرو`
+  - *gerúndio* $\rightarrow$ `جرندیو`
+  - *giringonça* $\rightarrow$ `جرنگونسہ`
+  - *Gemini* $\rightarrow$ `جمینى`
+- **J** (grafema independente *j*, representando /ʒ/ lexical da raiz) mapeia para **Žā** (`ژ`):
   - *projeto* $\rightarrow$ `پرژتو`
-  - *gostei* $\rightarrow$ `گوستى` (hard *g* uses **Gāf** `گ`)
+  - *jogo* $\rightarrow$ `ژگو`
+  - *jeito* $\rightarrow$ `ژیتو`
+  - *sujeito* $\rightarrow$ `سژیتو`
+- **G duro** (antes de *a*, *o*, *u*, o oclusivo velar /ɡ/) mapeia para **Gāf** (`گ`):
+  - *gostei* $\rightarrow$ `گوستى`
+  - *gramática* $\rightarrow$ `گرامتیكہ`
+  - *isoglossa* $\rightarrow$ `ایزگلسہ`
 
-** R vs. RR Distinction (Rā vs. He)
-Rhotics are strictly divided based on articulation weight:
-- **Single intervocalic or tap/flap *r*** [ɾ] maps to **Rā** (`ر`):
-  - *caro* $\rightarrow$ `كارو`
-  - *para* $\rightarrow$ `پارا`
-  - *escrever* $\rightarrow$ `إسكرور`
-- **Double *rr* or strong word-initial *r-*** [ʁ] maps to **He** (`ه` / `ـه`):
-  - *carro* $\rightarrow$ `كاهو`
-  - *rio* $\rightarrow$ `هيو`
+** Distinção R vs. RR (Rā vs. He)
+As vibrantes e tepes são estritamente divididas com base no peso de articulação fonética:
+- **R simples intervocálico ou brando (tepe alveolar [ɾ])** mapeia para **Rā** (`ر`):
+  - *caro* $\rightarrow$ `كرو`
+  - *para* $\rightarrow$ `پرہ`
+  - *gramática* $\rightarrow$ `گرامتیكہ`
+  - *morfema* $\rightarrow$ `مرفمہ`
+  - *escrever* $\rightarrow$ `اسكرور` / `سكرور`
+- **RR duplo ou R inicial forte (vibrante/fricativa velar/uvular [ʁ] / [r])** mapeia para **He** (`ه` / `ـہ`):
+  - *carro* $\rightarrow$ `كاہو`
+  - *rio* $\rightarrow$ `هیو`
   - *rua* $\rightarrow$ `هوه`
+  - *raiz* $\rightarrow$ `هایز`
+  - *regra* $\rightarrow$ `هگراہ` / `هگرہ`
 
-** Intervocalic S vs. SS Contrast (Zāy vs. Sīn)
-In intervocalic positions where Latin orthography distinguishes voicing:
-- **Single intervocalic *s*** (voiced /z/) maps to **Zāy** (`ز`):
-  - *coisa* $\rightarrow$ `كويزه`
-  - *casa* $\rightarrow$ `كازه`
-- **Double intervocalic *ss*** (voiceless /s/) maps to **Sīn** (`س`):
-  - *processo* $\rightarrow$ `پروچسو`
-  - *passo* $\rightarrow$ `پاسو`
+** Contraste S vs. SS Intervocálico (Zāy vs. Sīn)
+Nas posições intervocálicas onde o português opõe a fricativa alveolar sonora /z/ e a surda /s/:
+- **S simples intervocálico (sonoro /z/)** mapeia para **Zāy** (`ز`):
+  - *coisa* $\rightarrow$ `كویزہ` (ou `كوزہ`)
+  - *casa* $\rightarrow$ `كزہ`
+  - *análise* $\rightarrow$ `انلیزہ`
+  - *isoglossa* $\rightarrow$ `ایزگلسہ`
+- **SS duplo intervocálico (surdo /s/)** mapeia para **Sīn** (`س`):
+  - *processo* $\rightarrow$ `پرچسو`
+  - *passo* $\rightarrow$ `پسو`
+  - *professora* $\rightarrow$ `پرفسرہ`
+  - *morfossintaxe* $\rightarrow$ `مرفسينتسہ`
 
-** Palatal Digraphs (lh, nh)
-Palatal consonants are rendered as consonant-glide ligatures using *Lām-Yā* (`لي`) and *Nūn-Yā* (`ني`):
-- **lh** [ʎ] $\rightarrow$ **لي**: *filho* $\rightarrow$ `فيليو`, *espelho* $\rightarrow$ `اسپليو`
-- **nh** [ɲ] $\rightarrow$ **ني**: *minha* $\rightarrow$ `مينيه`, *tenho* $\rightarrow$ `تينيو`
+** Dígrafos Palatais (lh, nh)
+As consoantes palatais são representadas como ligaduras de consoante-semivogal usando *Lām-Ye* (`لی`) e *Nūn-Ye* (`نی`):
+- **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیو`, *espelho* $\rightarrow$ `اسپلیو` / `سپلیو`, *folha* $\rightarrow$ `فولیہ`, *detalhe* $\rightarrow$ `دتلیہ`
+- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تینیو`, *linhas* $\rightarrow$ `لینیاها`, *desenho* $\rightarrow$ `دزنیو`
 
-* 2. Vowel System, Diacritics & Accentuation
+* 2. Sistema Vocálico, Diacríticos e Acentuação
 
-** Word-Final Vowels (He vs. Waw)
-- **Final *-a* and *-e*** both map to **He** (`ه` / `ـه`):
-  - *boa* $\rightarrow$ `بوه`
-  - *gente* $\rightarrow$ `ژنته`
-  - *prática* $\rightarrow$ `پراكتيكه`
-- **Final *-o*** maps to **Waw** (`و` / `ـو`):
-  - *livro* $\rightarrow$ `ليورو`
-  - *como* $\rightarrow$ `كومو`
+** Vogais em Fim de Palavra (Urdu Gol He vs. Waw)
+- **-a e -e finais** mapeiam ambas explicitamente para o **Gol He ao estilo Urdu** (`ه` / `ـہ` - U+06C1) para forçar uma renderização estilística adequada em todas as fontes:
+  - *boa* $\rightarrow$ `بوہ`
+  - *gente* $\rightarrow$ `جنتہ`
+  - *prática* $\rightarrow$ `پراكتیكہ`
+- **-o final** mapeia para **Waw** (`و` / `ـو`):
+  - *livro* $\rightarrow$ `لیورو`
+  - *como* $\rightarrow$ `كمو`
 
-** Initial Vowel Carriers & Madd Diacritics
-When a word begins with a vowel, **Alif** (`ا`) serves as the graphic carrier. Specific open and stressed vowels use **Madd**:
+** Suportes de Vogal Inicial: Opções de Alif e Escolha do Escritor (`آ` / `ا` vs. `ی` / `یی`)
+Quando uma palavra começa por vogal, a flexibilidade ortográfica é preservada, deixando a escolha da representação inicial ao escritor:
+1. **Suporte de Alif (Opção Clássica/Tradicional)**: Vogais iniciais (*e-*, *é-*, *i-*, *a-*, *o-*) utilizam um **suporte de Alif simples ou com Madd** (`ا` / `آ`), sem Hamzah.
+2. **Suporte de Ye Direto (Opção Simplificada)**: Vogais iniciais *e-* e *é-* também podem ser escritas diretamente com **Ye** (`ی`) ou **Ye Duplo** (`یی`).
 
-| Initial Sound | Graphic Representation | Diacritic Detail | Example Word | Aljamiado Transliteration |
-|---------------+------------------------+------------------+--------------+---------------------------|
-| **Initial open é** [ɛ] | **إ̷** / **إي** | Alif with subscript Madd (Fallback: *Alif-Yā* `إي`) | *é* | `إ̷` / `إي` |
-| **Initial open à** [a] | **آ** | Alif with superscript Madd | *à* | `آ` |
-| **Initial unstressed e** [i]/[e] | **إ** | Alif with Kasrah | *estudo* | `إستودو` |
-| **Initial a** [a] | **ا** | Plain Alif | *alfabeto* | `الفبتو` |
-| **Initial o** [o]/[u] | **او** | Alif-Waw | *os* | `وها` |
+Ambas as convenções são variantes ortográficas plenamente válidas no Aljamiado Português:
 
-** Tonic Alif (ا) Stress Accentuation
-**Alif** (`ا`) functions as a **tonic marker** denoting primary word stress whenever it is not serving as an initial vowel carrier:
-- Inserted after the tonic vowel/syllable to explicitly signal stress position.
-- *analisar* $\rightarrow$ `اناليزار` (stress on final syllable *-zar*)
-- *prática* $\rightarrow$ `پراكتيكه` (stress on initial syllable *prá-*)
+| Som Inicial | Representação Gráfica | Detalhe Diacrítico / Estrutural | Exemplo de Palavra | Transliteração Aljamiada |
+|-------------+------------------------+---------------------------------+--------------------+--------------------------|
+| **é aberto inicial** [ɛ] | **ای** / **یی** | Alif-Ye (`ای`, variante Alif) / Ye Duplo (`یی`, variante Ye) | *é* | `ای` / `یی` |
+| **à aberto inicial** [a] | **آ** | Alif com Madd sobrescrito | *à* | `آ` |
+| **e inicial / isolado** [i]/[e] | **ی** | Ye Simples | *e* / *estudar* / *estudo* | `ی` / `یستدر` / `یستدو` |
+| **a inicial** [a] | **ا** | Alif Simples | *alfabeto* | `الفبتo` |
+| **o inicial** [o]/[u] | **او** | Alif-Waw | *os* | `وها` |
 
-** Open vs. Closed Vowel Contrasts (avô vs. avó)
-Vowel quality contrasts in mid-vowels leverage Alif vs. Waw arrangements:
-- **avô** [ɐ'vu] (masculine grandfather, closed *-ô*) $\rightarrow$ **أوو** (Alif Waw Waw) or `أووه`
-- **avó** [ɐ'vɔ] (feminine grandmother, open *-ó*) $\rightarrow$ **أوا** (Alif Waw Alif) or `أواه`
+- **Representação de *é* e *e***:
+  - ***é* aberto** [ɛ] (ex.: verbo *ser*: *é*) mapeia principalmente para **Ye Duplo** (`یی`).
+  - ***e* átono** [e]/[i] (ex.: conjunção *e*, *e-* inicial em *estudar*, *estudo*, *escrever*) mapeia para **Ye Simples** (`ی`):
+    - *estudar* [iʃtuˈdaɾ] $\rightarrow$ **یستدر** / **استدر** / **ستدر** (com opção de dropar o suporte inicial inteiramente `ستدر`)
+    - *estudo* [iʃˈtudu] $\rightarrow$ **یستدو** / **ستدو**
+    - *escrever* [iʃkɾɨˈveɾ] $\rightarrow$ **یسكرور** / **اسكرور** / **سكرور** (escrever $\rightarrow$ *screver* `سكرور`)
+  - **Omissão do Suporte Vocálico Inicial**: Em palavras com base latina iniciadas por *e-* protético (*escrever*, *estudar*, *estar*), existe a liberdade ortográfica de omitir completamente o Alif/Ye inicial, escrevendo diretamente o esqueleto consonantal (`سكرور`, `ستدر`, `ستر`).
+  - **Regra de Ausência de Hamzah no Alif**: O Alif nunca carrega Hamzah (`إ` ou `أ`). Neste sistema, o Hamzah é reservado exclusivamente para assinalar hiato/ditongo sobre Ye (`ئ`) e Waw (`ؤ`). As vogais iniciais escritas com Alif usam Alif simples (`ا`) ou Alif com Madd (`آ`), podendo também ser representadas por Ye direto (`ی`) e Ye Duplo (`یی`).
 
-* 3. Nasalization Engine
+** Alif Tónico (ا) e Inferência de Acentuação em Consoante Final (*-r*, *-l*, *-z*)
+O **Alif Tónico** (`ا`) funciona como um **marcador especializado de proparoxítonas / acentuação irregular**:
+- **Inferência Padrão de Acentuação e Ausência de Alif antes de *-r*, *-l*, *-z* Finais**:
+  Paroxítonas padrão (acentuação na penúltima sílaba em palavras terminadas em vogal como *casa*, *livro*) e oxítonas padrão terminadas em consoante (*-r*, *-l*, *-z*) **nunca** levam Alif `ا` antes da consoante final. Nos verbos no infinitivo (*-ar*, *-er*, *-ir*) e palavras terminadas em *-r*, *-l*, *-z*, a acentuação na última sílaba é automaticamente inferida através da própria consoante:
+  - *estudar* [iʃtuˈdaɾ] $\rightarrow$ **استدر** / **یستدر** (Sílaba *-dar* escrita `در`, sem Alif `ا` antes de `ر`, pois o acento tónico é completamente compreendido pelo `ر` final)
+  - *analisar* [ɐnɐliˈzaɾ] $\rightarrow$ **انلیزر** (Sílaba *-zar* escrita `زر`, sem Alif `ا` antes de `ر`)
+  - *conversar* [kõvɨɾˈsaɾ] $\rightarrow$ **كنورسر** (Sílaba *-sar* escrita `سر`, sem Alif `ا` antes de `ر`)
+  - *escrever* [iʃkɾɨˈveɾ] $\rightarrow$ **اسكرور** / **یسكرور** (Sílaba *-ver* escrita `ور`, acentuação inferida pelo `ر` final)
+  - *criar* [kɾiˈaɾ] $\rightarrow$ **كریر** (Escrito `ریر`, acentuação inferida pelo `ر` final)
+- **Marcação Proparoxítona**: O Alif Tónico é estritamente reservado para **proparoxítonas** (*palavras esdrúxulas*) ou acentuação irregular que rompa com os padrões:
+  - *prática* [ˈpɾatika] $\rightarrow$ `پراكتیكہ` (Alif Tónico inserido após *p-r-* para marcar a acentuação na primeira sílaba)
+  - *gênero* [ˈʒenɨɾu] $\rightarrow$ `جانرو` / `جنِرو`
 
-** Monosyllabic & Syllable-Final Nasals
-Syllable-closing nasal vowels (*-m*, *-n*) neutralise to **Mīm** (`م`):
+** Contrastes de Vogais Abertas vs. Fechadas (avô vs. avó)
+Os contrastes de timbre nas vogais médias utilizam combinações de Alif e Waw:
+- **avô** [ɐ'vu] (masculino avô, *-ô* fechado) $\rightarrow$ **اوو** (Alif Waw Waw) ou `اووہ`
+- **avó** [ɐ'vɔ] (feminino avó, *-ó* aberto) $\rightarrow$ **اووا** (Alif Waw Alif) ou `اوواہ`
+
+** Regra das Vogais Tónicas Paroxítonas (a, e, o)
+Nas palavras **paroxítonas** (acentuação regular na penúltima sílaba), as vogais tónicas breves/médias (**a**, **e**, **o**) são por padrão **defectivas** (não recebem Alif `ا`, Ye `ی` ou Waw `و`), a menos que a sua escrita seja estritamente necessária (como para representar ditongos ou evitar ambiguidade):
+- **casa** $\rightarrow$ `كزہ` (Kāf-Zāy-He: `ك-ز-ہ`, sem Alif `ا` tónico)
+- **passo** $\rightarrow$ `پسو` (Pā-Sīn-Waw: sem Alif `ا` tónico)
+- **processo** $\rightarrow$ `پرچسو` (sem Waw `و` pré-tónico nem Ye `ی` tónico)
+- **professora** $\rightarrow$ `پرفسرہ` (sem Waw `و` tónico em *-so-*)
+
+Em contraste, as **não-paroxítonas** (proparoxítonas e oxítonas) exigem letras de *mater lectionis* tónicas quando necessário (ex.: *gramática* `گرامتیكہ` com Alif tónico `ا`, *fonética* `فنيتكہ` com Ye tónico `ی`).
+
+** Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)
+Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica semítica clássica (*Rasm*), as vogais médias/baixas breves (**a**, **e**, **o**) dentro de sílabas internas simples e não-ditongais **não** requerem letras explícitas de *mater lectionis* (Alif `ا`, Ye `ی`, Waw `و`).
+
+1. **Regra Defectiva Interna**:
+   - O *a*, *e*, *o* internos em sílabas simples CV/CVC são implícitos diretamente pelo esqueleto consonantal (ou indicados opcionalmente por diacríticos vocálicos: *fathah* `/ َ`, *kasrah* `/ ِ`, *dammah* `/ ُ`).
+   - **Princípio de Minimização Estrita**: As vogais *a*, *e* e *o* são **apenas escritas se for estritamente necessário** e DEVEM ser evitadas a menos que a sua omissão causasse ambiguidade real.
+   - Exemplos:
+     - *ortografia* [ɔɾtuɡɾɐˈfiɐ] $\rightarrow$ **ارتگرفیہ** (*o-r-t-o-g-r-a-f-i-a*: apenas o suporte de Alif `ا` inicial, sem Waw `و`, *o* e *a* internos omitidos, vogal alta *i* (`ی`) e *-a* final (`ہ`) mantidos)
+     - *gramática* [ɡɾɐˈmatikɐ] $\rightarrow$ **گرامتیكہ** (*grm* + Alif tónico `ا` + *tika* `تيكہ`)
+     - *morfologia* [mɔɾfuluˈʒiɐ] $\rightarrow$ **مرفلجیہ** (*m-r-f-l* + Jīm `ج` para G brando + Ye `ی` + He `ہ`)
+     - *fonética* [fuˈnɛtikɐ] $\rightarrow$ **فنيتكہ** (*fn* + Ye `ی` para *e* tónico não-paroxítono + *tika* `تيكہ`)
+     - *sintaxe* [sĩˈtaksɨ] $\rightarrow$ **سينتسہ** (*sin* `سين` + *ta* `ت` + *sin* `س` + He `ہ`)
+     - *semântica* [sɨˈmɐ̃tikɐ] $\rightarrow$ **سمنتیكہ** (*s-m-n-t-i-c-a*: Nūn nasalizador, *i* e *-a* final mantidos)
+     - *filologia* [filuluˈʒiɐ] $\rightarrow$ **فللجیہ** (*fllg* com Jīm `ج` para G brando + Ye `ی` + He `ہ`)
+     - *isoglossa* [izuˈɡlɔsɐ] $\rightarrow$ **ایزگلسہ** (*i-z-g-l-ss-a*: Ye inicial, *o* interno defectivo)
+     - *paradigma* [pɐɾɐˈdiɡmɐ] $\rightarrow$ **پردگمہ** (*p-r-d-g-m-a*: *a* e *i* pré-consonântico defectivos)
+     - *estudar* [iʃtuˈdaɾ] $\rightarrow$ **استدر** / **یستدر** / **ستدر** (*-dar* tónico escrito `در`, sem Alif `ا` antes de `ر`)
+     - *analisar* [ɐnɐliˈzaɾ] $\rightarrow$ **انلیزر** (*-zar* tónico escrito `زر`, sem Alif `ا` antes de `ر`)
+     - *caro* [ˈka.ɾu] $\rightarrow$ **كرو** (*k-r-o*, *a* interno omitido)
+     - *processo* [pɾu'sɛ.su] $\rightarrow$ **پرچسو** (*p-r-c-ss-o*, *o* e *e* internos omitidos; *-o* final mantido)
+     - *fazes* [ˈfa.zɨʃ] $\rightarrow$ **فزس** (*f-z-s*, *a* e *e* internos omitidos)
+     - *gente* [ˈʒẽ.tɨ] $\rightarrow$ **جنتہ** (*g-* brando = Jīm `ج`, *e* interno omitido, *-e* final = gol he urdu `ہ`)
+
+2. **Condições Estruturais Concretas para Mater Lectionis Obrigatório**:
+   As letras de vogal longa (**Alif**, **Waw**, **Ye**) são **estritamente necessárias** para *a*, *e*, *o* APENAS nas seguintes condições concretas:
+   - **Encontros Vocálicos (Ditongos, Tritongos e Hiatos)**: Requeridos para representar os encontros vocálicos sem ambiguidade (ex.: *dia* `دیہ`, *eu* `یو`, *boa* `بوہ`, *fiquei* `فیكیی`, *coisa* `كویزہ`, *leite* `لییتہ`, *muito* `مویتو`, *meu* `میو`).
+   - **Vogais em Fim de Palavra**: *-o* final é explicitamente escrito com Waw (`و`), *-a* e *-e* finais com Gol He de estilo Urdu (`ہ` / `ـہ` - U+06C1).
+   - **Suportes de Vogal Inicial**: Vogais iniciais usam suportes de Alif (`آ`, `او`) ou Ye (`ی`).
+   - **Alif Tónico (Marcação de Acentuação)**: Reservado para proparoxítonas (*esdrúxulas*) ou acentuação irregular (*prática* `پراكتیكہ`).
+   - **Vogais Altas (i e u)**: As vogais altas internas distintas *i* [i] e *u* [u] mantêm Ye (`ی`) e Waw (`و`) para preservar a identidade fonológica (ex.: *livro* `لیورو`, *minha* `مینیہ`).
+
+** Encontros Vocálicos e Mater Lectionis
+Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocálicos (ditongos orais, tritongos e hiatos) com precisão matemática, o **Aljamiado Português** emprega um mapeamento explícito de *mater lectionis* (*ḥaraka / ḥarf 'illa*) para cada fone vocálico da sequência:
+
+1. **Mapeamento de Vogal para Letra**:
+   - **[a] / [ɐ]** $\rightarrow$ **Alif** (`ا` / `ـا`)
+   - **[i] / [e] / [j]** $\rightarrow$ **Ye** (`ی` / `ـی` ou *Chhoti Yeh* Urdu `ی` / `ـی`)
+   - **[u] / [o] / [w]** $\rightarrow$ **Waw** (`و` / `ـو`)
+   - **Vogais Mudar em Fim de Palavra (-a / -e)** $\rightarrow$ **He Mudo de estilo Urdu** (*gol he / chhoti he*: `ه` / `ـہ`), servindo como uma libertação vocálica suave sem fricção consonantal.
+
+2. **Tabela do Paradigma de Ditongos e Tritongos**:
+
+| Tipo Vocálico | Agrupamento Latino | Som IPA | Mapeamento Perso-Árabe | Exemplo de Palavra | Escrita Aljamiada | Decomposição Estrutural |
+|---------------+--------------------+---------+------------------------+--------------------+-------------------+-------------------------|
+| **Ditongo Decrescente** | *-ai* / *-ai-* | [aj] | **Alif + Ye** (`ای`) | *pai* / *mais* | `پای` / `مایها` | Pā + Alif + Ye |
+| **Ditongo Decrescente** | *-ei* / *-ei-* | [ej] / [ɛj] | **Ye + Ye** (`یی`) | *fiquei* / *leite* | `فیكیی` / `لییتہ` | Fā + Ye + Kāf + Ye + Ye |
+| **Ditongo Decrescente** | *-eu* / *-eu-* | [ew] / [ɛw] | **Ye + Waw** (`یو`) | *eu* / *meu* / *seu* | `یو` / `میو` / `سیو` | Ye + Waw / Mīm + Ye + Waw |
+| **Ditongo Decrescente** | *-iu* / *-iu-* | [iw] | **Ye + Waw** (`یو`) | *viu* / *partiu* | `ویو` / `پارتیو` | Waw + Ye + Waw |
+| **Ditongo Decrescente** | *-oi* / *-oi-* | [oj] / [ɔj] | **Waw + Ye** (`وی`) ou **Waw** (`و`) | *foi* / *coisa* | `فوی` / `كویزہ` (ou `كوزہ`) | Fā + Waw + Ye / Kāf + Waw + Zāy + He |
+| **Ditongo Decrescente** | *-ou* / *-ou-* | [ow] / [o] | **Waw + Waw** (`وو`) | *sou* / *falou* | `سوو` / `فالوو` | Sīn + Waw + Waw |
+| **Ditongo Decrescente** | *-ui* / *-ui-* | [uj] | **Waw + Ye** (`وی`) | *fui* / *muito* | `فوی` / `مویتو` | Mīm + Waw + Ye + Tā + Waw |
+| **Ditongo Decrescente** | *-au* / *-au-* | [aw] | **Alif + Waw** (`او`) | *pau* / *mau* | `پاو` / `ماو` | Pā + Alif + Waw |
+| **Ditongo Crescente / Hiato** | *-ia* | [i.ɐ] / [jɐ] | **Ye + He Mudo** (`یہ` / `ـیہ`) | *dia* | `دیہ` / `دِیہ` | Dāl + Ye + Gol He Urdu |
+| **Ditongo Crescente / Hiato** | *-ie* | [i.e] / [je] | **Ye + Ye + He Mudo** (`ییہ`) | *série* | `سیریہ` / `سیرییہ` | Sīn + Ye + Rā + Ye + He Mudo |
+| **Ditongo Crescente / Hiato** | *-io* | [i.u] / [ju] | **Ye + Waw** (`یو`) | *rio* / *frio* | `هیو` / `فریو` | He + Ye + Waw |
+| **Ditongo Crescente / Hiato** | *-ua* | [u.ɐ] / [wɐ] | **Waw + He Mudo** (`وه` / `ـوه`) | *rua* / *sua* | `هوه` / `سوه` | He + Waw + Gol He Urdu |
+| **Ditongo Crescente / Hiato** | *-ue* | [u.e] / [we] | **Waw + Ye + He Mudo** (`ویہ`) | *estátua* / *statue* | `استاتوه` / `یستاتویہ` | Alif + Sīn + Tā + Alif + Tā + Waw + He Mudo |
+| **Tritongo** | *-uai* | [waj] | **Waw + Alif + Ye** (`وای`) | *Paraguai* | `پرہگوای` | Pā + Rā + Gāf + Waw + Alif + Ye |
+| **Tritongo** | *-uei* | [wej] | **Waw + Ye + Ye** (`ویی`) | *enxaguei* | `ینشاگویی` | Alif + Nūn + Shīn + Alif + Gāf + Waw + Ye + Ye |
+
+3. **Acentuação de Hiatos e Assento de Hamzah**:
+   Quando uma vogal alta tónica (*i* ou *u*) está em hiato explícito com uma vogal precedente (ex.: *país*, *saúde*, *baú*), uma **Hamzah** (`ئ` sobre Ye, `ؤ` sobre Waw) é colocada acima da letra vocálica para assinalar a separação silábica e o pico tónico:
+   - **país** [pɐ'iʃ] (país, hiato) $\rightarrow$ **پائیس** (Pā + Alif + Hamzah_sobre_Ye + Sīn) $\neq$ **pais** [pajʃ] (pais, ditongo) $\rightarrow$ **پایها**
+   - **saúde** [sɐ'u.dɨ] (saúde, hiato) $\rightarrow$ **ساؤدہ** (Sīn + Alif + Hamzah_sobre_Waw + Dāl + He Mudo)
+   - **baú** [bɐ'u] (baú, hiato) $\rightarrow$ **باؤ** (Bā + Alif + Hamzah_sobre_Waw)
+
+* 3. Motor de Nasalização
+
+** Nasais Monossilábicas e em Fim de Sílaba
+Vogais nasais em fim de sílaba (*-m*, *-n*) neutralizam em **Mīm** (`م`):
 - *bom* $\rightarrow$ `بم`
 - *bem* $\rightarrow$ `بم`
-- *sim* $\rightarrow$ `سيم` / `سم`
+- *sim* $\rightarrow$ `سیم` / `سم`
 
-** Nasal Diphthongs (-ão, -ãe, -õe)
-Nasal diphthongs combine the nasal vowel stem with explicit vocalic glides:
+** Ditongos Nasais (-ão, -ãe, -õe)
+Os ditongos nasais combinam a base vocálica nasal com semivogais explícitas:
 - **-ão** $\rightarrow$ **ناو** (*Nūn-Alif-Waw*):
   - *não* $\rightarrow$ `ناو`
   - *cão* $\rightarrow$ `كناو`
-  - Maintains clear distinction from *num* (`نم`) and *nem* (`نم`).
-- **-ãe / -ães** $\rightarrow$ **ناي** / **نايها**:
-  - *mãe* $\rightarrow$ `ماي`
-  - *pães* $\rightarrow$ `پايها` / `پانيها`
-- **-õe / -ões** $\rightarrow$ **نژو** / **نژوها** or **كونونجوها**:
+  - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
+- **-ãe / -ães** $\rightarrow$ **نای** / **نایها**:
+  - *mãe* $\rightarrow$ `مای`
+  - *pães* $\rightarrow$ `پایها` / `پانیها`
+- **-õe / -ões** $\rightarrow$ **نژو** / **نژوها** ou **كونونجوها**:
   - *convenção* $\rightarrow$ `كونونجو`
   - *convenções* $\rightarrow$ `كونونجوها`
 
-* 4. Morphophonemic Rules & Domain Mapping
+* 4. Regras Morfofonêmicas e Mapeamento de Domínio
 
-** Rule I: Nominal Number Domain (-hā / ـها)
-The suffix **-hā** (`ـها`) is strictly reserved as a graphic logogram for **nominal $[+\text{PL}]$ number inflection**. It attaches to:
-1. **Nouns**: *âmbitos* $\rightarrow$ `آمبيتها`, *livros* $\rightarrow$ `ليوروها`
-2. **Adjectives**: *boas* $\rightarrow$ `بوها` / `اهابوها`, *bons* $\rightarrow$ `بنها`
-3. **Determiners & Articles**: *as* $\rightarrow$ `اها` (*a* + *hā*), *os* $\rightarrow$ `وها` (*o* + *hā*)
-4. **3rd-Person Accusative Clitics**: *fazê-los* $\rightarrow$ `فازيلوها` (*fazê-lo* + *hā*)
+** Regra I: Domínio de Número Nominal (-hā / ـها)
+O sufixo **-hā** (`ـها`) é estritamente reservado como logograma gráfico para a **flexão nominal de número $[+\text{PL}]$**. Anexa-se a:
+1. **Substantivos**: *âmbitos* $\rightarrow$ `آمبیتها`, *livros* $\rightarrow$ `لیوروها`
+2. **Adjetivos**: *boas* $\rightarrow$ `بوها` / `اهابوها`, *bons* $\rightarrow$ `بنها`
+3. **Determinantes e Artigos**: *as* $\rightarrow$ `اها` (*a* + *hā*), *os* $\rightarrow$ `وها` (*o* + *hā*)
+4. **Clíticos Acusativos de 3ª Pessoa**: *fazê-los* $\rightarrow$ `فازیلوها` (*fazê-lo* + *hā*)
 
-** Rule II: Direct Surface Substitution
-Morphophonological alternations in Portuguese plurals are applied **first** to produce the surface spoken form, after which Latin `-s` is directly replaced by `ـها`:
-- *plural* $\rightarrow$ *plurais* $\rightarrow$ **پلورايها**
-- *real* $\rightarrow$ *reais* $\rightarrow$ **ريايها**
-- *animal* $\rightarrow$ *animais* $\rightarrow$ **انيمايها**
-- *bom* $\rightarrow$ *bons* $\rightarrow$ **بنها** (nasal assimilation $m \to n$ before suffixation)
+** Regra II: Substituição de Superfície Direta
+As alternâncias morfofonológicas nos plurais do português são aplicadas **primeiro** para produzir a forma falada de superfície, após o que o `-s` latino é diretamente substituído por `ـها`:
+- *plural* $\rightarrow$ *plurais* $\rightarrow$ **پلورایها**
+- *real* $\rightarrow$ *reais* $\rightarrow$ **ریایها**
+- *animal* $\rightarrow$ *animais* $\rightarrow$ **انیمایها**
+- *bom* $\rightarrow$ *bons* $\rightarrow$ **بنها** (assimilação nasal $m \to n$ antes da sufixação)
 
-** Rule III: Verbal & Lexical Sibilant Domain (س / ز)
-The letters **Sīn** (`س`) and **Zāy** (`ز`) are preserved for non-nominal sibilants:
-1. **2nd-Person Verbal Agreement**: *tu fazes* $\rightarrow$ `فازس`, *tu tinhas* $\rightarrow$ `تينياس`
-2. **Inherent Pronouns & Reflexive Clitics**: *se* $\rightarrow$ `سه`, *nos* (clitic) $\rightarrow$ `نوس`
-3. **Lexical Root Sibilants**: *sim* $\rightarrow$ `سيم`, *mês* $\rightarrow$ `ميس`, *paz* $\rightarrow$ `پاز`
+** Regra III: Domínio Sibilante Verbal e Lexical (س / ز)
+As letras **Sīn** (`س`) e **Zāy** (`ز`) são preservadas para sibilantes não-nominais:
+1. **Concordância Verbal de 2ª Pessoa**: *tu fazes* $\rightarrow$ `فازس`, *tu tinhas* $\rightarrow$ `تینیاس`
+2. **Pronomes Inerentes e Clíticos Reflexivos**: *se* $\rightarrow$ `سہ`, *nos* (clítico) $\rightarrow$ `نوس`
+3. **Sibilantes Lexicais da Raiz**: *sim* $\rightarrow$ `سیم`, *mês* $\rightarrow$ `میس`, *paz* $\rightarrow$ `پاز`
 
-* 5. Edge Cases & Special Constructions
+** Grafia Alternativa Histórica e Natural: -z Lexical Final (ز)
+Os escritores podem inspirar-se na ortografia histórica do português (onde os finais *-es*, *-ês*, *-as*, *-is* eram frequentemente grafados *-ez*, *-êz*, *-az*, *-iz*) e no som fonético natural:
+- **Opção de Zāy Final (`ز`) para Palavras Lexicais**: Palavras lexicais não-nominais terminadas em *-s* (como *mas*, *três*, *inglês*, *português*) podem ser naturalmente escritas com **Zāy** (`ز`) em vez de **Sīn** (`س`).
+  - *mas* $\rightarrow$ **مز** / **مس** (estritamente Mīm-Zāy ou Mīm-Sīn; NUNCA usar Alif `ا`, ex.: `ماز` ou `ماس` são inválidos)
+  - *três* $\rightarrow$ **ترز** / **ترس** (ou **تریز**)
+  - *inglês* $\rightarrow$ **انگلز** / **نگلز** (grafado de preferência sem Ye `ی` em *-glês*)
+  - *português* $\rightarrow$ **پرتگز** (grafado de preferência sem Ye `ی` em *-guês*)
+- Esta opção histórica/natural otimiza o ritmo visual, reduz o acúmulo de caudas de Sīn e aproveita uma tradição ortográfica românica/aljamiada arcaica bem atestada.
 
-** Preposition + Article Contractions
-Contractions of prepositions (*de*, *em*, *por*) with articles follow the nominal plural rule:
-- **do** $\rightarrow$ `دو` | **dos** $\rightarrow$ `دوها` (*do* + *hā*)
-- **da** $\rightarrow$ `ده` / `دا` | **das** $\rightarrow$ `دها` / `داها` (*da* + *hā*)
-- **no** $\rightarrow$ `نو` | **nos** (preposition + article) $\rightarrow$ **نوها** (*no* + *hā*)
-  - *Crucial Distinction*: Prepositional *nos* (`نوها`) vs. 1st-person object clitic *nos* (`نوس`).
-- **pelo** $\rightarrow$ `پلو` | **pelos** $\rightarrow$ `پلوها`
+* 5. Casos Especiais e Construções Particulares
 
-** Lexical Singulars in -s / -z vs. Plural Inflections
-- Singular lexical roots retain explicit `س` or `ز`:
-  - *mês* (month) $\rightarrow$ `ميس`
-  - *paz* (peace) $\rightarrow$ `پاز`
-  - *luz* (light) $\rightarrow$ `لوز`
-- Their plural inflections take nominal `-hā`:
-  - *meses* $\rightarrow$ `ميزها` (*mês* stem + *hā*)
-  - *luzes* $\rightarrow$ `لوزها` / `لوزيها`
+** Representação das Preposições *de* e *da*
+- **Grafia Neutra Padrão**: Ambas as preposições **de** e **da** têm como padrão **Dāl + Gol He** (`دہ`):
+  - *de* $\rightarrow$ `دہ`
+  - *da* $\rightarrow$ `دہ`
+- **Regras de Desambiguação / Contraste**:
+  Quando o contexto exige estritamente uma distinção explícita entre *de* e *da*:
+  1. **Marcação Diacrítica**: Kasrah (`/ ِ`) para *de* (`دِہ`) vs. Fathah (`/ َ`) para *da* (`دَہ`).
+  2. **Substituição Vocálica Explícita**: Alternar para **Ye** (`دی` / `دِیہ`) para *de* vs. **Alif** (`دا`) para *da*.
+- **Contrações de Preposição + Artigo**:
+  - **do** $\rightarrow$ `دو` | **dos** $\rightarrow$ `دوها` (*do* + *hā*)
+  - **da** (explícito) $\rightarrow$ `دا` / `دہ` | **das** $\rightarrow$ `دها` / `داها` (*da* + *hā*)
+  - **no** $\rightarrow$ `نو` | **nos** (preposition + article) $\rightarrow$ **نوها** (*no* + *hā*)
+    - *Distinção Crucial*: Preposicional *nos* (`نوها`) vs. clítico acusativo de 1ª pessoa *nos* (`نوس`).
+  - **pelo** $\rightarrow$ `پلو` | **pelos** $\rightarrow$ `پلوها`
 
-** Hiatus vs. Diphthongs (país vs. pais)
-- **Diphthongs**: *pais* (parents, plural of *pai*) $\rightarrow$ `پايها` (*pai* + *hā*)
-- **Hiatus with tonic vowel**: *país* (country) $\rightarrow$ `پائيس` / `پاإيس` (marked with Hamzah `ئ` or Tonic Alif)
+** Singulares Lexicais em -s / -z vs. Flexões de Plural
+- As raízes lexicais no singular mantêm `س` ou `ز` explícitos:
+  - *mês* $\rightarrow$ `میس`
+  - *paz* $\rightarrow$ `پاز`
+  - *luz* $\rightarrow$ `لوز`
+- As suas flexões no plural levam o *-hā* nominal:
+  - *meses* $\rightarrow$ `میزها` (radical *mês* + *hā*)
+  - *luzes* $\rightarrow$ `لوزها` / `لوزیها`
 
-** Clitic Attachment & Hyphenation
-- **Accusative 3rd-person plurals**: *fazê-los* $\rightarrow$ `فازيلوها`
-- **Reflexive / 1st-person clitics**: *disse-se* $\rightarrow$ `ديسيسه`, *damo-nos* $\rightarrow$ `دامونوس`
-- **Indirect object clitics**: *dar-lhe* $\rightarrow$ `دارليه`, *dar-lhes* $\rightarrow$ `دارليها`
+** Hiato vs. Ditongos (país vs. pais)
+- **Ditongos**: *pais* (plural de *pai*) $\rightarrow$ `پایها` (*pai* + *-hā*)
 
-** Consonant Clusters
-Clusters without intervening vowels (*pr*, *tr*, *cl*, *br*, *pt*, *ct*) are written in direct succession:
-- *prática* $\rightarrow$ `پراكتيكه`
-- *apto* $\rightarrow$ `اپتو`
+* 6. Tabelas de Paradigmas Mestre
 
-* 6. Master Paradigm Lookup Tables
+** Determinantes, Artigos e Pronomes Demonstrativos
 
-** Determiners & Articles
+| Item do Paradigma | Grafia Latina | Escrita Aljamiada | Notas Morfofonêmicas / Regra Aplicada |
+|-------------------+---------------+--------------------+---------------------------------------|
+| **Art. Def. Masc. Sing.** | *o* | `و` | Waw isolado |
+| **Art. Def. Masc. Plur.** | *os* | `وها` | *o* (`و`) + *-hā* (`ـها`) nominal |
+| **Art. Def. Fem. Sing.** | *a* | `ا` / `اہ` | Alif / He Urdu |
+| **Art. Def. Fem. Plur.** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـha`) nominal |
+| **Art. Indef. Masc. Sing.** | *um* | `ام` / `اوم` | Mīm nasalizador final |
+| **Art. Indef. Masc. Plur.** | *uns* | `انها` / `اونها` | Nasal `n` + *-hā* nominal |
+| **Art. Indef. Fem. Sing.** | *uma* | `اومہ` | He Mudo final |
+| **Art. Indef. Fem. Plur.** | *umas* | `اومہا` | *uma* + *-hā* nominal |
+| **Dem. Masc. Sing.** | *este* | `استہ` / `ستہ` | Suporte Alif ou zero Alif |
+| **Dem. Masc. Plur.** | *estes* | `استها` / `ستها` | Radical *este* + *-hā* nominal |
+| **Dem. Fem. Sing.** | *esta* | `استہ` / `ستہ` | Gol He final |
+| **Dem. Fem. Plur.** | *estas* | `استها` / `ستها` | Radical *esta* + *-hā* nominal |
+| **Dem. Neutro** | *isto* | `ایستو` / `ستو` | Vogal alta *i* (`ی`) + Waw final |
+| **Dem. Masc. Distal** | *aquele* | `اكلہ` / `اكيلی` | Kāf + Gol He / Ye |
+| **Dem. Masc. Distal Plur.** | *aqueles* | `اكلها` / `اكيليها` | Base + *-hā* nominal |
 
-| Paradigm Item | Latin Spelling | Aljamiado Script | Morphophonemic Notes |
-|---------------+----------------+------------------+----------------------|
-| **Masc. Sing. Def. Article** | *o* | `و` | Isolated Waw |
-| **Masc. Plur. Def. Article** | *os* | `وها` | *o* (`و`) + *-hā* (`ـها`) |
-| **Fem. Sing. Def. Article** | *a* | `ا` / `اه` | Alif / He |
-| **Fem. Plur. Def. Article** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـها`) |
-| **Masc. Sing. Indef. Article** | *um* | `ام` / `اوم` | Mīm final |
-| **Masc. Plur. Indef. Article** | *uns* | `انها` / `اونها` | Nasal assimilation + *-hā* |
-| **Fem. Sing. Indef. Article** | *uma* | `اومه` | Final *-e/a* He |
-| **Fem. Plur. Indef. Article** | *umas* | `اومه‌ها` / `اوماها` | *-uma* + *-hā* |
+** Glossário de Termos Lingüísticos e Gramaticais em Aljamiado
 
-** Nominal & Adjectival Inflection
+| Termo Latino/Português | Escrita Aljamiada | Análise de Regras Ortográficas e Defectividade |
+|------------------------|-------------------+------------------------------------------------|
+| **linguística** | `لنگویستیكہ` | *Lām-Ye* (`لی`), Nūn nasal, Waw-Ye (`وی` ditongo), *i* alto mantido |
+| **fonologia** | `فنلجیہ` | *o* e *o* internos defectivos omitidos, Jīm (`ج`) para G brando, Ye-Gol He final |
+| **fonética** | `فنيتكہ` | *fn* + Ye (`ی`) para *e* tónico não-paroxítono + *tika* (`تيكہ`) |
+| **morfologia** | `مرفلجیہ` | Esqueleto consonantal *m-r-f-l* + Jīm (`ج`) para G brando, Ye-Gol He final (`ی-ہ`) |
+| **sintaxe** | `سينتسہ` | *Sīn-Ye-Nūn* (`سين`), *t* (`ت`), *x* como Sīn (`س`), Gol He final |
+| **semântica** | `سمنتیكہ` | Nūn nasalizador interno, *i* alto mantido, Gol He final |
+| **pragmática** | `پراگمتيكہ` | Alif tónico em proparoxítona, *a* interno defectivo omitido |
+| **etimologia** | `اتملجیہ` / `یتملجیہ` | Alif ou Ye inicial, *e*, *i*, *o* internos defectivos |
+| **filologia** | `فللجیہ` | Esqueleto *f-l-l* + Jīm (`ج`) para G brando + Ye-Gol He final (`ی-ہ`) |
+| **dialeto** / **dialecto** | `ديلتو` / `دالتم` | Ye para ditongo/hiato *ia*, Waw final |
+| **isoglossa** | `ایزگلسہ` | Zāy (`ز`) para *s* intervocálico /z/, Gol He final |
+| **paradigma** | `پردگمہ` | *a* e *i* internos breves defectivos omitidos |
+| **grafema** | `گرفمہ` | Gāf (`گ`) duro, Gol He final |
+| **fonema** / **fonemas** | `فنمہ` / `فنمها` | Logograma `-hā` (`ـها`) para plural nominal *fonemas* |
+| **morfema** / **morfemas** | `مرفمہ` / `مرفمها` | Plural nominal com `-hā` (`ـها`) |
+| **palavra** / **palavras** | `پلورہ` / `پلورها` | *a* e *a* internos defectivos, plural com `-hā` |
+| **manuscrito** | `منسكرتو` / `منسكرتوها` | *e-* protético omitido em *scrito*, plural nominal `-hā` |
 
-| Base Lemma (Singular) | Singular Aljamiado | Plural Form | Plural Aljamiado | Rule Applied |
-|-----------------------+--------------------+-------------+-------------------+--------------|
-| **âmbito** | `آمبيتو` | *âmbitos* | `آمبيتها` | Nominal *-hā* replacement |
-| **boa** | `بوه` | *boas* | `بوها` / `اهابوها` | Nominal *-hā* replacement |
-| **bom** | `بم` | *bons* | `بنها` | Surface $m \to n$ + *-hā* |
-| **plural** | `پلورل` | *plurais* | `پلورايها` | Surface *-ais* + *-hā* |
-| **real** | `ريال` | *reais* | `ريايها` | Surface *-ais* + *-hā* |
-| **convenção** | `كونونجو` | *convenções* | `كونونجوها` | Stem preservation + *-hā* |
+** Alternâncias Ortográficas de Plural Nominal (Regra II)
 
-** Verbal Agreement vs. Pronominal Clitics
+| Singular Latino | Plural Latino | Forma Aljamiada Singular | Forma Aljamiada Plural | Regra Aplicada |
+|-----------------+---------------+--------------------------+------------------------+----------------|
+| **canal** | *canais* | `كنل` | `كنایها` | Substituição de superfície *-ais* + *-hā* |
+| **papel** | *papéis* | `پپل` | `پپیسها` / `پپییسها` | Ditongo aberto *-éis* + *-hā* nominal |
+| **azul** | *azuis* | `ازول` | `ازویسها` | Ditongo *-uis* + *-hā* nominal |
+| **homem** | *homens* | `همم` / `همين` | `همنها` | Assimilação nasal $m \to n$ + *-hā* |
+| **convenção** | *convenções* | `كونونجو` | `كونونجوها` | Sufixo nasal *-ção* $\rightarrow$ `جو`, plural `جوها` |
+| **razão** | *razões* | `هژو` | `هژوها` | Rā forte He (`ه`) + Zāy (`ژ` / `ز`) + `وها` |
+| **cão** | *cães* | `كناو` | `كنایها` | Ditongo nasal *-ães* $\rightarrow$ `نایها` |
 
-| Category | Example Construction | Aljamiado Script | Sibilant Handling |
-|----------+----------------------+------------------+-------------------|
-| **2nd-Singular Verb** | *tu fazes* | `فازس` | Verbal sīn (`س`) |
-| **2nd-Singular Verb** | *tu tinhas* | `تينياس` | Verbal sīn (`س`) |
-| **3rd-Plural Clitic** | *fazê-los* | `فازيلوها` | Nominal plural `-hā` (`ـها`) |
-| **1st-Plural Clitic** | *damo-nos* | `دامونوس` | Inherent clitic sīn (`س`) |
-| **Reflexive Clitic** | *disse-se* | `ديسيسه` | Inherent clitic sīn (`س`) |
+** Verbos vs. Concordância e Sibilantes
 
-* 7. Corpus & Sample Transcriptions
+| Categoria | Exemplo de Construção | Escrita Aljamiada | Tratamento da Sibilante |
+|-----------+-----------------------+-------------------+-------------------------|
+| **Verbo 2ª Pessoa Sing.** | *tu dizes* | `دزس` | Sīn verbal (`س`) |
+| **Verbo 2ª Pessoa Sing.** | *tu fazes* | `فزس` | Sīn verbal (`س`) |
+| **Verbo 2ª Pessoa Sing.** | *tu tinhas* | `تینیاس` | Sīn verbal (`س`) |
+| **Substantivo Plural** | *as fases* | `فزها` | Logograma *-hā* nominal (`ـها`) |
+| **Substantivo Plural** | *os dizes* | `دزها` | Logograma *-hā* nominal (`ـها`) |
+| **Clítico 3ª Pessoa Plur.** | *fazê-los* | `فازیلوها` | Logograma *-hā* nominal (`ـها`) |
+| **Clítico 1ª Pessoa Plur.** | *damo-nos* | `دامونوس` | Sīn clítico inerente (`س`) |
+| **Clítico Reflexivo** | *disse-se* | `دیسیسہ` | Sīn clítico inerente (`س`) |
 
-Below are interlinear transcriptions of classic foundational sentences into Aljamiado Português:
+* 7. Corpus e Amostras de Transcrição
 
-1. **Sentence 1**: *Equilíbrio é muito importante para a forma de escrever.*
-   - **Aljamiado**: `إكيليبكيو إ̷ مويتو إمپورتانته پارا ا فورمه دو إسكرور.`
+Abaixo apresentam-se as transcrições interlineares de frases fundamentais para o Aljamiado Português, formuladas com particular interesse para a linguística, a filologia românica e os entusiastas do alfabeto perso-árabe:
 
-2. **Sentence 2**: *As coisas boas.*
-   - **Aljamiado**: `اها كويزها بوها`
+1. **Frase 1**: *Equilíbrio é muito importante para a forma de escrever.*
+   - **Aljamiado (Variante Alif)**: `اکیلیبریو ای مویتو امپرتنتہ پرہ ا فرمہ دو اسكرور.`
+   - **Aljamiado (Variante Ye Direto)**: `یکیلیبریو یی مویتو یمپرتنتہ پرہ ا فرمہ دو یسكرور.`
+   - **Variante Reduzida / Economia**: `كيلیبریو یی مویتو امپرتنتہ پرہ ا فرمہ دو سكرور.`
 
-3. **Sentence 3**: *O livro bom e os livros bons.*
-   - **Aljamiado**: `و ليورو بم و وها ليوروها بنها`
+2. **Frase 2**: *As coisas boas da linguística e da filologia românica.*
+   - **Aljamiado Ortográfico**: `اها كویزها بوها دہ لنگویستیكہ ی دہ فللجیہ رمنیكہ.`
+   - **Aljamiado Reduzido (Etymological *cousa*)**: `اها كوزها بوها دہ لنگویستیكہ ی دہ فللجیہ رمنیكہ.`
 
-4. **Sentence 4**: *Consegui conversar com o Gemini sobre o projeto do português no alfabeto persa, ou melhor, uma adaptação.*
-   - **Aljamiado**: `كونسيگى كونورنار كم و جيمينى سوبره و پرژتو دو پرتوگيس نو الفبتو پرسه، او مليور، اومه ادپتاجو.`
+3. **Frase 3**: *O manuscrito aljamiado preserva a fonologia do português antigo no alfabeto perso-árabe.*
+   - **Aljamiado**: `و منسكرتو الجمیادو پرزوروہ ا فنلجیہ دو پرتگز انتگو نو الفبتو پرسہ-اربہ.`
 
-5. **Sentence 5**: *Boa sorte com os estudos! O processo de criar uma ortografia é fascinante, e muito bom ver como o sistema tá se desenvolvendo.*
-   - **Aljamiado**: `بوه سورته كم وها إستودوها! و پروچسو دو كزيار اومه اورتوگرافيه إ̷ فاسينانته، و مويتو بم وهر كومو و سيستمه تا سه ديزينوولويندو.`
+4. **Frase 4**: *Estudar a sintaxe e a morfologia das línguas com o esqueleto defectivo é um processo fascinante.*
+   - **Aljamiado (Alif Inserido)**: `استدر ا سينتسہ ی ا مرفلجیہ دها لنگواها كم و اسكلتو دفتیو ای ام پرچسو فسننتہ.`
+   - **Aljamiado (Variante Economia Latina)**: `ستدر ا سينتسہ ی ا مرفلجیہ دها لنگواها كم و سكلتو دفتیو یی ام پرچسو فسننتہ.`
+
+5. **Frase 5**: *No sistema aljamiado, o sufixo hā distingue a flexão de plural da sibilante verbal.*
+   - **Aljamiado**: `نو سيستمہ الجمیادو، و سفكسو ها دستنگہ ا فلكسجو دہ پلورل دہ سبیلنتہ وربل.`
+
+6. **Frase 6**: *Quem lê com atenção percebe como o rasm semítico economiza vogais sem perder a clareza morfofonêmica.*
+   - **Aljamiado**: `كم لیس كم اتنجو پرچبہ كمو و رسم سمتیكو اكونمیژہ وگایها سم پردر ا كلریزہ مرففنمیكہ.`
+
+7. **Frase 7**: *A variação entre coisa e cousa reflete a história dos ditongos no português medieval.*
+   - **Aljamiado**: `ا ورياجو انترہ كویزہ ی كوزہ هفلتہ ا هستوریہ دوها دتنگوها نو پرتگز مدایول.`
+
+8. **Frase 8**: *Boa sorte com os estudos de gramática, dialectologia e paleografia!*
+   - **Aljamiado (Variante Alif)**: `بوہ سرتہ كم وها استودوها دہ گرامتیكہ، ديلتلجیہ ی پلوگرفیہ!`
+   - **Aljamiado (Variante Reduzida)**: `بوہ سرتہ كم وها ستودوها دہ گرامتیكہ، ديلتلجیہ ی پلوگرفیہ!`
+
+9. **Frase 9**: *O contraste entre a fricativa zāy e o sīn intervocálico garante a precisão fonética.*
+   - **Aljamiado**: `و كنترستہ انترہ ا فركتیوہ زای ی و سين انتروكلیكو گرنتہ ا پرچسجو فنيتكہ.`
+
+10. **Frase 10**: *A adaptação do alfabeto persa para a língua portuguesa é um projeto de alta elegância gráfica.*
+    - **Aljamiado**: `ا ادپتاجو دو الفبتو پرسہ پرہ ا لنگوا پرتگزہ ای ام پرژتو دہ التہ الگنچیہ گرافيكہ.`
