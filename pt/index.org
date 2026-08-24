@@ -40,8 +40,9 @@
 
 #+BEGIN_EXPORT html
 <div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-  <div class="ar-basmala ar" style="font-size: 2.6rem; color: var(--primary-accent); margin-bottom: 0.6rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
-  <div class="aljamiado-basmala ar" style="font-size: 1.5rem; color: #34d399; margin-bottom: 0.4rem;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو.</div>
+  <div class="ar-basmala-naskh ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.8rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
+  <div class="aljamiado-basmala-nastaliq ar" style="font-size: 1.7rem; color: #34d399; font-family: 'Noto Nastaliq Urdu', 'Gulzar', serif !important; margin-bottom: 0.5rem; line-height: 2.2;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو. <span style="font-size: 0.85rem; color: #8b949e; font-family: 'Inter', sans-serif; vertical-align: middle;">(Nastaliq)</span></div>
+  <div class="aljamiado-basmala-naskh ar" style="font-size: 1.5rem; color: #6ee7b7; font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.6rem; line-height: 1.6;">ام نمہ دہ دیوس، و كلمنتہ، و ميزریكردیوزو. <span style="font-size: 0.85rem; color: #8b949e; font-family: 'Inter', sans-serif; vertical-align: middle;">(Naskh)</span></div>
   <div class="pt-basmala" style="font-size: 1.1rem; color: var(--text-muted); font-style: italic;">Em nome de Deus, o Clemente, o Misericordioso.</div>
 </div>
 
@@ -52,10 +53,10 @@
       ✨ Estilo Atual: <strong>Nastaliq (Persa/Urdu)</strong> &mdash; Clique para Naskh (Árabe)
     </button>
   </div>
-  <p style="margin-bottom: 0.75rem; color: #e2e8f0; font-size: 0.95rem; line-height: 1.6;">
+  <p style="margin-bottom: 0.75rem; color: #f0f6fc; font-size: 0.95rem; line-height: 1.6;">
     O <strong>Aljamiado Português</strong> utiliza por padrão o estilo caligráfico <strong>Nastaliq</strong> (Persa/Urdu), caracterizado por seu fluxo elegante e inclinado, tradicionalmente empregado na escrita de línguas não-árabes.
   </p>
-  <p style="margin-bottom: 0; color: #94a3b8; font-size: 0.9rem; line-height: 1.6;">
+  <p style="margin-bottom: 0; color: #f0f6fc; font-size: 0.95rem; line-height: 1.6;">
     Como a maioria dos leitores e muçulmanos está habituada ao estilo <strong>Naskh</strong> (o estilo linear padronizado da caligrafia árabe e das edições do Alcorão), disponibilizamos o botão acima e o controle flutuante no canto da tela para alternar instantaneamente entre <strong>Nastaliq</strong> e <strong>Naskh</strong> em toda a documentação.
   </p>
 </div>
