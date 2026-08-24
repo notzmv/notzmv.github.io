@@ -46,8 +46,8 @@ def update_pt_cards():
             "title": "Frase 3 — Paciência e Gratidão",
             "pt": "A paciência e a gratidão trazem paz e sabedoria no coração.",
             "ipa": "[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "ا پچنچیہ ی ا گرتیدناو ترزم پز ی سبدوریہ نو كرچناو.",
-            "notes": "Chā para C brando (پچنچیہ), Zāy em ترزم e پز, ditongo nasal (گرتیدناو, كرچناو)."
+            "aljamiado": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.",
+            "notes": "Chā para C brando (پچنچیہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو)."
         },
         {
             "id": 4,
@@ -86,7 +86,7 @@ def update_pt_cards():
             "title": "Frase 8 — Generosidade",
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
-            "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچناو.",
+            "aljamiado": "ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچاو.",
             "notes": "He inicial padrão para R forte (هیكزہ, variante com Rā: ریكزہ), Jīm para G brando (جنرزیددہ), Zāy intervocálico."
         },
         {
@@ -198,15 +198,15 @@ def update_pt_cards():
             "title": "Frase 22 — Respeito e Modéstia",
             "pt": "Um homem sábio fala com humildade e ouve com atenção.",
             "ipa": "[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]",
-            "aljamiado": "اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچناو.",
-            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اومیلددہ, ditongo nasal -ção → تنچناو."
+            "aljamiado": "اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچاو.",
+            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اومیلددہ, ditongo nasal -ção → تنچاو."
         },
         {
             "id": 23,
             "title": "Frase 23 — Semeando Bondade",
             "pt": "Uma boa ação traz uma grande recompensa no coração.",
             "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "اومہ بوہ اچناو ترز اومہ گرندہ هكمپنسہ نو كرچناو.",
+            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.",
             "notes": "uma estritamente como اومہ, He inicial padrão em هكمپنسہ (variante: ركمپنسہ), Zāy em ترز."
         },
         {
@@ -244,8 +244,8 @@ def update_pt_cards():
         with open(html_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
-        pattern = r'(<div class="corpus-list">\s*).*?(\s*</div>)'
-        replacement = r'\1' + cards_block + r'\2'
+        pattern = r'<div class="corpus-list">.*?(?=\s*<script>|\s*</body>)'
+        replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>\n\n'
         updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
 
         with open(html_path, "w", encoding="utf-8") as f:
@@ -358,8 +358,8 @@ def update_en_cards():
         with open(html_path, "r", encoding="utf-8") as f:
             html_content = f.read()
 
-        pattern = r'(<div class="corpus-list">\s*).*?(\s*</div>)'
-        replacement = r'\1' + cards_block + r'\2'
+        pattern = r'<div class="corpus-list">.*?(?=\s*<script>|\s*</body>)'
+        replacement = '<div class="corpus-list">\n' + cards_block + '\n</div>\n\n'
         updated_html = re.sub(pattern, replacement, html_content, flags=re.DOTALL)
 
         with open(html_path, "w", encoding="utf-8") as f:

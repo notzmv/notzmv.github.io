@@ -17,6 +17,7 @@
   - [[#alif-tónico-ا-e-inferência-de-acentuação-em-consoante-final-r--l--z][Alif Tónico (ا) e Inferência de Acentuação em Consoante Final (*-r*, *-l*, *-z*)]]
   - [[#contrastes-de-vogais-abertas-vs-fechadas-avô-vs-avó][Contrastes de Vogais Abertas vs. Fechadas (avô vs. avó)]]
   - [[#princípio-da-vogal-defectiva-minimização-de-vogais-longas-internas-para-a-e-o][Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)]]
+  - [[#economia-escalar-por-comprimento-de-palavra-e-desambiguação-de-pares-mínimos][Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos]]
   - [[#encontros-vocálicos-e-mater-lectionis][Encontros Vocálicos e Mater Lectionis]]
 - [[#3-motor-de-nasalização][3. Motor de Nasalização]]
   - [[#nasais-monossilábicas-e-em-fim-de-sílaba][Nasais Monossilábicas e em Fim de Sílaba]]
@@ -248,6 +249,26 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
    - **Alif Tónico (Marcação de Acentuação)**: Reservado para proparoxítonas (*esdrúxulas*) ou acentuação irregular (*prática* `پراكتیكہ`).
    - **Vogais Altas (i e u)**: As vogais altas internas distintas *i* [i] e *u* [u] mantêm Ye (`ی`) e Waw (`و`) para preservar a identidade fonológica (ex.: *livro* `لیورو`, *minha* `مینیہ`).
 
+** Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
+A omissão e redução vocálica no Aljamiado Português seguem uma **escala inversa em relação ao comprimento da palavra**: quanto mais longa for a palavra, maior é a sua redundância fonológica e contextual, permitindo que a maioria das suas vogais pré-tónicas seja reduzida ou omitida sem qualquer perda de legibilidade. Em contrapartida, palavras curtas (monossilábicas ou dissilábicas) possuem baixa redundância e alta carga funcional, exigindo *mater lectionis* explícitas para desambiguar pares mínimos.
+
+1. **Palavras Longas (Alta Redundância e Redução Pré-Tónica)**:
+   Em polissílabos extensos, a estrutura consonantal e a posição da sílaba tónica identificam a palavra de forma unívoca. Portanto, vogais pré-tónicas internas podem ter as suas *mater lectionis* reduzidas:
+   - *misericordioso* [mi.ze.ɾi.kɔɾ.ðjo.zu] $\rightarrow$ **`مزریكردیوزو`** / **`مزركردیوزو`** (as duas primeiras vogais pré-tónicas *i* e *e* são reduzidas defectivamente no esqueleto consonantal `م-ز-ر-ی-ك-ر-د-ی-و-ز-و`, preservando apenas a vogal tónica/alta essencial e o *-o* final).
+
+2. **Palavras Curtas e Pares Mínimos (*bm* vs. *bum* / *bim*)**:
+   Em monossílabos nasais ou curtos, o esqueleto consonantal defectivo básico (ex.: `بم` para *bm*) é intrinsecamente ambíguo entre *bem* e *bom*. Para garantir a precisão ortográfica quando o contexto exige desambiguação explícita, recorre-se a letras de *mater lectionis* tónicas:
+   - **`بم`** (*bm*): Forma defectiva neutra/padrão para a sílaba nasal labial.
+   - **`بوم`** (*bum*): Forma explicitamente desambiguada para **bom** (utilizando **Waw** `و` para marcar o timbre posterior /o/~/u/).
+   - **`بیم`** (*bim*): Forma explicitamente desambiguada para **bem** (utilizando **Ye** `ی` para marcar o timbre anterior /e/~/i/).
+
+3. **O Triad Morfológico de `convenco`, `convencao` e `convencos`**:
+   A distinção entre formas verbais e nominais derivadas da mesma raiz (*convencer / convenção*) demonstra a eficiência deste sistema morfofonêmico e do sufixo de plural `-hā` (`ـها`):
+   - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
+   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `كنونچ` + ditongo nasal `-ção` `ـچاو` escrito com Alif-Waw `او`, sem Nūn redundante).
+   - **`convencos`** (*convenções*, substantivo feminino plural): Grafado como **`كنونچوها`** / **`كونونچوها`** (radical com vocalização temático-nominal + sufixo gráfico de plural `-hā` `ـها`).
+   - *Explicação Ortográfica Crucial*: A forma plural **`كنونچوها`** (*convenções*) **não necessita de uma letra vocálica extra no radical** para se diferenciar de *convenço* (`كنونچو`) ou *convenção* (`كنونچاو`), visto que o próprio logograma de plural nominal `-hā` (`ـها`) fornece uma desambiguação morfológica total e imediata.
+
 ** Encontros Vocálicos e Mater Lectionis
 Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocálicos (ditongos orais, tritongos e hiatos) com precisão matemática, o **Aljamiado Português** emprega um mapeamento explícito de *mater lectionis* (*ḥaraka / ḥarf 'illa*) para cada fone vocálico da sequência:
 
@@ -300,17 +321,22 @@ As desinências verbais átonas de 3ª pessoa do plural em **-am** e **-em** tê
 - *semeiam* $\rightarrow$ `سمیم`
 
 ** Ditongos Nasais (-ão, -ãe, -õe)
-Os ditongos nasais combinam a base vocálica nasal com semivogais explícitas:
-- **-ão** $\rightarrow$ **ناو** (*Nūn-Alif-Waw*):
-  - *não* $\rightarrow$ `ناو`
-  - *cão* $\rightarrow$ `كناو`
+Os ditongos nasais combinam a base vocálica nasal com semivogais explícitas sem inserir Nūn (`ن`) redundante após consoantes de raiz:
+- **-ão** $\rightarrow$ **او** (*Alif-Waw*):
+  - *não* $\rightarrow$ `ناو` (consoante Nūn inicial da raiz + `-ão` `او`)
+  - *cão* $\rightarrow$ `كاو`
+  - *coração* $\rightarrow$ `كرچاو`
+  - *gratidão* $\rightarrow$ `گرتیداو`
+  - *atenção* $\rightarrow$ `اتنچاو`
+  - *ação* $\rightarrow$ `اچاو`
+  - *convenção* $\rightarrow$ `كنونچاو` / `كونونچاو`
   - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
-- **-ãe / -ães** $\rightarrow$ **نای** / **نایها**:
+- **-ãe / -ães** $\rightarrow$ **ای** / **ایها**:
   - *mãe* $\rightarrow$ `مای`
-  - *pães* $\rightarrow$ `پایها` / `پانیها`
-- **-õe / -ões** $\rightarrow$ **نژو** / **نژوها** ou **كونونجوها**:
-  - *convenção* $\rightarrow$ `كونونجو`
-  - *convenções* $\rightarrow$ `كونونجوها`
+  - *pães* $\rightarrow$ `پایها`
+- **-ões** $\rightarrow$ **ـوها** (base com *-o* + logograma *-hā* `ـها`):
+  - *convenção* $\rightarrow$ `كنونچاو`
+  - *convenções* $\rightarrow$ `كنونچوها`
 
 * 4. Regras Morfofonêmicas e Mapeamento de Domínio
 
@@ -498,7 +524,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
     - **Aljamiado**: `كم بوسكہ ا سبدوریہ انكنترہ ا ورددیره فلچیددہ نہ ویدہ.`
     - **Notas**: Kāf para Q (كم), C brando em فلچیددہ (Chā), Gol He final.
 | **razão** | *razões* | `هژو` | `هژوها` | Rā forte He (`ه`) + Zāy (`ژ` / `ز`) + `وها` |
-| **cão** | *cães* | `كناو` | `كنایها` | Ditongo nasal *-ães* $\rightarrow$ `نایها` |
+| **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ** Verbos vs. Concordância e Sibilantes
 
@@ -532,8 +558,8 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 3. **Frase 3 — Paciência e Gratidão**
    - **Português**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
    - **IPA**: `[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ nu koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا پچنچیہ ی ا گرتیدناو ترزم پز ی سبدوریہ نو كرچناو.`
-   - **Notas**: Chā para C brando (`پچنچیہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیدناو`, `كرچناو`).
+   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرچاو.`
+   - **Notas**: Chā para C brando (`پچنچیہ`), Zāy em `ترزم` e `پز`, ditongo nasal (`گرتیداو`, `كرچاو`).
 
 4. **Frase 4 — Acolhimento e Comunidade**
    - **Português**: *Seja muito bem-vindo à nossa comunidade.*
@@ -562,7 +588,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 8. **Frase 8 — Generosidade**
    - **Português**: *A verdadeira riqueza está na generosidade do coração.*
    - **IPA**: `[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]`
-   - **Aljamiado**: `ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچناو.`
+   - **Aljamiado**: `ا ورددیره هیكزہ استا نہ جنرزیددہ دو كرچاو.`
    - **Notas**: He inicial padrão para R forte (`هیكزہ`, variante com Rā: `ریكزہ`), Jīm para G brando (`جنرزیددہ`), Zāy intervocálico.
 
 9. **Frase 9 — Oportunidade e Recomeço**
@@ -617,8 +643,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
     - **Português**: *Os filhos e as filhas escutam os conselhos dos pais.*
     - **IPA**: `[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]`
     - **Aljamiado**: `وها فیلیوها ی اها فیلیه‌ها اسكوتم وها كنسیلیوها دوها پایها.`
-    - **Notas**: Lām-Ye para LH (`فیلیوها`, `کنسیلیوها`), plurais nominais `-hā`, `-am` verbal (`اسكوتم`), ditongo `pais` $
-ightarrow$ `پایها`.
+    - **Notas**: Lām-Ye para LH (`فیلیوها`, `کنسیلیوها`), plurais nominais `-hā`, `-am` verbal (`اسكوتم`), ditongo `pais` $\rightarrow$ `پایها`.
 
 18. **Frase 18 — Trabalho e Perseverança**
     - **Português**: *A paciência é uma virtude que transforma os maus momentos.*
@@ -647,14 +672,13 @@ ightarrow$ `پایها`.
 22. **Frase 22 — Respeito e Modéstia**
     - **Português**: *Um homem sábio fala com humildade e ouve com atenção.*
     - **IPA**: `[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]`
-    - **Aljamiado**: `اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچناو.`
-    - **Notas**: *um* estritamente como `اوم`, assimilação nasal `همم`, Hā mudo em `اومیلددہ`, ditongo nasal `-ção` $
-ightarrow$ `تنچناو`.
+    - **Aljamiado**: `اوم همم سبیو فلہ كم اومیلددہ ی وو كم اتنچاو.`
+    - **Notas**: *um* estritamente como `اوم`, assimilação nasal `همم`, Hā mudo em `اومیلددہ`, ditongo nasal `-ção` $\rightarrow$ `تنچاو`.
 
 23. **Frase 23 — Semeando Bondade**
     - **Português**: *Uma boa ação traz uma grande recompensa no coração.*
     - **IPA**: `['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]`
-    - **Aljamiado**: `اومہ بوہ اچناو ترز اومہ گرندہ هكمپنسہ نو كرچناو.`
+    - **Aljamiado**: `اومہ بوہ اچاو ترز اومہ گرندہ هكمپنسہ نو كرچاو.`
     - **Notas**: *uma* estritamente como `اومہ`, He inicial padrão em `هكمپنسہ` (variante: `ركمپنسہ`), Zāy em `ترز`.
 
 24. **Frase 24 — Diálogo e Concórdia**
