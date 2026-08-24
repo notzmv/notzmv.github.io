@@ -244,37 +244,32 @@ Palavras lexicais não-nominais em *-s* podem usar **Zāy** (`ز`): *mas* $\righ
 
 ## 7. Corpus e Amostras de Transcrição
 
-1. **Frase 1**: *Equilíbrio é muito importante para a forma de escrever.*
-   - **Aljamiado (Variante Alif)**: `اکیلیبریو ای مویتو امپرتنتہ پرہ ا فرمہ دو اسكرور.`
-   - **Aljamiado (Variante Ye Direto)**: `یکیلیبریو یی مویتو یمپرتنتہ پرہ ا فرمہ دو یسكرور.`
-   - **Variante Reduzida / Economia**: `كيلیبریو یی مویتو امپرتنتہ پرہ ا فرمہ دو سكرور.`
+1. **Frase 1**: *Que a paz e as bênçãos estejam com você e sua família.*
+   - **Aljamiado**: `كہ ا پز ی اها بنجوها استیوا كم وچہ ی سوہ فمیلیہ.`
 
-2. **Frase 2**: *As coisas boas da linguística e da filologia românica.*
-   - **Aljamiado Ortográfico**: `اها كویزها بوها دہ لنگویستیكہ ی دہ فللجیہ رمنیكہ.`
-   - **Aljamiado Reduzido**: `اها كوزها بوها دہ لنگویستیكہ ی دہ فللجیہ رمنیكہ.`
+2. **Frase 2**: *A busca pelo conhecimento é um dever de todos.*
+   - **Aljamiado**: `ا بسكہ پلو كنیچمنتو ای ام دور دہ تدوها.`
 
-3. **Frase 3**: *O manuscrito aljamiado preserva a fonologia do português antigo no alfabeto perso-árabe.*
-   - **Aljamiado**: `و منسكرتو الجمیادو پرزوروه ا فنلجیہ دو پرتگز انتگو نو الفبتو پرسہ-اربہ.`
+3. **Frase 3**: *A paciência e a gratidão trazem paz e sabedoria no coração.*
+   - **Aljamiado**: `ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدوریہ نو كرجاو.`
 
-4. **Frase 4**: *Estudar a sintaxe e a morfologia das línguas com o esqueleto defectivo é um processo fascinante.*
-   - **Aljamiado (Alif Inserido)**: `استدر ا سينتسہ ی ا مرفلجیہ دها لنگواها كم و اسكلتو دفتیو ای ام پرچسو فسننتہ.`
-   - **Aljamiado (Variante Economia)**: `ستدر ا سينتسہ ی ا مرفلجیہ دها لنگواها كم و سكلتو دفتیو یی ام پرچسو فسننتہ.`
+4. **Frase 4**: *Seja muito bem-vindo à nossa comunidade.*
+   - **Aljamiado**: `سژہ مویتو بم-وندو آ نسہ كمونیددہ.`
 
-5. **Frase 5**: *No sistema aljamiado, o sufixo hā distingue a flexão de plural da sibilante verbal.*
-   - **Aljamiado**: `نو سيستمہ الجمیادو، و سفكسو ها دستنگہ ا فلكسجو دہ پلورل دہ سبیلنتہ وربل.`
+5. **Frase 5**: *As boas ações e as palavras sinceras transformam o mundo.*
+   - **Aljamiado**: `اها بوها اجوها ی اها پلورها سنچرهها ترنسفرموا و مندو.`
 
-6. **Frase 6**: *Quem lê com atenção percebe como o rasm semítico economiza vogais sem perder a clareza morfofonêmica.*
-   - **Aljamiado**: `كم لیس كم اتنجو پرچبہ كمو و رسم سمتیكو اكونمیژہ وگایها سم پردر ا كلریزہ مرففنمیكہ.`
+6. **Frase 6**: *Que Deus abençoe o seu trabalho e os seus estudos.*
+   - **Aljamiado**: `كہ دایوس ابنجوى و سیو تربلیو ی وها سیوها استودوها.`
 
-7. **Frase 7**: *A variação entre coisa e cousa reflete a história dos ditongos no português medieval.*
-   - **Aljamiado**: `ا ورياجو انترہ كویزہ ی كوزہ هفلتہ ا هستوریہ دوها دتنگوها نو پرتگز مدایول.`
+7. **Frase 7**: *A verdade e a justiça iluminam o caminho dos homens.*
+   - **Aljamiado**: `ا ورددہ ی ا ژستچیہ الومنوا و كمینیو دوها همنها.`
 
-8. **Frase 8**: *Boa sorte com os estudos de gramática, dialectologia e paleografia!*
-   - **Aljamiado (Variante Alif)**: `بوہ سرتہ كم وها استودوها دہ گرامتیكہ، ديلتلجیہ ی پلوگرفیہ!`
-   - **Aljamiado (Variante Reduzida)**: `بوہ سرتہ كم وها ستودوها دہ گرامتیكہ، ديلتلجیہ ی پلوگرفیہ!`
+8. **Frase 8**: *A verdadeira riqueza está na generosidade do coração.*
+   - **Aljamiado**: `ا ورددیره هكزہ استا نہ ژنرزددہ دو كرجاو.`
 
-9. **Frase 9**: *O contraste entre a fricativa zāy e o sīn intervocálico garante a precisão fonética.*
-   - **Aljamiado**: `و كنترستہ انترہ ا فركتیوه زای ی و سين انتروكلیكو گرنتہ ا پرچسجو فنيتكہ.`
+9. **Frase 9**: *Cada novo dia é uma oportunidade para fazer o bem.*
+   - **Aljamiado**: `كدہ نوو دیہ ای اومہ اپرتنیددہ پرہ فزر دو بم.`
 
-10. **Frase 10**: *A adaptação do alfabeto persa para a língua portuguesa é um projeto de alta elegância gráfica.*
-    - **Aljamiado**: `ا ادپتاجو دو الفبتو پرسہ پرہ ا لنگوا پرتگزہ ای ام پرژتو دہ التہ الگنچیہ گرافيكہ.`
+10. **Frase 10**: *A união de corações sinceros constrói uma vida cheia de paz.*
+    - **Aljamiado**: `ا انیاو دہ كرجوها سنچروها كنستروى اومہ ویدہ چیه دہ پز.`
