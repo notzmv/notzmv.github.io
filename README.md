@@ -25,7 +25,7 @@ Both studios feature interactive Perso-Arabic font switching between **Gulzar Na
 Key Principles:
 1. **Morphophonemic Plural Domain (`-hā` / `ـها`)**: Nominal plurals attach `-hā` (`books` &rarr; `بوكها`), distinguishing them from 3rd-person singular present verbs (`he speaks` &rarr; `هى اسپيكس`).
 2. **Dental Fricatives**: Voiceless *th* [θ] uses **Sā** (`ث`), while voiced *th* [ð] uses **Zāl** (`ذ`).
-3. **Velar Nasal**: Uses **Nūn-Gāf** (`نگ`) for clean [ŋ] rendering across all fonts (`sing` &rarr; `سنگ`), with optional Ottoman **Sağır Kāf** (`ڭ`).
+3. **Velar Nasal**: Uses **Nūn-Gāf** (`نگ`) in digital contexts for clean web rendering (`sing` &rarr; `سنگ`), while **Sağır Kāf** (`ڭ`) is preferred when writing by hand for natural penmanship.
 
 ---
 

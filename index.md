@@ -84,9 +84,9 @@ To maintain historical Arabic-Perso orthographic accuracy:
 - **Voiced th** [ð] maps to **Zāl** (`ذ`): *this* $\rightarrow$ `ذس`, *the* $\rightarrow$ `ذ` / `ذا`, *they* $\rightarrow$ `ذى` / `ذاي`
 
 ### Velar Nasal (ng: Nūn-Gāf نگ vs. Sağır Kāf ڭ)
-- **Primary (Nūn-Gāf `نگ`)**: Uses standard Nūn-Gāf for clean, robust rendering across all Nastaliq and Naskh web fonts:
+- **Digital Contexts (Nūn-Gāf `نگ`)**: Preferred in digital web typography to guarantee clean, un-broken rendering across all web fonts:
   - *sing* $\rightarrow$ `سنگ` | *thing* $\rightarrow$ `ثنگ` | *writing* $\rightarrow$ `رايتنگ` | *king* $\rightarrow$ `كنگ`
-- **Secondary Variant (Sağır Kāf `ڭ`)**: Uses Ottoman three-dotted Kāf for compact rendering:
+- **Handwriting & Manual Calligraphy (Sağır Kāf `ڭ`)**: Best when writing by hand—where these Aljamiado systems are most practically used—as compact single-letter ligatures flow naturally in penmanship:
   - *sing* $\rightarrow$ `سڭ` | *thing* $\rightarrow$ `ثڭ` | *writing* $\rightarrow$ `رايتڭ` | *king* $\rightarrow$ `كڭ`
 
 ---
