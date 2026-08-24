@@ -74,6 +74,24 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 4. **Recomendação de Teclado (GBoard Urdu)**: O melhor teclado para digitação é o **GBoard configurado para o idioma Urdu**, que possui o comportamento ortográfico desejado (exceto para a sequência de *He* final seguido do sufixo *-hā*, em que se pode pressionar e segurar o botão do *He* para digitar o segundo *He* correto).
 
 
+* Motivação e Visão Estratégica
+
+O projeto **Aljamiado Português** nasce da interseção entre linguística aplicada, pedagogia de escrita e apoio comunitário. Seus objetivos desdobram-se em frentes complementares:
+
+1. **Aproximação ao Alfabeto Perso-Árabe para Lusófonos**:
+   Oferecer a muçulmanos brasileiros, revertidos e demais falantes de português uma ferramenta intuitiva para se familiarizarem com a mecânica da escrita perso-árabe (conexão de letras, direção da direita para a esquerda, diacríticos e formas posicionais), utilizando a sua própria língua materna como ponte cognitiva.
+
+2. **Ferramenta de Transição para Estudantes de Árabe e Persa**:
+   Servir como passo intermediário para estudantes lusófonos das línguas árabe, persa e urdu, permitindo consolidar a leitura e a escrita do alfabeto sem o obstáculo simultâneo de vocabulário e gramática estrangeiros.
+
+3. **Acolhimento e Integração de Refugiados Persófonos (Iranianos e Afegãos)**:
+   Proporcionar aos refugiados e imigrantes persófonos no Brasil e em países lusófonos uma plataforma pedagógica em ambiente alfabético familiar (uma vez que o sistema é uma adaptação direta do alfabeto persa), facilitando a alfabetização e a assimilação da língua portuguesa.
+
+4. **Pesquisa Acadêmica em Aprendizagem de Linguagens e Transferência de Escrita (USP)**:
+   Apoiar investigações científicas no âmbito da Universidade de São Paulo (USP) sobre transferência interlinguística de sistemas de escrita, psicolinguística da leitura em escritas bidirecionais e adaptações ortográficas em línguas românicas.
+
+5. **Roteiro de Desenvolvimento Gradual**:
+   O foco prioritário desta fase é o público lusófono (curso de português escrito em alfabeto perso-árabe disponível em [[file:curso.org][curso.org]]), mantendo o planejamento aberto para o desenvolvimento futuro de materiais específicos para persófonos aprendendo português.
 
 
 * Corpus e Amostras de Transcrição
