@@ -98,8 +98,8 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 
 ### Dígrafos Palatais (lh, nh)
 Representados como ligaduras usando **Lām-Ye** (`لی`) e **Nūn-Ye** (`نی`):
-- **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیo` / `فیلیو`, *espelho* $\rightarrow$ `اسپلیو`.
-- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تینیo` / `تینیو`, *linhas* $\rightarrow$ `لینیاها`.
+- **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیو`, *espelho* $\rightarrow$ `اسپلیو`.
+- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تینیو`, *linhas* $\rightarrow$ `لینیاها`.
 
 ---
 
@@ -118,7 +118,7 @@ Representados como ligaduras usando **Lām-Ye** (`لی`) e **Nūn-Ye** (`نی`):
 | **é aberto inicial** [ɛ] | **ای** / **یی** | Alif-Ye (`ای`) / Ye Duplo (`یی`) | *é* | `ای` / `یی` |
 | **à aberto inicial** [a] | **آ** | Alif com Madd sobrescrito | *à* | `آ` |
 | **e inicial / isolado** [i]/[e] | **ی** | Ye Simples | *e* / *estudar* | `ی` / `یستدر` |
-| **a inicial** [a] | **ا** | Alif Simples | *alfabeto* | `الفبتo` |
+| **a inicial** [a] | **ا** | Alif Simples | *alfabeto* | `الفبتو` |
 | **o inicial** [o]/[u] | **او** | Alif-Waw | *os* | `وها` |
 
 ### Alif Tónico (ا) e Inferência de Acentuação
@@ -207,7 +207,7 @@ Palavras lexicais não-nominais em *-s* podem usar **Zāy** (`ز`): *mas* $\righ
 | **Art. Def. Masc. Sing.** | *o* | `و` | Waw isolado |
 | **Art. Def. Masc. Plur.** | *os* | `وها` | *o* (`و`) + *-hā* (`ـها`) nominal |
 | **Art. Def. Fem. Sing.** | *a* | `ا` / `اہ` | Alif / He Urdu |
-| **Art. Def. Fem. Plur.** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـha`) nominal |
+| **Art. Def. Fem. Plur.** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـها`) nominal |
 | **Art. Indef. Masc. Sing.** | *um* | `ام` / `اوم` | Mīm nasalizador final |
 | **Art. Indef. Masc. Plur.** | *uns* | `انها` / `اونها` | Nasal `n` + *-hā* nominal |
 | **Art. Indef. Fem. Sing.** | *uma* | `اومہ` | He Mudo final |
@@ -223,7 +223,7 @@ Palavras lexicais não-nominais em *-s* podem usar **Zāy** (`ز`): *mas* $\righ
 | Termo Latino/Português | Escrita Aljamiada | Análise Ortográfica e Defectividade |
 |---|---|---|
 | **linguística** | `لنگویستیكہ` | *Lām-Ye* (`لی`), Nūn nasal, Waw-Ye (`وی`), *i* alto mantido |
-| **fonologia** | `فنلjیه` / `فنلجیہ` | *o* e *o* internos defectivos, Jīm (`ج`) para G brando, Gol He final |
+| **fonologia** | `فنلجیه` | *o* e *o* internos defectivos, Jīm (`ج`) para G brando, Gol He final |
 | **fonética** | `فنيتكہ` | *fn* + Ye (`ی`) para *e* tónico não-paroxítono + *tika* (`تيكہ`) |
 | **morfologia** | `مرفلجیہ` | Esqueleto *m-r-f-l* + Jīm (`ج`) para G brando, Gol He final |
 | **sintaxe** | `سينتسہ` | *Sīn-Ye-Nūn* (`سين`), *t* (`ت`), *x* como Sīn (`س`), Gol He final |
@@ -246,7 +246,7 @@ Palavras lexicais não-nominais em *-s* podem usar **Zāy** (`ز`): *mas* $\righ
 
 1. **Frase 1**: *Equilíbrio é muito importante para a forma de escrever.*
    - **Aljamiado (Variante Alif)**: `اکیلیبریو ای مویتو امپرتنتہ پرہ ا فرمہ دو اسكرور.`
-   - **Aljamiado (Variante Ye Direto)**: `یکیلیبریo یی مویتو یمپرتنتہ پرہ ا فرمہ دو یسكرور.`
+   - **Aljamiado (Variante Ye Direto)**: `یکیلیبریو یی مویتو یمپرتنتہ پرہ ا فرمہ دو یسكرور.`
    - **Variante Reduzida / Economia**: `كيلیبریو یی مویتو امپرتنتہ پرہ ا فرمہ دو سكرور.`
 
 2. **Frase 2**: *As coisas boas da linguística e da filologia românica.*

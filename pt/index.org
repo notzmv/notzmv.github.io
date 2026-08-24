@@ -153,7 +153,7 @@ Ambas as convenções são variantes ortográficas plenamente válidas no Aljami
 | **é aberto inicial** [ɛ] | **ای** / **یی** | Alif-Ye (`ای`, variante Alif) / Ye Duplo (`یی`, variante Ye) | *é* | `ای` / `یی` |
 | **à aberto inicial** [a] | **آ** | Alif com Madd sobrescrito | *à* | `آ` |
 | **e inicial / isolado** [i]/[e] | **ی** | Ye Simples | *e* / *estudar* / *estudo* | `ی` / `یستدر` / `یستدو` |
-| **a inicial** [a] | **ا** | Alif Simples | *alfabeto* | `الفبتo` |
+| **a inicial** [a] | **ا** | Alif Simples | *alfabeto* | `الفبتو` |
 | **o inicial** [o]/[u] | **او** | Alif-Waw | *os* | `وها` |
 
 - **Representação de *é* e *e***:
@@ -348,7 +348,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **Art. Def. Masc. Sing.** | *o* | `و` | Waw isolado |
 | **Art. Def. Masc. Plur.** | *os* | `وها` | *o* (`و`) + *-hā* (`ـها`) nominal |
 | **Art. Def. Fem. Sing.** | *a* | `ا` / `اہ` | Alif / He Urdu |
-| **Art. Def. Fem. Plur.** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـha`) nominal |
+| **Art. Def. Fem. Plur.** | *as* | `اها` | *a* (`ا`) + *-hā* (`ـها`) nominal |
 | **Art. Indef. Masc. Sing.** | *um* | `ام` / `اوم` | Mīm nasalizador final |
 | **Art. Indef. Masc. Plur.** | *uns* | `انها` / `اونها` | Nasal `n` + *-hā* nominal |
 | **Art. Indef. Fem. Sing.** | *uma* | `اومہ` | He Mudo final |
