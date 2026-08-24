@@ -11,7 +11,7 @@
 - 🇬🇧 **Aljamiado English Studio**: [index.html](index.html) (`/`)
 - 🇵🇹 **Aljamiado Português Studio**: [pt/index.html](pt/index.html) (`/pt/`)
 
-Both studios feature interactive Perso-Arabic font switching between **Noto Nastaliq**, **Gulzar Nastaliq**, **Vazirmatn**, **Noto Naskh**, and **Aref Ruqaa**.
+Both studios feature interactive Perso-Arabic font switching between **Gulzar Nastaliq**, **Vazirmatn**, **Noto Naskh**, and **Aref Ruqaa**.
 
 ---
 

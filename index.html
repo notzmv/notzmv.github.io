@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aljamiado English Specification & Corpus Studio</title>
-  <!-- Google Fonts: Gulzar, Noto Nastaliq Urdu, Vazirmatn, Noto Naskh Arabic, Aref Ruqaa -->
+  <!-- Google Fonts: Gulzar, Vazirmatn, Noto Naskh Arabic, Aref Ruqaa -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Vazirmatn:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-color: #0d1117;
@@ -128,13 +128,8 @@
       unicode-bidi: isolate;
     }
 
-    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', 'Pak Nastaleeq', serif;
-      line-height: 2.4;
-    }
-
     body.font-gulzar .ar, body.font-gulzar .perso-arabic {
-      font-family: 'Gulzar', 'Noto Nastaliq Urdu', serif;
+      font-family: 'Gulzar', serif;
       line-height: 2.2;
     }
 
@@ -291,7 +286,7 @@
     }
   </style>
 </head>
-<body class="font-nastaliq">
+<body class="font-gulzar">
 
 <div class="container">
   <header>
@@ -315,8 +310,7 @@
     <div>
       <span class="control-label">Perso-Arabic Font Style:</span>
       <div class="btn-group">
-        <button class="btn active" id="btn-nastaliq" onclick="setFont('nastaliq')">Noto Nastaliq</button>
-        <button class="btn" id="btn-gulzar" onclick="setFont('gulzar')">Gulzar Nastaliq</button>
+        <button class="btn active" id="btn-gulzar" onclick="setFont('gulzar')">Gulzar Nastaliq</button>
         <button class="btn" id="btn-vazir" onclick="setFont('vazir')">Vazirmatn</button>
         <button class="btn" id="btn-naskh" onclick="setFont('naskh')">Noto Naskh</button>
         <button class="btn" id="btn-ruqaa" onclick="setFont('ruqaa')">Aref Ruqaa</button>
