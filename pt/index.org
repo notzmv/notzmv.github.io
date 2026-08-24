@@ -87,7 +87,7 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 | **k / c / q** (duro) | [k] | **ك** | Kāf | *coisa* | `كویزہ` |
 | **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
 | **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
-| **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كاهو` / `تہہ` |
+| **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كهو` / `تہہ` |
 | **r-** (inicial forte) | [ʁ] / [r] | **ر** (frequente) / **ه** | Rā / He | *rio* / *rua* | `ریو` / `روه` (ou `هیو` / `هوه`) |
 | **s** (intervocálico /z/) | [z] | **ز** | Zāy | *coisa* | `كویزہ` |
 | **ss** (intervocálico /s/) | [s] | **س** | Sīn | *processo* | `پرچسو` |
@@ -101,14 +101,14 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
 - **C brando** (antes de *e*, *i*, representando /s/ ou /tʃ/) mapeia para **Chā** (`چ`):
   - *cenoura* $\rightarrow$ `چنورہ`
   - *você* $\rightarrow$ `وچہ`
-  - *cidade* / *cidades* $\rightarrow$ `چدادہ` / `چدادها`
+  - *cidade* / *cidades* $\rightarrow$ `چددہ` / `چددها` (paroxítonas, com omissão defectiva do *a* pré-tónico)
   - *ciência* $\rightarrow$ `چینچیہ`
   - *fácil* $\rightarrow$ `فاچل`
 - **G brando** (antes de *e*, *i*, representando a fricativa palatal sonora /ʒ/) mapeia para **Jīm** (`ج`):
   - *gente* $\rightarrow$ `جنتہ`
-  - *gênero* $\rightarrow$ `جنرو`
-  - *gerúndio* $\rightarrow$ `جرندیو`
-  - *giringonça* $\rightarrow$ `جرنگونسہ`
+  - *gênero* $\rightarrow$ `جینرو` / `جنرو` (proparoxítona, com Ye `ی` tónico opcional para preservação da identidade vocálica)
+  - *gerúndio* $\rightarrow$ `جرندیو` / `ژرندیو` (preservando o hiato/ditongo proparoxítono `-dio` `دیو`)
+  - *giringonça* $\rightarrow$ `جرنگنسہ` (sem Waw `و` no sufixo paroxítono *-onça*)
   - *Gemini* $\rightarrow$ `جمینى`
 - **J** (grafema independente *j*, representando /ʒ/ lexical da raiz) mapeia para **Žā** (`ژ`):
   - *projeto* $\rightarrow$ `پرژتو`
@@ -117,7 +117,7 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
   - *sujeito* $\rightarrow$ `سژیتو`
 - **G duro** (antes de *a*, *o*, *u*, o oclusivo velar /ɡ/) mapeia para **Gāf** (`گ`):
   - *gostei* $\rightarrow$ `گوستى`
-  - *gramática* $\rightarrow$ `گرامتیكہ`
+  - *gramática* $\rightarrow$ `گرمتيكہ` (Alif tónico `ا` posicionado após o Mīm `م` na sílaba tónica *-má-*)
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
 
 ** Distinção R vs. RR (Rā vs. He)
@@ -144,7 +144,7 @@ Nas posições intervocálicas onde o português opõe a fricativa alveolar sono
 - **S simples intervocálico (sonoro /z/)** mapeia para **Zāy** (`ز`):
   - *coisa* $\rightarrow$ `كویزہ` (ou `كوزہ`)
   - *casa* $\rightarrow$ `كزہ`
-  - *análise* $\rightarrow$ `انلیزہ`
+  - *análise* (substantivo proparoxítono) $\rightarrow$ `انالیزہ` (com Alif tónico `ا` na sílaba *-ná-*), contrapondo ao verbo *analise* (paroxítono) $\rightarrow$ `انلیزہ` (sem Alif tónico)
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
 - **SS duplo intervocálico (surdo /s/)** mapeia para **Sīn** (`س`):
   - *processo* $\rightarrow$ `پرچسو`
@@ -154,8 +154,8 @@ Nas posições intervocálicas onde o português opõe a fricativa alveolar sono
 
 ** Dígrafos Palatais (lh, nh)
 As consoantes palatais são representadas como ligaduras de consoante-semivogal usando *Lām-Ye* (`لی`) e *Nūn-Ye* (`نی`):
-- **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیو`, *espelho* $\rightarrow$ `اسپلیو` / `سپلیو`, *folha* $\rightarrow$ `فولیہ`, *detalhe* $\rightarrow$ `دتلیہ`
-- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تینیو`, *linhas* $\rightarrow$ `لینیاها`, *desenho* $\rightarrow$ `دزنیو`
+- **lh** [ʎ] $\rightarrow$ **لی**: *filho* $\rightarrow$ `فیلیو`, *espelho* $\rightarrow$ `اسپلیو` / `سپلیو`, *folha* $\rightarrow$ `فلها` (paroxítona, sem Waw `و`), *detalhe* $\rightarrow$ `دتلیہ`
+- **nh** [ɲ] $\rightarrow$ **نی**: *minha* $\rightarrow$ `مینیہ`, *tenho* $\rightarrow$ `تنهو` (paroxítona, sem Ye `ی` no radical), *linhas* $\rightarrow$ `لینیها` / `لینی-ها` (`liniha` ou `lini-ha` com sufixo `-hā`), *desenho* $\rightarrow$ `دزنیو`
 
 * 2. Sistema Vocálico, Diacríticos e Acentuação
 
