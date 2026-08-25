@@ -180,21 +180,30 @@
     .ar, .perso-arabic {
       direction: rtl;
       unicode-bidi: isolate;
-      font-size: 1.8rem;
-      line-height: 2.4;
-      color: #fbbf24;
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
     }
 
-    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic,
-    body.font-gulzar .ar, body.font-gulzar .perso-arabic {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
-      line-height: 2.4;
-    }
-
-    body.font-naskh .ar, body.font-naskh .perso-arabic {
-      font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+    .aljamiado-naskh {
+      font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif;
+      font-size: 1.6rem;
+      color: #f472b6;
       line-height: 1.8;
+      margin-bottom: 0.3rem;
+    }
+
+    .aljamiado-nastaliq {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-size: 1.7rem;
+      color: #fbbf24;
+      line-height: 2.2;
+      margin-top: 0.3rem;
+    }
+
+    body.font-nastaliq .aljamiado-naskh {
+      display: none;
+    }
+
+    body.font-naskh .aljamiado-nastaliq {
+      display: none;
     }
 
                 
@@ -547,7 +556,8 @@
       <div class="card-meta">Frase 1 — Saudação e Bênção</div>
       <div class="pt">Que a paz e as bênçãos de Allah estejam com o profeta Muhammad e sua família.</div>
       <div class="ipa">[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ dʒi a'lːa es'tejɐ̃w kõ u pɾo'fɛtɐ mu'xɐmɐd i 'suɐ fɐ'miljɐ]</div>
-      <div class="perso-arabic ar">كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.</div>
       <div class="notes">Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, Allah (اللّٰہ), Muhammad com Ḥā/7 (محمّد).</div>
     </div>
 
@@ -555,7 +565,8 @@
       <div class="card-meta">Frase 2 — Busca pelo Conhecimento</div>
       <div class="pt">A busca pelo conhecimento é um dever de todos.</div>
       <div class="ipa">[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]</div>
-      <div class="perso-arabic ar">ا بوسكہ پلو كنیچمنتو ای اوم دور دہ تدوها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا بوسكہ پلو كنیچمنتو ای اوم دور دہ تدوها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا بوسكہ پلو كنیچمنتو ای اوم دور دہ تدوها.</div>
       <div class="notes">Chā para C brando (كنیچمنتو sem i atónico interno), um estritamente como اوم (Alif-Waw-Mīm), infinitivo verbal (دور), plural nominal -hā (تدوها).</div>
     </div>
 
@@ -563,7 +574,8 @@
       <div class="card-meta">Frase 3 — Paciência e Gratidão</div>
       <div class="pt">A paciência e a gratidão trazem paz e sabedoria ao coração.</div>
       <div class="ipa">[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ aw koɾɐ'sɐ̃w]</div>
-      <div class="perso-arabic ar">ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ او كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ او كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ او كرچاو.</div>
       <div class="notes">Chā para C brando (پچنچیہ), sabedoria sem Waw (سبدریہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو), contração ao (او).</div>
     </div>
 
@@ -571,7 +583,8 @@
       <div class="card-meta">Frase 4 — Acolhimento e Comunidade</div>
       <div class="pt">Seja muito bem-vindo à nossa comunidade.</div>
       <div class="ipa">['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]</div>
-      <div class="perso-arabic ar">سژہ مویتو بم-ویندو آ نسہ كمونددہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">سژہ مویتو بم-ویندو آ نسہ كمونددہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">سژہ مویتو بم-ویندو آ نسہ كمونددہ.</div>
       <div class="notes">Žā para J/G brando (سژہ), hífen em mídia digital / ZWNJ em manuscrito (بم-ویندو / بم‌ویندو), Alif Madd inicial (آ), comunidade sem ye atónico (كمونددہ).</div>
     </div>
 
@@ -579,7 +592,8 @@
       <div class="card-meta">Frase 5 — Boas Ações e Palavras Sinceras</div>
       <div class="pt">As boas ações e as palavras sinceras transformam o mundo.</div>
       <div class="ipa">[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]</div>
-      <div class="perso-arabic ar">اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.</div>
       <div class="notes">Plurais nominais com -hā (اها, بوها, اچوها, پلورها, سینچرها), -am verbal defectivo (ترنسفرمم).</div>
     </div>
 
@@ -587,7 +601,8 @@
       <div class="card-meta">Frase 6 — Trabalho e Estudo</div>
       <div class="pt">Que Deus abençoe o seu trabalho e os seus estudos.</div>
       <div class="ipa">[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]</div>
-      <div class="perso-arabic ar">كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.</div>
       <div class="notes">Lām-Ye em تربلیو, sufixo nominal -hā em plurais (وها, سیوها, استودوها).</div>
     </div>
 
@@ -595,7 +610,8 @@
       <div class="card-meta">Frase 7 — Sabedoria e Justiça</div>
       <div class="pt">A verdade e a justiça iluminam o caminho dos homens.</div>
       <div class="ipa">[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'minɐ̃w u kɐ'miɲu dus 'omẽjʃ]</div>
-      <div class="perso-arabic ar">ا ورددہ ی ا ژستچہ یلومنم و كمینیو دوها همنها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا ورددہ ی ا ژستچہ یلومنم و كمینیو دوها همنها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا ورددہ ی ا ژستچہ یلومنم و كمینیو دوها همنها.</div>
       <div class="notes">Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), -am verbal defectivo com Ye inicial e sem i atónico (یلومنم), justiça sem ye atónico (ژستچہ).</div>
     </div>
 
@@ -603,7 +619,8 @@
       <div class="card-meta">Frase 8 — Generosidade</div>
       <div class="pt">A verdadeira riqueza está na generosidade do coração.</div>
       <div class="ipa">[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]</div>
-      <div class="perso-arabic ar">ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.</div>
       <div class="notes">Rā em riqueza (ریكزہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ).</div>
     </div>
 
@@ -611,7 +628,8 @@
       <div class="card-meta">Frase 9 — Oportunidade e Recomeço</div>
       <div class="pt">Cada novo dia é uma oportunidade para fazer o bem.</div>
       <div class="ipa">['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]</div>
-      <div class="perso-arabic ar">كدہ نوو دیہ ای اومہ اپرتنددہ پرہ فزر و بم.</div>
+      <div class="perso-arabic ar aljamiado-naskh">كدہ نوو دیہ ای اومہ اپرتنددہ پرہ فزر و بم.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">كدہ نوو دیہ ای اومہ اپرتنددہ پرہ فزر و بم.</div>
       <div class="notes">uma estritamente como اومہ (Alif-Waw-Mīm-He), minimização defectiva (كدہ, اپرتنددہ sem u atónico em palavra longa, پرہ), oportunidade sem ye (اپرتنددہ), infinitivo verbal (فزر).</div>
     </div>
 
@@ -619,7 +637,8 @@
       <div class="card-meta">Frase 10 — União e Harmonia</div>
       <div class="pt">A união de corações sinceros constrói uma vida cheia de paz.</div>
       <div class="ipa">[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]</div>
-      <div class="perso-arabic ar">ا انیاو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا انیاو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا انیاو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.</div>
       <div class="notes">uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز.</div>
     </div>
 
@@ -627,7 +646,8 @@
       <div class="card-meta">Frase 11 — Sabedoria e Razão</div>
       <div class="pt">A sabedoria ilumina a mente e o conhecimento fortalece a alma.</div>
       <div class="ipa">[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]</div>
-      <div class="perso-arabic ar">ا سبدریہ یلومنہ ا منتہ ی و كنیچمنتو فرتلچہ ا المہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا سبدریہ یلومنہ ا منتہ ی و كنیچمنتو فرتلچہ ا المہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا سبدریہ یلومنہ ا منتہ ی و كنیچمنتو فرتلچہ ا المہ.</div>
       <div class="notes">sabedoria sem Waw (سبدریہ), Ye inicial e sem i atónico em یلومنہ, conhecimento sem i atónico em palavra longa (كنیچمنتو), Alif em المہ, C brando em فرتلچہ (Chā), Gol He final.</div>
     </div>
 
@@ -635,7 +655,8 @@
       <div class="card-meta">Frase 12 — Semeadores de Esperança</div>
       <div class="pt">Os homens de bem semeiam a esperança e colhem a justiça.</div>
       <div class="ipa">[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]</div>
-      <div class="perso-arabic ar">وها همنها دہ بم سمیم ا اسپرنچہ ی كولیه ا ژستچہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">وها همنها دہ بم سمیم ا اسپرنچہ ی كولیه ا ژستچہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">وها همنها دہ بم سمیم ا اسپرنچہ ی كولیه ا ژستچہ.</div>
       <div class="notes">Assimilação nasal (همنها), ditongo ei (سمیم), Lām-Ye + Gol He em كولیه (lh para contrastar com cole), Žā em ژستچہ sem ye final (ژستچہ).</div>
     </div>
 
@@ -643,7 +664,8 @@
       <div class="card-meta">Frase 13 — Caminho da Verdade</div>
       <div class="pt">A luz da verdade guia os nossos passos pelo caminho da paz.</div>
       <div class="ipa">[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]</div>
-      <div class="perso-arabic ar">ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.</div>
       <div class="notes">Zāy final em لوز e پز, Sīn duplo intervocálico em نسوها e پسوها com sufixo -hā.</div>
     </div>
 
@@ -651,7 +673,8 @@
       <div class="card-meta">Frase 14 — Palavras de Fé</div>
       <div class="pt">As palavras de fé e amor renovam os corações dos homens.</div>
       <div class="ipa">[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]</div>
-      <div class="perso-arabic ar">اها پلورها دہ فی ی امور رنوم وها كرچوها دوها همنها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اها پلورها دہ فی ی امور رنوم وها كرچوها دوها همنها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اها پلورها دہ فی ی امور رنوم وها كرچوها دوها همنها.</div>
       <div class="notes">Rā em renovam (رنوم) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), single waw em renovam (رنوم), -am verbal defectivo, plurais nominais -hā.</div>
     </div>
 
@@ -659,7 +682,8 @@
       <div class="card-meta">Frase 15 — Busca pela Felicidade</div>
       <div class="pt">Quem busca a sabedoria encontra a verdadeira felicidade na vida.</div>
       <div class="ipa">[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]</div>
-      <div class="perso-arabic ar">كم بوسكہ ا سبدریہ انكنترہ ا ورددرہ فلچددہ نہ ویدہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">كم بوسكہ ا سبدریہ انكنترہ ا ورددرہ فلچددہ نہ ویدہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">كم بوسكہ ا سبدریہ انكنترہ ا ورددرہ فلچددہ نہ ویدہ.</div>
       <div class="notes">Kāf para Q (كم), sabedoria sem Waw (سبدریہ), C brando em فلچددہ (Chā), verdadeira sem ye (ورددرہ), felicidade sem ye (فلچددہ), Gol He final.</div>
     </div>
 
@@ -667,7 +691,8 @@
       <div class="card-meta">Frase 16 — Reflexão e Honra</div>
       <div class="pt">Um bom amigo traz honra e alegria para a nossa casa.</div>
       <div class="ipa">[ũ 'bõj ɐ'migu 'tɾaʃ 'õɾɐ i ɐle'gɾiɐ 'paɾɐ ɐ 'nɔsɐ 'kazɐ]</div>
-      <div class="perso-arabic ar">اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.</div>
       <div class="notes">um estritamente como اوم (Alif-Waw-Mīm), Hā em هنرہ (honra muda), exigindo Rā inicial em R- (ریكزہ, رنوم, ریوها) para desambiguação, Zāy em كزہ (casa /z/), Sīn duplo em نسہ (nossa /s/).</div>
     </div>
 
@@ -675,7 +700,8 @@
       <div class="card-meta">Frase 17 — União da Família</div>
       <div class="pt">Os filhos e as filhas escutam os conselhos dos pais.</div>
       <div class="ipa">[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]</div>
-      <div class="perso-arabic ar">وها فیلیوها ی اها فیلیہها اسكوتم وها كنسیلیوها دوها پایها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">وها فیلیوها ی اها فیلیہها اسكوتم وها كنسیلیوها دوها پایها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">وها فیلیوها ی اها فیلیہها اسكوتم وها كنسیلیوها دوها پایها.</div>
       <div class="notes">Lām-Ye para LH (فیلیوها, فیلیہها, كنسیلیوها), filhas com fili + Gol He + ha (فیلیہها), plurais nominais -hā, -am verbal (اسكوتم).</div>
     </div>
 
@@ -683,7 +709,8 @@
       <div class="card-meta">Frase 18 — Trabalho e Perseverança</div>
       <div class="pt">A paciência é uma virtude que transforma os maus momentos.</div>
       <div class="ipa">[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]</div>
-      <div class="perso-arabic ar">ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.</div>
       <div class="notes">uma estritamente como اومہ, Chā em پچنچیہ, Waw para V em ورتودہ (opção aceitável com Waw), momentos sem waw atónico (مومنتها), plurais -hā.</div>
     </div>
 
@@ -691,7 +718,8 @@
       <div class="card-meta">Frase 19 — Esperança no Amanhã</div>
       <div class="pt">Quem planta a justiça colhe um futuro de paz e prosperidade.</div>
       <div class="ipa">[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]</div>
-      <div class="perso-arabic ar">كم پلنتہ ا ژستچہ كولیه اوم فوتورو دہ پز ی پرسپرددہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">كم پلنتہ ا ژستچہ كولیه اوم فوتورو دہ پز ی پرسپرددہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">كم پلنتہ ا ژستچہ كولیه اوم فوتورو دہ پز ی پرسپرددہ.</div>
       <div class="notes">um estritamente como اوم, Žā em ژستچہ sem ye final, Lām-Ye + Gol He em كولیه (lh), futuro com ambos Waws (فوتورو) para desambiguar com faturo, Zāy em پز, prosperidade sem ye (پرسپرددہ).</div>
     </div>
 
@@ -699,7 +727,8 @@
       <div class="card-meta">Frase 20 — Caminho e Destino</div>
       <div class="pt">As palavras voam com o vento, mas as boas obras permanecem.</div>
       <div class="ipa">[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]</div>
-      <div class="perso-arabic ar">اها پلورها ووام كم و ونتو، مس اها بوها ابرها پرمنچم.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اها پلورها ووام كم و ونتو، مس اها بوها ابرها پرمنچم.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اها پلورها ووام كم و ونتو، مس اها بوها ابرها پرمنچم.</div>
       <div class="notes">Plurais nominais -hā (پلورها, بوها, ابرها), voam com Waw-Waw-Alif-Mīm (ووام), C brando em پرمنچم (Chā), -em verbal (پرمنچم).</div>
     </div>
 
@@ -707,7 +736,8 @@
       <div class="card-meta">Frase 21 — Conhecimento e Luz</div>
       <div class="pt">O estudo constante ilumina o espírito e abre a mente.</div>
       <div class="ipa">[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]</div>
-      <div class="perso-arabic ar">و استودو كنستنتہ یلومنہ و اسپرتو ی ابرہ ا منتہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">و استودو كنستنتہ یلومنہ و اسپرتو ی ابرہ ا منتہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">و استودو كنستنتہ یلومنہ و اسپرتو ی ابرہ ا منتہ.</div>
       <div class="notes">Alif inicial de suporte (استودو), ilumina com Ye inicial e sem i atónico (یلومنہ), espírito sem ye atónico (اسپرتو), Gol He final em كنستنتہ, منتہ.</div>
     </div>
 
@@ -715,7 +745,8 @@
       <div class="card-meta">Frase 22 — Respeito e Modéstia</div>
       <div class="pt">Um homem sábio fala com humildade e ouve com atenção.</div>
       <div class="ipa">[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]</div>
-      <div class="perso-arabic ar">اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاو.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاو.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاو.</div>
       <div class="notes">um estritamente como اوم, assimilação nasal همم, Hā mudo em اوملددہ sem ye atónico, ditongo nasal -ção → تنچاو.</div>
     </div>
 
@@ -723,7 +754,8 @@
       <div class="card-meta">Frase 23 — Semeando Bondade</div>
       <div class="pt">Uma boa ação traz uma grande recompensa no coração.</div>
       <div class="ipa">['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]</div>
-      <div class="perso-arabic ar">اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-naskh">اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.</div>
       <div class="notes">uma estritamente como اومہ, Rā em recompensa (ركمپنسہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Zāy em ترز.</div>
     </div>
 
@@ -731,7 +763,8 @@
       <div class="card-meta">Frase 24 — Diálogo e Concórdia</div>
       <div class="pt">A verdade une as pessoas e constrói a verdadeira paz.</div>
       <div class="ipa">[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]</div>
-      <div class="perso-arabic ar">ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.</div>
+      <div class="perso-arabic ar aljamiado-naskh">ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.</div>
       <div class="notes">Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروى, Zāy em پز, verdadeira sem ye (ورددرہ).</div>
     </div>
 
@@ -739,7 +772,8 @@
       <div class="card-meta">Frase 25 — O Mar e o Horizonte</div>
       <div class="pt">Os rios correm para o mar e renovam as águas da terra.</div>
       <div class="ipa">[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]</div>
-      <div class="perso-arabic ar">وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.</div>
+      <div class="perso-arabic ar aljamiado-naskh">وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.</div>
+      <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.</div>
       <div class="notes">Rā para R inicial em ریوها e رنوم (desambiguando com Hā mudo هنرہ), single waw em renovam (رنوم), He para RR intervocálico em كوهم e تہہ, desinência verbal -em defectiva (كوهم), plurais -hā (ریوها, اگوها).</div>
     </div>
 </div>
