@@ -184,9 +184,10 @@
 
     .aljamiado-naskh {
       font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif;
-      font-size: 1.85rem;
+      font-size: 2.0rem;
       color: #f472b6;
       line-height: 1.9;
+      margin-bottom: 0.3rem;
     }
 
     .aljamiado-nastaliq {
@@ -194,6 +195,15 @@
       font-size: 2.2rem;
       color: #fbbf24;
       line-height: 2.4;
+      margin-top: 0.3rem;
+    }
+
+    body.font-nastaliq .aljamiado-naskh {
+      display: none;
+    }
+
+    body.font-naskh .aljamiado-nastaliq {
+      display: none;
     }
 
     /* Corpus Cards Isolation (Both Rows Always Visible) */
@@ -432,19 +442,24 @@
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
     }
 
-    body.font-nastaliq .ar:not(.nastaliq-card-row):not(.naskh-card-row),
-    body.font-nastaliq .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row),
+    .ar, .perso-arabic {
+      direction: rtl;
+      unicode-bidi: isolate;
+      font-size: 1.8rem;
+      line-height: 2.4;
+      color: #fbbf24;
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
+    }
+
+    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic,
     body.font-gulzar .ar, body.font-gulzar .perso-arabic {
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
       line-height: 2.4;
-      color: #fbbf24;
     }
 
-    body.font-naskh .ar:not(.nastaliq-card-row):not(.naskh-card-row),
-    body.font-naskh .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
-      font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
+    body.font-naskh .ar, body.font-naskh .perso-arabic {
+      font-family: 'Noto Naskh Arabic', 'Amiri', serif;
       line-height: 1.8;
-      color: #f472b6 !important;
     }
 
       .perso-arabic {
