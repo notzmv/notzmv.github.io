@@ -514,7 +514,7 @@ Uma das alternâncias morfológicas de maior relevância prática no Aljamiado P
 - **Base em *-ço***: Grafado com Chā e Waw final: **`ـچو`** (*pedaço* ~پدچo~ $\rightarrow$ ~پدچو~, *laço* ~لاچو~).
 - **Singular em *-ção***: O ditongo nasal atrai o Alif e Waw: **`ـچاو`** (*coração* ~كرچاو~, *nação* ~نچاو~, *opção* ~اپچاو~).
 - **Plural em *-ções***: O ditongo nasal flexionado une a vocalização ~ـویـ~ ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچویها`** (*corações* ~كرچویها~, *nações* ~نچویها~, *opções* ~اپچویها~).
-- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) ou Sīn (`س`): *razão* ~رزاو~ $\rightarrow$ *razões* ~رزویها~; *visão* ~ویساو~ $\rightarrow$ *visões* ~ویسویها~.
+- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاو~ $\rightarrow$ *razões* ~رزویها~; *visão* ~ویزاو~ $\rightarrow$ *visões* ~ویزویها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساو~ $\rightarrow$ *missões* ~مسویها~).
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis* e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 
