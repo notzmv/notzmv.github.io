@@ -542,13 +542,57 @@ Na prática do dia a dia, essa abordagem inicial revelou um grande empecilho: de
 
 Assim nasceu a grande virada de design do Aljamiado Português: abandonar a dependência de diacríticos e desenvolver um sistema orgânico de **Mater Lectionis por Proximidade Fonética** (Alif `ا`, Waw `و`, Ye `ی`, Gol He `ہ`). Cada som vocálico do português passou a ser atraído para a sua letra de suporte foneticamente mais próxima.
 
+**Uso Didático de Diacríticos e Notação de Tanwīn (Ferramenta Pedagógica)**
+Para fins estritamente pedagógicos e analíticos de demonstração gráfica em manuais instrucionais, o sistema formaliza a **Notação de Tanwīn Didático** para evidenciar vogais não marcadas ou implícitas no esqueleto consonantal.
+
+*Atenção*: O Tanwīn e os diacríticos **nunca são utilizados na escrita diária normal**, servindo exclusivamente como auxílio didático de aprendizagem:
+
+#+BEGIN_EXPORT html
+<div class="course-table-wrapper">
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Diacrítico / Tanwīn</th>
+      <th>Nome Árabe</th>
+      <th>Função Didática no Aljamiado</th>
+      <th>Exemplo Didático</th>
+      <th>Transcrição / Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="aljamiado-naskh ar" style="font-size: 1.4rem;">ـً</span></td>
+      <td>Fathatan (Tanwīn A)</td>
+      <td>Marca <strong>A tónico implícito</strong> ou desprotegido de Alif</td>
+      <td><span class="aljamiado-naskh ar">ژً</span> / <span class="aljamiado-naskh ar">پً</span></td>
+      <td><i>já</i> / <i>pá</i> (tónico curto anotado)</td>
+    </tr>
+    <tr>
+      <td><span class="aljamiado-naskh ar" style="font-size: 1.4rem;">ـٍ</span></td>
+      <td>Kasratan (Tanwīn I)</td>
+      <td>Marca <strong>I atónico ou implícito</strong> sem suporte de Ye</td>
+      <td><span class="aljamiado-naskh ar">هٍتو</span></td>
+      <td><i>hiato</i> (evidenciando a vogal <i>i</i> implícita no Rasm)</td>
+    </tr>
+    <tr>
+      <td><span class="aljamiado-naskh ar" style="font-size: 1.4rem;">ـٌ</span></td>
+      <td>Dammatan (Tanwīn U)</td>
+      <td>Marca <strong>U/O atónico ou implícito</strong> sem suporte de Waw</td>
+      <td><span class="aljamiado-naskh ar">تٌدو</span></td>
+      <td><i>tudo</i> (evidenciando a vogal <i>u</i> implícita na primeira sílaba)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+#+END_EXPORT
+
 **3. A Hierarquia de Prioridades Ortográficas (A Arte do Equilíbrio)**
 O Aljamiado Português é um sistema baseado no **equilíbrio dinâmico entre a facilidade de escrita e a facilidade de leitura**, variando conforme o público (anotações pessoais rápidas vs. textos instrucionais formais) e o contexto.
 
 Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hierarquia de 4 Prioridades Ortográficas**:
 
 1. **Prioridade 1: Encontros Vocálicos e Hiatos Críticos (Regra de Explicitação Quase Absoluta)**:
-   - Em encontros vocálicos e hiatos, a regra geral exige escrever **ambas as letras de suporte vocálico** (*país* `پائیس`, *saúde* `ساؤدہ`, *raiz* `رایز`, *meu* `میو`).
+   - Em encontros vocálicos e hiatos, a regra geral exige escrever **ambas as letras de suporte vocálico** (*país* `پایس`, *saúde* `ساودہ`, *raiz* `رایز`, *meu* `میو`).
    - *Exceção Inteligente de Economia*: Se a omissão de uma vogal num hiato não causar absolutamente nenhuma ambiguidade com qualquer outra palavra do português, ela pode ser dispensada.
    - *Exemplo Notável*: A palavra **hiato** pode ser grafada como **`هیتو`** (*He + Ye + Tā + Waw*). Como não existe nenhuma outra palavra em português que colida com essa sequência consonantal sem necessitar da sua própria estrutura vocálica, a omissão do Alif em *-ia-* é 100% segura e elegante!
 
@@ -585,7 +629,7 @@ Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hier
       <td><strong>Prioridade 1</strong></td>
       <td>Encontros Vocálicos e Hiatos Críticos</td>
       <td>país / saúde / hiato</td>
-      <td><span class="aljamiado-naskh ar">پائیس</span> / <span class="aljamiado-naskh ar">ساؤدہ</span> / <span class="aljamiado-naskh ar">هیتو</span></td>
+      <td><span class="aljamiado-naskh ar">پایس</span> / <span class="aljamiado-naskh ar">ساودہ</span> / <span class="aljamiado-naskh ar">هیتو</span></td>
       <td>Grafam-se ambos os suportes vocálicos. Admite-se a omissão em <i>hiato</i> (<span class="aljamiado-naskh ar">هیتو</span>) por falta de homógrafo colidente.</td>
     </tr>
     <tr>

@@ -498,6 +498,14 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
    - **Alif Tónico (Marcação de Acentuação)**: Reservado para proparoxítonas (*esdrúxulas*) ou acentuação irregular (*prática* `پراكتیكہ`).
    - **Vogais Altas (i e u)**: As vogais altas internas distintas *i* [i] e *u* [u] mantêm Ye (`ی`) e Waw (`و`) para preservar a identidade fonológica (ex.: *livro* `لیورو`, *minha* `مینیہ`).
 
+** Notação de Tanwīn Didático (Demonstração Pedagógica de Vogais Implícitas)
+Para explicações instrucionais e análise pedagógica em manuais da ortografia, formaliza-se o uso do **Tanwīn Didático** para tornar visíveis as vogais implícitas ou não marcadas no esqueleto consonantal (*Rasm*).
+
+*Atenção*: O Tanwīn e os diacríticos são estritamente pedagógicos e **nunca são utilizados na escrita diária do Aljamiado**:
+- **Fathatan (`ً`)**: Indica **A tónico implícito** ou desprotegido (*já* `ژً`, *pá* `پً`).
+- **Kasratan (`ٍ`)**: Indica **I atónico ou implícito** sem suporte de Ye (*hiato* `هٍتو`).
+- **Dammatan (`ٌ`)**: Indica **U/O atónico ou implícito** sem suporte de Waw (*tudo* `تٌدو`).
+
 ** Economia de Ye Atónico em Formantes e Sufixos Polissilábicos
 Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílaba (paroxítonas), as vogais atónicas atenuadas *i* e *e* presentes em sufixos e formantes produtivos derivacionais **não necessitam de Ye (`ی`)**:
 1. **Sufixo *-idade***: Grafado estritamente como **`ـددہ`** (Dāl-Dāl-Gol He), pois a acentuação penúltima em *-da-* torna a vogal anterior atónita e redundante no esqueleto consonantal.
@@ -523,7 +531,7 @@ Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílab
 ** A Hierarquia de Prioridades Ortográficas (A Busca pelo Equilíbrio)
 O sistema de escrita Aljamiado Português evoluiu a partir da tentativa inicial de replicar o sistema persa (em que as vogais breves A, O, E eram omissas ou dependentes de diacríticos). Ao constatar o incômodo dos diacríticos na escrita manual, o sistema migrou para uma **Hierarquia de 4 Prioridades Ortográficas** baseada em *mater lectionis* por proximidade fonética:
 
-1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پائیس`, *raiz* `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
+1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پایس`, *raiz* `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
 2. **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
 3. **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* e *Waw*, reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
 4. **Prioridade 4 — Adequação ao Público, Autonomia e Gosto Pessoal**: O grau de explicitação desliza livremente entre o *Modo Econômico* (notas pessoais rápidas) e o *Modo Didático* (textos formais). A navegação no espectro de grafias é adquirida organicamente com a prática, permitindo que cada escriba imprima a sua própria sensibilidade estética e gosto pessoal ao equilibrar compacidade e clareza (ex.: *sabedoria* como `سبدریہ` ou `سبدوریا`).
@@ -595,11 +603,11 @@ O ditongo nasal **-ão** é grafado canonicamente como **`اوم`** (*Alif-Waw-M
 | **Tritongo** | *-uai* | [waj] | **Waw + Alif + Ye** (`وای`) | *Paraguai* | `پرہگوای` | Pā + Rā + Gāf + Waw + Alif + Ye |
 | **Tritongo** | *-uei* | [wej] | **Waw + Ye + Ye** (`ویی`) | *enxaguei* | `ینشاگویی` | Alif + Nūn + Shīn + Alif + Gāf + Waw + Ye + Ye |
 
-3. **Acentuação de Hiatos e Assento de Hamzah**:
-   Quando uma vogal alta tónica (*i* ou *u*) está em hiato explícito com uma vogal precedente (ex.: *país*, *saúde*, *baú*), uma **Hamzah** (`ئ` sobre Ye, `ؤ` sobre Waw) é colocada acima da letra vocálica para assinalar a separação silábica e o pico tónico:
-   - **país** [pɐ'iʃ] (país, hiato) $\rightarrow$ **پائیس** (Pā + Alif + Hamzah_sobre_Ye + Sīn) $\neq$ **pais** [pajʃ] (pais, ditongo) $\rightarrow$ **پایها**
-   - **saúde** [sɐ'u.dɨ] (saúde, hiato) $\rightarrow$ **ساؤدہ** (Sīn + Alif + Hamzah_sobre_Waw + Dāl + He Mudo)
-   - **baú** [bɐ'u] (baú, hiato) $\rightarrow$ **باؤ** (Bā + Alif + Hamzah_sobre_Waw)
+3. **Representação de Hiatos por Mater Lectionis (Sem Hamzah)**:
+   Hiatos com vogais altas tónicas (*i* ou *u*) como *país*, *saúde* e *baú* utilizam os suportes de *mater lectionis* padrão (**`ای`** e **`او`**) diretamente, sem qualquer necessidade de diacrítico Hamzah:
+   - **país** [pɐ'iʃ] $\rightarrow$ **`پایس`** (Pā + Alif + Ye + Sīn) $\neq$ **pais** [pajʃ] (plural de pai) $\rightarrow$ **`پایها`**
+   - **saúde** [sɐ'u.dɨ] $\rightarrow$ **`ساودہ`** (Sīn + Alif + Waw + Dāl + Gol He)
+   - **baú** [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif + Waw)
 
 * 3. Motor de Nasalização
 
