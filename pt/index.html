@@ -196,15 +196,6 @@
       line-height: 2.4;
     }
 
-    /* Dual Basmala Hiding Rules */
-    body.font-nastaliq .aljamiado-basmala-naskh {
-      display: none;
-    }
-
-    body.font-naskh .aljamiado-basmala-nastaliq {
-      display: none;
-    }
-
     /* Corpus Cards Isolation (Both Rows Always Visible) */
     .card .nastaliq-card-row {
       background: #090d11;
@@ -441,15 +432,19 @@
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
     }
 
-    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic,
+    body.font-nastaliq .ar:not(.nastaliq-card-row):not(.naskh-card-row),
+    body.font-nastaliq .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row),
     body.font-gulzar .ar, body.font-gulzar .perso-arabic {
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
       line-height: 2.4;
+      color: #fbbf24;
     }
 
-    body.font-naskh .ar, body.font-naskh .perso-arabic {
-      font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+    body.font-naskh .ar:not(.nastaliq-card-row):not(.naskh-card-row),
+    body.font-naskh .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
+      font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
       line-height: 1.8;
+      color: #f472b6 !important;
     }
 
       .perso-arabic {
