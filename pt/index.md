@@ -42,6 +42,22 @@
 # Introdução e Visão Geral
 
 #+BEGIN_EXPORT html
+<div class="review-warning-box" style="background: rgba(245, 158, 11, 0.08); border: 1px solid #f59e0b; border-left: 5px solid #f59e0b; border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0 2rem 0; color: #fef08a; font-size: 0.95rem; line-height: 1.5;">
+  <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+    <span style="font-size: 1.4rem; line-height: 1;">⚠️</span>
+    <div>
+      <strong style="color: #fbbf24;">Nota de Trabalho em Andamento (Em Revisão Humana):</strong>
+      <p style="margin: 0.25rem 0 0 0; color: #fef08a; font-size: 0.92rem;">
+        As transcrições e exemplos ortográficos apresentados nesta documentação são rascunhos em desenvolvimento ativo e <strong>ainda serão revisados e validados individualmente por revisores humanos</strong>. Este material não representa uma obra finalizada.
+      </p>
+    </div>
+  </div>
+</div>
+#+END_EXPORT
+
+
+
+#+BEGIN_EXPORT html
 <div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   <div class="ar-basmala-naskh ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.8rem; line-height: 1.5;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
   <div class="aljamiado-basmala-nastaliq ar" style="font-size: 1.7rem; color: #34d399; font-family: 'Noto Nastaliq Urdu', 'Gulzar', serif !important; margin-bottom: 0.5rem; line-height: 2.2;">ام نمہ دہ دیوس، و كلمنتہ، و مزركردیوزو. <span style="font-size: 0.85rem; color: #8b949e; font-family: 'Inter', sans-serif; vertical-align: middle;">(Nastaliq)</span></div>
