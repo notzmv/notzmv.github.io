@@ -502,9 +502,9 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
 Para explicações instrucionais e análise pedagógica em manuais da ortografia, formaliza-se o uso do **Tanwīn Didático** para tornar visíveis as vogais implícitas ou não marcadas no esqueleto consonantal (*Rasm*).
 
 *Atenção*: O Tanwīn e os diacríticos são estritamente pedagógicos e **nunca são utilizados na escrita diária do Aljamiado**:
-- **Fathatan (`ً`)**: Indica **A tónico implícito** ou desprotegido (*já* `ژً`, *pá* `پً`).
-- **Kasratan (`ٍ`)**: Indica **I atónico ou implícito** sem suporte de Ye (*hiato* `هٍتو`).
-- **Dammatan (`ٌ`)**: Indica **U/O atónico ou implícito** sem suporte de Waw (*tudo* `تٌدو`).
+- **Fathatan (`ً`)**: Indica **A tónico implícito** em esqueleto consonantal sem Alif (*prática* `پرًكتيكہ`).
+- **Kasratan (`ٍ`)**: Indica **I atónico ou implícito** em sílaba sem Ye (*ultimamente* `التٍمنتہ`).
+- **Dammatan (`ٌ`)**: Indica **U tónico implícito** em sílaba sem Waw (*estúpido* `استٌپدو`).
 
 ## Economia de Ye Atónico em Formantes e Sufixos Polissilábicos
 Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílaba (paroxítonas), as vogais atónicas atenuadas *i* e *e* presentes em sufixos e formantes produtivos derivacionais **não necessitam de Ye (`ی`)**:
