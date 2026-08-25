@@ -340,7 +340,7 @@ As vibrantes e tepes são divididas com base na posição silábica e no contras
 - **RR duplo intervocálico ([ʁ] / [h])**: Mapeia **prioritariamente para He** (`ه` / `ـہ` - Gol He Urdu) para estabelecer uma oposição gráfica imediata com o R simples intervocálico (*caro* `كرو` vs. *carro* `كاهو`). A escrita de RR com **Rā** (`ر`) é secundária, reservada especificamente para dialetos com vibrante alveolar (*trill* [r]):
   - *carro* $\rightarrow$ **`كاهو`** (variante dialetal com Rā: `كارو`)
   - *terra* $\rightarrow$ **`تہہ`** (um *He* `ه` para *rr* + um *He* final `ہ` para *-a*; variante dialetal com Rā: `تره`)
-- **R inicial (word-initial R-)**: O R inicial forte é grafado **estritamente e exclusivamente por Rā (`ر`)** (*rio* `ریو`, *rua* `روه`, *raiz* `رایز`, *regra* `رگرہ`, *riqueza* `ریكزہ`, *renovam* `رنوم`). A letra **Hā / He (`ه` / `ہ`)** em posição inicial é reservada exclusivamente para representar o **H mudo latino** da raiz (*homem* `همم`, *honra* `هنرہ`, *hoje* `وهژہ` / `هژہ`), estabelecendo uma regra ortográfica unívoca e sem ambiguidades entre *H-* mudo e *R-* forte inicial:
+- **R inicial (word-initial R-)**: O R inicial forte é grafado **estritamente e exclusivamente por Rā (`ر`)** (*rio* `ریو`, *rua* `روه`, *raiz* `رایز`, *regra* `رگرہ`, *riqueza* `ریكزہ`, *renovam* `رنوم`). A letra **Hā / He (`ه` / `ہ`)** em posição inicial é reservada exclusivamente para representar o **H mudo latino** da raiz (*homem* `همم`, *honra* `هنرہ`, *hoje* `هژہ`), estabelecendo uma regra ortográfica unívoca e sem ambiguidades entre *H-* mudo e *R-* forte inicial:
   - *rio* $\rightarrow$ **`ریو`**
   - *rua* $\rightarrow$ **`روه`**
   - *raiz* $\rightarrow$ **`رایز`**
