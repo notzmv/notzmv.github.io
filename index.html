@@ -184,10 +184,9 @@
 
     .aljamiado-naskh {
       font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif;
-      font-size: 2.0rem;
+      font-size: 1.85rem;
       color: #f472b6;
       line-height: 1.9;
-      margin-bottom: 0.3rem;
     }
 
     .aljamiado-nastaliq {
@@ -195,49 +194,49 @@
       font-size: 2.2rem;
       color: #fbbf24;
       line-height: 2.4;
-      margin-top: 0.3rem;
     }
 
-    body.font-nastaliq .aljamiado-naskh {
+    /* Dual Basmala Hiding Rules */
+    body.font-nastaliq .aljamiado-basmala-naskh {
       display: none;
     }
 
-    body.font-naskh .aljamiado-nastaliq {
+    body.font-naskh .aljamiado-basmala-nastaliq {
       display: none;
     }
 
-    body.font-nastaliq .card .naskh-card-row,
-    body.font-naskh .card .nastaliq-card-row {
-      display: block !important;
-    }
-
-    .nastaliq-card-row {
+    /* Corpus Cards Isolation (Both Rows Always Visible) */
+    .card .nastaliq-card-row {
       background: #090d11;
       border-radius: 6px;
       padding: 0.8rem 1rem;
       margin-bottom: 0.6rem;
       border-right: 3px solid #fbbf24 !important;
       font-family: 'Noto Nastaliq Urdu', serif !important;
-      font-size: 2.2rem;
+      font-size: 2.2rem !important;
       color: #fbbf24 !important;
-      line-height: 2.4;
+      line-height: 2.4 !important;
       display: block !important;
     }
 
-    .naskh-card-row {
+    .card .naskh-card-row {
       background: #090d11;
       border-radius: 6px;
       padding: 0.8rem 1rem;
       margin-bottom: 0.6rem;
       border-right: 3px solid #f472b6 !important;
       font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif !important;
-      font-size: 1.85rem;
+      font-size: 1.85rem !important;
       color: #f472b6 !important;
-      line-height: 1.9;
+      line-height: 1.9 !important;
       display: block !important;
     }
+
+    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic {
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
       line-height: 2.4;
+      color: #fbbf24;
+    }
     }
 
     body.font-gulzar .ar, body.font-gulzar .perso-arabic {
