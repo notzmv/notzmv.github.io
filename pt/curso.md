@@ -57,9 +57,9 @@ Começamos com o grupo de letras **mais frequentes e mais fáceis**: as letras n
 **As Letras desta Lição:**
 - **Alif (`ا`)**: Haste vertical simples. Marca o som de *a* ou suporte inicial.
 - **Waw (`و`)**: Gancho simples. Marca os sons de *o*, *u*, *v* e ditongos.
-- **Rā (`ر`)**: Curva descendente. Marca o som de *r* brando (em *ar*, *por*, *ver*).
+- **Rā (`ر`)**: Curva descendente. Marca o som de *r* brando (em *ar*, *por*, *ver*) e *r* forte inicial (*rio*, *rua*, *razão*).
 - **Zāy (`ز`)**: Idêntica a Rā, mas com 1 ponto em cima. Marca o som de *z* e *s* intervocálico (*voz*, *paz*).
-- **Gol He (`ہ` / `ـه`)**: O laço curvo fechado. Colocada no final das palavras, representa as vogais atónicas finais (*de*, *que*, *para*, *sua*).
+- **Gol He (`ہ` / `ـه`)**: O laço curvo. Reservada para o *H* mudo latino inicial (*homem*, *honra*, *hoje*) e vogais atónicas finais (*de*, *que*, *para*, *sua*).
 
 **Tabela de Vocabulário Prático Imediato:**
 

@@ -265,7 +265,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 | **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
 | **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
 | **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كهو` / `تہہ` |
-| **r-** (inicial forte) | [ʁ] / [r] | **ر** (frequente) / **ه** | Rā / He | *rio* / *rua* | `ریو` / `روه` (ou `هیو` / `هوه`) |
+| **r-** (inicial forte) | [ʁ] / [r] | **ر** | Rā | *rio* / *rua* | `ریو` / `روه` |
 | **s** (intervocálico /z/) | [z] | **ز** | Zāy | *coisa* | `كویزہ` |
 | **ss** (intervocálico /s/) | [s] | **س** | Sīn | *processo* | `پرچسو` |
 | **m** (início de sílaba) | [m] | **م** | Mīm | *minha* | `مینیہ` |
@@ -340,13 +340,13 @@ As vibrantes e tepes são divididas com base na posição silábica e no contras
 - **RR duplo intervocálico ([ʁ] / [h])**: Mapeia **prioritariamente para He** (`ه` / `ـہ` - Gol He Urdu) para estabelecer uma oposição gráfica imediata com o R simples intervocálico (*caro* `كرو` vs. *carro* `كاهو`). A escrita de RR com **Rā** (`ر`) é secundária, reservada especificamente para dialetos com vibrante alveolar (*trill* [r]):
   - *carro* $\rightarrow$ **`كاهو`** (variante dialetal com Rā: `كارو`)
   - *terra* $\rightarrow$ **`تہہ`** (um *He* `ه` para *rr* + um *He* final `ہ` para *-a*; variante dialetal com Rā: `تره`)
-- **R inicial (word-initial R-)**: Ao contrário do RR intervocálico, o R inicial é grafado **com mais frequência e naturalidade por Rā (`ر`)** (ex.: *rio* `ریو`, *rua* `روه`, *raiz* `رایز`), enquanto o **He (`ه`)** é uma variante gráfica válida para quem deseja destacar a articulação glotal/velar ou evitar ambiguidade:
-  - *rio* $\rightarrow$ **`ریو`** (padrão com Rā; variante com He: `هیو`)
-  - *rua* $\rightarrow$ **`روه`** (padrão com Rā; variante com He: `هوه`)
-  - *raiz* $\rightarrow$ **`رایز`** (padrão com Rā; variante com He: `هایز`)
-  - *regra* $\rightarrow$ **`رگرہ`** (padrão com Rā; variante com He: `هگرہ`)
-  - *riqueza* $\rightarrow$ **`ریكزہ`** (padrão com Rā; variante com He: `هیكزہ`)
-  - *renovam* $\rightarrow$ **`رنووم`** (padrão com Rā; variante com He: `هنووم`)
+- **R inicial (word-initial R-)**: O R inicial forte é grafado **estritamente e exclusivamente por Rā (`ر`)** (*rio* `ریو`, *rua* `روه`, *raiz* `رایز`, *regra* `رگرہ`, *riqueza* `ریكزہ`, *renovam* `رنوم`). A letra **Hā / He (`ه` / `ہ`)** em posição inicial é reservada exclusivamente para representar o **H mudo latino** da raiz (*homem* `همم`, *honra* `هنرہ`, *hoje* `وهژہ` / `هژہ`), estabelecendo uma regra ortográfica unívoca e sem ambiguidades entre *H-* mudo e *R-* forte inicial:
+  - *rio* $\rightarrow$ **`ریو`**
+  - *rua* $\rightarrow$ **`روه`**
+  - *raiz* $\rightarrow$ **`رایز`**
+  - *regra* $\rightarrow$ **`رگرہ`**
+  - *riqueza* $\rightarrow$ **`ریكزہ`**
+  - *renovam* $\rightarrow$ **`رنوم`**
 
 ** Contraste S vs. SS Intervocálico (Zāy vs. Sīn)
 Nas posições intervocálicas onde o português opõe a fricativa alveolar sonora /z/ e a surda /s/:
@@ -538,7 +538,7 @@ A omissão e redução vocálica no Aljamiado Português seguem uma **escala inv
    - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
    - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `كنونچ` + ditongo nasal `-ção` `ـچاو` escrito com Alif-Waw `او`). A combinação Alif-Waw (`او`) é válida para *au* e *-ão*, mas **estritamente proibida para *-oe-* / *-ões***.
    - **`convencos`** (*convenções*, substantivo feminino plural): Grafado como **`كنونچویها`** / **`كنونچوها`** (com Waw-Ye `وی` para a ditongação *-õe-*, ou Waw `و` defectivo + sufixo gráfico de plural `-hā` `ـها`).
-   - *Explicação Ortográfica Crucial*: Alif-Waw (`او`) é **estritamente proibido para *-oe-* / *-ões*** porque o ditongo inicia-se na vogal posterior /o/ (Waw `و`), não em /a/ (Alif `ا`). Em palavras como *razões*, utiliza-se a sequência **Waw-Ye (`وی`)** (**`هزویها`** / **`رزویها`**) para assinalar o ditongo *-oe-* e evitar homografia com *raso/rasos* (`رسو` / `رسوها`), admitindo-se a variante defectiva **`هزوها`** / **`رزوها`**.
+   - *Explicação Ortográfica Crucial*: Alif-Waw (`او`) é **estritamente proibido para *-oe-* / *-ões*** porque o ditongo inicia-se na vogal posterior /o/ (Waw `و`), não em /a/ (Alif `ا`). Em palavras como *razões*, utiliza-se a sequência **Waw-Ye (`وی`)** (**`رزویها`**) para assinalar o ditongo *-oe-* e evitar homografia com *raso/rasos* (`رسو` / `رسوها`), admitindo-se a variante defectiva **`رزوها`**.
 
 ** Encontros Vocálicos e Mater Lectionis
 Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocálicos (ditongos orais, tritongos e hiatos) com precisão matemática, o **Aljamiado Português** emprega um mapeamento explícito de *mater lectionis* (*ḥaraka / ḥarf 'illa*) para cada fone vocálico da sequência:
@@ -563,8 +563,8 @@ Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocál
 | **Ditongo Decrescente** | *-au* / *-au-* | [aw] | **Alif + Waw** (`او`) | *pau* / *mau* | `پاو` / `ماو` | Pā + Alif + Waw |
 | **Ditongo Crescente / Hiato** | *-ia* | [i.ɐ] / [jɐ] | **Ye + He Mudo** (`یہ` / `ـیہ`) | *dia* | `دیہ` / `دِیہ` | Dāl + Ye + Gol He Urdu |
 | **Ditongo Crescente / Hiato** | *-ie* | [i.e] / [je] | **Ye + Ye + He Mudo** (`ییہ`) | *série* | `سیریہ` / `سیرییہ` | Sīn + Ye + Rā + Ye + He Mudo |
-| **Ditongo Crescente / Hiato** | *-io* | [i.u] / [ju] | **Ye + Waw** (`یو`) | *rio* / *frio* | `هیو` / `فریو` | He + Ye + Waw |
-| **Ditongo Crescente / Hiato** | *-ua* | [u.ɐ] / [wɐ] | **Waw + He Mudo** (`وه` / `ـوه`) | *rua* / *sua* | `هوه` / `سوه` | He + Waw + Gol He Urdu |
+| **Ditongo Crescente / Hiato** | *-io* | [i.u] / [ju] | **Ye + Waw** (`یو`) | *rio* / *frio* | `ریو` / `فریو` | Rā + Ye + Waw |
+| **Ditongo Crescente / Hiato** | *-ua* | [u.ɐ] / [wɐ] | **Waw + He Mudo** (`وه` / `ـوه`) | *rua* / *sua* | `روه` / `سوه` | Rā + Waw + Gol He Urdu |
 | **Ditongo Crescente / Hiato** | *-ue* | [u.e] / [we] | **Waw + Ye + He Mudo** (`ویہ`) | *estátua* / *statue* | `استاتوه` / `یستاتویہ` | Alif + Sīn + Tā + Alif + Tā + Waw + He Mudo |
 | **Tritongo** | *-uai* | [waj] | **Waw + Alif + Ye** (`وای`) | *Paraguai* | `پرہگوای` | Pā + Rā + Gāf + Waw + Alif + Ye |
 | **Tritongo** | *-uei* | [wej] | **Waw + Ye + Ye** (`ویی`) | *enxaguei* | `ینشاگویی` | Alif + Nūn + Shīn + Alif + Gāf + Waw + Ye + Ye |
@@ -587,7 +587,7 @@ As desinências verbais átonas de 3ª pessoa do plural em **-am** e **-em** tê
 - *estejam* $\rightarrow$ `استژم`
 - *transformam* $\rightarrow$ `ترنسفرمم`
 - *iluminam* $\rightarrow$ `الومینم`
-- *renovam* $\rightarrow$ `هنووم`
+- *renovam* $\rightarrow$ `رنوم`
 - *trazem* $\rightarrow$ `ترزم`
 - *semeiam* $\rightarrow$ `سمیم`
 
@@ -605,9 +605,9 @@ Os ditongos nasais grafam-se de forma pura e sintética com **`او`** (*Alif-Wa
   - *convenção* $\rightarrow$ **`كنونچاو`** / **`كونونچاو`**
   - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
 - **-õe- / -ões** $\rightarrow$ **ویها** / **ـوها** (Waw-Ye `وی` para marcar a ditongação *-oe-* / *-õe-*, ou Waw `و` defectivo + logograma *-hā* `ـها`):
-  - *Alif-Waw* (`او`) é válido para *au* e *-ão* (*pau* `پاو`, *razão* `هزاو`), mas **estritamente proibido para *-oe-* / *-ões***, pois o ditongo não começa em /a/ (Alif `ا`).
-  - *razão* $\rightarrow$ `هزاو` / `رزاو` (com *Alif-Waw* `او` para *-ão*)
-  - *razões* $\rightarrow$ `هزویها` / `رزویها` (com *Waw-Ye* `وی` para marcar o ditongo *-oe-*, evitando homografia com *rasos* `رسوها`, ou defectivamente `هزوها` / `رزوها`)
+  - *Alif-Waw* (`او`) é válido para *au* e *-ão* (*pau* `پاو`, *razão* `رزاو`), mas **estritamente proibido para *-oe-* / *-ões***, pois o ditongo não começa em /a/ (Alif `ا`).
+  - *razão* $\rightarrow$ `رزاو` (com *Alif-Waw* `او` para *-ão*)
+  - *razões* $\rightarrow$ `رزویها` (com *Waw-Ye* `وی` para marcar o ditongo *-oe-*, evitando homografia com *rasos* `رسوها`, ou defectivamente `رزوها`)
   - *convenção* $\rightarrow$ `كنونچاو`
   - *convenções* $\rightarrow$ `كنونچویها` / `كنونچوها`
 
@@ -649,7 +649,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
-| **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
+| **razão** | *razões* | `رزاو` | `رزویها` / `رزوها` | Rā (`ر`) por regra de R- inicial + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
 | **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 * 5. Casos Especiais e Construções Particulares
@@ -730,7 +730,7 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
-| **razão** | *razões* | `هزاو` | `هزویها` / `هزوها` | Rā forte He (`ه`) ou Rā (`ر`) + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
+| **razão** | *razões* | `رزاو` | `رزویها` / `رزوها` | Rā (`ر`) por regra de R- inicial + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
 | **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ** Verbos vs. Concordância e Sibilantes

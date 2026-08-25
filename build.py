@@ -87,7 +87,7 @@ def update_pt_cards():
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
             "aljamiado": "ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.",
-            "notes": "Rā em riqueza (ریكزہ) para desambiguar com Hā mudo inicial (هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ)."
+            "notes": "Rā em riqueza (ریكزہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ)."
         },
         {
             "id": 9,
@@ -135,7 +135,7 @@ def update_pt_cards():
             "pt": "As palavras de fé e amor renovam os corações dos homens.",
             "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
             "aljamiado": "اها پلورها دہ فی ی امور رنوم وها كرچوها دوها همنها.",
-            "notes": "Rā em renovam (رنوم) para evitar ambiguidade com Hā mudo (هنرہ), single waw em renovam (رنوم), -am verbal defectivo, plurais nominais -hā."
+            "notes": "Rā em renovam (رنوم) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), single waw em renovam (رنوم), -am verbal defectivo, plurais nominais -hā."
         },
         {
             "id": 15,
@@ -207,7 +207,7 @@ def update_pt_cards():
             "pt": "Uma boa ação traz uma grande recompensa no coração.",
             "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
             "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.",
-            "notes": "uma estritamente como اومہ, Rā em recompensa (ركمپنسہ) para desambiguação com Hā mudo (هنرہ), Zāy em ترز."
+            "notes": "uma estritamente como اومہ, Rā em recompensa (ركمپنسہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Zāy em ترز."
         },
         {
             "id": 24,
