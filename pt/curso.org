@@ -561,6 +561,11 @@ Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hier
 4. **Prioridade 4: O Equilíbrio em Função do Público e da Agilidade**:
    - Em manuscritos pessoais rápidos ou notas privadas, o escritor desliza livremente em direção ao *Modo Econômico*. Em textos públicos ou pedagógicos para iniciantes, o texto desliza para o *Modo Didático Explícito*.
 
+**4. A Navegação Orgânica, a Autonomia e o Gosto Pessoal**
+É fundamental ressaltar que o objetivo final deste sistema **não é aprisionar o escritor numa camisa de força ortográfica**, mas sim conceder-lhe **autonomia e proficiência intuitiva**:
+- À medida que ganha prática na escrita, o estudante aprende a **navegar o espectro de grafias possíveis de forma orgânica**, descobrindo na ponta da pena quando poupar traços e quando explicitá-los.
+- A escolha da variante ortográfica dentro da escala é também um reflexo da **sensibilidade estética e do gosto pessoal de cada escriba**: dois leitores/escritores fluentes podem grafar a mesma palavra com matizes ligeiramente diferentes (ex.: *sabedoria* como `سبدریہ` ou `سبدوریا`), e **ambos os estilos permanecem 100% corretos, legíveis e expressivos**.
+
 Esta busca constante por **equilíbrio entre prioridades** é o que torna a escrita no Aljamiado Português uma experiência viva, versátil e profundamente gratificante.
 
 
