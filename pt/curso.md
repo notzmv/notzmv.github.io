@@ -13,6 +13,7 @@
 - Lição 5: Laços Circulares e Nasais (م, ن, ی)
 - Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas
 - Lição 7: Síntese de Leitura e Costura de Frases
+- A Arte da Grafia Vocálica: Equilibrando Economia Ortográfica e Evitação de Ambiguidade
 - Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
 
 # Bem-Vindo ao Curso Gradual
@@ -347,6 +348,69 @@ Chegamos à fase de **costura completa de frases**. Vamos montar três orações
 **Frase C**: *Os rios correm para o mar e renovam as águas da terra.*
 - **Desconstrução**: `وها` (*Os*) + `ریوها` (*rios*) + `كوهم` (*correm*) + `پرہ` (*para*) + `و` (*o*) + `مر` (*mar*) + `ی` (*e*) + `رنوم` (*renovam*) + `اها` (*as*) + `اگوها` (*águas*) + `دا` (*da*) + `تہہ` (*terra*).
 - **Costura Final**: `وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.`
+
+
+# A Arte da Grafia Vocálica: Equilibrando Economia Ortográfica e Evitação de Ambiguidade
+
+Após dominar a anatomia das 21 letras e suas conexões, você se depara com o **verdadeiro desafio prático do Aljamiado**: desenvolver a intuição para decidir *quando explicitar uma vogal* e *quando economizá-la*.
+
+A escrita perso-árabe é fundamentalmente **consonantal e cursiva**. Dominá-la no dia a dia significa saber calibrar continuamente uma balança entre dois princípios fundamentais:
+
+**1. O Princípio da Economia Visual (Velocidade e Fluidez)**
+- Escrever cada vogal atónica interna com letras explícitas tornaria o texto pesado, lento e visualmente poluído.
+- Em português, o esqueleto consonantal das palavras mais frequentes é tão distinto que o leitor lusófono o reconhece instantaneamente.
+- *Exemplo*: A preposição *para* é grafada ~پرہ~ (Pā + Rā + Gol He) e a conjunção *como* é grafada ~كمو~ (Kāf + Mīm + Waw), omitindo as vogais atónicas mediais. Omitir esses traços desnecessários acelera a escrita fluida.
+
+**2. A Evitação Deslizante de Ambiguidade (Clareza Semântica)**
+- Sempre que a omissão de uma vogal puder criar confusão entre duas palavras parecidas (homógrafos) ou dificultar a leitura de um termo raro, a grafia desliza em direção à **explicitação vocálica**.
+- **Homógrafos Críticos**:
+  - *pó* (~پو~) vs. *pau* (~پاو~) — O Alif explicita o ditongo aberto ~au~.
+  - *caro* (~كرو~ com Rā simples) vs. *carro* (~كاهو~ com He para RR).
+- **Sílaba Tónica e Ditongos**: Vogais tónicas fortes e ditongos mantêm seus suportes mater lectionis (~ا~, ~و~, ~ی~) para marcar o pico de intensidade da palavra (*riqueza* ~ریكزہ~, *vida* ~ویدہ~).
+- **Termos Incomuns e Nomes Próprios**: Palavras raras ou nomes estrangeiros devem ser grafados de forma mais explícita para guiar a leitura sem hesitação.
+
+**A Escala Deslizante de Proficiência:**
+
+#+BEGIN_EXPORT html
+<div class="course-table-wrapper">
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Regime Ortográfico</th>
+      <th>Objetivo Principal</th>
+      <th>Exemplo (Português)</th>
+      <th>Grafia no Aljamiado</th>
+      <th>Justificativa da Balança</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Didático / Explícito</strong></td>
+      <td>Facilitar o aprendizado inicial e eliminar qualquer margem de dúvida.</td>
+      <td>coração</td>
+      <td><span class="aljamiado-naskh ar">كرچاو</span></td>
+      <td>Grafam-se todas as semivogais do ditongo nasal (<i>-ão</i> &rarr; <span class="aljamiado-naskh ar">او</span>).</td>
+    </tr>
+    <tr>
+      <td><strong>Econômico / Fluente</strong></td>
+      <td>Maximizar a velocidade de escrita manual e a elegância visual.</td>
+      <td>para / como</td>
+      <td><span class="aljamiado-naskh ar">پرہ</span> / <span class="aljamiado-naskh ar">كمو</span></td>
+      <td>Suprime-se o <i>a</i> medial atónico, confiando na estrutura consonantal previsível.</td>
+    </tr>
+    <tr>
+      <td><strong>Desambiguador</strong></td>
+      <td>Evitar colisão de significado entre palavras homógrafas.</td>
+      <td>pau vs. pó</td>
+      <td><span class="aljamiado-naskh ar">پاو</span> vs. <span class="aljamiado-naskh ar">پو</span></td>
+      <td>Insere-se o Alif em <i>pau</i> para desambiguar visualmente de <i>pó</i>.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+#+END_EXPORT
+
+Esta dinâmica entre **economia** e **clareza** é o segredo para ler e escrever Aljamiado com naturalidade. Para consultar as regras detalhadas de ditongos, numerais e logogramas, veja a [[file:index.org][Especificação Ortográfica Principal (index.org)]].
 
 
 # Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
