@@ -74,24 +74,56 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 4. **Recomendação de Teclado (GBoard Urdu)**: O melhor teclado para digitação é o **GBoard configurado para o idioma Urdu**, que possui o comportamento ortográfico desejado (exceto para a sequência de *He* final seguido do sufixo *-hā*, em que se pode pressionar e segurar o botão do *He* para digitar o segundo *He* correto).
 
 
+## A Gênese do Sistema e o Balanço de Restrições Ortográficas
+
+O **Aljamiado Português** é fruto de um processo rigoroso de engenharia linguística e reflexão ortográfica. A sua gênese histórica e estrutural baseia-se na resolução consciente de dilemas entre tradição semítica, utilidade prática e a fonologia viva do português brasileiro:
+
+1. **Da Inspiração Persa ao Desafio Vocálico**:
+   - O projeto iniciou-se com a tentativa de transpor diretamente a ortografia do Persa, na qual as vogais breves (/a/, /e/, /o/) são omitidas do esqueleto consonantal (*rasm*) e apenas /i/ e /u/ mantêm letras dedicadas (*Ye* e *Waw*).
+   - O obstáculo fonológico: Ao contrário do persa ou do árabe, a língua portuguesa é **maciçamente vocálica nas vogais médias e baixas (A, O, E)**, que superam em ampla margem a frequência de **I** e **U**. A omissão pura e simples de *a*, *e*, *o* exigiria o uso constante de diacríticos (*harakat*: *fathah*, *kasrah*, *dammah*), o que tornava a escrita manual lenta, poluída e esteticamente carregada.
+
+2. **A Solução por Mater Lectionis e o Equilíbrio de Restrições**:
+   Para superar o gargalo dos diacríticos sem sacrificar a velocidade de escrita, o sistema evoluiu para um modelo de **Mater Lectionis por Proximidade Fonética** (Alif, Waw, Ye, Gol He), regulado por um tríplice balanço de restrições:
+   - **Economia vs. Legibilidade**: Monossílabos e palavras curtas exigem vogais explícitas para evitar ambiguidade (*bom* `بم` vs. *bum* `بوم`), enquanto polissílabos de alta redundância consonantal reduzem drasticamente as vogais internas atónicas (*generosidade* `جنرزددہ`).
+   - **Velocidade de Escrita vs. Limpeza Visual**: O acúmulo frequente de sibilantes no plural nominal português gerava uma sequência ruidosa de *sīn* (`س`). A introdução do sufixo logográfico de plural nominal **`-hā`** (`ـها`) resolveu esse gargalo, preservando o ritmo horizontal da escrita.
+   - **Fidelidade Fonética vs. Identidade Radical**: O sistema preserva as consoantes da raiz etimológica enquanto reflete com precisão as transformações fonéticas de superfície (ex.: substituição em plurais *canal* $\rightarrow$ *canais* `كنایها`).
+
+3. **A Hierarquia de Prioridades Ortográficas (A Busca pelo Equilíbrio)**:
+   A grafia orienta-se por 4 níveis de prioridade ortográfica:
+   - **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar colisão homógrafa (*país* `پایس` $\neq$ *pais* `پایها`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
+   - **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
+   - **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* (`ی`) e *Waw* (`و`), reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
+   - **Prioridade 4 — Vogais Médias e Baixas Atónicas**: Em sílabas internas simples, *a*, *e*, *o* atónicos são estritamente defectivos (*processo* `پرچسو`, *gente* `جنتہ`).
+
+4. **Navegação Orgânica, Autonomia e Gosto Pessoal**:
+   O Aljamiado Português não é uma gaiola dogmática engessada, mas uma **arte viva de navegação ortográfica**. O sistema desliza organicamente ao longo da proficiência do escritor:
+   - **Nível Didático / Iniciante**: Uso generoso de diacríticos e vogais explícitas para garantir leitura sem hesitação.
+   - **Nível Padrão Defectivo**: Omissão sistemática de vogais atónicas internas redundantes e consolidação do esqueleto *rasm*.
+   - **Nível Fluente e Agência Estética**: À medida que ganha proficiência, o escritor desenvolve a intuição para decidir em tempo real quando poupar letras para velocidade ou acrescentá-las para clareza e elegância visual. Dois escritores fluentes podem grafar a mesma palavra com graus ligeiramente distintos de economia (ex.: *sabedoria* como `سبدریہ` ou `سبدوریا`), sendo ambas as variantes perfeitamente válidas e expressivas.
+
+
 # Motivação e Visão Estratégica
 
-O projeto **Aljamiado Português** nasce da interseção entre linguística aplicada, pedagogia de escrita e apoio comunitário. Seus objetivos desdobram-se em frentes complementares:
+O projeto **Aljamiado Português** consolida-se como um padrão ortográfico formal e uma plataforma educacional e acadêmica de grande alcance. Seus objetivos desdobram-se em cinco frentes estratégicas e institucionais fundamentais:
 
-1. **Aproximação ao Alfabeto Perso-Árabe para Lusófonos**:
-   Oferecer a muçulmanos brasileiros, revertidos e demais falantes de português uma ferramenta intuitiva para se familiarizarem com a mecânica da escrita perso-árabe (conexão de letras, direção da direita para a esquerda, diacríticos e formas posicionais), utilizando a sua própria língua materna como ponte cognitiva.
+1. **Aproximação Nativa ao Alfabeto Perso-Árabe para Lusófonos e Revertidos**:
+   Oferecer a muçulmanos brasileiros, revertidos e demais falantes de português uma ferramenta intuitiva para se familiarizarem com a mecânica da escrita perso-árabe (conexão de letras, direção da direita para a esquerda, diacríticos e formas posicionais), utilizando a sua própria língua materna como ponte cognitiva e construindo memória muscular antes do estudo do árabe clássico.
 
-2. **Ferramenta de Transição para Estudantes de Árabe e Persa**:
-   Servir como passo intermediário para estudantes lusófonos das línguas árabe, persa e urdu, permitindo consolidar a leitura e a escrita do alfabeto sem o obstáculo simultâneo de vocabulário e gramática estrangeiros.
+2. **Ferramenta de Transição para Estudantes de Árabe, Persa e Urdu**:
+   Servir como passo intermediário pedagógico para estudantes lusófonos das línguas árabe, persa e urdu, permitindo consolidar o domínio dos dois principais estilos caligráficos (**Naskh** e **Nastaliq**) e a leitura fluida do alfabeto sem o obstáculo simultâneo de vocabulário e gramática estrangeiros.
 
-3. **Acolhimento e Integração de Refugiados Persófonos (Iranianos e Afegãos)**:
-   Proporcionar aos refugiados e imigrantes persófonos no Brasil e em países lusófonos uma plataforma pedagógica em ambiente alfabético familiar (uma vez que o sistema é uma adaptação direta do alfabeto persa), facilitando a alfabetização e a assimilação da língua portuguesa.
+3. **Acolhimento e Integração Social de Refugiados Persófonos (Iranianos, Afegãos e Tadjiques)**:
+   Proporcionar aos refugiados, imigrantes e famílias persófonas (falantes de Farsi, Dari e Pashto) no Brasil e em países de língua portuguesa uma plataforma única de alfabetização e aculturação. Ao apresentar o português adaptado diretamente ao alfabeto persa com o qual já possuem familiaridade nativa, o sistema acelera drasticamente a assimilação da língua portuguesa e a sua inclusão social e profissional.
 
-4. **Pesquisa Acadêmica em Aprendizagem de Linguagens e Transferência de Escrita (USP)**:
-   Apoiar investigações científicas no âmbito da Universidade de São Paulo (USP) sobre transferência interlinguística de sistemas de escrita, psicolinguística da leitura em escritas bidirecionais e adaptações ortográficas em línguas românicas.
+4. **Pesquisa Acadêmica e Psicolinguística na Universidade de São Paulo (USP)**:
+   Servir de base para investigações científicas no âmbito da Universidade de São Paulo (USP) e outras instituições de ensino superior, explorando temas como a transferência interlinguística de sistemas de escrita, psicolinguística da leitura em escritas bidirecionais e os processos cognitivos de adaptação de alfabetos semíticos a línguas neolatinas.
 
-5. **Roteiro de Desenvolvimento Gradual**:
-   O foco prioritário desta fase é o público lusófono (curso de português escrito em alfabeto perso-árabe disponível em [[file:curso.org][curso.org]]), mantendo o planejamento aberto para o desenvolvimento futuro de materiais específicos para persófonos aprendendo português.
+5. **Ecossistema Completo e Roteiro de Expansão Institucional**:
+   O projeto conta com um ecossistema tecnológico e pedagógico em plena evolução:
+   - **Curso Gradual e Didático**: Um programa de aprendizado passo a passo disponível em [[file:curso.org][curso.org]], estruturado desde o traço inicial dos não-conectores até a fluência em textos complexos.
+   - **Plataforma Tipográfica Interativa**: Suporte nativo à alternância instantânea entre as fontes **Naskh** (padrão linear do Alcorão) e **Nastaliq** (estilo persa/urdu), garantindo acessibilidade a todos os perfis de leitores.
+   - **Pipeline de Compilação Automatizado**: Automação via `build.py` para geração contínua de especificações em HTML5 responsivo e Markdown.
+   - **Trilha Persófona de Português**: Planejamento ativo para o lançamento de módulos inversos dedicados a falantes nativos de persa aprendendo português.
 
 
 # Corpus e Amostras de Transcrição
