@@ -234,7 +234,7 @@ def update_pt_cards():
       <div class="pt">{s["pt"]}</div>
       <div class="ipa">{s["ipa"]}</div>
       <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">{s["aljamiado"]}</div>
-      <div class="perso-arabic ar aljamiado-naskh">{s["aljamiado"]}</div>
+      <div class="perso-arabic ar aljamiado-naskh naskh-card-row">{s["aljamiado"]}</div>
       <div class="notes">{s["notes"]}</div>
     </div>'''
         cards_html.append(card)
@@ -353,7 +353,7 @@ def update_en_cards():
       <div class="english">{s["english"]}</div>
       <div class="ipa">{s["ipa"]}</div>
       <div class="perso-arabic ar aljamiado-nastaliq nastaliq-card-row">{s["aljamiado"]}</div>
-      <div class="perso-arabic ar aljamiado-naskh">{s["aljamiado"]}</div>
+      <div class="perso-arabic ar aljamiado-naskh naskh-card-row">{s["aljamiado"]}</div>
       <div class="notes">{s["notes"]}</div>
     </div>'''
         cards_html.append(card)
