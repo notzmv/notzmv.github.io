@@ -15,6 +15,7 @@
 - [[#lição-7-síntese-de-leitura-e-costura-de-frases][Lição 7: Síntese de Leitura e Costura de Frases]]
 - [[#a-arte-da-grafia-vocálica-equilibrando-economia-ortográfica-e-evitação-de-ambiguidade][A Arte da Grafia Vocálica: Equilibrando Economia Ortográfica e Evitação de Ambiguidade]]
 - [[#o-sistema-de-mater-lectionis-para-encontros-vocálicos][O Sistema de Mater Lectionis para Encontros Vocálicos]]
+- [[#a-gênese-do-sistema-da-inspiração-persa-à-hierarquia-de-prioridades-ortográficas][A Gênese do Sistema: Da Inspiração Persa à Hierarquia de Prioridades Ortográficas]]
 - [[#matriz-completa-de-formas-posicionais-21-letras-nas-4-posições][Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)]]
 
 * Bem-Vindo ao Curso Gradual
@@ -524,6 +525,43 @@ Uma das alternâncias morfológicas de maior relevância prática no Aljamiado P
 - **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ $\rightarrow$ *razões* ~رزومها~ / ~رزویها~; *visão* ~ویزاوم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزویها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ $\rightarrow$ *missões* ~مسومها~ / ~مسویها~).
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis* e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
+
+
+* A Gênese do Sistema: Da Inspiração Persa à Hierarquia de Prioridades Ortográficas
+
+Para compreender a alma do Aljamiado Português, é fascinante conhecer a **história do seu desenvolvimento** e os dilemas de design que moldaram a sua estrutura atual.
+
+**1. O Ponto de Partida: A Tentativa de Réplica do Sistema Persa**
+No início do projeto, a ideia fundamental foi tentar replicar diretamente o **sistema ortográfico do Persa e do Urdu**:
+- Na língua persa, as vogais curtas (/a/, /e/, /o/) são omitidas no fluxo normal da escrita (ou representadas opcionalmente por diacríticos *fatḥah*, *kasrah*, *ḍammah*), enquanto apenas o /ā/ longo (Alif `ا`), o /i/ (Ye `ی`) e o /u/ (Waw `و`) recebem letras explícitas.
+- Em português, as vogais **A, O, E** são infinitamente mais frequentes no discurso do que as vogais altas **I, U**.
+- Pelo *Princípio da Economia Pura*, parecia perfeito deixar a trilogia **A, O, E** não marcada na escrita (ou dependente de diacríticos), reservando letras explícitas (*Ye* e *Waw*) estritamente para **I** e **U**.
+
+**2. A Evolução: Do Desconforto dos Diacríticos ao Sistema de Mater Lectionis**
+Na prática do dia a dia, essa abordagem inicial revelou um grande empecilho: depender de diacríticos (*harakat*) para ler **A, O, E** tornava a escrita manual lenta, poluída e incômoda.
+
+Assim nasceu a grande virada de design do Aljamiado Português: abandonar a dependência de diacríticos e desenvolver um sistema orgânico de **Mater Lectionis por Proximidade Fonética** (Alif `ا`, Waw `و`, Ye `ی`, Gol He `ہ`). Cada som vocálico do português passou a ser atraído para a sua letra de suporte foneticamente mais próxima.
+
+**3. A Hierarquia de Prioridades Ortográficas (A Arte do Equilíbrio)**
+O Aljamiado Português é um sistema baseado no **equilíbrio dinâmico entre a facilidade de escrita e a facilidade de leitura**, variando conforme o público (anotações pessoais rápidas vs. textos instrucionais formais) e o contexto.
+
+Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hierarquia de 4 Prioridades Ortográficas**:
+
+1. **Prioridade 1: Encontros Vocálicos e Hiatos Críticos (Regra de Explicitação Quase Absoluta)**:
+   - Em encontros vocálicos e hiatos, a regra geral exige escrever **ambas as letras de suporte vocálico** (*país* `پائیس`, *saúde* `ساؤدہ`, *raiz* `رایز`, *meu* `میو`).
+   - *Exceção Inteligente de Economia*: Se a omissão de uma vogal num hiato não causar absolutamente nenhuma ambiguidade com qualquer outra palavra do português, ela pode ser dispensada.
+   - *Exemplo Notável*: A palavra **hiato** pode ser grafada como **`هیتو`** (*He + Ye + Tā + Waw*). Como não existe nenhuma outra palavra em português que colida com essa sequência consonantal sem necessitar da sua própria estrutura vocálica, a omissão do Alif em *-ia-* é 100% segura e elegante!
+
+2. **Prioridade 2: Oxítonas Tónicas e Vogais Acentuadas**:
+   - Vogais que carregam o pico de intensidade silábica ou acentuação gráfica tónica devem manter seus suportes vocálicos explícitos para ancorar a tonicidade (*fé* `فی`, *até* `اتى`, *pó* `پو`, *riqueza* `ریكزہ`, *vida* `ویدہ`).
+
+3. **Prioridade 3: Vogais Altas (I / U) e Redução de Polissílabos**:
+   - Vogais altas *I* e *U* geralmente usam *Ye* e *Waw*, mas em palavras extensas e redundantes, podem ser reduzidas defectivamente no regime econômico (*generosidade* `جنرزددہ`, *oportunidade* `اپرتونددہ`).
+
+4. **Prioridade 4: O Equilíbrio em Função do Público e da Agilidade**:
+   - Em manuscritos pessoais rápidos ou notas privadas, o escritor desliza livremente em direção ao *Modo Econômico*. Em textos públicos ou pedagógicos para iniciantes, o texto desliza para o *Modo Didático Explícito*.
+
+Esta busca constante por **equilíbrio entre prioridades** é o que torna a escrita no Aljamiado Português uma experiência viva, versátil e profundamente gratificante.
 
 
 * Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)

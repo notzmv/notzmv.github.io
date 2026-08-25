@@ -520,6 +520,14 @@ Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílab
 2. **Desinência em *-oam***: Em hiatos/ditongos verbais (como *voam*), o primeiro Waw pertence à raiz e a terminação nasal é representada por `ـوام` (Waw-Alif-Mīm):
    - *voam* $\rightarrow$ **`ووام`**
 
+## A Hierarquia de Prioridades Ortográficas (A Busca pelo Equilíbrio)
+O sistema de escrita Aljamiado Português evoluiu a partir da tentativa inicial de replicar o sistema persa (em que as vogais breves A, O, E eram omissas ou dependentes de diacríticos). Ao constatar o incômodo dos diacríticos na escrita manual, o sistema migrou para uma **Hierarquia de 4 Prioridades Ortográficas** baseada em *mater lectionis* por proximidade fonética:
+
+1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پائیس`, *raiz* `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
+2. **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
+3. **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* e *Waw*, reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
+4. **Prioridade 4 — Adequação ao Público e ao Contexto**: O grau de explicitação desliza entre o *Modo Econômico* (notas pessoais rápidas) e o *Modo Didático* (textos formais).
+
 ## Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
 A omissão e redução vocálica no Aljamiado Português seguem uma **escala inversa em relação ao comprimento da palavra**: quanto mais longa for a palavra, maior é a sua redundância fonológica e contextual, permitindo que a maioria das suas vogais pré-tónicas seja reduzida ou omitida sem qualquer perda de legibilidade. Em contrapartida, palavras curtas (monossilábicas ou dissilábicas) possuem baixa redundância e alta carga funcional, exigindo *mater lectionis* explícitas para desambiguar pares mínimos.
 
