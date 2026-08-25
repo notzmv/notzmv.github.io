@@ -74,6 +74,11 @@ Esta especificação formaliza o motor ortográfico para o português. O sistema
 4. **Recomendação de Teclado (GBoard Urdu)**: O melhor teclado para digitação é o **GBoard configurado para o idioma Urdu**, que possui o comportamento ortográfico desejado (exceto para a sequência de *He* final seguido do sufixo *-hā*, em que se pode pressionar e segurar o botão do *He* para digitar o segundo *He* correto).
 
 
+#+BEGIN_EXPORT html
+<details class="genese-details" id="genese-e-balanco-de-restricoes">
+<summary class="genese-summary">💡 A Gênese do Sistema e o Balanço de Restrições Ortográficas (Clique para expandir / Leitura Opcional)</summary>
+#+END_EXPORT
+
 ## A Gênese do Sistema e o Balanço de Restrições Ortográficas
 
 O **Aljamiado Português** é fruto de um processo rigoroso de engenharia linguística e reflexão ortográfica. A sua gênese histórica e estrutural baseia-se na resolução consciente de dilemas entre tradição semítica, utilidade prática e a fonologia viva do português brasileiro:
@@ -101,6 +106,15 @@ O **Aljamiado Português** é fruto de um processo rigoroso de engenharia lingu�
    - **Nível Padrão Defectivo**: Omissão sistemática de vogais atónicas internas redundantes e consolidação do esqueleto *rasm*.
    - **Nível Fluente e Agência Estética**: À medida que ganha proficiência, o escritor desenvolve a intuição para decidir em tempo real quando poupar letras para velocidade ou acrescentá-las para clareza e elegância visual. Dois escritores fluentes podem grafar a mesma palavra com graus ligeiramente distintos de economia (ex.: *sabedoria* como `سبدریہ` ou `سبدوریا`), sendo ambas as variantes perfeitamente válidas e expressivas.
 
+
+#+BEGIN_EXPORT html
+</details>
+
+<div class="reminder-box" style="background: rgba(59, 130, 246, 0.08); border: 1px solid #3b82f6; border-radius: 8px; padding: 0.9rem 1.2rem; margin: 1.2rem 0 1.8rem 0; color: #93c5fd; font-size: 0.95rem; display: flex; align-items: center; gap: 0.75rem;">
+  <span style="font-size: 1.4rem;">💡</span>
+  <span><strong>Dica de Leitura:</strong> A seção <em>"Gênese do Sistema e Balanço de Restrições"</em> acima está oculta por padrão para priorizar a prática. Para compreender em detalhes o histórico do projeto, a inspiração persa e a hierarquia de 4 níveis ortográficos, expanda-a a qualquer momento!</span>
+</div>
+#+END_EXPORT
 
 # Motivação e Visão Estratégica
 

@@ -514,6 +514,37 @@
       font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
     }
 
+  
+    /* Collapsible Genese Details */
+    details.genese-details {
+      background: var(--card-bg);
+      border: 1px solid #3b82f6;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0 2rem 0;
+      transition: all 0.2s ease;
+    }
+
+    details.genese-details[open] {
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.15);
+      border-color: #60a5fa;
+    }
+
+    summary.genese-summary {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #60a5fa;
+      cursor: pointer;
+      padding: 0.4rem 0;
+      user-select: none;
+      outline: none;
+      transition: color 0.2s ease;
+    }
+
+    summary.genese-summary:hover {
+      color: #93c5fd;
+    }
+
   </style>
 </head>
 <body class="font-naskh">
@@ -590,8 +621,10 @@
   </ol>
 
   <!-- A Gênese do Sistema e o Balanço de Restrições Ortográficas -->
-  <h3 id="genese-e-balanco-de-restricoes">A Gênese do Sistema e o Balanço de Restrições Ortográficas</h3>
-  <p>O <strong>Aljamiado Português</strong> é fruto de um processo rigoroso de engenharia linguística e reflexão ortográfica. A sua gênese histórica e estrutural baseia-se na resolução consciente de dilemas entre tradição semítica, utilidade prática e a fonologia viva do português brasileiro:</p>
+  <details class="genese-details" id="genese-e-balanco-de-restricoes">
+    <summary class="genese-summary">💡 A Gênese do Sistema e o Balanço de Restrições Ortográficas (Clique para expandir / Leitura Opcional)</summary>
+    <div style="margin-top: 1rem;">
+      <p>O <strong>Aljamiado Português</strong> é fruto de um processo rigoroso de engenharia linguística e reflexão ortográfica. A sua gênese histórica e estrutural baseia-se na resolução consciente de dilemas entre tradição semítica, utilidade prática e a fonologia viva do português brasileiro:</p>
 
   <ol>
     <li>
@@ -629,6 +662,13 @@
       </ul>
     </li>
   </ol>
+    </div>
+  </details>
+
+  <div class="reminder-box" style="background: rgba(59, 130, 246, 0.08); border: 1px solid #3b82f6; border-radius: 8px; padding: 0.9rem 1.2rem; margin: 1.2rem 0 1.8rem 0; color: #93c5fd; font-size: 0.95rem; display: flex; align-items: center; gap: 0.75rem;">
+    <span style="font-size: 1.4rem;">💡</span>
+    <span><strong>Dica de Leitura:</strong> A seção <em>"Gênese do Sistema e Balanço de Restrições"</em> acima está oculta por padrão para priorizar a prática. Para compreender em detalhes o histórico do projeto, a inspiração persa e a hierarquia de 4 níveis ortográficos, expanda-a a qualquer momento!</span>
+  </div>
 
   <!-- Motivação e Visão Estratégica -->
   <h2 id="motivacao-e-visao-estrategica">Motivação e Visão Estratégica</h2>
