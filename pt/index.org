@@ -536,15 +536,33 @@ A omissão e redução vocálica no Aljamiado Português seguem uma **escala inv
 3. **O Triad Morfológico de `convenco`, `convencao` e `convencos`**:
    A distinção entre formas verbais e nominais derivadas da mesma raiz (*convencer / convenção*) demonstra a eficiência deste sistema morfofonêmico e do sufixo de plural `-hā` (`ـها`):
    - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
-   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `كنونچ` + ditongo nasal `-ção` `ـچاو` escrito com Alif-Waw `او`). A combinação Alif-Waw (`او`) é válida para *au* e *-ão*, mas **estritamente proibida para *-oe-* / *-ões***.
-   - **`convencos`** (*convenções*, substantivo feminino plural): Grafado como **`كنونچویها`** / **`كنونچوها`** (com Waw-Ye `وی` para a ditongação *-õe-*, ou Waw `و` defectivo + sufixo gráfico de plural `-hā` `ـها`).
-   - *Explicação Ortográfica Crucial*: Alif-Waw (`او`) é **estritamente proibido para *-oe-* / *-ões*** porque o ditongo inicia-se na vogal posterior /o/ (Waw `و`), não em /a/ (Alif `ا`). Em palavras como *razões*, utiliza-se a sequência **Waw-Ye (`وی`)** (**`رزویها`**) para assinalar o ditongo *-oe-* e evitar homografia com *raso/rasos* (`رسو` / `رسوها`), admitindo-se a variante defectiva **`رزوها`**.
+   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `ك* 3. Motor de Nasalização
 
-** Encontros Vocálicos e Mater Lectionis
-Para eliminar qualquer ambiguidade gráfica e representar os agrupamentos vocálicos (ditongos orais, tritongos e hiatos) com precisão matemática, o **Aljamiado Português** emprega um mapeamento explícito de *mater lectionis* (*ḥaraka / ḥarf 'illa*) para cada fone vocálico da sequência:
+** Regras Gerais de Nasalização (Mīm `م` vs. Nūn `ن`)
+O sistema de nasalização no Aljamiado Português segue uma distribuição foneticamente lógica e elegante:
+1. **Mīm (`م`)**:
+   - É o **marcador padrão para todas as vogais nasais em fim de palavra** (*bom* `بم`, *gem* `جم`, *homem* `همم`, *com* `كم`, *sim* `سم`, *-ão* `اوم`).
+   - É empregado antes das consoantes labiais **p** e **b** (*campo* `كمپو`, *também* `تمبم`), respeitando a norma ortográfica tradicional portuguesa.
+2. **Nūn (`ن`)**:
+   - É o marcador nasal utilizado **antes de todas as outras consoantes** (t, d, c, g, s, f, z, ch, etc.):
+     - *gente* $\rightarrow$ `جنتہ`
+     - *esperança* $\rightarrow$ `اسپرنچہ`
+     - *análise* $\rightarrow$ `انالیزہ`
+     - *honra* $\rightarrow$ `هنرہ`
 
-1. **Mapeamento de Vogal para Letra**:
-   - **[a] / [ɐ]** $\rightarrow$ **Alif** (`ا` / `ـا`)
+** Ditongos Nasais (-ão = اوم vs. -au = او)
+O ditongo nasal **-ão** é grafado canonicamente como **`اوم`** (*Alif-Waw-Mīm*), incorporando o Mīm final como elemento nasalizador. Nas escritas econômicas/rápidas, o Mīm final pode ser omitido (`او`), mas **`اوم`** é o padrão de máxima clareza:
+
+1. **Desambiguação Perfeita de Pares Mínimos (-ão vs. -au)**:
+   - **pão** [pɐ̃w̃] $\rightarrow$ **`پاوم`** (Pā + Alif + Waw + Mīm) $\neq$ **pau** [paw] $\rightarrow$ **`پاو`** (Pā + Alif + Waw)
+   - **mão** [mɐ̃w̃] $\rightarrow$ **`ماوم`** (Mīm + Alif + Waw + Mīm) $\neq$ **mau** [maw] $\rightarrow$ **`ماو`** (Mīm + Alif + Waw)
+   - **não** [nɐ̃w̃] $\rightarrow$ **`ناوم`** (ou defectivo `ناو`)
+   - **coração** [ko.ɾɐ'sɐ̃w̃] $\rightarrow$ **`كرچاوم`** (ou defectivo `كرچاو`)
+   - **razão** [ʁɐ'zɐ̃w̃] $\rightarrow$ **`رزاوم`** (ou defectivo `رزاو`)
+
+2. **Flexão de Plural Nominal em *-ções* / *-sões***:
+   - **-ções** (plural de *-ção* `ـچاوم`): Grafado canonicamente como **`ـچومها`** / **`ـچویمها`** (ou `ـچویها`): *corações* $\rightarrow$ **`كرچومها`** / **`كرچویها`**, *nações* $\rightarrow$ **`نچومها`** / **`نچویها`**.
+   - **-sões / -zões** (plural de *-são / -zão* `ـزاوم` / `ـساوم`): *razões* $\rightarrow$ **`رزومها`** / **`رزویها`**, *missões* $\rightarrow$ **`مسومها`** / **`مسویها`**./ `ـا`)
    - **[i] / [e] / [j]** $\rightarrow$ **Ye** (`ی` / `ـی` ou *Chhoti Yeh* Urdu `ی` / `ـی`)
    - **[u] / [o] / [w]** $\rightarrow$ **Waw** (`و` / `ـو`)
    - **Vogais Mudar em Fim de Palavra (-a / -e)** $\rightarrow$ **He Mudo de estilo Urdu** (*gol he / chhoti he*: `ه` / `ـہ`), servindo como uma libertação vocálica suave sem fricção consonantal.

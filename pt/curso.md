@@ -240,8 +240,8 @@ Nesta lição estudamos as letras com hastes elevadas e laços ovais:
 # Lição 5: Laços Circulares e Nasais (م, ن, ی)
 
 Nesta lição cobrimos as letras com laço circular e a semivogal flexível:
-- **Mīm (`م`)**: Laço redondo com cauda descendente. Som de *m* e neutralização nasal final (*bom* `بم`).
-- **Nūn (`ن`)**: Bacia com 1 ponto superior. Som de *n*.
+- **Mīm (`م`)**: Laço redondo com cauda descendente. Som de *m*, marcador padrão de todas as vogais nasais finais (*bom* `بم`, *-ão* `اوم`) e nasalização antes de *p/b* (*campo* `كمپو`).
+- **Nūn (`ن`)**: Bacia com 1 ponto superior. Som de *n* e nasalização interior antes das demais consoantes (*gente* `جنتہ`).
 - **Ye (`ی`)**: Curva em forma de cisne/S. Som de *i*, *e* tónico e semivogal.
 
 **Desconstrução Posicional Exaustiva (4 Posições):**
@@ -263,7 +263,7 @@ Nesta lição cobrimos as letras com laço circular e a semivogal flexível:
     <tr><td><strong>م</strong> (Mīm)</td><td>Inicial</td><td>muito</td><td>Mīm inicial (<span class="aljamiado-naskh ar">مـ</span>) + Waw + Ye + Tā + Waw</td><td><span class="aljamiado-naskh ar">مویتو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مویتو</span></td></tr>
     <tr><td><strong>م</strong> (Mīm)</td><td>Medial</td><td>como</td><td>Kāf + Mīm medial (<span class="aljamiado-naskh ar">ـمـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">كمو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمو</span></td></tr>
     <tr><td><strong>م</strong> (Mīm)</td><td>Final</td><td>bom</td><td>Bā + Mīm final (<span class="aljamiado-naskh ar">ـم</span>) com cauda longa</td><td><span class="aljamiado-naskh ar">بم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بم</span></td></tr>
-    <tr><td><strong>ن</strong> (Nūn)</td><td>Inicial</td><td>não</td><td>Nūn inicial (<span class="aljamiado-naskh ar">نـ</span>) + Alif + Waw (-ão)</td><td><span class="aljamiado-naskh ar">ناو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ناو</span></td></tr>
+    <tr><td><strong>ن</strong> (Nūn)</td><td>Inicial</td><td>não</td><td>Nūn inicial (<span class="aljamiado-naskh ar">نـ</span>) + Alif + Waw + Mīm (-ãom)</td><td><span class="aljamiado-naskh ar">ناوم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ناوم</span></td></tr>
     <tr><td><strong>ن</strong> (Nūn)</td><td>Medial</td><td>análise</td><td>Alif + Nūn medial (<span class="aljamiado-naskh ar">ـنـ</span>) + Alif + Lām + Zāy + Gol He</td><td><span class="aljamiado-naskh ar">انالیزہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">انالیزہ</span></td></tr>
     <tr><td><strong>ن</strong> (Nūn)</td><td>Final</td><td>on</td><td>Alif + Nūn final (<span class="aljamiado-naskh ar">ـن</span>) com bacia e ponto</td><td><span class="aljamiado-naskh ar">ان</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ان</span></td></tr>
     <tr><td><strong>ی</strong> (Ye)</td><td>Inicial</td><td>ilumina</td><td>Ye inicial (<span class="aljamiado-naskh ar">یـ</span>) + Lām + Waw + Mīm + Nūn + Gol He</td><td><span class="aljamiado-naskh ar">یلومنہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">یلومنہ</span></td></tr>
@@ -490,31 +490,38 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
       <td>Ye (anterior) + Waw (posterior [w])</td>
     </tr>
     <tr>
-      <td><strong>-ão (Nasal Singular)</strong></td>
+      <td><strong>-au (Oral)</strong></td>
       <td>Alif + Waw (<span class="aljamiado-naskh ar">او</span>)</td>
-      <td>não / razão / coração</td>
-      <td><span class="aljamiado-naskh ar">ناو</span> / <span class="aljamiado-naskh ar">رزاو</span> / <span class="aljamiado-naskh ar">كرچاو</span></td>
-      <td>Digrama vocálico padrão para o ditongo nasal [ɐ̃w]</td>
+      <td>pau / mau / ao</td>
+      <td><span class="aljamiado-naskh ar">پاو</span> / <span class="aljamiado-naskh ar">ماو</span> / <span class="aljamiado-naskh ar">او</span></td>
+      <td>Alif (central [a]) + Waw (posterior [w])</td>
+    </tr>
+    <tr>
+      <td><strong>-ão (Nasal Singular)</strong></td>
+      <td>Alif + Waw + Mīm (<span class="aljamiado-naskh ar">اوم</span>)</td>
+      <td>pão / mão / não / coração</td>
+      <td><span class="aljamiado-naskh ar">پاوم</span> / <span class="aljamiado-naskh ar">ماوم</span> / <span class="aljamiado-naskh ar">ناوم</span> / <span class="aljamiado-naskh ar">كرچاوم</span></td>
+      <td>AOM (Alif-Waw-Mīm): desambigua de -au (<i>pão</i> <span class="aljamiado-naskh ar">پاوم</span> vs <i>pau</i> <span class="aljamiado-naskh ar">پاو</span>)</td>
     </tr>
     <tr>
       <td><strong>-ões (Nasal Plural)</strong></td>
-      <td>Waw + Ye + Gol He + Alif (<span class="aljamiado-naskh ar">ویها</span>)</td>
+      <td>Waw + [Ye] + Mīm + Gol He + Alif (<span class="aljamiado-naskh ar">ومها</span> / <span class="aljamiado-naskh ar">ویها</span>)</td>
       <td>razões / corações</td>
-      <td><span class="aljamiado-naskh ar">رزویها</span> / <span class="aljamiado-naskh ar">كرچویها</span></td>
-      <td>Ditongo nasal [õj̃ʃ] + logograma de plural -hā</td>
+      <td><span class="aljamiado-naskh ar">رزومها</span> / <span class="aljamiado-naskh ar">كرچومها</span></td>
+      <td>Ditongo nasal [õj̃ʃ] com Mīm + logograma de plural -hā</td>
     </tr>
   </tbody>
 </table>
 </div>
 #+END_EXPORT
 
-**O Paradigma Alternante: *-ço / -ção / -ções* (ـچو / ـچاو / ـچویها) e *-são / -sões* (ـزاو / ـزویها)**
+**O Paradigma Alternante: *-ço / -ção / -ções* (ـچو / ـچاوم / ـچومها) e *-são / -sões* (ـزاوم / ـزومها)**
 
 Uma das alternâncias morfológicas de maior relevância prática no Aljamiado Português é o trio **-ço / -ção / -ções** (e a sua paralela **-são / -sões**):
-- **Base em *-ço***: Grafado com Chā e Waw final: **`ـچو`** (*pedaço* ~پدچo~ $\rightarrow$ ~پدچو~, *laço* ~لاچو~).
-- **Singular em *-ção***: O ditongo nasal atrai o Alif e Waw: **`ـچاو`** (*coração* ~كرچاو~, *nação* ~نچاو~, *opção* ~اپچاو~).
-- **Plural em *-ções***: O ditongo nasal flexionado une a vocalização ~ـویـ~ ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچویها`** (*corações* ~كرچویها~, *nações* ~نچویها~, *opções* ~اپچویها~).
-- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاو~ $\rightarrow$ *razões* ~رزویها~; *visão* ~ویزاو~ $\rightarrow$ *visões* ~ویزویها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساو~ $\rightarrow$ *missões* ~مسویها~).
+- **Base em *-ço***: Grafado com Chā e Waw final: **`ـچو`** (*pedaço* ~پدچو~, *laço* ~لاچو~).
+- **Singular em *-ção***: O ditongo nasal é grafado canonicamente com AOM: **`ـچاوم`** (*coração* ~كرچاوم~, *nação* ~نچاوم~, *opção* ~اپچاوم~). Nas escritas rápidas, admite-se a variante reduzida ~ـچاو~.
+- **Plural em *-ções***: O ditongo nasal flexionado une a vocalização nasal ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچومها`** / **`ـچویمها`** / **`ـچویها`** (*corações* ~كرچومها~ / ~كرچویها~, *nações* ~نچومها~ / ~نچویها~, *opções* ~اپچومها~ / ~اپچویها~).
+- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ $\rightarrow$ *razões* ~رزومها~ / ~رزویها~; *visão* ~ویزاوم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزویها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ $\rightarrow$ *missões* ~مسومها~ / ~مسویها~).
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis* e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 

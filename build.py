@@ -86,8 +86,8 @@ def update_pt_cards():
             "title": "Frase 8 — Generosidade",
             "pt": "A verdadeira riqueza está na generosidade do coração.",
             "ipa": "[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]",
-            "aljamiado": "ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.",
-            "notes": "Rā em riqueza (ریكزہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ)."
+            "aljamiado": "ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاوم.",
+            "notes": "Rā em riqueza (ریكزہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ), -ção com AOM (كرچاوم)."
         },
         {
             "id": 9,
@@ -102,8 +102,8 @@ def update_pt_cards():
             "title": "Frase 10 — União e Harmonia",
             "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
             "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
-            "aljamiado": "ا انیاو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.",
-            "notes": "uma estritamente como اومہ, plural nominal -hā (كرچوها, سینچرها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز."
+            "aljamiado": "ا انیاوم دہ كرچومها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.",
+            "notes": "uma estritamente como اومہ, união com AOM (انیاوم), corações com plural -ções AOM (كرچومها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز."
         },
         {
             "id": 11,
@@ -134,8 +134,8 @@ def update_pt_cards():
             "title": "Frase 14 — Palavras de Fé",
             "pt": "As palavras de fé e amor renovam os corações dos homens.",
             "ipa": "[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]",
-            "aljamiado": "اها پلورها دہ فی ی امور رنوم وها كرچوها دوها همنها.",
-            "notes": "Rā em renovam (رنوم) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), single waw em renovam (رنوم), -am verbal defectivo, plurais nominais -hā."
+            "aljamiado": "اها پلورها دہ فی ی امور رنوم وها كرچومها دوها همنها.",
+            "notes": "Rā em renovam (رنوم) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), single waw em renovam (رنوم), -am verbal defectivo, corações com -ções AOM (كرچومها), plurais nominais -hā."
         },
         {
             "id": 15,
@@ -167,7 +167,7 @@ def update_pt_cards():
             "pt": "A paciência é uma virtude que transforma os maus momentos.",
             "ipa": "[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]",
             "aljamiado": "ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.",
-            "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V em ورتودہ (opção aceitável com Waw), momentos sem waw atónico (مومنتها), plurais -hā."
+            "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V em ورتودہ (opção aceitável com Waw), maus em ماوها (mau ماو + plural -hā), momentos sem waw atónico (مومنتها), plurais -hā."
         },
         {
             "id": 19,
@@ -198,16 +198,16 @@ def update_pt_cards():
             "title": "Frase 22 — Respeito e Modéstia",
             "pt": "Um homem sábio fala com humildade e ouve com atenção.",
             "ipa": "[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]",
-            "aljamiado": "اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاو.",
-            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اوملددہ sem ye atónico, ditongo nasal -ção → تنچاو."
+            "aljamiado": "اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاوم.",
+            "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اوملددہ sem ye atónico, ditongo nasal -ção → اتنچاوم com AOM."
         },
         {
             "id": 23,
             "title": "Frase 23 — Semeando Bondade",
             "pt": "Uma boa ação traz uma grande recompensa no coração.",
             "ipa": "['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]",
-            "aljamiado": "اومہ بوہ اچاو ترز اومہ گرندہ ركمپنسہ نو كرچاو.",
-            "notes": "uma estritamente como اومہ, Rā em recompensa (ركمپنسہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Zāy em ترز."
+            "aljamiado": "اومہ بوہ اچاوم ترز اومہ گرندہ ركمپنسہ نو كرچاوم.",
+            "notes": "uma estritamente como اومہ, ação com AOM (اچاوم), coração com AOM (كرچاوم), Rā em recompensa (ركمپنسہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Zāy em ترز."
         },
         {
             "id": 24,
