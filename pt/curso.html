@@ -1,127 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt" dir="ltr">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curso Gradual de Aljamiado Português</title>
-  <!-- Google Fonts: Gulzar, Vazirmatn, Noto Naskh Arabic, Noto Nastaliq Urdu -->
+  <title>Curso Gradual de Aljamiado Português — Aprendendo o Alfabeto Perso-Árabe Passo a Passo</title>
+
+  <!-- Google Fonts: Amiri (Naskh) & Noto Nastaliq Urdu -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Inter:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@400;600;700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
     :root {
-      --bg-color: #0d1117;
+      --bg-dark: #0d1117;
       --card-bg: #161b22;
-      --card-border: #30363d;
-      --primary-accent: #3b82f6;
-      --gold-accent: #f59e0b;
-      --text-main: #f0f6fc;
+      --border-color: #30363d;
+      --text-main: #c9d1d9;
       --text-muted: #8b949e;
+      --heading-color: #f0f6fc;
+      --blue-accent: #58a6ff;
+      --gold-accent: #e3b341;
+      --green-accent: #3fb950;
+      --purple-accent: #bc8cff;
     }
 
     * {
       box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
     }
 
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-main);
-      font-family: 'Inter', system-ui, sans-serif;
-      line-height: 1.6;
-      padding: 2rem 1rem;
-    }
-
     .container {
-      max-width: 980px;
+      max-width: 1000px;
       margin: 0 auto;
+      padding: 2rem 1rem 4rem 1rem;
     }
 
     header {
-      margin-bottom: 2rem;
-      border-bottom: 1px solid var(--card-border);
-      padding-bottom: 1rem;
-    }
-
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
     }
 
     h1 {
+      color: var(--heading-color);
       font-size: 2.2rem;
-      font-weight: 700;
-      color: var(--primary-accent);
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.5rem;
     }
 
     .subtitle {
-      color: var(--text-muted);
-      font-size: 1rem;
+      color: var(--blue-accent);
+      font-size: 1.1rem;
+      font-weight: 500;
     }
 
-    /* Controls Panel */
-    .controls {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      margin-bottom: 2rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 1rem;
-      z-index: 100;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    }
-
-    .btn-big-toggle {
-      background: #1e293b;
-      border: 2px solid var(--primary-accent);
-      color: #60a5fa;
-      padding: 0.65rem 1.25rem;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      font-weight: 700;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.6rem;
-      transition: all 0.2s ease;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
-    }
-    .btn-big-toggle:hover {
-      background: var(--primary-accent);
-      color: #ffffff;
-      box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
-    }
-
-    .btn-nav {
-      background: #21262d;
-      border: 1px solid var(--card-border);
-      color: var(--text-main);
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 0.88rem;
-      font-weight: 600;
-      transition: all 0.2s;
-    }
-    .btn-nav:hover {
-      border-color: var(--primary-accent);
-      color: var(--primary-accent);
-    }
-
-    .hero-box {
+    /* Course Hero Box */
+    .course-hero {
       background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      border: 1px solid #3b82f6;
+      border: 1px solid var(--blue-accent);
       border-radius: 16px;
       padding: 2rem 1.5rem;
       text-align: center;
@@ -129,127 +73,154 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
-    .hero-box h2 {
+    .course-hero h2 {
       color: #60a5fa;
       margin-top: 0;
       font-size: 1.8rem;
+    }
+
+    .btn-big-toggle {
+      background: #2563eb;
+      color: #ffffff;
       border: none;
-      padding: 0;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
     }
 
-    .hero-box p {
-      color: #94a3b8;
-      max-width: 750px;
-      margin: 0.8rem auto 1.2rem auto;
-      font-size: 1.05rem;
-      line-height: 1.6;
+    .btn-big-toggle:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px);
     }
 
+    /* Navigation Bar */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 0.8rem 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .nav-link {
+      color: var(--blue-accent);
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Typography & Sections */
     h2 {
-      font-size: 1.6rem;
       color: var(--gold-accent);
-      margin: 2.5rem 0 1.2rem 0;
-      border-bottom: 1px solid var(--card-border);
-      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.5rem;
+      margin-top: 3rem;
+      font-size: 1.6rem;
     }
 
     h3 {
+      color: var(--blue-accent);
+      margin-top: 1.8rem;
       font-size: 1.25rem;
-      color: var(--primary-accent);
-      margin: 1.5rem 0 0.8rem 0;
     }
 
     p, li {
-      margin-bottom: 0.8rem;
       color: var(--text-main);
+      font-size: 1.05rem;
     }
 
     ul, ol {
-      margin-left: 1.5rem;
-      margin-bottom: 1.2rem;
+      padding-left: 1.5rem;
     }
 
-    /* Course Tables */
-    .course-table-wrapper {
-      width: 100%;
-      overflow-x: auto;
-      margin: 1.2rem 0 2rem 0;
-      border-radius: 8px;
-      border: 1px solid var(--card-border);
+    li {
+      margin-bottom: 0.5rem;
     }
 
-    .course-table {
-      width: 100%;
-      border-collapse: collapse;
-      background: var(--card-bg);
-      text-align: left;
+    code {
+      background-color: #21262d;
+      color: #f0f6fc;
+      padding: 0.2rem 0.4rem;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 0.95em;
     }
 
-    .course-table th {
-      background: #21262d;
-      color: var(--gold-accent);
-      padding: 0.85rem 1rem;
-      font-weight: 600;
-      font-size: 0.9rem;
-      border-bottom: 1px solid var(--card-border);
-    }
-
-    .course-table td {
-      padding: 0.85rem 1rem;
-      border-bottom: 1px solid var(--card-border);
-      font-size: 0.95rem;
-    }
-
-    .course-table tr:last-child td {
-      border-bottom: none;
-    }
-
-    /* Typography & Script Utility Classes */
+    /* Arabic Script Fonts */
     .ar {
       direction: rtl;
       unicode-bidi: isolate;
     }
 
     .aljamiado-naskh {
-      font-family: 'Noto Naskh Arabic', 'Vazirmatn', serif;
-      font-size: 1.7rem;
-      line-height: 1.8;
-      color: #38bdf8;
+      font-family: 'Amiri', serif;
+      font-size: 1.6rem;
+      color: #60a5fa;
     }
 
     .aljamiado-nastaliq {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', serif;
-      font-size: 1.8rem;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-size: 1.7rem;
+      color: var(--gold-accent);
       line-height: 2.2;
-      color: #f472b6;
     }
 
-    /* Hide Nastaliq Rules for Beginner Mode */
-    .hide-nastaliq .nastaliq-col,
-    .hide-nastaliq .aljamiado-nastaliq {
+    /* Tables */
+    .course-table-wrapper {
+      overflow-x: auto;
+      margin: 1.5rem 0;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    table.course-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: var(--card-bg);
+      text-align: left;
+    }
+
+    table.course-table th {
+      background-color: #21262d;
+      color: var(--heading-color);
+      padding: 0.8rem 1rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    table.course-table td {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: middle;
+    }
+
+    table.course-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    table.course-table tr:hover {
+      background-color: #1c2128;
+    }
+
+    /* Hide Nastaliq Toggle Class */
+    .hide-nastaliq .nastaliq-col {
       display: none !important;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 0.2rem 0.6rem;
-      border-radius: 4px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-left: 0.5rem;
-    }
-    .badge-naskh { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid #38bdf8; }
-    .badge-nastaliq { background: rgba(244, 114, 182, 0.2); color: #f472b6; border: 1px solid #f472b6; }
-
-    @media (max-width: 768px) {
-      body { padding: 1rem 0.5rem; }
-      h1 { font-size: 1.7rem; }
-      .controls { flex-direction: column; align-items: stretch; gap: 0.75rem; }
-      .btn-big-toggle { width: 100%; justify-content: center; }
-      .course-table th, .course-table td { padding: 0.6rem 0.75rem; font-size: 0.85rem; }
-      .aljamiado-naskh { font-size: 1.4rem; }
-      .aljamiado-nastaliq { font-size: 1.5rem; }
     }
   </style>
 </head>
@@ -257,38 +228,27 @@
 
 <div class="container">
   <header>
-    <div class="header-top">
-      <div>
-        <h1>Curso Gradual de Aljamiado Português</h1>
-        <div class="subtitle">Aprendendo a escrever Português no Alfabeto Perso-Árabe passo a passo</div>
-      </div>
-      <div style="display: flex; gap: 0.5rem;">
-        <a href="index.html" class="btn-nav">📖 Especificação Completa (index.html)</a>
-        <a href="../index.html" class="btn-nav">🌐 English Studio</a>
-      </div>
-    </div>
+    <h1>📖 Curso Gradual de Aljamiado Português</h1>
+    <div class="subtitle">Aprendendo o Alfabeto Perso-Árabe Passo a Passo (Desconstrução e Reconstrução Gráfica)</div>
   </header>
 
-  <!-- Sticky Controls Panel -->
-  <div class="controls">
-    <div>
-      <span style="font-weight: 600; color: var(--gold-accent);">Modo de Aprendizado:</span>
-      <span style="color: var(--text-muted); font-size: 0.88rem; margin-left: 0.5rem;">Iniciantes veem Naskh padronizado; alunos avançados podem alternar para Nastaliq.</span>
-    </div>
+  <div class="nav-bar">
+    <a href="index.html" class="nav-link">← Voltar à Especificação Ortográfica Principal</a>
+    <span style="color: var(--text-muted); font-size: 0.9rem;">Português em Alfabeto Perso-Árabe</span>
+  </div>
+
+  <!-- Course Hero -->
+  <div class="course-hero">
+    <h2>🌱 Aprenda a Escrever Português no Alfabeto Perso-Árabe (Passo a Passo)</h2>
+    <p style="color: var(--text-muted); max-width: 750px; margin: 0.8rem auto 1.2rem auto; font-size: 1.05rem; line-height: 1.6;">
+      Este curso foi desenhado para ensinar <strong>letra por letra, posição por posição</strong>. Cada palavra é desconstruída ("desmontada") em suas letras componentes e costurada ("montada") novamente para que você compreenda a anatomia de cada conexão gráfica no <strong>Aljamiado Português</strong>.
+    </p>
     <button id="toggle-nastaliq-btn" class="btn-big-toggle" onclick="toggleNastaliqVisibility()">
-      👁️ Modo Iniciante (Apenas Naskh) &mdash; Clique para mostrar Nastaliq
+      👁️ Modo Iniciante (Apenas Naskh) &mdash; Clique para Alternar Nastaliq
     </button>
   </div>
 
   <div id="course-content" class="hide-nastaliq">
-
-    <!-- Hero Section -->
-    <div class="hero-box">
-      <h2>🌱 Aprenda a Escrever Português no Alfabeto Perso-Árabe</h2>
-      <p>
-        Este curso foi desenhado para <strong>muçulmanos brasileiros, revertidos e estudantes lusófonos</strong> que desejam aprender o funcionamento prático do alfabeto perso-árabe através de sua própria língua materna, assim como para <strong>refugiados persófonos (iranianos e afegãos)</strong> em processo de alfabetização em português.
-      </p>
-    </div>
 
     <!-- Módulo 0 -->
     <h2>Módulo 0: Fundamentos da Escrita Perso-Árabe</h2>
@@ -296,541 +256,288 @@
     <ol>
       <li><strong>Direção da Escrita</strong>: Escreve-se estritamente da <strong>direita para a esquerda</strong> (&larr;).</li>
       <li><strong>Conexão Obrigatória</strong>: Diferente do alfabeto latino, a maioria das letras no alfabeto perso-árabe se conecta à letra seguinte e à anterior na mesma palavra, formando uma escrita cursiva contínua.</li>
-      <li><strong>Quatro Formas Posicionais</strong>: Uma letra muda de aparência dependendo de onde está na palavra: <em>Isolada</em>, <em>Inicial</em>, <em>Medial</em> e <em>Final</em>.</li>
-      <li><strong>Vogais Curtas vs. Vogais Longas (Mater Lectionis)</strong>: As vogais curtas são inferidas no texto normal, enquanto as vogais longas e tônicas utilizam suportes como <code>ا</code> (Alif), <code>و</code> (Waw) e <code>ی</code> (Ye).</li>
+      <li><strong>Quatro Formas Posicionais</strong>: Cada letra pode assumir até quatro formas de acordo com sua posição: <em>Isolada</em>, <em>Inicial</em>, <em>Medial</em> e <em>Final</em>.</li>
+      <li><strong>O Método do Desmontar e Montar</strong>: Dividimos cada palavra em três etapas claras:
+        <ul>
+          <li><em>Passo A (Desconstrução)</em>: Identificar as letras na ordem da direita para a esquerda.</li>
+          <li><em>Passo B (Posicionamento)</em>: Aplicar a forma gráfica correspondente (Inicial, Medial, Final).</li>
+          <li><em>Passo C (Reconstrução / Costura)</em>: Unir os traços em uma palavra fluida.</li>
+        </ul>
+      </li>
     </ol>
 
     <!-- Lição 1 -->
-    <h2>Lição 1: Os Não-Conectores Fundamentais (ا, و, ر, ز) e o Gol He Final (ہ / ـه)</h2>
-    <p>Começamos com as letras não-conectoras (que nunca se conectam à letra seguinte à esquerda) e a letra <strong>Gol He</strong> (<code>ہ</code> / <code>ـه</code>), responsável por marcar a maioria das vogais atónicas finais em português (<em>-a</em>, <em>-e</em>, <em>-o</em>).</p>
+    <h2>Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)</h2>
+    <p>Iniciamos com as <strong>6 letras não-conectoras</strong>. Elas são as mais simples de todo o alfabeto porque <strong>nunca se conectam à letra seguinte à sua esquerda</strong>. Portanto, elas possuem apenas duas formas práticas: <strong>Isolada</strong> e <strong>Final</strong> (conectada pela direita).</p>
     
     <ul>
-      <li><strong>Alif (<code>ا</code>)</strong>: Haste vertical simples. Marca o som de <em>a</em> ou suporte inicial.</li>
-      <li><strong>Waw (<code>و</code>)</strong>: Gancho simples. Marca os sons de <em>o</em>, <em>u</em>, <em>v</em> e ditongos.</li>
-      <li><strong>Rā (<code>ر</code>)</strong>: Curva descendente. Marca o som de <em>r</em> brando (em <em>ar</em>, <em>por</em>, <em>ver</em>) e *r* forte inicial (<em>rio</em>, <em>rua</em>, <em>razão</em>).</li>
-      <li><strong>Zāy (<code>ز</code>)</strong>: Idêntica a Rā com 1 ponto em cima. Marca o som de <em>z</em>.</li>
-      <li><strong>Gol He (<code>ہ</code> / <code>ـه</code>)</strong>: O laço curvo. Reservada para o <em>H</em> mudo latino inicial (<em>homem</em>, <em>honra</em>, <em>hoje</em>) e vogais atónicas finais (<em>de</em>, <em>que</em>, <em>para</em>, <em>sua</em>).</li>
+      <li><strong>Alif (<code>ا</code>)</strong>: Haste vertical. Representa o som de <em>a</em> ou suporte inicial.</li>
+      <li><strong>Dāl (<code>د</code>)</strong>: Gancho angular. Representa o som de <em>d</em>.</li>
+      <li><strong>Rā (<code>ر</code>)</strong>: Curva descendente. Representa o som de <em>r</em> brando e <em>r</em> forte inicial (<em>rio</em> <span class="aljamiado-naskh ar">ریو</span>, <em>rua</em> <span class="aljamiado-naskh ar">روه</span>).</li>
+      <li><strong>Zāy (<code>ز</code>)</strong>: Idêntica a Rā com 1 ponto em cima. Representa o som de <em>z</em>.</li>
+      <li><strong>Žā (<code>ژ</code>)</strong>: Idêntica a Rā com 3 pontos em cima. Representa o som de <em>j/g brando</em>.</li>
+      <li><strong>Waw (<code>و</code>)</strong>: Gancho com laço superior. Representa os sons de <em>o</em>, <em>u</em>, <em>v</em> e semivogal <em>w</em>.</li>
     </ul>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Letra Alvo</th>
+            <th>Forma Testada</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Letras Desconstruídas (Direita &rarr; Esquerda)</th>
+            <th>Formas Posicionais Aplicadas</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
+            <th>IPA</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>a</strong></td>
-            <td><span class="aljamiado-naskh ar">ا</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ا</span></td>
-            <td><code>[ɐ]</code></td>
-            <td>Alif isolado simples.</td>
-          </tr>
-          <tr>
-            <td><strong>o</strong></td>
-            <td><span class="aljamiado-naskh ar">و</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">و</span></td>
-            <td><code>[u]</code></td>
-            <td>Waw isolado representando o artigo definido masculino.</td>
-          </tr>
-          <tr>
-            <td><strong>de</strong></td>
-            <td><span class="aljamiado-naskh ar">دہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دہ</span></td>
-            <td><code>[dʒi]</code> / <code>[de]</code></td>
-            <td>Dāl (<code>د</code>) + Gol He final (<code>ه</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>que</strong></td>
-            <td><span class="aljamiado-naskh ar">كہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كہ</span></td>
-            <td><code>[ki]</code> / <code>[ke]</code></td>
-            <td>Kāf inicial (<code>كـ</code>) ligado ao Gol He final (<code>ـہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>para</strong></td>
-            <td><span class="aljamiado-naskh ar">پرہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پرہ</span></td>
-            <td><code>['paɾɐ]</code></td>
-            <td>Pā (<code>پـ</code>) + Rā (<code>ر</code>) + Gol He final (<code>ہ</code>). Vogal interna <i>a</i> é defectiva.</td>
-          </tr>
-          <tr>
-            <td><strong>ou / ao</strong></td>
-            <td><span class="aljamiado-naskh ar">او</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">او</span></td>
-            <td><code>[ow]</code> / <code>[aw]</code></td>
-            <td>Alif inicial (<code>ا</code>) + Waw (<code>و</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>ar</strong></td>
-            <td><span class="aljamiado-naskh ar">ار</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ار</span></td>
-            <td><code>[aɾ]</code></td>
-            <td>Alif inicial (<code>ا</code>) + Rā (<code>ر</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>ver</strong></td>
-            <td><span class="aljamiado-naskh ar">ور</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ور</span></td>
-            <td><code>[veɾ]</code></td>
-            <td>Waw (<code>و</code>) + Rā (<code>ر</code>). Waw representa a consoante <i>V</i>.</td>
-          </tr>
-          <tr>
-            <td><strong>por</strong></td>
-            <td><span class="aljamiado-naskh ar">پور</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پور</span></td>
-            <td><code>[puɾ]</code></td>
-            <td>Pā (<code>پـ</code>) + Waw (<code>ـو</code>) + Rā (<code>ر</code>). Waw marca a vogal tónica <i>-o-</i>.</td>
-          </tr>
-          <tr>
-            <td><strong>voz</strong></td>
-            <td><span class="aljamiado-naskh ar">وز</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وز</span></td>
-            <td><code>[vɔʃ]</code> / <code>[voz]</code></td>
-            <td>Waw (<code>و</code>) + Zāy (<code>ز</code>). Zāy marca o <i>z</i> final.</td>
-          </tr>
-          <tr>
-            <td><strong>dor</strong></td>
-            <td><span class="aljamiado-naskh ar">دور</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دور</span></td>
-            <td><code>[doɾ]</code></td>
-            <td>Dāl (<code>د</code>) + Waw (<code>و</code>) + Rā (<code>ر</code>). Waw marca o <i>o</i> tónico.</td>
-          </tr>
+          <tr><td><strong>ا</strong> (Alif)</td><td>Isolada</td><td>a</td><td><span class="aljamiado-naskh ar">ا</span></td><td>Isolada (<span class="aljamiado-naskh ar">ا</span>)</td><td><span class="aljamiado-naskh ar">ا</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ا</span></td><td><code>[ɐ]</code></td></tr>
+          <tr><td><strong>ا</strong> (Alif)</td><td>Final</td><td>da</td><td><span class="aljamiado-naskh ar">د</span> + <span class="aljamiado-naskh ar">ا</span></td><td>Dāl (<span class="aljamiado-naskh ar">د</span>) + Alif final (<span class="aljamiado-naskh ar">ـا</span>)</td><td><span class="aljamiado-naskh ar">دا</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دا</span></td><td><code>[dɐ]</code></td></tr>
+          <tr><td><strong>د</strong> (Dāl)</td><td>Isolada</td><td>do</td><td><span class="aljamiado-naskh ar">د</span> + <span class="aljamiado-naskh ar">و</span></td><td>Dāl (<span class="aljamiado-naskh ar">د</span>) + Waw (<span class="aljamiado-naskh ar">و</span>)</td><td><span class="aljamiado-naskh ar">دو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دو</span></td><td><code>[du]</code></td></tr>
+          <tr><td><strong>د</strong> (Dāl)</td><td>Final</td><td>vida</td><td><span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">د</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Waw + Ye medial + Dāl final (<span class="aljamiado-naskh ar">ـد</span>) + Gol He</td><td><span class="aljamiado-naskh ar">ویدہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ویدہ</span></td><td><code>['vidɐ]</code></td></tr>
+          <tr><td><strong>ر</strong> (Rā)</td><td>Isolada</td><td>rio</td><td><span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">و</span></td><td>Rā inicial (<span class="aljamiado-naskh ar">ر</span>) + Ye + Waw</td><td><span class="aljamiado-naskh ar">ریو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ریو</span></td><td><code>['ʁiu]</code></td></tr>
+          <tr><td><strong>ر</strong> (Rā)</td><td>Final</td><td>ver</td><td><span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ر</span></td><td>Waw (<span class="aljamiado-naskh ar">و</span>) + Rā final (<span class="aljamiado-naskh ar">ـر</span>)</td><td><span class="aljamiado-naskh ar">ور</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ور</span></td><td><code>[veɾ]</code></td></tr>
+          <tr><td><strong>ز</strong> (Zāy)</td><td>Isolada</td><td>zero</td><td><span class="aljamiado-naskh ar">ز</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">و</span></td><td>Zāy (<span class="aljamiado-naskh ar">ز</span>) + Rā + Waw</td><td><span class="aljamiado-naskh ar">زرو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">زرو</span></td><td><code>['zɛɾu]</code></td></tr>
+          <tr><td><strong>ز</strong> (Zāy)</td><td>Final</td><td>paz</td><td><span class="aljamiado-naskh ar">پ</span> + <span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ز</span></td><td>Pā inicial + Alif + Zāy final (<span class="aljamiado-naskh ar">ـز</span>)</td><td><span class="aljamiado-naskh ar">پز</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پز</span></td><td><code>[pas]</code></td></tr>
+          <tr><td><strong>ژ</strong> (Žā)</td><td>Isolada</td><td>já</td><td><span class="aljamiado-naskh ar">ژ</span> + <span class="aljamiado-naskh ar">ا</span></td><td>Žā (<span class="aljamiado-naskh ar">ژ</span>) + Alif (<span class="aljamiado-naskh ar">ا</span>)</td><td><span class="aljamiado-naskh ar">ژا</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ژا</span></td><td><code>[ʒa]</code></td></tr>
+          <tr><td><strong>ژ</strong> (Žā)</td><td>Final</td><td>hoje</td><td><span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">ژ</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Waw + Hā mudo + Žā final (<span class="aljamiado-naskh ar">ـژ</span>) + Gol He</td><td><span class="aljamiado-naskh ar">وهژہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وهژہ</span></td><td><code>['ɔʒi]</code></td></tr>
+          <tr><td><strong>و</strong> (Waw)</td><td>Isolada</td><td>o</td><td><span class="aljamiado-naskh ar">و</span></td><td>Isolada (<span class="aljamiado-naskh ar">و</span>)</td><td><span class="aljamiado-naskh ar">و</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">و</span></td><td><code>[u]</code></td></tr>
+          <tr><td><strong>و</strong> (Waw)</td><td>Final</td><td>livro</td><td><span class="aljamiado-naskh ar">ل</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">و</span></td><td>Lām + Ye + Waw medial + Rā + Waw final (<span class="aljamiado-naskh ar">ـو</span>)</td><td><span class="aljamiado-naskh ar">لیورو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">لیورو</span></td><td><code>['livɾu]</code></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 2 -->
-    <h2>Lição 2: A Família do Traço Baixo (ب, پ, ت) e o Gancho Dāl (د)</h2>
-    <p>Aprendemos a família do traço horizontal inferior e a consoante denteada Dāl:</p>
+    <h2>Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas</h2>
+    <p>A <strong>Família do Bā</strong> é composta por dentes rasos com uma bacia inferior. O corpo da letra é idêntico; o que muda é a <strong>posição e quantidade de pontos</strong>:</p>
     <ul>
-      <li><strong>Bā (<code>ب</code>)</strong>: Traço baixo com 1 ponto inferior. Som de <em>b</em>.</li>
-      <li><strong>Pā (<code>پ</code>)</strong>: Traço baixo com 3 pontos inferiores. Som de <em>p</em>.</li>
-      <li><strong>Tā (<code>ت</code>)</strong>: Traço baixo com 2 pontos superiores. Som de <em>t</em>.</li>
-      <li><strong>Dāl (<code>د</code>)</strong>: Gancho curvo angular não-conector. Som de <em>d</em>.</li>
+      <li><strong>Bā (<code>ب</code>)</strong>: 1 ponto em baixo. Som de <em>b</em>.</li>
+      <li><strong>Pā (<code>پ</code>)</strong>: 3 pontos em baixo. Som de <em>p</em>.</li>
+      <li><strong>Tā (<code>ت</code>)</strong>: 2 pontos em cima. Som de <em>t</em>.</li>
     </ul>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Letra</th>
+            <th>Forma Posicional</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Letras Desconstruídas</th>
+            <th>Forma Específica Aplicada</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>de</strong></td>
-            <td><span class="aljamiado-naskh ar">دہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دہ</span></td>
-            <td><code>[dʒi]</code> / <code>[de]</code></td>
-            <td>Dāl (<code>د</code>) + Gol He final (<code>ه</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>do</strong></td>
-            <td><span class="aljamiado-naskh ar">دو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دو</span></td>
-            <td><code>[du]</code></td>
-            <td>Dāl (<code>د</code>) + Waw final (<code>و</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>da</strong></td>
-            <td><span class="aljamiado-naskh ar">دا</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دا</span></td>
-            <td><code>[dɐ]</code></td>
-            <td>Dāl (<code>د</code>) + Alif final (<code>ا</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>tudo</strong></td>
-            <td><span class="aljamiado-naskh ar">تودو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تودو</span></td>
-            <td><code>['tudu]</code></td>
-            <td>Tā inicial (<code>تـ</code>) + Waw tónico (<code>ـو</code>) + Dāl (<code>د</code>) + Waw final (<code>و</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>até</strong></td>
-            <td><span class="aljamiado-naskh ar">اتى</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td>
-            <td><code>[a'tɛ]</code></td>
-            <td>Alif inicial (<code>ا</code>) + Tā medial (<code>ـتـ</code>) + Ye final (<code>ـى</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>boa</strong></td>
-            <td><span class="aljamiado-naskh ar">بوہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بوہ</span></td>
-            <td><code>['bowɐ]</code></td>
-            <td>Bā inicial (<code>بـ</code>) + Waw (<code>ـو</code>) + Gol He final (<code>ہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>bom</strong></td>
-            <td><span class="aljamiado-naskh ar">بم</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بم</span></td>
-            <td><code>[bõj]</code></td>
-            <td>Bā inicial (<code>بـ</code>) + Mīm final (<code>ـم</code>). Vogal nasal defectiva.</td>
-          </tr>
+          <tr><td><strong>ب</strong> (Bā)</td><td>Isolada</td><td>sob</td><td><span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">ب</span></td><td>Sīn inicial + Bā isolada (<span class="aljamiado-naskh ar">ب</span>)</td><td><span class="aljamiado-naskh ar">سب</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سب</span></td></tr>
+          <tr><td><strong>ب</strong> (Bā)</td><td>Inicial</td><td>boa</td><td><span class="aljamiado-naskh ar">ب</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Bā inicial (<span class="aljamiado-naskh ar">بوـ</span>) + Waw + Gol He</td><td><span class="aljamiado-naskh ar">بوہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بوہ</span></td></tr>
+          <tr><td><strong>ب</strong> (Bā)</td><td>Medial</td><td>sabedoria</td><td><span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">ب</span> + <span class="aljamiado-naskh ar">د</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Sīn + Bā medial (<span class="aljamiado-naskh ar">ـبـ</span>) + Dāl + Rā + Ye + Gol He</td><td><span class="aljamiado-naskh ar">سبدریہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سبدریہ</span></td></tr>
+          <tr><td><strong>ب</strong> (Bā)</td><td>Final</td><td>sob</td><td><span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">ب</span></td><td>Sīn inicial + Bā final (<span class="aljamiado-naskh ar">ـب</span>)</td><td><span class="aljamiado-naskh ar">سب</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سب</span></td></tr>
+          <tr><td><strong>پ</strong> (Pā)</td><td>Isolada</td><td>strip</td><td><span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">پ</span></td><td>Sīn + Tā + Rā + Ye + Pā isolada (<span class="aljamiado-naskh ar">پ</span>)</td><td><span class="aljamiado-naskh ar">ستریپ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ستریپ</span></td></tr>
+          <tr><td><strong>پ</strong> (Pā)</td><td>Inicial</td><td>para</td><td><span class="aljamiado-naskh ar">پ</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Pā inicial (<span class="aljamiado-naskh ar">پرـ</span>) + Rā + Gol He</td><td><span class="aljamiado-naskh ar">پرہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پرہ</span></td></tr>
+          <tr><td><strong>پ</strong> (Pā)</td><td>Medial</td><td>esperança</td><td><span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">پ</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ن</span> + <span class="aljamiado-naskh ar">چ</span> + <span class="aljamiado-naskh ar">ہ</span></td><td>Alif + Sīn + Pā medial (<span class="aljamiado-naskh ar">ـپـ</span>) + Rā + Nūn + Chā + Gol He</td><td><span class="aljamiado-naskh ar">اسپرنچہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اسپرنچہ</span></td></tr>
+          <tr><td><strong>پ</strong> (Pā)</td><td>Final</td><td>strip</td><td><span class="aljamiado-naskh ar">س</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">پ</span></td><td>Sīn + Tā + Rā + Ye + Pā final (<span class="aljamiado-naskh ar">ـپ</span>)</td><td><span class="aljamiado-naskh ar">ستریپ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ستریپ</span></td></tr>
+          <tr><td><strong>ت</strong> (Tā)</td><td>Isolada / Inicial</td><td>tu / tudo</td><td><span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">و</span></td><td>Tā inicial (<span class="aljamiado-naskh ar">توـ</span>) + Waw</td><td><span class="aljamiado-naskh ar">تو</span> / <span class="aljamiado-naskh ar">تودو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تو</span> / <span class="aljamiado-naskh ar">تودو</span></td></tr>
+          <tr><td><strong>ت</strong> (Tā)</td><td>Medial</td><td>fruto</td><td><span class="aljamiado-naskh ar">ف</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">و</span></td><td>Fā + Rā + Waw + Tā medial (<span class="aljamiado-naskh ar">ـتـ</span>) + Waw</td><td><span class="aljamiado-naskh ar">فروتو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فروتو</span></td></tr>
+          <tr><td><strong>ت</strong> (Tā)</td><td>Final</td><td>até</td><td><span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ى</span></td><td>Alif + Tā medial/final (<span class="aljamiado-naskh ar">ـتـ</span>) + Ye final (<span class="aljamiado-naskh ar">ـى</span>)</td><td><span class="aljamiado-naskh ar">اتى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 3 -->
-    <h2>Lição 3: Cúpulas & Hastes — Kāf/Gāf (ك, گ) e Suportes Vocálicos Iniciais</h2>
-    <p>Estudamos as consoantes velares e os suportes vocálicos no início de palavra:</p>
+    <h2>Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)</h2>
+    <p>Agora exploramos duas famílias de cauda semicircular que perdem a barriga ao se conectarem:</p>
     <ul>
-      <li><strong>Kāf (<code>ك</code>)</strong>: Haste superior com braço curvo. Som de <em>k / c / q</em>.</li>
-      <li><strong>Gāf (<code>گ</code>)</strong>: Kāf com traço duplo superior. Som de <em>g</em> duro (*gato*, *água*).</li>
-      <li><strong>Suportes Iniciais</strong>: <code>ا</code> (a-), <code>آ</code> (á-), <code>او</code> (o-/u-), <code>ای</code> (e-/i-).</li>
+      <li><strong>Família do Jīm</strong>: Cauda em semicírculo com cabeça angular.
+        <ul>
+          <li><strong>Jīm (<code>ج</code>)</strong>: 1 ponto no centro/baixo. Som de <em>g brando</em> (<em>gente</em> <span class="aljamiado-naskh ar">جنتہ</span>).</li>
+          <li><strong>Chā (<code>چ</code>)</strong>: 3 pontos no centro/baixo. Som de <em>c brando</em> e <em>ch</em> (<em>cidade</em> <span class="aljamiado-naskh ar">چددہ</span>, <em>você</em> <span class="aljamiado-naskh ar">وچہ</span>).</li>
+        </ul>
+      </li>
+      <li><strong>Família do Sīn</strong>: Três dentes serrilhados.
+        <ul>
+          <li><strong>Sīn (<code>س</code>)</strong>: Sem pontos. Som de <em>s</em> surdo (<em>sua</em> <span class="aljamiado-naskh ar">سوه</span>).</li>
+          <li><strong>Šīn (<code>ش</code>)</strong>: 3 pontos em cima. Som de <em>ch/x</em> (<em>chave</em> <span class="aljamiado-naskh ar">شوه</span>, <em>lixo</em> <span class="aljamiado-naskh ar">لیشو</span>).</li>
+        </ul>
+      </li>
     </ul>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Letra</th>
+            <th>Forma Posicional</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Fórmula de Costura (Direita &rarr; Esquerda)</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>que</strong></td>
-            <td><span class="aljamiado-naskh ar">كہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كہ</span></td>
-            <td><code>[ki]</code></td>
-            <td>Kāf inicial (<code>كـ</code>) + Gol He final (<code>ـہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>com</strong></td>
-            <td><span class="aljamiado-naskh ar">كم</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كم</span></td>
-            <td><code>[kõw]</code></td>
-            <td>Kāf inicial (<code>كـ</code>) + Mīm final (<code>ـم</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>como</strong></td>
-            <td><span class="aljamiado-naskh ar">كمو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمو</span></td>
-            <td><code>['komu]</code></td>
-            <td>Kāf inicial (<code>كـ</code>) + Mīm medial (<code>ـمـ</code>) + Waw final (<code>ـو</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>cada</strong></td>
-            <td><span class="aljamiado-naskh ar">كدہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كدہ</span></td>
-            <td><code>['kadɐ]</code></td>
-            <td>Kāf inicial (<code>كـ</code>) + Dāl (<code>د</code>) + Gol He final (<code>ہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>vida</strong></td>
-            <td><span class="aljamiado-naskh ar">ویدہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ویدہ</span></td>
-            <td><code>['vidɐ]</code></td>
-            <td>Waw (<code>و</code>) + Ye medial (<code>یـ</code>) + Dāl (<code>د</code>) + Gol He final (<code>ہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>faz</strong></td>
-            <td><span class="aljamiado-naskh ar">فز</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فز</span></td>
-            <td><code>[faʃ]</code> / <code>[faz]</code></td>
-            <td>Fā inicial (<code>فـ</code>) + Zāy final (<code>ز</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>água</strong></td>
-            <td><span class="aljamiado-naskh ar">آگوه</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">آگوه</span></td>
-            <td><code>['agwɐ]</code></td>
-            <td>Alif Madd inicial (<code>آ</code>) + Gāf medial (<code>ـگـ</code>) + Waw (<code>ـو</code>) + Gol He final (<code>ہ</code>).</td>
-          </tr>
+          <tr><td><strong>ج</strong> (Jīm)</td><td>Inicial</td><td>gente</td><td>Jīm inicial (<span class="aljamiado-naskh ar">جـ</span>) + Nūn + Tā + Gol He</td><td><span class="aljamiado-naskh ar">جنتہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">جنتہ</span></td></tr>
+          <tr><td><strong>ج</strong> (Jīm)</td><td>Medial</td><td>generosidade</td><td>Jīm inicial (<span class="aljamiado-naskh ar">جـ</span>) + Nūn + Rā + Zāy + Dāl + Dāl + Gol He</td><td><span class="aljamiado-naskh ar">جنرزددہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">جنرزددہ</span></td></tr>
+          <tr><td><strong>ج</strong> (Jīm)</td><td>Final</td><td>gem</td><td>Jīm inicial (<span class="aljamiado-naskh ar">جـ</span>) + Mīm final (<span class="aljamiado-naskh ar">ـم</span>)</td><td><span class="aljamiado-naskh ar">جم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">جم</span></td></tr>
+          <tr><td><strong>چ</strong> (Chā)</td><td>Inicial</td><td>cidade</td><td>Chā inicial (<span class="aljamiado-naskh ar">چـ</span>) + Dāl + Dāl + Gol He</td><td><span class="aljamiado-naskh ar">چددہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">چددہ</span></td></tr>
+          <tr><td><strong>چ</strong> (Chā)</td><td>Medial</td><td>você</td><td>Waw + Chā medial (<span class="aljamiado-naskh ar">ـچـ</span>) + Gol He final</td><td><span class="aljamiado-naskh ar">وچہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وچہ</span></td></tr>
+          <tr><td><strong>چ</strong> (Chā)</td><td>Final</td><td>fixo</td><td>Fā inicial + Ye + Chā medial/final (<span class="aljamiado-naskh ar">ـچـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">فيچو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فيچو</span></td></tr>
+          <tr><td><strong>س</strong> (Sīn)</td><td>Inicial</td><td>sua</td><td>Sīn inicial (<span class="aljamiado-naskh ar">سـ</span>) + Waw + Gol He final</td><td><span class="aljamiado-naskh ar">سوه</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سوه</span></td></tr>
+          <tr><td><strong>س</strong> (Sīn)</td><td>Medial</td><td>processo</td><td>Pā + Rā + Chā + Sīn medial (<span class="aljamiado-naskh ar">ـسـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">پرچسو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پرچسو</span></td></tr>
+          <tr><td><strong>س</strong> (Sīn)</td><td>Final</td><td>mas</td><td>Mīm inicial + Sīn final (<span class="aljamiado-naskh ar">ـس</span>) com bacia inteira</td><td><span class="aljamiado-naskh ar">مس</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مس</span></td></tr>
+          <tr><td><strong>ش</strong> (Šīn)</td><td>Inicial</td><td>chave</td><td>Šīn inicial (<span class="aljamiado-naskh ar">شـ</span>) + Waw + Gol He final</td><td><span class="aljamiado-naskh ar">شوه</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">شوه</span></td></tr>
+          <tr><td><strong>ش</strong> (Šīn)</td><td>Medial</td><td>lixo</td><td>Lām inicial + Ye + Šīn medial (<span class="aljamiado-naskh ar">ـشـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">لیشو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">لیشو</span></td></tr>
+          <tr><td><strong>ش</strong> (Šīn)</td><td>Final</td><td>flash</td><td>Fā + Lām + Alif + Šīn final (<span class="aljamiado-naskh ar">ـش</span>) com bacia inteira</td><td><span class="aljamiado-naskh ar">فلاش</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فلاش</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 4 -->
-    <h2>Lição 4: Laços Circulares (م, ن, ی) e o Motor de Nasalização</h2>
-    <p>Estudamos as letras circulares, nasalizadoras e semivogais:</p>
+    <h2>Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)</h2>
+    <p>Nesta lição estudamos as letras com hastes elevadas e laços ovais:</p>
     <ul>
-      <li><strong>Mīm (<code>م</code>)</strong>: Laço circular com cauda. Som de <em>m</em> e nasalização em fim de sílaba.</li>
-      <li><strong>Nūn (<code>ن</code>)</strong>: Tigela aberta com 1 ponto superior. Som de <em>n</em>.</li>
-      <li><strong>Ye (<code>ی</code>)</strong>: Curva elegante em S. Som de <em>i</em>, <em>e</em> tónico e semivogal.</li>
-      <li><strong>Motor de Nasalização</strong>: O ditongo <em>-ão</em> é estritamente <code>او</code> (Alif-Waw), sem Nūn redundante.</li>
+      <li><strong>Fā (<code>ف</code>)</strong>: Cabeça oval com 1 ponto em cima. Som de <em>f</em>.</li>
+      <li><strong>Kāf (<code>ك</code>)</strong>: Traço com curvatura. Som de <em>k/c/q</em>.</li>
+      <li><strong>Gāf (<code>گ</code>)</strong>: Idêntico ao Kāf com um segundo traço superior paralelo. Som de <em>g duro</em> (<em>água</em> <span class="aljamiado-naskh ar">آگوه</span>).</li>
+      <li><strong>Lām (<code>ل</code>)</strong>: Haste vertical alta com bacia descendente. Som de <em>l</em>.</li>
     </ul>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Letra</th>
+            <th>Forma Posicional</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Fórmula de Costura (Direita &rarr; Esquerda)</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>em</strong></td>
-            <td><span class="aljamiado-naskh ar">ام</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ام</span></td>
-            <td><code>[ẽj]</code></td>
-            <td>Alif inicial (<code>ا</code>) + Mīm final (<code>ـم</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>um</strong></td>
-            <td><span class="aljamiado-naskh ar">اوم</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اوم</span></td>
-            <td><code>[ũ]</code></td>
-            <td>Alif inicial (<code>ا</code>) + Waw (<code>ـو</code>) + Mīm final (<code>م</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>uma</strong></td>
-            <td><span class="aljamiado-naskh ar">اومہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اومہ</span></td>
-            <td><code>['umɐ]</code></td>
-            <td>Alif-Waw inicial (<code>او</code>) + Mīm medial (<code>ـمـ</code>) + Gol He final (<code>ـہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>não</strong></td>
-            <td><span class="aljamiado-naskh ar">ناو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ناو</span></td>
-            <td><code>[nɐ̃w]</code></td>
-            <td>Nūn inicial (<code>نـ</code>) + Alif-Waw (<code>ـاو</code>). Nūn é a consoante da raiz.</td>
-          </tr>
-          <tr>
-            <td><strong>na / no</strong></td>
-            <td><span class="aljamiado-naskh ar">نہ / نو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">نہ / نو</span></td>
-            <td><code>[nɐ] / [nu]</code></td>
-            <td>Nūn inicial (<code>نـ</code>) + Gol He final (<code>ـہ</code>) / Waw final (<code>ـو</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>nem</strong></td>
-            <td><span class="aljamiado-naskh ar">نم</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">نم</span></td>
-            <td><code>[nẽj]</code></td>
-            <td>Nūn inicial (<code>نـ</code>) + Mīm final (<code>ـم</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>mais</strong></td>
-            <td><span class="aljamiado-naskh ar">میس</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">میس</span></td>
-            <td><code>[majʃ]</code></td>
-            <td>Mīm inicial (<code>مـ</code>) + Ye medial (<code>ـیـ</code>) + Sīn final (<code>ـس</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>minha</strong></td>
-            <td><span class="aljamiado-naskh ar">مینیہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مینیہ</span></td>
-            <td><code>['miɲɐ]</code></td>
-            <td>Mīm inicial (<code>مـ</code>) + Nūn-Ye (<code>ـنیـ</code>) + Gol He final (<code>ـہ</code>).</td>
-          </tr>
+          <tr><td><strong>ف</strong> (Fā)</td><td>Inicial</td><td>faz</td><td>Fā inicial (<span class="aljamiado-naskh ar">فـ</span>) + Zāy final (<span class="aljamiado-naskh ar">ـز</span>)</td><td><span class="aljamiado-naskh ar">فز</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فز</span></td></tr>
+          <tr><td><strong>ف</strong> (Fā)</td><td>Medial</td><td>professora</td><td>Pā + Rā + Fā medial (<span class="aljamiado-naskh ar">ـفـ</span>) + Sīn + Rā + Gol He</td><td><span class="aljamiado-naskh ar">پرفسرہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پرفسرہ</span></td></tr>
+          <tr><td><strong>ف</strong> (Fā)</td><td>Final</td><td>off</td><td>Alif + Fā final (<span class="aljamiado-naskh ar">ـف</span>)</td><td><span class="aljamiado-naskh ar">اف</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اف</span></td></tr>
+          <tr><td><strong>ك</strong> (Kāf)</td><td>Inicial</td><td>cada</td><td>Kāf inicial (<span class="aljamiado-naskh ar">كـ</span>) + Dāl + Dāl + Gol He</td><td><span class="aljamiado-naskh ar">كدہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كدہ</span></td></tr>
+          <tr><td><strong>ك</strong> (Kāf)</td><td>Medial</td><td>busca</td><td>Bā + Waw + Sīn + Kāf medial (<span class="aljamiado-naskh ar">ـكـ</span>) + Gol He</td><td><span class="aljamiado-naskh ar">بوسكہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بوسكہ</span></td></tr>
+          <tr><td><strong>ك</strong> (Kāf)</td><td>Final</td><td>check</td><td>Chā inicial + Ye + Kāf final (<span class="aljamiado-naskh ar">ـك</span>)</td><td><span class="aljamiado-naskh ar">چك</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">چك</span></td></tr>
+          <tr><td><strong>گ</strong> (Gāf)</td><td>Inicial</td><td>guia</td><td>Gāf inicial (<span class="aljamiado-naskh ar">گـ</span>) + Ye + Gol He final</td><td><span class="aljamiado-naskh ar">گیہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">گیہ</span></td></tr>
+          <tr><td><strong>گ</strong> (Gāf)</td><td>Medial</td><td>água</td><td>Alif Madd + Gāf medial (<span class="aljamiado-naskh ar">ـگـ</span>) + Waw + Gol He</td><td><span class="aljamiado-naskh ar">آگوه</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">آگوه</span></td></tr>
+          <tr><td><strong>گ</strong> (Gāf)</td><td>Final</td><td>blog</td><td>Bā + Lām + Waw + Gāf final (<span class="aljamiado-naskh ar">ـگ</span>)</td><td><span class="aljamiado-naskh ar">بلگ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بلگ</span></td></tr>
+          <tr><td><strong>ل</strong> (Lām)</td><td>Inicial</td><td>luz</td><td>Lām inicial (<span class="aljamiado-naskh ar">لـ</span>) + Waw + Zāy final</td><td><span class="aljamiado-naskh ar">لوز</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">لوز</span></td></tr>
+          <tr><td><strong>ل</strong> (Lām)</td><td>Medial</td><td>pelo</td><td>Pā + Lām medial (<span class="aljamiado-naskh ar">ـلـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">پلو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پلو</span></td></tr>
+          <tr><td><strong>ل</strong> (Lām)</td><td>Final</td><td>sol</td><td>Sīn + Waw + Lām final (<span class="aljamiado-naskh ar">ـل</span>) com bacia inteira</td><td><span class="aljamiado-naskh ar">سل</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سل</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 5 -->
-    <h2>Lição 5: Dentes & Barrigas Curvas (س, ش, چ, ژ) e Hiato vs. Ditongo</h2>
-    <p>Estudamos as sibilantes e africadas:</p>
+    <h2>Lição 5: Laços Circulares e Nasais (م, ن, ی)</h2>
+    <p>Nesta lição cobrimos as letras com laço circular e a semivogal flexível:</p>
     <ul>
-      <li><strong>Sīn (<code>س</code>)</strong>: Três dentes superiores. Som de <em>s / ss</em>.</li>
-      <li><strong>Shīn (<code>ش</code>)</strong>: Sīn com 3 pontos superiores. Som de <em>sh / ch</em> (fricativa postalveolar).</li>
-      <li><strong>Chā (<code>چ</code>)</strong>: Barriga curva com 3 pontos internos. Som de <em>c brando</em> (*cidade*, *você*).</li>
-      <li><strong>Žā (<code>ژ</code>)</strong>: Rā com 3 pontos superiores. Som de <em>j / g brando</em> (*já*, *hoje*).</li>
-      <li><strong>Hiato vs. Ditongo</strong>: Hiato usa Hamza sobre Ye (<code>ئ</code>, ex.: <em>país</em> <code>پائیس</code> vs. <em>pais</em> <code>پایها</code>).</li>
+      <li><strong>Mīm (<code>م</code>)</strong>: Laço redondo com cauda descendente. Som de <em>m</em> e neutralização nasal final (<em>bom</em> <span class="aljamiado-naskh ar">بم</span>).</li>
+      <li><strong>Nūn (<code>ن</code>)</strong>: Bacia com 1 ponto superior. Som de <em>n</em>.</li>
+      <li><strong>Ye (<code>ی</code>)</strong>: Curva em forma de cisne/S. Som de <em>i</em>, <em>e</em> tónico e semivogal.</li>
     </ul>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Letra</th>
+            <th>Forma Posicional</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Fórmula de Costura (Direita &rarr; Esquerda)</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>se</strong></td>
-            <td><span class="aljamiado-naskh ar">سہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سہ</span></td>
-            <td><code>[si]</code> / <code>[se]</code></td>
-            <td>Sīn inicial (<code>سـ</code>) + Gol He final (<code>ـہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>seu / sua</strong></td>
-            <td><span class="aljamiado-naskh ar">سیو / سوه</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سیو / سوه</span></td>
-            <td><code>[sew] / ['suɐ]</code></td>
-            <td>Sīn inicial + Ye-Waw / Sīn inicial + Waw + Gol He.</td>
-          </tr>
-          <tr>
-            <td><strong>paz</strong></td>
-            <td><span class="aljamiado-naskh ar">پز</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پز</span></td>
-            <td><code>[paʃ]</code> / <code>[paz]</code></td>
-            <td>Pā inicial (<code>پـ</code>) + Zāy final (<code>ز</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>já</strong></td>
-            <td><span class="aljamiado-naskh ar">ژا</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ژا</span></td>
-            <td><code>[ʒa]</code></td>
-            <td>Žā (<code>ژ</code>) + Alif final (<code>ا</code>). Žā representa o <i>J</i> lexical.</td>
-          </tr>
-          <tr>
-            <td><strong>hoje</strong></td>
-            <td><span class="aljamiado-naskh ar">وهژہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وهژہ</span></td>
-            <td><code>['ɔʒi]</code></td>
-            <td>Waw (<code>و</code>) + He (<code>ه</code>) + Žā (<code>ژ</code>) + Gol He final (<code>ہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>chega</strong></td>
-            <td><span class="aljamiado-naskh ar">چگہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">چگہ</span></td>
-            <td><code>['ʃegɐ]</code></td>
-            <td>Chā inicial (<code>چـ</code>) + Gāf medial (<code>ـگـ</code>) + Gol He final (<code>ـہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>país (hiato)</strong></td>
-            <td><span class="aljamiado-naskh ar">پائیس</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پائیس</span></td>
-            <td><code>[pɐ'iʃ]</code></td>
-            <td>Hamza sobre Ye (<code>ئ</code>) assinala o hiato tónico.</td>
-          </tr>
-          <tr>
-            <td><strong>pais (plural)</strong></td>
-            <td><span class="aljamiado-naskh ar">پایها</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پایها</span></td>
-            <td><code>[pajʃ]</code></td>
-            <td>Pā + Alif + Ye + sufixo nominal de plural <code>ـها</code>.</td>
-          </tr>
+          <tr><td><strong>م</strong> (Mīm)</td><td>Inicial</td><td>muito</td><td>Mīm inicial (<span class="aljamiado-naskh ar">مـ</span>) + Waw + Ye + Tā + Waw</td><td><span class="aljamiado-naskh ar">مویتو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مویتو</span></td></tr>
+          <tr><td><strong>م</strong> (Mīm)</td><td>Medial</td><td>como</td><td>Kāf + Mīm medial (<span class="aljamiado-naskh ar">ـمـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">كمو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمو</span></td></tr>
+          <tr><td><strong>م</strong> (Mīm)</td><td>Final</td><td>bom</td><td>Bā + Mīm final (<span class="aljamiado-naskh ar">ـم</span>) com cauda longa</td><td><span class="aljamiado-naskh ar">بم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بم</span></td></tr>
+          <tr><td><strong>ن</strong> (Nūn)</td><td>Inicial</td><td>não</td><td>Nūn inicial (<span class="aljamiado-naskh ar">نـ</span>) + Alif + Waw (-ão)</td><td><span class="aljamiado-naskh ar">ناو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ناو</span></td></tr>
+          <tr><td><strong>ن</strong> (Nūn)</td><td>Medial</td><td>análise</td><td>Alif + Nūn medial (<span class="aljamiado-naskh ar">ـنـ</span>) + Alif + Lām + Zāy + Gol He</td><td><span class="aljamiado-naskh ar">انالیزہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">انالیزہ</span></td></tr>
+          <tr><td><strong>ن</strong> (Nūn)</td><td>Final</td><td>on</td><td>Alif + Nūn final (<span class="aljamiado-naskh ar">ـن</span>) com bacia e ponto</td><td><span class="aljamiado-naskh ar">ان</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ان</span></td></tr>
+          <tr><td><strong>ی</strong> (Ye)</td><td>Inicial</td><td>ilumina</td><td>Ye inicial (<span class="aljamiado-naskh ar">یـ</span>) + Lām + Waw + Mīm + Nūn + Gol He</td><td><span class="aljamiado-naskh ar">یلومنہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">یلومنہ</span></td></tr>
+          <tr><td><strong>ی</strong> (Ye)</td><td>Medial</td><td>minha</td><td>Mīm + Ye medial (<span class="aljamiado-naskh ar">ـیـ</span>) + Nūn + Gol He</td><td><span class="aljamiado-naskh ar">مینیہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مینیہ</span></td></tr>
+          <tr><td><strong>ی</strong> (Ye)</td><td>Final</td><td>até</td><td>Alif + Tā + Ye final (<span class="aljamiado-naskh ar">ـى</span> / <span class="aljamiado-naskh ar">ـی</span>)</td><td><span class="aljamiado-naskh ar">اتى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 6 -->
-    <h2>Lição 6: Hastes Altas & Dígrafos — Lām (ل), LH (ل-ی), NH (ن-ی), RR (ه)</h2>
-    <p>Estudamos as hastes altas e dígrafos palatais:</p>
-    <ul>
-      <li><strong>Lām (<code>ل</code>)</strong>: Haste vertical alta conectiva. Som de <em>l</em>.</li>
-      <li><strong>Dígrafo LH (<code>ل-ی</code>)</strong>: Lām + Ye (ex.: <em>filho</em> <code>فیلیو</code>).</li>
-      <li><strong>Dígrafo NH (<code>ن-ی</code>)</strong>: Nūn + Ye (ex.: <em>caminho</em> <code>كمینیو</code>).</li>
-      <li><strong>RR Duplo (<code>ه</code>)</strong>: He Urdu para contrastar com R simples (ex.: <em>carro</em> <code>كهو</code> vs. <em>caro</em> <code>كرو</code>).</li>
-    </ul>
+    <h2>Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas</h2>
+    <p>A letra <strong>He / Gol He (<code>ه</code> / <code>ہ</code>)</strong> é o coração da elegância e do dinamismo funcional no <strong>Aljamiado Português</strong>. Ela desempenha <strong>5 papéis ortográficos especializados</strong>, exigindo atenção pedagógica dedicada para evitar dúvidas de leitura:</p>
+
+    <h3>As 5 Faces do He (ه / ہ):</h3>
+    <ol>
+      <li><strong>Forma Posicional Isolada e Inicial &rarr; H Mudo Latino</strong>:
+        <br>Quando aparece no início da palavra, <strong>He (<code>ه</code>)</strong> representa o <em>H mudo latino</em> da raiz etimológica.
+        <br>Exemplos: <code>homem</code> &rarr; <span class="aljamiado-naskh ar">همم</span> | <code>honra</code> &rarr; <span class="aljamiado-naskh ar">هنرہ</span> | <code>hoje</code> &rarr; <span class="aljamiado-naskh ar">وهژہ</span>
+      </li>
+      <li><strong>Forma Posicional Medial &rarr; RR Duplo Intervocálico</strong>:
+        <br>Em posição intervocálica interna, o <strong>He (<code>ه</code> / <code>ـهـ</code>)</strong> marca a fricativa forte /RR/ de <em>carro</em> e <em>terra</em>.
+        <br>Exemplos: <code>carro</code> &rarr; <span class="aljamiado-naskh ar">كاهو</span> (contrapondo a <em>caro</em> <span class="aljamiado-naskh ar">كرو</span> com Rā) | <code>terra</code> &rarr; <span class="aljamiado-naskh ar">تہہ</span>
+      </li>
+      <li><strong>Forma Posicional Final &rarr; Gol He Urdu (<code>ہ</code> / <code>ـه</code>) para Vogais Atónicas Finais (-a, -e)</strong>:
+        <br>Em fim de palavra, <strong>Gol He (<code>ہ</code>)</strong> atua como uma libertação vocálica suave (<em>mater lectionis</em>) para as vogais atónicas finais <em>-a</em> e <em>-e</em>.
+        <br>Exemplos: <code>boa</code> &rarr; <span class="aljamiado-naskh ar">بوہ</span> | <code>que</code> &rarr; <span class="aljamiado-naskh ar">كہ</span> | <code>para</code> &rarr; <span class="aljamiado-naskh ar">پرہ</span>
+      </li>
+      <li><strong>Logograma do Plural Nominal &rarr; -hā (<code>ـها</code>)</strong>:
+        <br>O sufixo de plural nominal é grafado com <strong>Hā + Alif (<code>ـها</code>)</strong>, desvinculando o plural da sibilante verbal:
+        <br>Exemplo: <code>livros</code> &rarr; <span class="aljamiado-naskh ar">لیوروها</span>
+      </li>
+      <li><strong>Contraste R- Inicial vs. H- Mudo (Rā <code>ر</code> vs. He <code>ه</code>)</strong>:
+        <br>O R inicial forte é grafado <strong>estritamente com Rā (<code>ر</code>)</strong> (<em>rio</em> <span class="aljamiado-naskh ar">ریو</span>, <em>rua</em> <span class="aljamiado-naskh ar">روه</span>), reservando o <strong>He (<code>ه</code>)</strong> exclusivamente para o H mudo (<em>honra</em> <span class="aljamiado-naskh ar">هنرہ</span>, <em>homem</em> <span class="aljamiado-naskh ar">همم</span>).
+      </li>
+    </ol>
 
     <div class="course-table-wrapper">
       <table class="course-table">
         <thead>
           <tr>
+            <th>Função Ortográfica do He</th>
+            <th>Forma Gráfica</th>
             <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
+            <th>Letras Desconstruídas</th>
+            <th>Palavra Costurada (Naskh)</th>
+            <th class="nastaliq-col">Palavra Costurada (Nastaliq)</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td><strong>ele / ela</strong></td>
-            <td><span class="aljamiado-naskh ar">إلى / إلہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">إلى / إلہ</span></td>
-            <td><code>['eli] / ['ɛlɐ]</code></td>
-            <td>Alif com Hamzah inferior (<code>إ</code>) + Lām + Ye/Gol He.</td>
-          </tr>
-          <tr>
-            <td><strong>filho</strong></td>
-            <td><span class="aljamiado-naskh ar">فیلیو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فیلیو</span></td>
-            <td><code>['fiʎu]</code></td>
-            <td>Fā + Ye + Lām-Ye (<code>لی</code> para LH) + Waw final.</td>
-          </tr>
-          <tr>
-            <td><strong>caminho</strong></td>
-            <td><span class="aljamiado-naskh ar">كمینیو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمینیو</span></td>
-            <td><code>[kɐ'miɲu]</code></td>
-            <td>Kāf + Mīm + Nūn-Ye (<code>نی</code> para NH) + Waw final.</td>
-          </tr>
-          <tr>
-            <td><strong>terra</strong></td>
-            <td><span class="aljamiado-naskh ar">تہہ</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تہہ</span></td>
-            <td><code>['tɛʁɐ]</code></td>
-            <td>Tā (<code>تـ</code>) + He (<code>ه</code> para RR) + Gol He final (<code>ہ</code>).</td>
-          </tr>
-          <tr>
-            <td><strong>carro</strong></td>
-            <td><span class="aljamiado-naskh ar">كهو</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كهو</span></td>
-            <td><code>['kaʁu]</code></td>
-            <td>Kāf (<code>كـ</code>) + He (<code>ه</code> para RR) + Waw final (<code>و</code>).</td>
-          </tr>
+          <tr><td>1. H Mudo Inicial</td><td>Inicial (<span class="aljamiado-naskh ar">هـ</span>)</td><td>honra</td><td><span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">ن</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ہ</span></td><td><span class="aljamiado-naskh ar">هنرہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">هنرہ</span></td></tr>
+          <tr><td>1. H Mudo Inicial</td><td>Inicial (<span class="aljamiado-naskh ar">هـ</span>)</td><td>homem</td><td><span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">م</span> + <span class="aljamiado-naskh ar">م</span></td><td><span class="aljamiado-naskh ar">همم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">همم</span></td></tr>
+          <tr><td>2. RR Intervocálico</td><td>Medial (<span class="aljamiado-naskh ar">ـهـ</span>)</td><td>carro</td><td><span class="aljamiado-naskh ar">ك</span> + <span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">و</span></td><td><span class="aljamiado-naskh ar">كاهو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كاهو</span></td></tr>
+          <tr><td>2. RR Intervocálico</td><td>Medial (<span class="aljamiado-naskh ar">ـهـ</span>)</td><td>terra</td><td><span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">ہ</span></td><td><span class="aljamiado-naskh ar">تہہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تہہ</span></td></tr>
+          <tr><td>3. Vogal Final -a/-e</td><td>Final (<span class="aljamiado-naskh ar">ہ</span> / <span class="aljamiado-naskh ar">ـه</span>)</td><td>boa</td><td><span class="aljamiado-naskh ar">ب</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ہ</span></td><td><span class="aljamiado-naskh ar">بوہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">بوہ</span></td></tr>
+          <tr><td>4. Plural Nominal -hā</td><td>Sufixo (<span class="aljamiado-naskh ar">ـها</span>)</td><td>livros</td><td><span class="aljamiado-naskh ar">ل</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ه</span> + <span class="aljamiado-naskh ar">ا</span></td><td><span class="aljamiado-naskh ar">لیوروها</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">لیوروها</span></td></tr>
+          <tr><td>5. Contraste R- (Rā)</td><td>Rā Inicial (<span class="aljamiado-naskh ar">ر</span>)</td><td>rio</td><td><span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">و</span></td><td><span class="aljamiado-naskh ar">ریو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ریو</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <!-- Lição 7 -->
-    <h2>Lição 7: O Sufixo Morfofonêmico de Plural (-hā / ـها) e Leitura Fluente</h2>
-    <p>Estudamos a regra de ouro dos plurais nominais:</p>
-    <ul>
-      <li><strong>Sufixo Nominal <code>ـها</code> (-hā)</strong>: Todos os plurais nominais (substantivos, adjetivos, artigos) recebem o logograma <code>ـها</code>.</li>
-      <li><strong>Diferenciação Verbal</strong>: Plurais de verbos mantêm Sīn (<code>س</code>) ou Zāy (<code>ز</code>), reservando <code>ـها</code> exclusivamente para nomes.</li>
-    </ul>
+    <h2>Lição 7: Síntese de Leitura e Costura de Frases</h2>
+    <p>Chegamos à fase de <strong>costura completa de frases</strong>. Vamos montar três orações completas aplicando tudo o que aprendemos:</p>
 
-    <div class="course-table-wrapper">
-      <table class="course-table">
-        <thead>
-          <tr>
-            <th>Português</th>
-            <th>Naskh (Padrão) <span class="badge badge-naskh">Naskh</span></th>
-            <th class="nastaliq-col">Nastaliq (Persa/Urdu) <span class="badge badge-nastaliq">Nastaliq</span></th>
-            <th>Pronúncia / IPA</th>
-            <th>Explicação da Forma</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>os / as</strong></td>
-            <td><span class="aljamiado-naskh ar">وها / اها</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وها / اها</span></td>
-            <td><code>[us] / [ɐs]</code></td>
-            <td>Artigo singular (<code>و</code> / <code>ا</code>) + sufixo de plural <code>ـها</code>.</td>
-          </tr>
-          <tr>
-            <td><strong>dos / das</strong></td>
-            <td><span class="aljamiado-naskh ar">دوها / داها</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دوها / داها</span></td>
-            <td><code>[dus] / [dɐs]</code></td>
-            <td>Preposição singular (<code>دو</code> / <code>دا</code>) + sufixo de plural <code>ـها</code>.</td>
-          </tr>
-          <tr>
-            <td><strong>todos</strong></td>
-            <td><span class="aljamiado-naskh ar">تدوها</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تدوها</span></td>
-            <td><code>['todus]</code></td>
-            <td>Forma singular <i>tudo/todo</i> (<code>تودو</code>) + sufixo de plural <code>ـها</code>.</td>
-          </tr>
-          <tr>
-            <td><strong>palavras</strong></td>
-            <td><span class="aljamiado-naskh ar">پلورها</span></td>
-            <td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پلورها</span></td>
-            <td><code>[pɐ'lavɾɐs]</code></td>
-            <td>Base nominal defectiva (<code>پلور</code>) + sufixo de plural <code>ـها</code>.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <ul>
+      <li><strong>Frase A</strong>: <em>O homem sábio fala com humildade e paz.</em>
+        <br>&bull; Desconstrução: <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">همم</span> + <span class="aljamiado-naskh ar">سبیو</span> + <span class="aljamiado-naskh ar">فلہ</span> + <span class="aljamiado-naskh ar">كم</span> + <span class="aljamiado-naskh ar">اوملددہ</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">پز</span>.
+        <br>&bull; Costura Final: <span class="aljamiado-naskh ar">و همم سبیو فلہ كم اوملددہ ی پز.</span>
+      </li>
+      <li style="margin-top: 1rem;"><strong>Frase B</strong>: <em>A verdadeira riqueza está na generosidade do coração.</em>
+        <br>&bull; Desconstrução: <span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ورددرہ</span> + <span class="aljamiado-naskh ar">ریكزہ</span> + <span class="aljamiado-naskh ar">استا</span> + <span class="aljamiado-naskh ar">نہ</span> + <span class="aljamiado-naskh ar">جنرزددہ</span> + <span class="aljamiado-naskh ar">دو</span> + <span class="aljamiado-naskh ar">كرچاو</span>.
+        <br>&bull; Costura Final: <span class="aljamiado-naskh ar">ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاو.</span>
+      </li>
+      <li style="margin-top: 1rem;"><strong>Frase C</strong>: <em>Os rios correm para o mar e renovam as águas da terra.</em>
+        <br>&bull; Desconstrução: <span class="aljamiado-naskh ar">وها</span> + <span class="aljamiado-naskh ar">ریوها</span> + <span class="aljamiado-naskh ar">كوهم</span> + <span class="aljamiado-naskh ar">پرہ</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">مر</span> + <span class="aljamiado-naskh ar">ی</span> + <span class="aljamiado-naskh ar">رنوم</span> + <span class="aljamiado-naskh ar">اها</span> + <span class="aljamiado-naskh ar">اگوها</span> + <span class="aljamiado-naskh ar">دا</span> + <span class="aljamiado-naskh ar">تہہ</span>.
+        <br>&bull; Costura Final: <span class="aljamiado-naskh ar">وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.</span>
+      </li>
+    </ul>
 
     <!-- Matriz Completa de Formas Posicionais -->
     <h2>Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)</h2>
@@ -878,7 +585,7 @@
     <div style="background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 1.5rem; text-align: center; margin-top: 3rem;">
       <h3 style="color: var(--gold-accent); margin-top: 0;">🎉 Parabéns!</h3>
       <p style="color: var(--text-muted); max-width: 700px; margin: 0.5rem auto 1.2rem auto;">
-        Você concluiu o percurso gradual do <strong>Aljamiado Português</strong>. Agora você conhece a estrutura das letras, a conexão cursiva e a lógica dos plurais.
+        Você concluiu o percurso gradual do <strong>Aljamiado Português</strong>. Agora você conhece a estrutura das letras, a conexão cursiva e a anatomia das palavras.
       </p>
       <a href="index.html" class="btn-big-toggle" style="text-decoration: none; display: inline-flex;">
         📖 Consultar a Especificação Ortográfica Completa (index.html)
