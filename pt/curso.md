@@ -14,6 +14,7 @@
 - Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas
 - Lição 7: Síntese de Leitura e Costura de Frases
 - A Arte da Grafia Vocálica: Equilibrando Economia Ortográfica e Evitação de Ambiguidade
+- O Sistema de Mater Lectionis para Encontros Vocálicos
 - Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
 
 # Bem-Vindo ao Curso Gradual
@@ -418,6 +419,96 @@ Este é um dos aspectos mais elegantes da dinâmica do Aljamiado:
 #+END_EXPORT
 
 Esta dinâmica entre **economia** e **clareza** é o segredo para ler e escrever Aljamiado com naturalidade. Para consultar as regras detalhadas de ditongos, numerais e logogramas, veja a [[file:index.org][Especificação Ortográfica Principal (index.org)]].
+
+
+# O Sistema de Mater Lectionis para Encontros Vocálicos
+
+Outra chave mestra para a leitura e escrita no Aljamiado Português é compreender como o alfabeto perso-árabe lida com as **5 vogais do português** (*a, e, i, o, u*).
+
+Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas, ele utiliza o sistema tradicional de **Mater Lectionis** ("Mães de Leitura"): a grafia **atrai cada som vocálico para a vogal longa ou semivogal foneticamente mais próxima**.
+
+**A Regra da Proximidade Fonética:**
+
+1. **Alif (`ا` / `آ`) $\rightarrow$ A Família Central do [a]**:
+   - Atrai o som do **A** tónico e atua como suporte de início de palavra (*a* `ا`, *já* `ژا`, *água* `آگوه`).
+   - Nos ditongos abertos, une-se a Waw ou Ye para diferenciar o timbre (*pau* `پاو` vs. *pó* `پو`).
+
+2. **Waw (`و`) $\rightarrow$ A Família Labial/Posterior ([o], [u], [w])**:
+   - Atrai tanto o **O** quanto o **U**, além da semivogal [w].
+   - *Ditongos Posteriores*: *ou* (`او`), *ao* (`او`), *pau* (`پاو`), *meu* (`میو`), *rio* (`ریو`).
+   - Como o português aproxima foneticamente o *o* atónico final do *u* (`[u]`), ambos são representados naturalmente por **Waw (`و`)** (*livro* `لیورو`, *como* `كمو`, *tudo* `تودو`).
+
+3. **Ye (`ی` / `ى`) $\rightarrow$ A Família Palatal/Anterior ([e], [i], [j])**:
+   - Atrai tanto o **E** tónico quanto o **I**, além da semivogal [j].
+   - *Ditongos Anteriores*: *pai* (`پای`), *gostei* (`گوستى`), *lei* (`لی`), *raiz* (`رایز`).
+   - As vogais tónicas elevadas utilizam **Ye** para marcar o pico silábico (*vida* `ویدہ`, *riqueza* `ریكزہ`).
+
+4. **Gol He (`ہ` / `ـه`) $\rightarrow$ As Vogais Atónicas Finais Breves ([ɐ], [i]/[e])**:
+   - Reservado para o relaxamento vocálico em fim de palavra (*-a* e *-e* atónicos: *boa* `بوہ`, *que* `كہ`, *para* `پرہ`).
+
+**Tabela de Mapeamento de Ditongos e Encontros Vocálicos:**
+
+#+BEGIN_EXPORT html
+<div class="course-table-wrapper">
+<table class="course-table">
+  <thead>
+    <tr>
+      <th>Encontro Vocálico / Ditongo</th>
+      <th>Suportes Utilizados (Mater Lectionis)</th>
+      <th>Exemplo em Português</th>
+      <th>Grafia no Aljamiado</th>
+      <th>Mapeamento Fonético</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>-au / -ao</strong></td>
+      <td>Alif + Waw (<span class="aljamiado-naskh ar">او</span>)</td>
+      <td>pau / ao / ou</td>
+      <td><span class="aljamiado-naskh ar">پاو</span> / <span class="aljamiado-naskh ar">او</span></td>
+      <td>Alif (central [a]) + Waw (posterior [w])</td>
+    </tr>
+    <tr>
+      <td><strong>-ai / -ay</strong></td>
+      <td>Alif + Ye (<span class="aljamiado-naskh ar">ای</span>)</td>
+      <td>pai / raiz / mais</td>
+      <td><span class="aljamiado-naskh ar">پای</span> / <span class="aljamiado-naskh ar">رایز</span> / <span class="aljamiado-naskh ar">مایس</span></td>
+      <td>Alif (central [a]) + Ye (palatal [j])</td>
+    </tr>
+    <tr>
+      <td><strong>-ei / -é</strong></td>
+      <td>Ye final (<span class="aljamiado-naskh ar">ـى</span> / <span class="aljamiado-naskh ar">ـی</span>)</td>
+      <td>gostei / até / fé</td>
+      <td><span class="aljamiado-naskh ar">گوستى</span> / <span class="aljamiado-naskh ar">اتى</span> / <span class="aljamiado-naskh ar">فی</span></td>
+      <td>Ye (palatal [e]/[i]) atrai a terminação tónica</td>
+    </tr>
+    <tr>
+      <td><strong>-eu / -iu</strong></td>
+      <td>Ye + Waw (<span class="aljamiado-naskh ar">یو</span>)</td>
+      <td>meu / rio / seu</td>
+      <td><span class="aljamiado-naskh ar">میو</span> / <span class="aljamiado-naskh ar">ریو</span> / <span class="aljamiado-naskh ar">سیو</span></td>
+      <td>Ye (anterior) + Waw (posterior [w])</td>
+    </tr>
+    <tr>
+      <td><strong>-ão (Nasal)</strong></td>
+      <td>Alif + Waw (<span class="aljamiado-naskh ar">او</span>)</td>
+      <td>não / razão / coração</td>
+      <td><span class="aljamiado-naskh ar">ناو</span> / <span class="aljamiado-naskh ar">رزاو</span> / <span class="aljamiado-naskh ar">كرچاو</span></td>
+      <td>Digrama vocálico padrão para o ditongo nasal [ɐ̃w]</td>
+    </tr>
+    <tr>
+      <td><strong>-ões (Nasal Plural)</strong></td>
+      <td>Waw + Ye + Gol He + Alif (<span class="aljamiado-naskh ar">ویها</span>)</td>
+      <td>razões / corações</td>
+      <td><span class="aljamiado-naskh ar">رزویها</span> / <span class="aljamiado-naskh ar">كرچویها</span></td>
+      <td>Ditongo nasal [õj̃ʃ] + logograma de plural -hā</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+#+END_EXPORT
+
+Com o domínio das 21 letras, do balanço de economia e da atração das *Mater Lectionis*, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 
 
 # Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
