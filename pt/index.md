@@ -115,10 +115,8 @@ O projeto **Aljamiado Português** consolida-se como um padrão ortográfico for
 3. **Acolhimento e Integração Social de Refugiados Persófonos (Iranianos, Afegãos e Tadjiques)**:
    Proporcionar aos refugiados, imigrantes e famílias persófonas (falantes de Farsi, Dari e Pashto) no Brasil e em países de língua portuguesa uma plataforma única de alfabetização e aculturação. Ao apresentar o português adaptado diretamente ao alfabeto persa com o qual já possuem familiaridade nativa, o sistema acelera drasticamente a assimilação da língua portuguesa e a sua inclusão social e profissional.
 
-4. **Pesquisa Acadêmica e Psicolinguística na Universidade de São Paulo (USP)**:
-   Servir de base para investigações científicas no âmbito da Universidade de São Paulo (USP) e outras instituições de ensino superior, explorando temas como a transferência interlinguística de sistemas de escrita, psicolinguística da leitura em escritas bidirecionais e os processos cognitivos de adaptação de alfabetos semíticos a línguas neolatinas.
 
-5. **Ecossistema Completo e Roteiro de Expansão Institucional**:
+4. **Ecossistema Completo e Roteiro de Expansão Institucional**:
    O projeto conta com um ecossistema tecnológico e pedagógico em plena evolução:
    - **Curso Gradual e Didático**: Um programa de aprendizado passo a passo disponível em [[file:curso.org][curso.org]], estruturado desde o traço inicial dos não-conectores até a fluência em textos complexos.
    - **Plataforma Tipográfica Interativa**: Suporte nativo à alternância instantânea entre as fontes **Naskh** (padrão linear do Alcorão) e **Nastaliq** (estilo persa/urdu), garantindo acessibilidade a todos os perfis de leitores.
