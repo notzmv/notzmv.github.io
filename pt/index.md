@@ -502,8 +502,8 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
 Para explicações instrucionais e análise pedagógica em manuais da ortografia, formaliza-se o uso do **Tanwīn Didático** para tornar visíveis as vogais implícitas ou não marcadas no esqueleto consonantal (*Rasm*).
 
 *Atenção*: O Tanwīn e os diacríticos são estritamente pedagógicos e **nunca são utilizados na escrita diária do Aljamiado**:
-- **Fathatan (`ً`)**: Indica **A tónico implícito** em esqueleto consonantal sem Alif (*prática* `پرًكتيكہ`).
-- **Kasratan (`ٍ`)**: Indica **I atónico ou implícito** em sílaba sem Ye (*ultimamente* `التٍمنتہ`).
+- **Fathatan (`ً`)**: Indica **A tónico implícito** em esqueleto consonantal sem Alif (*prática* `پرًتكہ`).
+- **Kasratan (`ٍ`)**: Indica **I tónico/atónico implícito** em sílaba sem Ye (*mínimo* `مٍنمو`).
 - **Dammatan (`ٌ`)**: Indica **U tónico implícito** em sílaba sem Waw (*estúpido* `استٌپدو`).
 
 ## Economia de Ye Atónico em Formantes e Sufixos Polissilábicos
