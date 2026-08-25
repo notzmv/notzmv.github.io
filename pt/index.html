@@ -198,12 +198,21 @@
       margin-top: 0.3rem;
     }
 
-    body.font-nastaliq .aljamiado-naskh {
-      display: none;
+    /* Basmala Hero Isolation (Always Visible with Custom Colors) */
+    .basmala-hero .ar-basmala-naskh {
+      font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
+      color: var(--primary-accent) !important;
+      display: block !important;
     }
-
-    body.font-naskh .aljamiado-nastaliq {
-      display: none;
+    .basmala-hero .aljamiado-basmala-nastaliq {
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', serif !important;
+      color: #34d399 !important;
+      display: block !important;
+    }
+    .basmala-hero .aljamiado-basmala-naskh {
+      font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
+      color: #6ee7b7 !important;
+      display: block !important;
     }
 
     /* Corpus Cards Isolation (Both Rows Always Visible) */
@@ -451,20 +460,29 @@
       font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
     }
 
-    body.font-nastaliq .ar:not(.nastaliq-card-row):not(.naskh-card-row),
-    body.font-nastaliq .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row),
-    body:not(.font-naskh) .ar:not(.nastaliq-card-row):not(.naskh-card-row),
-    body:not(.font-naskh) .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif !important;
+    .ar, .perso-arabic {
+      direction: rtl;
+      unicode-bidi: isolate;
+      font-size: 1.8rem;
       line-height: 2.4;
-      color: #fbbf24 !important;
+      color: #fbbf24;
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
     }
 
-    body.font-naskh .ar:not(.nastaliq-card-row):not(.naskh-card-row),
-    body.font-naskh .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
-      font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif !important;
+    body.font-nastaliq .ar,
+    body.font-nastaliq .perso-arabic,
+    body:not(.font-naskh) .ar,
+    body:not(.font-naskh) .perso-arabic {
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
+      line-height: 2.4;
+      color: #fbbf24;
+    }
+
+    body.font-naskh .ar,
+    body.font-naskh .perso-arabic {
+      font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif;
       line-height: 1.8;
-      color: #f472b6 !important;
+      color: #f472b6;
     }
 
       .perso-arabic {
