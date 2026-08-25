@@ -490,7 +490,7 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
       <td>Ye (anterior) + Waw (posterior [w])</td>
     </tr>
     <tr>
-      <td><strong>-ão (Nasal)</strong></td>
+      <td><strong>-ão (Nasal Singular)</strong></td>
       <td>Alif + Waw (<span class="aljamiado-naskh ar">او</span>)</td>
       <td>não / razão / coração</td>
       <td><span class="aljamiado-naskh ar">ناو</span> / <span class="aljamiado-naskh ar">رزاو</span> / <span class="aljamiado-naskh ar">كرچاو</span></td>
@@ -508,7 +508,15 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
 </div>
 #+END_EXPORT
 
-Com o domínio das 21 letras, do balanço de economia e da atração das *Mater Lectionis*, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
+**O Paradigma Alternante: *-ço / -ção / -ções* (ـچو / ـچاو / ـچویها) e *-são / -sões* (ـزاو / ـزویها)**
+
+Uma das alternâncias morfológicas de maior relevância prática no Aljamiado Português é o trio **-ço / -ção / -ções** (e a sua paralela **-são / -sões**):
+- **Base em *-ço***: Grafado com Chā e Waw final: **`ـچو`** (*pedaço* ~پدچo~ $\rightarrow$ ~پدچو~, *laço* ~لاچو~).
+- **Singular em *-ção***: O ditongo nasal atrai o Alif e Waw: **`ـچاو`** (*coração* ~كرچاو~, *nação* ~نچاو~, *opção* ~اپچاو~).
+- **Plural em *-ções***: O ditongo nasal flexionado une a vocalização ~ـویـ~ ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچویها`** (*corações* ~كرچویها~, *nações* ~نچویها~, *opções* ~اپچویها~).
+- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) ou Sīn (`س`): *razão* ~رزاو~ $\rightarrow$ *razões* ~رزویها~; *visão* ~ویساو~ $\rightarrow$ *visões* ~ویسویها~.
+
+Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis* e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 
 
 # Matriz Completa de Formas Posicionais (21 Letras nas 4 Posições)
