@@ -367,7 +367,14 @@ A escrita perso-árabe é fundamentalmente **consonantal e cursiva**. Dominá-la
   - *pó* (~پو~) vs. *pau* (~پاو~) — O Alif explicita o ditongo aberto ~au~.
   - *caro* (~كرو~ com Rā simples) vs. *carro* (~كاهو~ com He para RR).
 - **Sílaba Tónica e Ditongos**: Vogais tónicas fortes e ditongos mantêm seus suportes mater lectionis (~ا~, ~و~, ~ی~) para marcar o pico de intensidade da palavra (*riqueza* ~ریكزہ~, *vida* ~ویدہ~).
-- **Termos Incomuns e Nomes Próprios**: Palavras raras ou nomes estrangeiros devem ser grafados de forma mais explícita para guiar a leitura sem hesitação.
+
+**3. A Delicadeza do Tamanho da Palavra: Palavras Curtas vs. Palavras Longas**
+Este é um dos aspectos mais elegantes da dinâmica do Aljamiado:
+- **Palavras Curtas (Monossilábicas e Bissilábicas)**: Possuem pouca ancoragem consonantal. Por isso, **precisam com muito mais frequência de vogais desambiguadoras** para não colidirem visualmente com outros vocábulos (*pó* ~پو~, *pau* ~پاو~, *fé* ~فی~, *voz* ~وز~).
+- **Palavras Longas (Polissilábicas)**: Carregam uma estrutura de consoantes única e inconfundível. Nelas, **frequentemente muitas (ou mesmo todas as vogais internas não-finais) podem ser inteiramente descartadas**, pois o contexto e o esqueleto consonantal garantem o reconhecimento imediato:
+  - *sabedoria* $\rightarrow$ ~سبدریہ~ (descarte total das vogais mediais *a* e *e*).
+  - *generosidade* $\rightarrow$ ~جنرزددہ~ (descarte de todas as vogais internas *e*, *o*, *i*).
+  - *esperança* $\rightarrow$ ~اسپرنچہ~ (descarte das vogais internas).
 
 **A Escala Deslizante de Proficiência:**
 
@@ -393,17 +400,17 @@ A escrita perso-árabe é fundamentalmente **consonantal e cursiva**. Dominá-la
     </tr>
     <tr>
       <td><strong>Econômico / Fluente</strong></td>
-      <td>Maximizar a velocidade de escrita manual e a elegância visual.</td>
-      <td>para / como</td>
-      <td><span class="aljamiado-naskh ar">پرہ</span> / <span class="aljamiado-naskh ar">كمو</span></td>
-      <td>Suprime-se o <i>a</i> medial atónico, confiando na estrutura consonantal previsível.</td>
+      <td>Maximizar a velocidade de escrita manual e a elegância visual em palavras longas.</td>
+      <td>sabedoria / generosidade</td>
+      <td><span class="aljamiado-naskh ar">سبدریہ</span> / <span class="aljamiado-naskh ar">جنرزددہ</span></td>
+      <td>Larga-se a totalidade das vogais internas não-finais, apoiando-se no esqueleto consonantal único.</td>
     </tr>
     <tr>
       <td><strong>Desambiguador</strong></td>
-      <td>Evitar colisão de significado entre palavras homógrafas.</td>
+      <td>Evitar colisão de significado em palavras curtas ou homógrafas.</td>
       <td>pau vs. pó</td>
       <td><span class="aljamiado-naskh ar">پاو</span> vs. <span class="aljamiado-naskh ar">پو</span></td>
-      <td>Insere-se o Alif em <i>pau</i> para desambiguar visualmente de <i>pó</i>.</td>
+      <td>Insere-se o Alif em palavras curtas para evitar colisões vocálicas.</td>
     </tr>
   </tbody>
 </table>
