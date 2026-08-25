@@ -303,32 +303,6 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
 
 
-## Mapeamento Ortográfico da Letra X (Fono-Ortográfico)
-A letra **X** não possui um valor único fixo e é mapeada estritamente de acordo com a sua realização fonética real:
-- **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
-  - *táxi* $\rightarrow$ `تاچی`
-  - *fixo* $\rightarrow$ `فيچو`
-  - *anexo* $\rightarrow$ `انيچو`
-  - *tóxico* $\rightarrow$ `توچیكو`
-- **X com som de /ʃ/** (som de *ch* / *sh*, ex.: *caixa*, *lixo*, *xadrez*, *enxame*): Mapeia para **Šīn** (`ش`) ou **Chā** (`چ`):
-  - *lixo* $
-ightarrow$ `لیشو` / `لیچو`
-  - *caixa* $
-ightarrow$ `كیشہ` / `كیچہ`
-  - *xadrez* $
-ightarrow$ `شدرز` / `چدرز`
-- **X com som de /s/** (som de *s* surdo, ex.: *sintaxe*, *texto*, *próximo*): Mapeia para **Sīn** (`س`):
-  - *sintaxe* $\rightarrow$ **`سينتسہ`** (pronunciado *sintasse* com /s/)
-  - *texto* $
-ightarrow$ `تكستو`
-  - *próximo* $
-ightarrow$ `پروچسیمو` / `پرچسیمو`
-- **X com som de /z/** (som de *z* sonoro, ex.: *exame*, *exemplo*): Mapeia para **Zāy** (`ز`):
-  - *exame* $
-ightarrow$ `إزامہ` / `ازمہ`
-  - *exemplo* $
-ightarrow$ `إزملو` / `ازملو` $\rightarrow$ `إزملو` / `ازملو`
-
 ## Distinção R vs. RR (Rā vs. He)
 As vibrantes e tepes são divididas com base na posição silábica e no contraste fonológico:
 - **R simples intervocálico ou brando (tepe alveolar [ɾ])**: Mapeia estritamente para **Rā** (`ر`):
@@ -340,7 +314,7 @@ As vibrantes e tepes são divididas com base na posição silábica e no contras
 - **RR duplo intervocálico ([ʁ] / [h])**: Mapeia **prioritariamente para He** (`ه` / `ـہ` - Gol He Urdu) para estabelecer uma oposição gráfica imediata com o R simples intervocálico (*caro* `كرو` vs. *carro* `كاهو`). A escrita de RR com **Rā** (`ر`) é secundária, reservada especificamente para dialetos com vibrante alveolar (*trill* [r]):
   - *carro* $\rightarrow$ **`كاهو`** (variante dialetal com Rā: `كارو`)
   - *terra* $\rightarrow$ **`تہہ`** (um *He* `ه` para *rr* + um *He* final `ہ` para *-a*; variante dialetal com Rā: `تره`)
-- **R inicial (word-initial R-)**: O R inicial forte é grafado **estritamente e exclusivamente por Rā (`ر`)** (*rio* `ریو`, *rua* `روه`, *raiz* `رایز`, *regra* `رگرہ`, *riqueza* `ریكزہ`, *renovam* `رنوم`). A letra **Hā / He (`ه` / `ہ`)** em posição inicial é reservada exclusivamente para representar o **H mudo latino** da raiz (*homem* `همم`, *honra* `هنرہ`, *hoje* `هژہ`), estabelecendo uma regra ortográfica unívoca e sem ambiguidades entre *H-* mudo e *R-* forte inicial:
+- **R inicial (word-initial R-)**: O R inicial forte é grafado **estritamente e exclusivamente por Rā (`ر`)** (*rio* `ریو`, *rua* `روه`, *raiz* `رایز`, *regra* `رگرہ`, *riqueza* `ریكزہ`, *renovam* `رنوم`). A letra **Hā / He (`ه` / `ہ`)** em posição inicial é reservada exclusivamente para representar o **H mudo latino** da raiz (*homem* `همم`, *honra* `هنرہ`, *hoje* `هژہ`, *hoje* `هژہ`), estabelecendo uma regra ortográfica unívoca e sem ambiguidades entre *H-* mudo e *R-* forte inicial:
   - *rio* $\rightarrow$ **`ریو`**
   - *rua* $\rightarrow$ **`روه`**
   - *raiz* $\rightarrow$ **`رایز`**
@@ -448,25 +422,6 @@ Nas palavras **paroxítonas** (acentuação regular na penúltima sílaba), as v
 
 Em contraste, as **não-paroxítonas** (proparoxítonas e oxítonas) exigem letras de *mater lectionis* tónicas quando necessário (ex.: *gramática* `گرامتیكہ` com Alif tónico `ا`, *fonética* `فنيتكہ` com Ye tónico `ی`).
 
-## Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
-O sistema vocálico aljamiado opera sob o princípio da **economia escalar por comprimento de palavra**:
-
-1. **Palavras Curtas (Monossílabos e Dissílabos)**: Devido à escassez de contexto consonantal, palavras curtas exigem a marcação explícita de vogais/ditongos para desambiguar pares mínimos:
-   - *bom* $\rightarrow$ **`بم`**
-   - *bum* $\rightarrow$ **`بوم`**
-   - *bim* $\rightarrow$ **`بیم`**
-
-2. **Palavras Longas (Polissílabos)**: Palavras longas possuem redundância consonantal suficiente para dispensar *mater lectionis* atónicas internas, mantendo uma escrita altamente defectiva sem perda de legibilidade:
-   - *misericordioso* $\rightarrow$ **`مزریكردیوزو`** / **`مزركردیوزو`** (preservando apenas as vogais tónicas/essenciais).
-
-3. **Tríade de Convenções e o Logograma `-hā`**:
-   O comportamento do sufixo nominal de plural **`-hā`** (`ـها`) interage harmoniosamente com a economia vocálica no grupo derivacional de *convenção*:
-   - *convenço* (1ª pess. sing. pres. ind.) $\rightarrow$ **`كنونچو`** (terminado em Waw `و` verbal).
-   - *convenção* (substantivo sing.) $\rightarrow$ **`كنونچاو`** (terminado em `-ão` `او`).
-   - *convenções* (substantivo plur.) $\rightarrow$ **`كنونچوها`** (com sufixo nominal `-hā` `ـها` anexado diretamente a `كنونچو`).
-
-   A anexação do logograma **`-hā`** a **`كنونچو`** gera **`كنونچوها`**, que é distinguido de *convenço* (`كنونچو`) pelo próprio logograma de plural, dispensando a necessidade de inserir uma letra vocálica interna extra para marcar o ditongo secundário *-õe-*.
-
 ## Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)
 Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica semítica clássica (*Rasm*), as vogais médias/baixas breves (**a**, **e**, **o**) dentro de sílabas internas simples e não-ditongais **não** requerem letras explícitas de *mater lectionis* (Alif `ا`, Ye `ی`, Waw `و`).
 
@@ -499,13 +454,10 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
    - **Vogais Altas (i e u)**: As vogais altas internas distintas *i* [i] e *u* [u] mantêm Ye (`ی`) e Waw (`و`) para preservar a identidade fonológica (ex.: *livro* `لیورو`, *minha* `مینیہ`).
 
 ## Notação de Tanwīn Didático (Demonstração Pedagógica de Vogais Implícitas)
-Para explicações instrucionais e análise pedagógica em manuais da ortografia, formaliza-se o uso do **Tanwīn Didático** para tornar visíveis as vogais implícitas ou não marcadas no esqueleto consonantal (*Rasm*).
-
 *Atenção*: O Tanwīn e os diacríticos são estritamente pedagógicos e **nunca são utilizados na escrita diária do Aljamiado**:
-- **Fathatan (`ً`)**: Indica **A tónico implícito** em esqueleto consonantal sem Alif (*prática* `پرًتكہ`).
-- **Kasratan (`ٍ`)**: Indica **I tónico/atónico implícito** em sílaba sem Ye (*mínimo* `مٍنمو`).
-- **Dammatan (`ٌ`)**: Indica **U tónico implícito** em sílaba sem Waw (*estúpido* `استٌپدو`).
-
+- O **Tanwīn Fathah / Fathatan** (`/ ً`) marca a vogal aberta *a* implícita em posição tónica ou secundária didática (ex.: *prática* $\\rightarrow$ **`پرًتكہ`**).
+- O **Tanwīn Kasrah / Kasratan** (`/ ٍ`) marca a vogal alta *i* implícita didática (ex.: *mínimo* $\\rightarrow$ **`مٍنمو`**).
+- O **Tanwīn Dammah / Dammatan** (`/ ٌ`) marca a vogal alta *u* ou média *o* implícita didática (ex.: *estúpido* $\\rightarrow$ **`استٌپدو`**).
 ## Economia de Ye Atónico em Formantes e Sufixos Polissilábicos
 Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílaba (paroxítonas), as vogais atónicas atenuadas *i* e *e* presentes em sufixos e formantes produtivos derivacionais **não necessitam de Ye (`ی`)**:
 1. **Sufixo *-idade***: Grafado estritamente como **`ـددہ`** (Dāl-Dāl-Gol He), pois a acentuação penúltima em *-da-* torna a vogal anterior atónita e redundante no esqueleto consonantal.
@@ -529,13 +481,12 @@ Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílab
    - *voam* $\rightarrow$ **`ووام`**
 
 ## A Hierarquia de Prioridades Ortográficas (A Busca pelo Equilíbrio)
-O sistema de escrita Aljamiado Português evoluiu a partir da tentativa inicial de replicar o sistema persa (em que as vogais breves A, O, E eram omissas ou dependentes de diacríticos). Ao constatar o incômodo dos diacríticos na escrita manual, o sistema migrou para uma **Hierarquia de 4 Prioridades Ortográficas** baseada em *mater lectionis* por proximidade fonética:
+O sistema opera mediante uma **Hierarquia de 4 Níveis de Prioridades Ortográficas** baseada em *mater lectionis* por proximidade fonética:
 
-1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پایس`, *raiz* `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
+1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پایس`, *raiz* `رayz` / `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
 2. **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
-3. **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* e *Waw*, reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
-4. **Prioridade 4 — Adequação ao Público, Autonomia e Gosto Pessoal**: O grau de explicitação desliza livremente entre o *Modo Econômico* (notas pessoais rápidas) e o *Modo Didático* (textos formais). A navegação no espectro de grafias é adquirida organicamente com a prática, permitindo que cada escriba imprima a sua própria sensibilidade estética e gosto pessoal ao equilibrar compacidade e clareza (ex.: *sabedoria* como `سبدریہ` ou `سبدوریا`).
-
+3. **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* (`ی`) e *Waw* (`و`), reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
+4. **Prioridade 4 — Vogais Médias e Baixas Atónicas**: Em sílabas internas simples, *a*, *e*, *o* atónicos são estritamente defectivos (*processo* `پرچسو`, *gente* `جنتہ`).
 ## Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
 A omissão e redução vocálica no Aljamiado Português seguem uma **escala inversa em relação ao comprimento da palavra**: quanto mais longa for a palavra, maior é a sua redundância fonológica e contextual, permitindo que a maioria das suas vogais pré-tónicas seja reduzida ou omitida sem qualquer perda de legibilidade. Em contrapartida, palavras curtas (monossilábicas ou dissilábicas) possuem baixa redundância e alta carga funcional, exigindo *mater lectionis* explícitas para desambiguar pares mínimos.
 
@@ -554,63 +505,6 @@ A omissão e redução vocálica no Aljamiado Português seguem uma **escala inv
    - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
    - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `ك* 3. Motor de Nasalização
 
-## Regras Gerais de Nasalização (Mīm `م` vs. Nūn `ن`)
-O sistema de nasalização no Aljamiado Português segue uma distribuição foneticamente lógica e elegante:
-1. **Mīm (`م`)**:
-   - É o **marcador padrão para todas as vogais nasais em fim de palavra** (*bom* `بم`, *gem* `جم`, *homem* `همم`, *com* `كم`, *sim* `سم`, *-ão* `اوم`).
-   - É empregado antes das consoantes labiais **p** e **b** (*campo* `كمپو`, *também* `تمبم`), respeitando a norma ortográfica tradicional portuguesa.
-2. **Nūn (`ن`)**:
-   - É o marcador nasal utilizado **antes de todas as outras consoantes** (t, d, c, g, s, f, z, ch, etc.):
-     - *gente* $\rightarrow$ `جنتہ`
-     - *esperança* $\rightarrow$ `اسپرنچہ`
-     - *análise* $\rightarrow$ `انالیزہ`
-     - *honra* $\rightarrow$ `هنرہ`
-
-## Ditongos Nasais (-ão = اوم vs. -au = او)
-O ditongo nasal **-ão** é grafado canonicamente como **`اوم`** (*Alif-Waw-Mīm*), incorporando o Mīm final como elemento nasalizador. Nas escritas econômicas/rápidas, o Mīm final pode ser omitido (`او`), mas **`اوم`** é o padrão de máxima clareza:
-
-1. **Desambiguação Perfeita de Pares Mínimos (-ão vs. -au)**:
-   - **pão** [pɐ̃w̃] $\rightarrow$ **`پاوم`** (Pā + Alif + Waw + Mīm) $\neq$ **pau** [paw] $\rightarrow$ **`پاو`** (Pā + Alif + Waw)
-   - **mão** [mɐ̃w̃] $\rightarrow$ **`ماوم`** (Mīm + Alif + Waw + Mīm) $\neq$ **mau** [maw] $\rightarrow$ **`ماو`** (Mīm + Alif + Waw)
-   - **não** [nɐ̃w̃] $\rightarrow$ **`ناوم`** (ou defectivo `ناو`)
-   - **coração** [ko.ɾɐ'sɐ̃w̃] $\rightarrow$ **`كرچاوم`** (ou defectivo `كرچاو`)
-   - **razão** [ʁɐ'zɐ̃w̃] $\rightarrow$ **`رزاوم`** (ou defectivo `رزاو`)
-
-2. **Flexão de Plural Nominal em *-ções* / *-sões***:
-   - **-ções** (plural de *-ção* `ـچاوم`): Grafado canonicamente como **`ـچومها`** / **`ـچویمها`** (ou `ـچویها`): *corações* $\rightarrow$ **`كرچومها`** / **`كرچویها`**, *nações* $\rightarrow$ **`نچومها`** / **`نچویها`**.
-   - **-sões / -zões** (plural de *-são / -zão* `ـزاوم` / `ـساوم`): *razões* $\rightarrow$ **`رزومها`** / **`رزویها`**, *missões* $\rightarrow$ **`مسومها`** / **`مسویها`**./ `ـا`)
-   - **[i] / [e] / [j]** $\rightarrow$ **Ye** (`ی` / `ـی` ou *Chhoti Yeh* Urdu `ی` / `ـی`)
-   - **[u] / [o] / [w]** $\rightarrow$ **Waw** (`و` / `ـو`)
-   - **Vogais Mudar em Fim de Palavra (-a / -e)** $\rightarrow$ **He Mudo de estilo Urdu** (*gol he / chhoti he*: `ه` / `ـہ`), servindo como uma libertação vocálica suave sem fricção consonantal.
-
-2. **Tabela do Paradigma de Ditongos e Tritongos**:
-
-| Tipo Vocálico | Agrupamento Latino | Som IPA | Mapeamento Perso-Árabe | Exemplo de Palavra | Escrita Aljamiada | Decomposição Estrutural |
-|---------------+--------------------+---------+------------------------+--------------------+-------------------+-------------------------|
-| **Ditongo Decrescente** | *-ai* / *-ai-* | [aj] | **Alif + Ye** (`ای`) | *pai* / *mais* | `پای` / `مایها` | Pā + Alif + Ye |
-| **Ditongo Decrescente** | *-ei* / *-ei-* | [ej] / [ɛj] | **Ye + Ye** (`یی`) | *fiquei* / *leite* | `فیكیی` / `لییتہ` | Fā + Ye + Kāf + Ye + Ye |
-| **Ditongo Decrescente** | *-eu* / *-eu-* | [ew] / [ɛw] | **Ye + Waw** (`یو`) | *eu* / *meu* / *seu* | `یو` / `میو` / `سیو` | Ye + Waw / Mīm + Ye + Waw |
-| **Ditongo Decrescente** | *-iu* / *-iu-* | [iw] | **Ye + Waw** (`یو`) | *viu* / *partiu* | `ویو` / `پارتیو` | Waw + Ye + Waw |
-| **Ditongo Decrescente** | *-oi* / *-oi-* | [oj] / [ɔj] | **Waw + Ye** (`وی`) ou **Waw** (`و`) | *foi* / *coisa* | `فوی` / `كویزہ` (ou `كوزہ`) | Fā + Waw + Ye / Kāf + Waw + Zāy + He |
-| **Ditongo Decrescente** | *-ou* / *-ou-* | [ow] / [o] | **Waw + Waw** (`وو`) | *sou* / *falou* | `سوو` / `فالوو` | Sīn + Waw + Waw |
-| **Ditongo Decrescente** | *-ui* / *-ui-* | [uj] | **Waw + Ye** (`وی`) | *fui* / *muito* | `فوی` / `مویتو` | Mīm + Waw + Ye + Tā + Waw |
-| **Ditongo Decrescente** | *-au* / *-au-* | [aw] | **Alif + Waw** (`او`) | *pau* / *mau* | `پاو` / `ماو` | Pā + Alif + Waw |
-| **Ditongo Crescente / Hiato** | *-ia* | [i.ɐ] / [jɐ] | **Ye + He Mudo** (`یہ` / `ـیہ`) | *dia* | `دیہ` / `دِیہ` | Dāl + Ye + Gol He Urdu |
-| **Ditongo Crescente / Hiato** | *-ie* | [i.e] / [je] | **Ye + Ye + He Mudo** (`ییہ`) | *série* | `سیریہ` / `سیرییہ` | Sīn + Ye + Rā + Ye + He Mudo |
-| **Ditongo Crescente / Hiato** | *-io* | [i.u] / [ju] | **Ye + Waw** (`یو`) | *rio* / *frio* | `ریو` / `فریو` | Rā + Ye + Waw |
-| **Ditongo Crescente / Hiato** | *-ua* | [u.ɐ] / [wɐ] | **Waw + He Mudo** (`وه` / `ـوه`) | *rua* / *sua* | `روه` / `سوه` | Rā + Waw + Gol He Urdu |
-| **Ditongo Crescente / Hiato** | *-ue* | [u.e] / [we] | **Waw + Ye + He Mudo** (`ویہ`) | *estátua* / *statue* | `استاتوه` / `یستاتویہ` | Alif + Sīn + Tā + Alif + Tā + Waw + He Mudo |
-| **Tritongo** | *-uai* | [waj] | **Waw + Alif + Ye** (`وای`) | *Paraguai* | `پرہگوای` | Pā + Rā + Gāf + Waw + Alif + Ye |
-| **Tritongo** | *-uei* | [wej] | **Waw + Ye + Ye** (`ویی`) | *enxaguei* | `ینشاگویی` | Alif + Nūn + Shīn + Alif + Gāf + Waw + Ye + Ye |
-
-3. **Representação de Hiatos por Mater Lectionis (Sem Hamzah)**:
-   Hiatos com vogais altas tónicas (*i* ou *u*) como *país*, *saúde* e *baú* utilizam os suportes de *mater lectionis* padrão (**`ای`** e **`او`**) diretamente, sem qualquer necessidade de diacrítico Hamzah:
-   - **país** [pɐ'iʃ] $\rightarrow$ **`پایس`** (Pā + Alif + Ye + Sīn) $\neq$ **pais** [pajʃ] (plural de pai) $\rightarrow$ **`پایها`**
-   - **saúde** [sɐ'u.dɨ] $\rightarrow$ **`ساودہ`** (Sīn + Alif + Waw + Dāl + Gol He)
-   - **baú** [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif + Waw)
-
-# 3. Motor de Nasalização
-
 ## Nasais Monossilábicas, Desinências Verbais (-am, -em) e Fim de Sílaba
 Vogais nasais em fim de sílaba (*-m*, *-n*) neutralizam em **Mīm** (`م`):
 - *bom* $\rightarrow$ `بم`
@@ -625,26 +519,29 @@ As desinências verbais átonas de 3ª pessoa do plural em **-am** e **-em** tê
 - *trazem* $\rightarrow$ `ترزم`
 - *semeiam* $\rightarrow$ `سمیم`
 
-## Ditongos Nasais (-ão, -ãe, -õe)
-Os ditongos nasais grafam-se de forma pura e sintética com **`او`** (*Alif-Waw* para *-ão*), **`ای`** (*Alif-Ye* para *-ãe*), e **`وی`** (*Waw-Ye* para *-õe-*), **SEM QUALQUER Nūn (`ن`) EPENTÉTICO OU REDUNDANTE**:
-- **-ão** $\rightarrow$ **`او`** (*Alif-Waw*):
-  - *não* $\rightarrow$ **`ناو`** (consoante inicial Nūn `ن` da raiz + `-ão` `او`)
-  - *cão* $\rightarrow$ **`كاو`** (Kāf `ك` + `-ão` `او`; NUNCA inserir Nūn `ن`, formas como `كناو` são estritamente proibidas; plural *cães* $\rightarrow$ **`كایها`**)
-  - *pão* $\rightarrow$ **`پاو`** (Pā `پ` + `-ão` `او`)
-  - *mão* $\rightarrow$ **`ماو`** (Mīm `م` + `-ão` `او`)
-  - *coração* $\rightarrow$ **`كرچاو`** (Chā `چ` + `-ão` `او`)
-  - *gratidão* $\rightarrow$ **`گرتیداو`** (Dāl `د` + `-ão` `او`)
-  - *atenção* $\rightarrow$ **`اتنچاو`** (Chā `چ` + `-ão` `او`)
-  - *ação* $\rightarrow$ **`اچاو`** (Chā `چ` + `-ão` `او`)
-  - *convenção* $\rightarrow$ **`كنونچاو`** / **`كونونچاو`**
-  - Mantém uma distinção clara de *num* (`نم`) e *nem* (`نم`).
-- **-õe- / -ões** $\rightarrow$ **ویها** / **ـوها** (Waw-Ye `وی` para marcar a ditongação *-oe-* / *-õe-*, ou Waw `و` defectivo + logograma *-hā* `ـها`):
-  - *Alif-Waw* (`او`) é válido para *au* e *-ão* (*pau* `پاو`, *razão* `رزاو`), mas **estritamente proibido para *-oe-* / *-ões***, pois o ditongo não começa em /a/ (Alif `ا`).
-  - *razão* $\rightarrow$ `رزاو` (com *Alif-Waw* `او` para *-ão*)
-  - *razões* $\rightarrow$ `رزویها` (com *Waw-Ye* `وی` para marcar o ditongo *-oe-*, evitando homografia com *rasos* `رسوها`, ou defectivamente `رزوها`)
-  - *convenção* $\rightarrow$ `كنونچاو`
-  - *convenções* $\rightarrow$ `كنونچویها` / `كنونچوها`
-
+## Ditongos Nasais (-ão, -ãe, -õe) e Padrão AOM (Alif-Waw-Mīm)
+Os ditongos nasais grafam-se de acordo com a norma canónica **AOM (`اوم`)** para a terminação **-ão**, mantendo o contraste com o ditongo oral **-au (`او`)**:
+- **Padrão AOM (-ão $\rightarrow$ `اوم`)**:
+  - *não* $\rightarrow$ **`ناوم`** (consoante inicial Nūn `ن` + `-ão` `اوم`)
+  - *cão* $\rightarrow$ **`كاوم`** (Kāf `ك` + `-ão` `اوم`; plural *cães* $\rightarrow$ **`كایها`**)
+  - *pão* $\rightarrow$ **`پاوم`** (Pā `پ` + `-ão` `اوم`)
+  - *mão* $\rightarrow$ **`ماوم`** (Mīm `م` + `-ão` `اوم`)
+  - *coração* $\rightarrow$ **`كرچاوم`** (Chā `چ` + `-ão` `اوم`)
+  - *gratidão* $\rightarrow$ **`گرتیداوم`** (Dāl `د` + `-ão` `اوم`)
+  - *atenção* $\rightarrow$ **`اتنچاوم`** (Chā `چ` + `-ão` `اوم`)
+  - *ação* $\rightarrow$ **`اچاوم`** (Chā `چ` + `-ão` `اوم`)
+  - *convenção* $\rightarrow$ **`كنونچاوم`**
+  - *visão* $\rightarrow$ **`ویزاوم`**
+  - *missão* $\rightarrow$ **`مساوم`**
+  - *razão* $\rightarrow$ **`رزاوم`**
+- **Contraste com Ditongo Oral -au (`او`)**:
+  - *pau* $\rightarrow$ **`پاو`** (Pā + Alif + Waw) $\neq$ *pão* $\rightarrow$ **`پاوم`** (Pā + Alif + Waw + Mīm)
+  - *mau* $\rightarrow$ **`ماو`** (Mīm + Alif + Waw) $\neq$ *mão* $\rightarrow$ **`ماوم`** (Mīm + Alif + Waw + Mīm)
+  - *grau* $\rightarrow$ **`گراو`**
+- **Paradigmas Morfológicos de Plural (-ções, -sões, -zões)**:
+  - **-ço / -ção / -ções**: `ـچو` / `ـچاوم` / `ـچومها` / `ـچویها` (*coração* `كرچاوم` $\rightarrow$ *corações* `كرچومها` / `كرچویها`, *convenção* `كنونچاوم` $\rightarrow$ *convenções* `كنونچومها` / `كنونچویها`)
+  - **-são / -sões** & **-zão / -zões**: `ـزاوم` / `ـزومها` / `ـزویها` e `ـساوم` / `ـسومها` (*razão* `رزاوم` $\rightarrow$ *razões* `رزومها` / `رزویها`, *visão* `ویزاوم` $\rightarrow$ *visões* `ویزومها` / `ویزویها`, *missão* `مساوم` $\rightarrow$ *missões* `مسومها` / `مسویها`)
+  - **-ães**: `ـایها` (*cão* `كاوم` $\rightarrow$ *cães* `كایها`, *pão* `پاوم` $\rightarrow$ *pães* `پایها`)
 # 4. Regras Morfofonêmicas e Mapeamento de Domínio
 
 ## Regra I: Domínio de Número Nominal (-hā / ـها)
@@ -764,8 +661,8 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **canal** | *canais* | `كنل` | `كنایها` | Substituição *-ais* + *-hā* |
 | **papel** | *papéis* | `پپل` | `پپیسها` | Ditongo *-éis* + *-hā* nominal |
 | **homem** | *homens* | `همم` | `همنها` | Assimilação $m \to n$ + *-hā* |
-| **razão** | *razões* | `رزاو` | `رزویها` / `رزوها` | Rā (`ر`) por regra de R- inicial + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
-| **cão** | *cães* | `كاو` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
+| **razão** | *razões* | `رزاوم` | `رزومها` / `رزویها` | Rā (`ر`) por regra de R- inicial + Zāy (`ز`) + Waw-Ye (`وی`) para *-oe-* + *-hā* |
+| **cão** | *cães* | `كاوم` | `كایها` | Ditongo nasal *-ães* $\rightarrow$ `ایها` |
 
 ## Verbos vs. Concordância e Sibilantes
 
