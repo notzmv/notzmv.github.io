@@ -233,10 +233,13 @@
       display: block !important;
     }
 
-    body.font-nastaliq .ar, body.font-nastaliq .perso-arabic,
-    body.font-gulzar .ar, body.font-gulzar .perso-arabic {
-      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif;
+    body.font-nastaliq .ar:not(.nastaliq-card-row):not(.naskh-card-row),
+    body.font-nastaliq .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row),
+    body:not(.font-naskh) .ar:not(.nastaliq-card-row):not(.naskh-card-row),
+    body:not(.font-naskh) .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
+      font-family: 'Noto Nastaliq Urdu', 'Gulzar', 'Urdu Typesetting', serif !important;
       line-height: 2.4;
+      color: #fbbf24 !important;
     }
 
     body.font-gulzar .ar, body.font-gulzar .perso-arabic {
@@ -249,9 +252,11 @@
       line-height: 1.8;
     }
 
-    body.font-naskh .ar, body.font-naskh .perso-arabic {
-      font-family: 'Noto Naskh Arabic', 'Amiri', sans-serif;
+    body.font-naskh .ar:not(.nastaliq-card-row):not(.naskh-card-row),
+    body.font-naskh .perso-arabic:not(.nastaliq-card-row):not(.naskh-card-row) {
+      font-family: 'Noto Naskh Arabic', 'Vazirmatn', 'Amiri', serif !important;
       line-height: 1.8;
+      color: #f472b6 !important;
     }
 
     body.font-ruqaa .ar, body.font-ruqaa .perso-arabic {
