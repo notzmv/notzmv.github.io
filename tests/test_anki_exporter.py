@@ -17,6 +17,17 @@ class TestAnkiExporter(unittest.TestCase):
         verdade_tashkil = apply_tashkil_to_aljamiado("ورددہ", "verdade")
         self.assertIn("وَرْ", verdade_tashkil) # Sukūn on r, Fathah on v
 
+    def test_tanwin_omitted_long_vowels(self):
+        # Didactic Tanwīn notation for omitted Alif (ً), Ye (ٍ), Waw (ٌ)
+        pratica = apply_tashkil_to_aljamiado("پرًتكہ", "prática")
+        self.assertIn("ً", pratica)  # Fathatan for omitted Alif
+
+        minimo = apply_tashkil_to_aljamiado("مٍنمو", "mínimo")
+        self.assertIn("ٍ", minimo)   # Kasratan for omitted Ye
+
+        estupido = apply_tashkil_to_aljamiado("استٌپدو", "estúpido")
+        self.assertIn("ٌ", estupido)  # Dammatan for omitted Waw
+
     def test_corpus_extraction(self):
         sentences = extract_corpus_sentences()
         self.assertGreaterEqual(len(sentences), 25)

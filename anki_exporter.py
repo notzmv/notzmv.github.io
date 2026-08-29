@@ -177,6 +177,28 @@ TASHKIL_LEXICON = {
     "missão": "مساوم",
     "convenção": "كنونچم",
     "convenções": "كنونچمها",
+
+    # Didactic Tanwīn Notation (Omitted Alif ً, Omitted Ye ٍ, Omitted Waw ٌ)
+    "prática": "پرًتكہ",
+    "پرًتكہ": "پرًتكہ",
+    "mínimo": "مٍنمو",
+    "مٍنمو": "مٍنمو",
+    "estúpido": "استٌپدو",
+    "استٌپدو": "استٌپدو",
+    "lógica": "لژًكہ",
+    "لژًكہ": "لژًكہ",
+    "música": "مسًكہ",
+    "مسًكہ": "مسًكہ",
+    "física": "فسًكہ",
+    "فسًكہ": "فسًكہ",
+    "química": "كمًكہ",
+    "كمًكہ": "كمًكہ",
+    "crítica": "كرتًكہ",
+    "كرتًكہ": "كرتًكہ",
+    "dúvida": "دوٌدہ",
+    "دوٌدہ": "دوٌدہ",
+    "público": "پٌبلكو",
+    "پٌبلكو": "پٌبلكو",
 }
 
 def apply_tashkil_to_aljamiado(text, pt_hint=""):
