@@ -429,14 +429,25 @@ As consoantes palatais são representadas como ligaduras de consoante-semivogal 
 
 # 2. Sistema Vocálico, Diacríticos e Acentuação
 
-## Vogais em Fim de Palavra (Urdu Gol He vs. Waw)
-- **-a e -e finais** mapeiam ambas explicitamente para o **Gol He ao estilo Urdu** (`ه` / `ـہ` - U+06C1) para forçar uma renderização estilística adequada em todas as fontes:
+## Vogais em Fim de Palavra e Acentuação Tónica Final
+- **-a final (átono)** mapeia para o **Gol He ao estilo Urdu** (`ه` / `ـہ` - U+06C1):
   - *boa* $\rightarrow$ `بوہ`
-  - *gente* $\rightarrow$ `جنتہ`
-  - *prática* $\rightarrow$ `پراكتیكہ`
-- **-o final** mapeia para **Waw** (`و` / `ـو`):
+  - *casa* $\rightarrow$ `كزہ`
+  - *prática* $\rightarrow$ `پرًتكہ` / `پراكتیكہ`
+- **-e final (átono / geral)** mapeia prioritariamente para **Ye (`ی`)** ou variante **Gol He (`ہ`)**:
+  - *gente* $\rightarrow$ **`جنتى`** / `جنتہ`
+  - *você* $\rightarrow$ **`وچی`** / `وچہ`
+  - *se* $\rightarrow$ **`سی`** / `سہ`
+  - *de* $\rightarrow$ **`دی`** / `دہ`
+- **-o final (átono / geral)** mapeia para **Waw** (`و` / `ـو`):
   - *livro* $\rightarrow$ `لیورو`
   - *como* $\rightarrow$ `كمو`
+- **Oxítonas Finais em *-í* e *-ú* (Suporte de Alif Preposto `ـای` / `ـاو`)**:
+  Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú* sem interromper o fluxo com diacríticos externos ou sufixações truncadas, insere-se um **Alif antes do Ye ou Waw** (`ـای` / `ـاو`), espelhando a elegância da *mater lectionis* e do *Ezafe* persa:
+  - *aqui* [ɐ'ki] $\rightarrow$ **`اكای`** (Kāf + Alif-Ye `ای` para *-í* tónico final) $\neq$ *aquele* `اكلى`
+  - *rubi* [ʁu'bi] $\rightarrow$ **`ربای`** (Rā + Bā + Alif-Ye `ای`)
+  - *caju* [kɐ'ʒu] $\rightarrow$ **`كژاو`** (Kāf + Žā + Alif-Waw `او`)
+  - *baú* [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif-Waw `او`)
 
 ## Suportes de Vogal Inicial: Opções de Alif e Escolha do Escritor (`آ` / `ا` vs. `ی` / `یی`)
 Quando uma palavra começa por vogal, a flexibilidade ortográfica é preservada, deixando a escolha da representação inicial ao escritor:
@@ -605,6 +616,19 @@ Os ditongos nasais grafam-se de acordo com a norma canónica **AOM (`اوم`)** 
   - **-ço / -ção / -ções**: `ـچو` / `ـچاوم` / `ـچومها` / `ـچویها` (*coração* `كرچاوم` $\rightarrow$ *corações* `كرچومها` / `كرچویها`, *convenção* `كنونچاوم` $\rightarrow$ *convenções* `كنونچومها` / `كنونچویها`)
   - **-são / -sões** & **-zão / -zões**: `ـزاوم` / `ـزومها` / `ـزویها` e `ـساوم` / `ـسومها` (*razão* `رزاوم` $\rightarrow$ *razões* `رزومها` / `رزویها`, *visão* `ویزاوم` $\rightarrow$ *visões* `ویزومها` / `ویزویها`, *missão* `مساوم` $\rightarrow$ *missões* `مسومها` / `مسویها`)
   - **-ães**: `ـایها` (*cão* `كاوم` $\rightarrow$ *cães* `كایها`, *pão* `پاوم` $\rightarrow$ *pães* `پایها`)
+- **Modo Taquigráfico / Logogramático Mīm (`ـم`) para Ditongos Nasais Finais**:
+  Para apontamentos rápidos, anotações e compacidade máxima (sob a Prioridade 4), formaliza-se o uso do **Mīm (`م`)** como logograma sintético representativo direto de todo o ditongo nasal em *-ção*, *-são*, *-zão* e seus plurais:
+  - **-ção / -são / -zão** $\rightarrow$ **`ـچم`** / **`ـزم`** / **`ـسم`**:
+    - *convenção* $\rightarrow$ **`كنونچم`** (variante taquigráfica de `كنونچاوم`)
+    - *coração* $\rightarrow$ **`كرچم`** (variante taquigráfica de `كرچاوم`)
+    - *razão* $\rightarrow$ **`رزم`** (variante taquigráfica de `رزاوم`)
+    - *visão* $\rightarrow$ **`ویزم`** (variante taquigráfica de `ویزاوم`)
+    - *missão* $\rightarrow$ **`مسم`** (variante taquigráfica de `مساوم`)
+  - **-ções / -sões / -zões** $\rightarrow$ **`ـچمها`** / **`ـzm-hā`**:
+    - *convenções* $\rightarrow$ **`كنونچمها`** (variante taquigráfica de `كنونچومها` / `كنونچویها`)
+    - *corações* $\rightarrow$ **`كرچمها`** (variante taquigráfica de `كرچومها` / `كرچویها`)
+    - *razões* $\rightarrow$ **`رزمها`** (variante taquigráfica de `رزومها` / `رزویها`)
+    - *visões* $\rightarrow$ **`ویزمها`** (variante taquigráfica de `ویزومها` / `ویزویها`)
 # 4. Regras Morfofonêmicas e Mapeamento de Domínio
 
 ## Regra I: Domínio de Número Nominal (-hā / ـها)

@@ -534,11 +534,15 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
 
 Uma das alternâncias morfológicas de maior relevância prática no Aljamiado Português é o trio **-ço / -ção / -ções** (e a sua paralela **-são / -sões**):
 - **Base em *-ço***: Grafado com Chā e Waw final: **`ـچو`** (*pedaço* ~پدچو~, *laço* ~لاچو~).
-- **Singular em *-ção***: O ditongo nasal é grafado canonicamente com AOM: **`ـچاوم`** (*coração* ~كرچاوم~, *nação* ~نچاوم~, *opção* ~اپچاوم~). Nas escritas rápidas, admite-se a variante reduzida ~ـچاو~.
-- **Plural em *-ções***: O ditongo nasal flexionado une a vocalização nasal ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچومها`** / **`ـچویمها`** / **`ـچویها`** (*corações* ~كرچومها~ / ~كرچویها~, *nações* ~نچومها~ / ~نچویها~, *opções* ~اپچومها~ / ~اپچویها~).
-- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ $\rightarrow$ *razões* ~رزومها~ / ~رزویها~; *visão* ~ویزاوم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزویها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ $\rightarrow$ *missões* ~مسومها~ / ~مسویها~).
+- **Singular em *-ção***: O ditongo nasal é grafado canonicamente com AOM: **`ـچاوم`** (*coração* ~كرچاوم~, *nação* ~نچاوم~, *opção* ~اپچاوم~). Na escrita taquigráfica ultra-econômica (Prioridade 4), admite-se a notação logogramática direta com Mīm: **`ـچم`** (*coração* ~كرچم~, *convenção* ~كنونچم~).
+- **Plural em *-ções***: O ditongo nasal flexionado une a vocalização nasal ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچومها`** / **`ـچویها`** (*corações* ~كرچومها~ / ~كرچویها~, *nações* ~نچومها~ / ~نچویها~). Em escrita taquigráfica: **`ـچمها`** (*corações* ~كرچمها~, *convenções* ~كنونچمها~).
+- **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ / ~رزم~ $\rightarrow$ *razões* ~رزومها~ / ~رزمها~; *visão* ~ویزاوم~ / ~ویزم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزمها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ / ~مسم~ $\rightarrow$ *missões* ~مسومها~ / ~مسمها~).
 
-Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis* e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
+**Vogais Finais: -e em Ye (`ی`) e Suporte de Alif Preposto para Oxítonas (-í = `ـای` / -ú = `ـاو`)**
+- **-e final (átono / geral)**: Mapeia para **Ye (`ی`)** (*gente* ~جنتى~, *você* ~وچی~, *se* ~سی~, *de* ~دی~).
+- **Oxítonas Finais em *-í* e *-ú***: Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú*, insere-se um **Alif antes do Ye ou Waw** (`ـای` / `ـاو`), espelhando o estilo da *mater lectionis* e do *Ezafe* persa (*aqui* ~اكای~, *rubi* ~ربای~, *caju* ~كژاو~, *baú* ~باو~).
+
+Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis*, das variantes taquigráficas e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 
 
 * A Gênese do Sistema: Da Inspiração Persa à Hierarquia de Prioridades Ortográficas
