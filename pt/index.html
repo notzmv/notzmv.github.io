@@ -573,6 +573,142 @@
       }
     }
 
+    /* Index Navigation Drawer & Overlay */
+    .index-drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .index-drawer-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .index-drawer {
+      position: fixed;
+      z-index: 1001;
+      background: #161b22;
+      border: 1px solid var(--card-border, #30363d);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8);
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Mobile Drawer: Bottom Sheet (< 768px) */
+    @media (max-width: 767px) {
+      .index-drawer {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 80vh;
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+      }
+      .index-drawer.active {
+        transform: translateY(0);
+      }
+    }
+
+    /* Desktop Drawer: Left Side Panel (>= 768px) */
+    @media (min-width: 768px) {
+      .index-drawer {
+        top: 0;
+        left: 0;
+        width: 380px;
+        height: 100vh;
+        border-radius: 0 16px 16px 0;
+        transform: translateX(-100%);
+      }
+      .index-drawer.active {
+        transform: translateX(0);
+      }
+    }
+
+    .index-drawer-header {
+      padding: 1.2rem 1.5rem;
+      border-bottom: 1px solid var(--card-border, #30363d);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1c2128;
+    }
+
+    .index-drawer-header h3 {
+      font-size: 1.1rem;
+      color: var(--primary-accent, #f59e0b);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .index-drawer-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted, #8b949e);
+      font-size: 1.3rem;
+      cursor: pointer;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .index-drawer-close:hover {
+      background: #30363d;
+      color: #fff;
+    }
+
+    .index-drawer-body {
+      padding: 1rem 1.25rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .index-drawer-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .index-drawer-item {
+      margin-bottom: 0.4rem;
+    }
+
+    .index-drawer-link {
+      display: block;
+      padding: 0.65rem 0.9rem;
+      color: var(--text-main, #f0f6fc);
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.93rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      border-left: 3px solid transparent;
+    }
+
+    .index-drawer-link:hover {
+      background: #21262d;
+      color: var(--primary-accent, #fbbf24);
+      border-left-color: var(--primary-accent, #f59e0b);
+      padding-left: 1.1rem;
+    }
+
+    .index-drawer-link.h3-link {
+      margin-left: 1rem;
+      font-size: 0.86rem;
+      color: var(--text-muted, #8b949e);
+    }
+
   
     .ar-basmala {
       font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
@@ -1357,28 +1493,118 @@
   </table>
   </div>
 
-  <!-- Floating Font Toggle Widget -->
+<!-- Floating Font Toggle Widget -->
 <div id="floating-font-toggle" class="floating-toggle-container">
   <button id="font-toggle-btn-floating" class="btn-floating-toggle" onclick="toggleScriptFont()">
     📖 Alternar Script: <strong>Naskh (Árabe)</strong> &rarr; <strong>Nastaliq (Persa)</strong>
   </button>
 </div>
 
-<!-- Floating / Side Index Navigation Widget -->
+<!-- Index Navigation Drawer & Overlay -->
+<div id="index-drawer-overlay" class="index-drawer-overlay" onclick="closeIndexDrawer()"></div>
+<div id="index-drawer" class="index-drawer">
+  <div class="index-drawer-header">
+    <h3>📋 Navegação do Índice</h3>
+    <button class="index-drawer-close" onclick="closeIndexDrawer()" title="Fechar">✕</button>
+  </div>
+  <div class="index-drawer-body" id="index-drawer-content">
+    <!-- Generated dynamically via JS -->
+  </div>
+</div>
+
+<!-- Floating / Side Index Navigation Button -->
 <div id="floating-index-nav" class="index-nav-widget">
-  <a href="#toc" class="btn-index-nav" onclick="scrollToIndex(event)" title="Ir para o Índice">
+  <button class="btn-index-nav" onclick="toggleIndexDrawer()" title="Abrir Navegação do Índice">
     📋 <span class="nav-text">Índice</span>
-  </a>
+  </button>
 </div>
 
 <script>
-  function scrollToIndex(e) {
-    var toc = document.querySelector('.toc') || document.getElementById('toc');
-    if (toc) {
-      e.preventDefault();
-      toc.scrollIntoView({ behavior: 'smooth' });
+  function toggleIndexDrawer() {
+    var drawer = document.getElementById('index-drawer');
+    var overlay = document.getElementById('index-drawer-overlay');
+    if (drawer && overlay) {
+      if (drawer.classList.contains('active')) {
+        closeIndexDrawer();
+      } else {
+        openIndexDrawer();
+      }
     }
   }
+
+  function openIndexDrawer() {
+    var drawer = document.getElementById('index-drawer');
+    var overlay = document.getElementById('index-drawer-overlay');
+    if (drawer && overlay) {
+      buildIndexDrawerContent();
+      drawer.classList.add('active');
+      overlay.classList.add('active');
+    }
+  }
+
+  function closeIndexDrawer() {
+    var drawer = document.getElementById('index-drawer');
+    var overlay = document.getElementById('index-drawer-overlay');
+    if (drawer && overlay) {
+      drawer.classList.remove('active');
+      overlay.classList.remove('active');
+    }
+  }
+
+  function buildIndexDrawerContent() {
+    var content = document.getElementById('index-drawer-content');
+    if (!content || content.children.length > 0) return;
+
+    var list = document.createElement('ul');
+    list.className = 'index-drawer-list';
+
+    // Collect TOC links or headings
+    var tocLinks = document.querySelectorAll('.toc a, nav.toc a');
+    if (tocLinks.length > 0) {
+      tocLinks.forEach(function(link) {
+        var item = document.createElement('li');
+        item.className = 'index-drawer-item';
+        var a = document.createElement('a');
+        a.className = 'index-drawer-link';
+        a.href = link.getAttribute('href');
+        a.textContent = link.textContent.trim();
+        a.onclick = function(e) {
+          e.preventDefault();
+          var href = this.getAttribute('href');
+          var target = document.querySelector(href);
+          if (target) {
+            closeIndexDrawer();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        };
+        item.appendChild(a);
+        list.appendChild(item);
+      });
+    } else {
+      var headings = document.querySelectorAll('h2[id], h3[id]');
+      headings.forEach(function(h) {
+        var item = document.createElement('li');
+        item.className = 'index-drawer-item';
+        var a = document.createElement('a');
+        a.className = 'index-drawer-link' + (h.tagName === 'H3' ? ' h3-link' : '');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent.replace(/^#\s*/, '').trim();
+        a.onclick = function(e) {
+          e.preventDefault();
+          closeIndexDrawer();
+          h.scrollIntoView({ behavior: 'smooth' });
+        };
+        item.appendChild(a);
+        list.appendChild(item);
+      });
+    }
+
+    content.appendChild(list);
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeIndexDrawer();
+  });
 </script>
 
 </body>
