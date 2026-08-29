@@ -509,6 +509,70 @@
       box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
     }
 
+    /* Floating & Side Index Navigation Widget */
+    .index-nav-widget {
+      position: fixed;
+      z-index: 999;
+      transition: all 0.3s ease;
+    }
+
+    .btn-index-nav {
+      background: linear-gradient(135deg, #161b22, #0d1117);
+      border: 1px solid var(--card-border);
+      border-left: 4px solid var(--primary-accent);
+      color: var(--text-main);
+      padding: 0.65rem 1.1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+    }
+
+    .btn-index-nav:hover {
+      background: #21262d;
+      color: var(--primary-accent);
+      border-color: var(--primary-accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(245, 158, 11, 0.35);
+    }
+
+    /* Mobile Layout (< 768px): Floating at Bottom Left */
+    @media (max-width: 767px) {
+      .index-nav-widget {
+        bottom: 1.5rem;
+        left: 1.25rem;
+        top: auto;
+      }
+      .btn-index-nav {
+        border-radius: 50px;
+        border: 2px solid var(--primary-accent);
+        padding: 0.65rem 1.2rem;
+        font-size: 0.88rem;
+        background: linear-gradient(135deg, #1f2937, #111827);
+        color: var(--primary-accent);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+      }
+      .btn-index-nav:hover {
+        background: var(--primary-accent);
+        color: #000000;
+      }
+    }
+
+    /* Desktop Layout (>= 768px): Side Button Fixed on Left Margin */
+    @media (min-width: 768px) {
+      .index-nav-widget {
+        top: 5.5rem;
+        left: 1.25rem;
+      }
+    }
+
   
     .ar-basmala {
       font-family: 'Noto Naskh Arabic', 'Amiri', serif !important;
@@ -1299,6 +1363,23 @@
     📖 Alternar Script: <strong>Naskh (Árabe)</strong> &rarr; <strong>Nastaliq (Persa)</strong>
   </button>
 </div>
+
+<!-- Floating / Side Index Navigation Widget -->
+<div id="floating-index-nav" class="index-nav-widget">
+  <a href="#toc" class="btn-index-nav" onclick="scrollToIndex(event)" title="Ir para o Índice">
+    📋 <span class="nav-text">Índice</span>
+  </a>
+</div>
+
+<script>
+  function scrollToIndex(e) {
+    var toc = document.querySelector('.toc') || document.getElementById('toc');
+    if (toc) {
+      e.preventDefault();
+      toc.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
 
 </body>
 </html>
