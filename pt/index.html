@@ -1520,6 +1520,13 @@
 </div>
 
 <script>
+  function getTargetElement(href) {
+    if (!href) return null;
+    var id = href.replace(/^#/, '');
+    if (!id) return null;
+    return document.getElementById(id) || (window.CSS && CSS.escape ? document.querySelector('[id="' + CSS.escape(id) + '"]') : null);
+  }
+
   function toggleIndexDrawer() {
     var drawer = document.getElementById('index-drawer');
     var overlay = document.getElementById('index-drawer-overlay');
@@ -1558,31 +1565,13 @@
     var list = document.createElement('ul');
     list.className = 'index-drawer-list';
 
-    // Collect TOC links or headings
-    var tocLinks = document.querySelectorAll('.toc a, nav.toc a');
-    if (tocLinks.length > 0) {
-      tocLinks.forEach(function(link) {
-        var item = document.createElement('li');
-        item.className = 'index-drawer-item';
-        var a = document.createElement('a');
-        a.className = 'index-drawer-link';
-        a.href = link.getAttribute('href');
-        a.textContent = link.textContent.trim();
-        a.onclick = function(e) {
-          e.preventDefault();
-          var href = this.getAttribute('href');
-          var target = document.querySelector(href);
-          if (target) {
-            closeIndexDrawer();
-            target.scrollIntoView({ behavior: 'smooth' });
-          }
-        };
-        item.appendChild(a);
-        list.appendChild(item);
-      });
-    } else {
-      var headings = document.querySelectorAll('h2[id], h3[id]');
-      headings.forEach(function(h) {
+    var headings = document.querySelectorAll('h2[id], h3[id]');
+    var validHeadings = Array.from(headings).filter(function(h) {
+      return h.id && h.id !== 'NO_ID' && !h.closest('.index-drawer') && !h.closest('#floating-font-toggle');
+    });
+
+    if (validHeadings.length > 0) {
+      validHeadings.forEach(function(h) {
         var item = document.createElement('li');
         item.className = 'index-drawer-item';
         var a = document.createElement('a');
@@ -1592,7 +1581,27 @@
         a.onclick = function(e) {
           e.preventDefault();
           closeIndexDrawer();
-          h.scrollIntoView({ behavior: 'smooth' });
+          h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+        item.appendChild(a);
+        list.appendChild(item);
+      });
+    } else {
+      var tocLinks = document.querySelectorAll('.toc a, nav.toc a');
+      tocLinks.forEach(function(link) {
+        var item = document.createElement('li');
+        item.className = 'index-drawer-item';
+        var a = document.createElement('a');
+        a.className = 'index-drawer-link';
+        a.href = link.getAttribute('href');
+        a.textContent = link.textContent.trim();
+        a.onclick = function(e) {
+          e.preventDefault();
+          var target = getTargetElement(this.getAttribute('href'));
+          if (target) {
+            closeIndexDrawer();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         };
         item.appendChild(a);
         list.appendChild(item);
