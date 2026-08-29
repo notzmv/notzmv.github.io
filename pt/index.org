@@ -563,7 +563,10 @@ A omissão e redução vocálica no Aljamiado Português seguem uma **escala inv
 3. **O Triad Morfológico de `convenco`, `convencao` e `convencos`**:
    A distinção entre formas verbais e nominais derivadas da mesma raiz (*convencer / convenção*) demonstra a eficiência deste sistema morfofonêmico e do sufixo de plural `-hā` (`ـها`):
    - **`convenco`** (*convenço*, "eu convenço" — 1ª pessoa do singular do presente do indicativo): Grafado como **`كنونچو`** / **`كونونچو`** (radical `كنونچ` + desinência verbal de 1ª pessoa em *-o* `ـچو`).
-   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاو`** / **`كونونچاو`** (radical `ك* 3. Motor de Nasalização
+   - **`convencao`** (*convenção*, substantivo feminino singular): Grafado como **`كنونچاوم`** / **`كنونچاو`** (radical `كنونچ` + sufixo nasal `-ão` `اوم` / `او`).
+   - **`convencoes`** (*convenções*, substantivo plural): Grafado como **`كنونچومها`** / **`كنونچویها`** (com sufixo nominal `-hā` `ـها` anexado).
+
+* 3. Motor de Nasalização
 
 ** Nasais Monossilábicas, Desinências Verbais (-am, -em) e Fim de Sílaba
 Vogais nasais em fim de sílaba (*-m*, *-n*) neutralizam em **Mīm** (`م`):
@@ -670,6 +673,10 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
   - *luzes* $\rightarrow$ `لوزها` / `لوزیها`
 
 ** Hiato vs. Ditongos (país vs. pais)
+- **Hiatos (Deprecação de Hamzah)**: Hiatos com vogais altas tónicas (*i* ou *u*) como *país*, *saúde* e *baú* utilizam os suportes de *mater lectionis* padrão (**`ای`** e **`او`**) diretamente, sem qualquer necessidade de diacrítico Hamzah:
+  - **país** [pɐ'iʃ] $\rightarrow$ **`پایس`** (Pā + Alif + Ye + Sīn) $\neq$ **pais** [pajʃ] (plural de pai) $\rightarrow$ **`پایها`**
+  - **saúde** [sɐ'u.dɨ] $\rightarrow$ **`ساودہ`** (Sīn + Alif + Waw + Dāl + Gol He)
+  - **baú** [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif + Waw)
 - **Ditongos**: *pais* (plural de *pai*) $\rightarrow$ `پایها` (*pai* + *-hā*)
 
 ** Anexação de Clíticos e Hifenização
