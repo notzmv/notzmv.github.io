@@ -538,9 +538,9 @@ Uma das alternâncias morfológicas de maior relevância prática no Aljamiado P
 - **Plural em *-ções***: O ditongo nasal flexionado une a vocalização nasal ao logograma de plural nominal ~ـها~ (*-hā*): **`ـچومها`** / **`ـچویها`** (*corações* ~كرچومها~ / ~كرچویها~, *nações* ~نچومها~ / ~نچویها~). Em escrita taquigráfica: **`ـچمها`** (*corações* ~كرچمها~, *convenções* ~كنونچمها~).
 - **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ / ~رزم~ $\rightarrow$ *razões* ~رزومها~ / ~رزمها~; *visão* ~ویزاوم~ / ~ویزم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزمها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ / ~مسم~ $\rightarrow$ *missões* ~مسومها~ / ~مسمها~).
 
-**Vogais Finais: -e em Ye (`ی`) e Suporte de Alif Preposto para Oxítonas (-í = `ـای` / -ú = `ـاو`)**
+**Vogais Finais: -e em Ye (`ی`) e Suporte de Hamzah para Oxítonas (-í = `ـئ` / -ú = `ـؤ`)**
 - **-e final (átono / geral)**: Mapeia para **Ye (`ی`)** (*gente* ~جنتى~, *você* ~وچی~, *se* ~سی~, *de* ~دی~).
-- **Oxítonas Finais em *-í* e *-ú***: Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú*, insere-se um **Alif antes do Ye ou Waw** (`ـای` / `ـاو`), espelhando o estilo da *mater lectionis* e do *Ezafe* persa (*aqui* ~اكای~, *rubi* ~ربای~, *caju* ~كژاو~, *baú* ~باو~).
+- **Oxítonas Finais em *-í* e *-ú* e Hiatos Tónicos**: Utiliza-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`) para indicar com precisão a acentuação tónica final ou quebra de hiato (*aqui* ~اكئ~, *rubi* ~ربئ~, *caju* ~كژؤ~, *país* ~پائس~, *saúde* ~ساؤدہ~, *baú* ~باؤ~).
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis*, das variantes taquigráficas e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 

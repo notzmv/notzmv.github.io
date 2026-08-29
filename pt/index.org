@@ -442,12 +442,12 @@ As consoantes palatais são representadas como ligaduras de consoante-semivogal 
 - **-o final (átono / geral)** mapeia para **Waw** (`و` / `ـو`):
   - *livro* $\rightarrow$ `لیورو`
   - *como* $\rightarrow$ `كمو`
-- **Oxítonas Finais em *-í* e *-ú* (Suporte de Alif Preposto `ـای` / `ـاو`)**:
-  Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú* sem interromper o fluxo com diacríticos externos ou sufixações truncadas, insere-se um **Alif antes do Ye ou Waw** (`ـای` / `ـاو`), espelhando a elegância da *mater lectionis* e do *Ezafe* persa:
-  - *aqui* [ɐ'ki] $\rightarrow$ **`اكای`** (Kāf + Alif-Ye `ای` para *-í* tónico final) $\neq$ *aquele* `اكلى`
-  - *rubi* [ʁu'bi] $\rightarrow$ **`ربای`** (Rā + Bā + Alif-Ye `ای`)
-  - *caju* [kɐ'ʒu] $\rightarrow$ **`كژاو`** (Kāf + Žā + Alif-Waw `او`)
-  - *baú* [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif-Waw `او`)
+- **Oxítonas Finais em *-í* e *-ú* (Suporte de Hamzah `ئ` / `ؤ`)**:
+  Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú* com máxima precisão e clareza visual, utiliza-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`):
+  - *aqui* [ɐ'ki] $\rightarrow$ **`اكئ`** (Kāf + Ye com Hamzah `ئ`) $\neq$ *aquele* `اكلى`
+  - *rubi* [ʁu'bi] $\rightarrow$ **`ربئ`** (Rā + Bā + Ye com Hamzah `ئ`)
+  - *caju* [kɐ'ʒu] $\rightarrow$ **`كژؤ`** (Kāf + Žā + Waw com Hamzah `ؤ`)
+  - *baú* [bɐ'u] $\rightarrow$ **`باؤ`** (Bā + Alif + Waw com Hamzah `ؤ`)
 
 ** Suportes de Vogal Inicial: Opções de Alif e Escolha do Escritor (`آ` / `ا` vs. `ی` / `یی`)
 Quando uma palavra começa por vogal, a flexibilidade ortográfica é preservada, deixando a escolha da representação inicial ao escritor:
@@ -697,10 +697,10 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
   - *luzes* $\rightarrow$ `لوزها` / `لوزیها`
 
 ** Hiato vs. Ditongos (país vs. pais)
-- **Hiatos (Deprecação de Hamzah)**: Hiatos com vogais altas tónicas (*i* ou *u*) como *país*, *saúde* e *baú* utilizam os suportes de *mater lectionis* padrão (**`ای`** e **`او`**) diretamente, sem qualquer necessidade de diacrítico Hamzah:
-  - **país** [pɐ'iʃ] $\rightarrow$ **`پایس`** (Pā + Alif + Ye + Sīn) $\neq$ **pais** [pajʃ] (plural de pai) $\rightarrow$ **`پایها`**
-  - **saúde** [sɐ'u.dɨ] $\rightarrow$ **`ساودہ`** (Sīn + Alif + Waw + Dāl + Gol He)
-  - **baú** [bɐ'u] $\rightarrow$ **`باو`** (Bā + Alif + Waw)
+- **Hiatos Tónicos (Marcação com Hamzah `ئ` / `ؤ`)**: Hiatos com vogais altas tónicas (*i* ou *u*) como *país*, *saúde* e *baú* utilizam o suporte de **Hamzah sobre Ye (`ئ`) ou Waw (`ؤ`)** para desambiguar de forma unívoca a quebra silábica em relação a ditongos:
+  - **país** [pɐ'iʃ] $\rightarrow$ **`پائس`** (Pā + Alif + Ye com Hamzah `ئ` + Sīn) $\neq$ **pais** [pajʃ] (plural de pai) $\rightarrow$ **`پایها`**
+  - **saúde** [sɐ'u.dɨ] $\rightarrow$ **`ساؤدہ`** (Sīn + Alif + Waw com Hamzah `ؤ` + Dāl + Gol He)
+  - **baú** [bɐ'u] $\rightarrow$ **`باؤ`** (Bā + Alif + Waw com Hamzah `ؤ`)
 - **Ditongos**: *pais* (plural de *pai*) $\rightarrow$ `پایها` (*pai* + *-hā*)
 
 ** Anexação de Clíticos e Hifenização
