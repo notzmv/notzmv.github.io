@@ -16,7 +16,7 @@
      - Devem quase sempre ser grafados de forma explícita com ambas as vogais.
      - *Exceção Inteligente de Economia*: Omissão permitida quando não há risco de colisão homógrafa. Exemplo: *hiato* $\rightarrow$ **`هیتو`** (He + Ye + Tā + Waw), onde a omissão do Alif em *-ia-* não gera confusão com nenhuma outra palavra portuguesa.
    - **Prioridade 2: Oxítonas Tónicas e Vogais Acentuadas**:
-     - Picos tónicos (*fé* `فی`, *até* `اتى`, *pó* `پو`, *riqueza* `ریكزہ`) exigem suporte vocálico explícito.
+     - Picos tónicos (*fé* `فی`, *até* `اتی`, *pó* `پو`, *riqueza* `ریكزہ`) exigem suporte vocálico explícito.
    - **Prioridade 3: Vogais Altas (I / U) e Redução de Polissílabos**:
      - Podem ser omitidas em palavras longas quando o esqueleto consonantal é inconfundível (*generosidade* `جنرزددہ`).
    - **Prioridade 4: Público, Contexto e Balanço Leitura vs. Escrita**:

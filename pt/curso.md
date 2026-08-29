@@ -159,7 +159,7 @@ A **Família do Bā** é composta por dentes rasos com uma bacia inferior. O cor
     <tr><td><strong>پ</strong> (Pā)</td><td>Final</td><td>zap</td><td><span class="aljamiado-naskh ar">ز</span> + <span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">پ</span></td><td>Zāy + Alif + Pā final (<span class="aljamiado-naskh ar">ـپ</span>)</td><td><span class="aljamiado-naskh ar">زاپ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">زاپ</span></td></tr>
     <tr><td><strong>ت</strong> (Tā)</td><td>Isolada / Inicial</td><td>tu / tudo</td><td><span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">و</span></td><td>Tā inicial (<span class="aljamiado-naskh ar">توـ</span>) + Waw</td><td><span class="aljamiado-naskh ar">تو</span> / <span class="aljamiado-naskh ar">تودو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تو</span> / <span class="aljamiado-naskh ar">تودو</span></td></tr>
     <tr><td><strong>ت</strong> (Tā)</td><td>Medial</td><td>fruto</td><td><span class="aljamiado-naskh ar">ف</span> + <span class="aljamiado-naskh ar">ر</span> + <span class="aljamiado-naskh ar">و</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">و</span></td><td>Fā + Rā + Waw + Tā medial (<span class="aljamiado-naskh ar">ـتـ</span>) + Waw</td><td><span class="aljamiado-naskh ar">فروتو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فروتو</span></td></tr>
-    <tr><td><strong>ت</strong> (Tā)</td><td>Final</td><td>até</td><td><span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ى</span></td><td>Alif + Tā medial/final (<span class="aljamiado-naskh ar">ـتـ</span>) + Ye final (<span class="aljamiado-naskh ar">ـى</span>)</td><td><span class="aljamiado-naskh ar">اتى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td></tr>
+    <tr><td><strong>ت</strong> (Tā)</td><td>Final</td><td>até</td><td><span class="aljamiado-naskh ar">ا</span> + <span class="aljamiado-naskh ar">ت</span> + <span class="aljamiado-naskh ar">ی</span></td><td>Alif + Tā medial/final (<span class="aljamiado-naskh ar">ـتـ</span>) + Ye final (<span class="aljamiado-naskh ar">ـی</span>)</td><td><span class="aljamiado-naskh ar">اتی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتی</span></td></tr>
   </tbody>
 </table>
 </div>
@@ -197,7 +197,7 @@ Agora exploramos duas famílias de cauda semicircular que perdem a barriga ao se
     <tr><td><strong>ج</strong> (Jīm)</td><td>Final</td><td>gem</td><td>Jīm inicial (<span class="aljamiado-naskh ar">جـ</span>) + Mīm final (<span class="aljamiado-naskh ar">ـم</span>)</td><td><span class="aljamiado-naskh ar">جم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">جم</span></td></tr>
     <tr><td><strong>چ</strong> (Chā)</td><td>Inicial</td><td>cidade</td><td>Chā inicial (<span class="aljamiado-naskh ar">چـ</span>) + Dāl + Dāl + Gol He</td><td><span class="aljamiado-naskh ar">چددہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">چددہ</span></td></tr>
     <tr><td><strong>چ</strong> (Chā)</td><td>Medial</td><td>você</td><td>Waw + Chā medial (<span class="aljamiado-naskh ar">ـچـ</span>) + Gol He final</td><td><span class="aljamiado-naskh ar">وچہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">وچہ</span></td></tr>
-    <tr><td><strong>چ</strong> (Chā)</td><td>Final</td><td>fixo</td><td>Fā inicial + Ye + Chā medial/final (<span class="aljamiado-naskh ar">ـچـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">فيچو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فيچو</span></td></tr>
+    <tr><td><strong>چ</strong> (Chā)</td><td>Final</td><td>fixo</td><td>Fā inicial + Ye + Chā medial/final (<span class="aljamiado-naskh ar">ـچـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">فیچو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فیچو</span></td></tr>
     <tr><td><strong>س</strong> (Sīn)</td><td>Inicial</td><td>sua</td><td>Sīn inicial (<span class="aljamiado-naskh ar">سـ</span>) + Waw + Gol He final</td><td><span class="aljamiado-naskh ar">سوه</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">سوه</span></td></tr>
     <tr><td><strong>س</strong> (Sīn)</td><td>Medial</td><td>processo</td><td>Pā + Rā + Chā + Sīn medial (<span class="aljamiado-naskh ar">ـسـ</span>) + Waw final</td><td><span class="aljamiado-naskh ar">پرچسو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پرچسو</span></td></tr>
     <tr><td><strong>س</strong> (Sīn)</td><td>Final</td><td>mas</td><td>Mīm inicial + Sīn final (<span class="aljamiado-naskh ar">ـس</span>) com bacia inteira</td><td><span class="aljamiado-naskh ar">مس</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مس</span></td></tr>
@@ -283,7 +283,7 @@ Nesta lição cobrimos as letras com laço circular e a semivogal flexível:
     <tr><td><strong>ن</strong> (Nūn)</td><td>Final</td><td>on</td><td>Alif + Nūn final (<span class="aljamiado-naskh ar">ـن</span>) com bacia e ponto</td><td><span class="aljamiado-naskh ar">ان</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">ان</span></td></tr>
     <tr><td><strong>ی</strong> (Ye)</td><td>Inicial</td><td>ilumina</td><td>Ye inicial (<span class="aljamiado-naskh ar">یـ</span>) + Lām + Waw + Mīm + Nūn + Gol He</td><td><span class="aljamiado-naskh ar">یلومنہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">یلومنہ</span></td></tr>
     <tr><td><strong>ی</strong> (Ye)</td><td>Medial</td><td>minha</td><td>Mīm + Ye medial (<span class="aljamiado-naskh ar">ـیـ</span>) + Nūn + Gol He</td><td><span class="aljamiado-naskh ar">مینیہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">مینیہ</span></td></tr>
-    <tr><td><strong>ی</strong> (Ye)</td><td>Final</td><td>até</td><td>Alif + Tā + Ye final (<span class="aljamiado-naskh ar">ـى</span> / <span class="aljamiado-naskh ar">ـی</span>)</td><td><span class="aljamiado-naskh ar">اتى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td></tr>
+    <tr><td><strong>ی</strong> (Ye)</td><td>Final</td><td>até</td><td>Alif + Tā + Ye final (<span class="aljamiado-naskh ar">ـی</span> / <span class="aljamiado-naskh ar">ـی</span>)</td><td><span class="aljamiado-naskh ar">اتی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتی</span></td></tr>
   </tbody>
 </table>
 </div>
@@ -453,9 +453,9 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
    - *Ditongos Posteriores*: *ou* (`او`), *ao* (`او`), *pau* (`پاو`), *meu* (`میو`), *rio* (`ریو`).
    - Como o português aproxima foneticamente o *o* atónico final do *u* (`[u]`), ambos são representados naturalmente por **Waw (`و`)** (*livro* `لیورو`, *como* `كمو`, *tudo* `تودو`).
 
-3. **Ye (`ی` / `ى`) $\rightarrow$ A Família Palatal/Anterior ([e], [i], [j])**:
+3. **Ye (`ی` / `ی`) $\rightarrow$ A Família Palatal/Anterior ([e], [i], [j])**:
    - Atrai tanto o **E** tónico quanto o **I**, além da semivogal [j].
-   - *Ditongos Anteriores*: *pai* (`پای`), *gostei* (`گوستى`), *lei* (`لی`), *raiz* (`رایز`).
+   - *Ditongos Anteriores*: *pai* (`پای`), *gostei* (`گوستی`), *lei* (`لی`), *raiz* (`رایز`).
    - As vogais tónicas elevadas utilizam **Ye** para marcar o pico silábico (*vida* `ویدہ`, *riqueza* `ریكزہ`).
 
 4. **Gol He (`ہ` / `ـه`) $\rightarrow$ As Vogais Atónicas Finais Breves ([ɐ], [i]/[e])**:
@@ -492,9 +492,9 @@ Como o alfabeto não possui 5 letras de vogais isoladas equivalentes às latinas
     </tr>
     <tr>
       <td><strong>-ei / -é</strong></td>
-      <td>Ye final (<span class="aljamiado-naskh ar">ـى</span> / <span class="aljamiado-naskh ar">ـی</span>)</td>
+      <td>Ye final (<span class="aljamiado-naskh ar">ـی</span> / <span class="aljamiado-naskh ar">ـی</span>)</td>
       <td>gostei / até / fé</td>
-      <td><span class="aljamiado-naskh ar">گوستى</span> / <span class="aljamiado-naskh ar">اتى</span> / <span class="aljamiado-naskh ar">فی</span></td>
+      <td><span class="aljamiado-naskh ar">گوستی</span> / <span class="aljamiado-naskh ar">اتی</span> / <span class="aljamiado-naskh ar">فی</span></td>
       <td>Ye (palatal [e]/[i]) atrai a terminação tónica</td>
     </tr>
     <tr>
@@ -539,7 +539,7 @@ Uma das alternâncias morfológicas de maior relevância prática no Aljamiado P
 - **Série Paralela em *-são / -sões***: Segue exatamente a mesma regra com Zāy (`ز`) para o som sonoro [z] (*razão* ~رزاوم~ / ~رزم~ $\rightarrow$ *razões* ~رزومها~ / ~رزمها~; *visão* ~ویزاوم~ / ~ویزم~ $\rightarrow$ *visões* ~ویزومها~ / ~ویزمها~) e Sīn (`س`) para o som surdo [s] (*missão* ~مساوم~ / ~مسم~ $\rightarrow$ *missões* ~مسومها~ / ~مسمها~).
 
 **Vogais Finais: -e em Ye (`ی`) e Suporte de Hamzah para Oxítonas (-í = `ـئ` / -ú = `ـؤ`)**
-- **-e final (átono / geral)**: Mapeia para **Ye (`ی`)** (*gente* ~جنتى~, *você* ~وچی~, *se* ~سی~, *de* ~دی~).
+- **-e final (átono / geral)**: Mapeia para **Ye (`ی`)** (*gente* ~جنتی~, *você* ~وچی~, *se* ~سی~, *de* ~دی~).
 - **Oxítonas Finais em *-í* e *-ú* e Hiatos Tónicos**: Recomenda-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`) como o ideal gráfico para desambiguação tónica (*aqui* ~اكئ~, *rubi* ~ربئ~, *caju* ~كژؤ~, *país* ~پائس~, *saúde* ~ساؤدہ~, *baú* ~باؤ~), mantendo-se o uso do Hamzah como uma opção preferencial (não obrigatória) ao dispor do escritor.
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis*, das variantes taquigráficas e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
@@ -615,7 +615,7 @@ Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hier
    - *Exemplo Notável*: A palavra **hiato** pode ser grafada como **`هیتو`** (*He + Ye + Tā + Waw*). Como não existe nenhuma outra palavra em português que colida com essa sequência consonantal sem necessitar da sua própria estrutura vocálica, a omissão do Alif em *-ia-* é 100% segura e elegante!
 
 2. **Prioridade 2: Oxítonas Tónicas e Vogais Acentuadas**:
-   - Vogais que carregam o pico de intensidade silábica ou acentuação gráfica tónica devem manter seus suportes vocálicos explícitos para ancorar a tonicidade (*fé* `فی`, *até* `اتى`, *pó* `پو`, *riqueza* `ریكزہ`, *vida* `ویدہ`).
+   - Vogais que carregam o pico de intensidade silábica ou acentuação gráfica tónica devem manter seus suportes vocálicos explícitos para ancorar a tonicidade (*fé* `فی`, *até* `اتی`, *pó* `پو`, *riqueza* `ریكزہ`, *vida* `ویدہ`).
 
 3. **Prioridade 3: Vogais Altas (I / U) e Redução de Polissílabos**:
    - Vogais altas *I* e *U* geralmente usam *Ye* e *Waw*, mas em palavras extensas e redundantes, podem ser reduzidas defectivamente no regime econômico (*generosidade* `جنرزددہ`, *oportunidade* `اپرتونددہ`).
@@ -654,8 +654,8 @@ Para orientar quando explicitar ou omitir vogais, o sistema obedece a uma **Hier
       <td><strong>Prioridade 2</strong></td>
       <td>Oxítonas Tónicas e Vogais Acentuadas</td>
       <td>fé / pó / até / riqueza</td>
-      <td><span class="aljamiado-naskh ar">فی</span> / <span class="aljamiado-naskh ar">پو</span> / <span class="aljamiado-naskh ar">اتى</span> / <span class="aljamiado-naskh ar">ریكزہ</span></td>
-      <td>Mantém-se o suporte vocálico explícito (<span class="aljamiado-naskh ar">ی</span>, <span class="aljamiado-naskh ar">و</span>, <span class="aljamiado-naskh ar">ى</span>) para fixar a tonicidade silábica.</td>
+      <td><span class="aljamiado-naskh ar">فی</span> / <span class="aljamiado-naskh ar">پو</span> / <span class="aljamiado-naskh ar">اتی</span> / <span class="aljamiado-naskh ar">ریكزہ</span></td>
+      <td>Mantém-se o suporte vocálico explícito (<span class="aljamiado-naskh ar">ی</span>, <span class="aljamiado-naskh ar">و</span>, <span class="aljamiado-naskh ar">ی</span>) para fixar a tonicidade silábica.</td>
     </tr>
     <tr>
       <td><strong>Prioridade 3</strong></td>
@@ -700,9 +700,9 @@ A tabela abaixo sintetiza a **cobertura posicional total** de todas as 21 letras
     <tr><td><strong>ا</strong></td><td>Alif</td><td><span class="aljamiado-naskh ar">ا</span> (<i>a</i>)</td><td>&mdash;</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">دا</span> (<i>da</i>), <span class="aljamiado-naskh ar">ژا</span> (<i>já</i>)</td></tr>
     <tr><td><strong>ب</strong></td><td>Bā</td><td><span class="aljamiado-naskh ar">ب</span> (<i>b</i>)</td><td><span class="aljamiado-naskh ar">بوہ</span> (<i>boa</i>)</td><td><span class="aljamiado-naskh ar">سبدریہ</span> (<i>sabedoria</i>)</td><td><span class="aljamiado-naskh ar">سب</span> (<i>sob</i>)</td></tr>
     <tr><td><strong>پ</strong></td><td>Pā</td><td><span class="aljamiado-naskh ar">پ</span> (<i>p</i>)</td><td><span class="aljamiado-naskh ar">پرہ</span> (<i>para</i>)</td><td><span class="aljamiado-naskh ar">اسپرنچہ</span> (<i>esperança</i>)</td><td><span class="aljamiado-naskh ar">زاپ</span> (<i>zap</i>)</td></tr>
-    <tr><td><strong>ت</strong></td><td>Tā</td><td><span class="aljamiado-naskh ar">تو</span> (<i>tu</i>)</td><td><span class="aljamiado-naskh ar">تودو</span> (<i>tudo</i>)</td><td><span class="aljamiado-naskh ar">فروتو</span> (<i>fruto</i>)</td><td><span class="aljamiado-naskh ar">اتى</span> (<i>até</i>)</td></tr>
+    <tr><td><strong>ت</strong></td><td>Tā</td><td><span class="aljamiado-naskh ar">تو</span> (<i>tu</i>)</td><td><span class="aljamiado-naskh ar">تودو</span> (<i>tudo</i>)</td><td><span class="aljamiado-naskh ar">فروتو</span> (<i>fruto</i>)</td><td><span class="aljamiado-naskh ar">اتی</span> (<i>até</i>)</td></tr>
     <tr><td><strong>ج</strong></td><td>Jīm</td><td><span class="aljamiado-naskh ar">ج</span> (<i>gênero</i>)</td><td><span class="aljamiado-naskh ar">جنتہ</span> (<i>gente</i>)</td><td><span class="aljamiado-naskh ar">جنرزددہ</span> (<i>generosidade</i>)</td><td><span class="aljamiado-naskh ar">جم</span> (<i>gem</i>)</td></tr>
-    <tr><td><strong>چ</strong></td><td>Chā</td><td><span class="aljamiado-naskh ar">چہ</span> (<i>cê</i>)</td><td><span class="aljamiado-naskh ar">چددہ</span> (<i>cidade</i>)</td><td><span class="aljamiado-naskh ar">وچہ</span> (<i>você</i>)</td><td><span class="aljamiado-naskh ar">فيچو</span> (<i>fixo</i>)</td></tr>
+    <tr><td><strong>چ</strong></td><td>Chā</td><td><span class="aljamiado-naskh ar">چہ</span> (<i>cê</i>)</td><td><span class="aljamiado-naskh ar">چددہ</span> (<i>cidade</i>)</td><td><span class="aljamiado-naskh ar">وچہ</span> (<i>você</i>)</td><td><span class="aljamiado-naskh ar">فیچو</span> (<i>fixo</i>)</td></tr>
     <tr><td><strong>د</strong></td><td>Dāl</td><td><span class="aljamiado-naskh ar">دہ</span> (<i>de</i>)</td><td><span class="aljamiado-naskh ar">دو</span> (<i>do</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">ویدہ</span> (<i>vida</i>)</td></tr>
     <tr><td><strong>ر</strong></td><td>Rā</td><td><span class="aljamiado-naskh ar">ریو</span> (<i>rio</i>)</td><td><span class="aljamiado-naskh ar">روه</span> (<i>rua</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">ور</span> (<i>ver</i>), <span class="aljamiado-naskh ar">مر</span> (<i>mar</i>)</td></tr>
     <tr><td><strong>ز</strong></td><td>Zāy</td><td><span class="aljamiado-naskh ar">زہ</span> (<i>zé</i>)</td><td><span class="aljamiado-naskh ar">زرو</span> (<i>zero</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">پز</span> (<i>paz</i>), <span class="aljamiado-naskh ar">ترز</span> (<i>traz</i>)</td></tr>
@@ -711,13 +711,13 @@ A tabela abaixo sintetiza a **cobertura posicional total** de todas as 21 letras
     <tr><td><strong>ش</strong></td><td>Shīn</td><td><span class="aljamiado-naskh ar">شا</span> (<i>chá</i>)</td><td><span class="aljamiado-naskh ar">شوه</span> (<i>chave</i>)</td><td><span class="aljamiado-naskh ar">لیشو</span> (<i>lixo</i>)</td><td><span class="aljamiado-naskh ar">فلاش</span> (<i>flash</i>)</td></tr>
     <tr><td><strong>ف</strong></td><td>Fā</td><td><span class="aljamiado-naskh ar">فی</span> (<i>fé</i>)</td><td><span class="aljamiado-naskh ar">فز</span> (<i>faz</i>)</td><td><span class="aljamiado-naskh ar">پرفسرہ</span> (<i>professora</i>)</td><td><span class="aljamiado-naskh ar">اف</span> (<i>off</i>)</td></tr>
     <tr><td><strong>ك</strong></td><td>Kāf</td><td><span class="aljamiado-naskh ar">كہ</span> (<i>que</i>)</td><td><span class="aljamiado-naskh ar">كدہ</span> (<i>cada</i>)</td><td><span class="aljamiado-naskh ar">بوسكہ</span> (<i>busca</i>)</td><td><span class="aljamiado-naskh ar">چك</span> (<i>check</i>)</td></tr>
-    <tr><td><strong>گ</strong></td><td>Gāf</td><td><span class="aljamiado-naskh ar">گوستى</span> (<i>gostei</i>)</td><td><span class="aljamiado-naskh ar">گیہ</span> (<i>guia</i>)</td><td><span class="aljamiado-naskh ar">آگوه</span> (<i>água</i>)</td><td><span class="aljamiado-naskh ar">بلگ</span> (<i>blog</i>)</td></tr>
-    <tr><td><strong>ل</strong></td><td>Lām</td><td><span class="aljamiado-naskh ar">إلى</span> (<i>ele</i>)</td><td><span class="aljamiado-naskh ar">لوز</span> (<i>luz</i>)</td><td><span class="aljamiado-naskh ar">پلو</span> (<i>pelo</i>)</td><td><span class="aljamiado-naskh ar">سل</span> (<i>sol</i>)</td></tr>
+    <tr><td><strong>گ</strong></td><td>Gāf</td><td><span class="aljamiado-naskh ar">گوستی</span> (<i>gostei</i>)</td><td><span class="aljamiado-naskh ar">گیہ</span> (<i>guia</i>)</td><td><span class="aljamiado-naskh ar">آگوه</span> (<i>água</i>)</td><td><span class="aljamiado-naskh ar">بلگ</span> (<i>blog</i>)</td></tr>
+    <tr><td><strong>ل</strong></td><td>Lām</td><td><span class="aljamiado-naskh ar">إلی</span> (<i>ele</i>)</td><td><span class="aljamiado-naskh ar">لوز</span> (<i>luz</i>)</td><td><span class="aljamiado-naskh ar">پلو</span> (<i>pelo</i>)</td><td><span class="aljamiado-naskh ar">سل</span> (<i>sol</i>)</td></tr>
     <tr><td><strong>م</strong></td><td>Mīm</td><td><span class="aljamiado-naskh ar">مہ</span> (<i>me</i>)</td><td><span class="aljamiado-naskh ar">مویتو</span> (<i>muito</i>)</td><td><span class="aljamiado-naskh ar">كمو</span> (<i>como</i>)</td><td><span class="aljamiado-naskh ar">بم</span> (<i>bom</i>)</td></tr>
     <tr><td><strong>ن</strong></td><td>Nūn</td><td><span class="aljamiado-naskh ar">نہ</span> (<i>na</i>)</td><td><span class="aljamiado-naskh ar">ناو</span> (<i>não</i>)</td><td><span class="aljamiado-naskh ar">انالیزہ</span> (<i>análise</i>)</td><td><span class="aljamiado-naskh ar">ان</span> (<i>on</i>)</td></tr>
-    <tr><td><strong>و</strong></td><td>Waw</td><td><span class="aljamiado-naskh ar">و</span> (<i>o</i>)</td><td><span class="aljamiado-naskh ar">او</span> (<i>ou</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">ليورو</span> (<i>livro</i>)</td></tr>
+    <tr><td><strong>و</strong></td><td>Waw</td><td><span class="aljamiado-naskh ar">و</span> (<i>o</i>)</td><td><span class="aljamiado-naskh ar">او</span> (<i>ou</i>)</td><td>&mdash;</td><td><span class="aljamiado-naskh ar">لیورو</span> (<i>livro</i>)</td></tr>
     <tr><td><strong>ه / ہ</strong></td><td>He</td><td><span class="aljamiado-naskh ar">هنرہ</span> (<i>honra</i>)</td><td><span class="aljamiado-naskh ar">همم</span> (<i>homem</i>)</td><td><span class="aljamiado-naskh ar">كهو</span> (<i>carro</i>)</td><td><span class="aljamiado-naskh ar">بوہ</span> (<i>boa</i>)</td></tr>
-    <tr><td><strong>ی</strong></td><td>Ye</td><td><span class="aljamiado-naskh ar">ی</span> (<i>e</i>)</td><td><span class="aljamiado-naskh ar">یلومنہ</span> (<i>ilumina</i>)</td><td><span class="aljamiado-naskh ar">مینیہ</span> (<i>minha</i>)</td><td><span class="aljamiado-naskh ar">اتى</span> (<i>até</i>)</td></tr>
+    <tr><td><strong>ی</strong></td><td>Ye</td><td><span class="aljamiado-naskh ar">ی</span> (<i>e</i>)</td><td><span class="aljamiado-naskh ar">یلومنہ</span> (<i>ilumina</i>)</td><td><span class="aljamiado-naskh ar">مینیہ</span> (<i>minha</i>)</td><td><span class="aljamiado-naskh ar">اتی</span> (<i>até</i>)</td></tr>
   </tbody>
 </table>
 </div>

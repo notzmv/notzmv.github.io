@@ -3,7 +3,7 @@
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Update the Didactic Tanwīn examples across all files to use the exact user-specified examples for unmarked vowels:
-1. **Fathatan (`ً` - Tanwīn A)**: **`prática`** $\rightarrow$ **`پرًكتيكہ`** (marks the unmarked tonic *a* in *prá-* when Alif is omitted).
+1. **Fathatan (`ً` - Tanwīn A)**: **`prática`** $\rightarrow$ **`پرًكتیكہ`** (marks the unmarked tonic *a* in *prá-* when Alif is omitted).
 2. **Kasratan (`ٍ` - Tanwīn I)**: **`ultimamente`** $\rightarrow$ **`التٍمنتہ`** (marks the unmarked *i* in *-tima-* when Ye is omitted).
 3. **Dammatan (`ٌ` - Tanwīn U)**: **`estúpido`** $\rightarrow$ **`استٌپدو`** (marks the unmarked tonic *u* in *-tú-* when Waw is omitted).
 
@@ -29,7 +29,7 @@
 ### Task 3: Build & Verification
 
 - [ ] **Step 1: Run `python3 build.py`**
-- [ ] **Step 2: Run Python verification script verifying new examples (`prática` `پرًكتيكہ`, `ultimamente` `التٍمنتہ`, `estúpido` `استٌپدو`)**
+- [ ] **Step 2: Run Python verification script verifying new examples (`prática` `پرًكتیكہ`, `ultimamente` `التٍمنتہ`, `estúpido` `استٌپدو`)**
 - [ ] **Step 3: Commit to Git**
 
 ```bash

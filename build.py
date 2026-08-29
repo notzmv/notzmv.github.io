@@ -70,7 +70,7 @@ def update_pt_cards():
             "title": "Frase 6 — Trabalho e Estudo",
             "pt": "Que Deus abençoe o seu trabalho e os seus estudos.",
             "ipa": "[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]",
-            "aljamiado": "كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.",
+            "aljamiado": "كہ دیوس ابنچوی و سیو تربلیو ی وها سیوها استودوها.",
             "notes": "Lām-Ye em تربلیو, sufixo nominal -hā em plurais (وها, سیوها, استودوها)."
         },
         {
@@ -102,7 +102,7 @@ def update_pt_cards():
             "title": "Frase 10 — União e Harmonia",
             "pt": "A união de corações sinceros constrói uma vida cheia de paz.",
             "ipa": "[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]",
-            "aljamiado": "ا انیاوم دہ كرچومها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.",
+            "aljamiado": "ا انیاوم دہ كرچومها سینچرها كنستروی اومہ ویدہ شیہ دہ پز.",
             "notes": "uma estritamente como اومہ, união com AOM (انیاوم), corações com plural -ções AOM (كرچومها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز."
         },
         {
@@ -214,8 +214,8 @@ def update_pt_cards():
             "title": "Frase 24 — Diálogo e Concórdia",
             "pt": "A verdade une as pessoas e constrói a verdadeira paz.",
             "ipa": "[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]",
-            "aljamiado": "ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.",
-            "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروى, Zāy em پز, verdadeira sem ye (ورددرہ)."
+            "aljamiado": "ا ورددہ اونی اها پسوها ی كنستروی ا ورددرہ پز.",
+            "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروی, Zāy em پز, verdadeira sem ye (ورددرہ)."
         },
         {
             "id": 25,
@@ -264,7 +264,7 @@ def update_en_cards():
             "title": "Pangram & Benchmark",
             "english": "The quick brown fox jumps over the lazy dog.",
             "ipa": "[ðə kwɪk braʊn fɒks dʒʌmps ˈoʊvər ðə ˈleɪzi dɒɡ]",
-            "aljamiado": "ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.",
+            "aljamiado": "ذا كویك براون فاكس جمپس اوڤر ذا لیزی داگ.",
             "notes": "Voiced th (ذ), v (ڤ), nominal agreement, silent-e dropped."
         },
         {
@@ -285,7 +285,7 @@ def update_en_cards():
             "title": "Historical Document",
             "english": "We hold these truths to be self-evident, that all men are created equal.",
             "ipa": "[wiː hoʊld ðiːz truːðz tuː biː sɛlf ˈɛvɪdənt ðæt ɔːl mɛn ɑːr kriːˈeɪtɪd ˈiːkwəl]",
-            "aljamiado": "وى هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.",
+            "aljamiado": "وی هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.",
             "notes": "Nominal plural -hā (ثروثها), past tense -ed (كرییتد), broad aw (آل)."
         },
         {
@@ -299,21 +299,21 @@ def update_en_cards():
             "title": "Daily Conversation & Plurals",
             "english": "She bought three books, two laptops, and five new pens.",
             "ipa": "[ʃiː bɔːt θriː bʊks tuː ˈlæptɒps ænd faɪv njuː pɛnz]",
-            "aljamiado": "شہ بات ثرى بوكها، تو لپتاپها، اند فایل نیو پنها.",
+            "aljamiado": "شہ بات ثری بوكها، تو لپتاپها، اند فایل نیو پنها.",
             "notes": "Nominal plurals systematically take -hā (بوكها, لپتاپها, پنها)."
         },
         {
             "title": "Verbal vs Nominal Contrast",
             "english": "He speaks fast while reading many books.",
             "ipa": "[hiː spiːks fæst waɪl ˈriːdɪŋ ˈmɛni bʊks]",
-            "aljamiado": "هى اسپیكس فاست وایل ریدڭ منى بوكها.",
+            "aljamiado": "هی اسپیكس فاست وایل ریدڭ منی بوكها.",
             "notes": "Verbal agreement retains Sīn (اسپیكس) while nominal plural uses -hā (بوكها)."
         },
         {
             "title": "Past Tense Morphophonemics",
             "english": "She walked to the city and played music for her friends.",
             "ipa": "[ʃiː wɔːkt tuː ðə ˈsɪti ænd pleɪd ˈmjuːzɪk fɔːr hɜːr frɛndz]",
-            "aljamiado": "شہ واكت تو ذا ستى اند پلاید میوزك فور هر فرندها.",
+            "aljamiado": "شہ واكت تو ذا ستی اند پلاید میوزك فور هر فرندها.",
             "notes": "Surface past tense -t (واكت) vs -d (پلاید)."
         },
         {
@@ -334,15 +334,15 @@ def update_en_cards():
             "title": "Classic Proverb",
             "english": "A journey of a thousand miles begins with a single step.",
             "ipa": "[ə ˈdʒɜːrni ɒv ə ˈθaʊzənd maɪlz bɪˈɡɪnz wɪð ə ˈsɪŋɡəl stɛp]",
-            "aljamiado": "ا جرنى اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.",
+            "aljamiado": "ا جرنی اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.",
             "notes": "j (ج), v (ڤ), th (ث), plural -hā (مایلها), agreement (بگینز)."
         },
         {
             "title": "Poetry",
             "english": "Two roads diverged in a yellow wood, and I took the one less traveled by.",
             "ipa": "[tuː roʊdz daɪˈvɜːrdʒd ɪn ə ˈjɛloʊ wʊd ænd aɪ tʊk ðə wʌn lɛs ˈtrævəld baɪ]",
-            "aljamiado": "تو رودها داىڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.",
-            "notes": "Plural (رودها), past tense -d (داىڤرجد, ترڤلد), diphthong eye (ای, بای)."
+            "aljamiado": "تو رودها دایڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.",
+            "notes": "Plural (رودها), past tense -d (دایڤرجد, ترڤلد), diphthong eye (ای, بای)."
         }
     ]
 

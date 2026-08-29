@@ -59,7 +59,7 @@
 
 #+BEGIN_EXPORT html
 <div class="basmala-hero" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: 1px solid var(--primary-accent); border-radius: 16px; padding: 2rem 1.5rem; text-align: center; margin: 1.5rem 0 2rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-  <div class="ar-basmala-naskh ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.8rem; line-height: 1.5; display: block !important;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
+  <div class="ar-basmala-naskh ar" style="font-size: 2.6rem; color: var(--primary-accent); font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.8rem; line-height: 1.5; display: block !important;">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِیمِ</div>
   <div class="aljamiado-basmala-naskh ar" style="font-size: 1.5rem; color: #6ee7b7; font-family: 'Noto Naskh Arabic', 'Amiri', serif !important; margin-bottom: 0.6rem; line-height: 1.6; display: block !important;">ام نمہ دہ دیوس، و كلمنتہ، و مزركردیوزو. <span style="font-size: 0.85rem; color: #8b949e; font-family: 'Inter', sans-serif; vertical-align: middle;">(Naskh)</span></div>
   <div class="aljamiado-basmala-nastaliq ar" style="font-size: 1.7rem; color: #34d399; font-family: 'Noto Nastaliq Urdu', 'Gulzar', serif !important; margin-bottom: 0.5rem; line-height: 2.2; display: block !important;">ام نمہ دہ دیوس، و كلمنتہ، و مزركردیوزو. <span style="font-size: 0.85rem; color: #8b949e; font-family: 'Inter', sans-serif; vertical-align: middle;">(Nastaliq)</span></div>
   <div class="pt-basmala" style="font-size: 1.1rem; color: var(--text-muted); font-style: italic; display: block !important;">Em nome de Deus, o Clemente, o Misericordioso.</div>
@@ -112,7 +112,7 @@ O **Aljamiado Português** é fruto de um processo rigoroso de engenharia lingu�
 3. **A Hierarquia de Prioridades Ortográficas (A Busca pelo Equilíbrio)**:
    A grafia orienta-se por 4 níveis de prioridade ortográfica:
    - **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar colisão homógrafa (*país* `پایس` $\neq$ *pais* `پایها`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
-   - **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
+   - **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتی`, *pó* `پو`).
    - **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* (`ی`) e *Waw* (`و`), reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
    - **Prioridade 4 — Vogais Médias e Baixas Atónicas**: Em sílabas internas simples, *a*, *e*, *o* atónicos são estritamente defectivos (*processo* `پرچسو`, *gente* `جنتہ`).
 
@@ -191,7 +191,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 6. **Frase 6 — Trabalho e Estudo**
    - **Português**: *Que Deus abençoe o seu trabalho e os seus estudos.*
    - **IPA**: `[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]`
-   - **Aljamiado**: `كہ دیوس ابنچوى و سیو تربلیو ی وها سیوها استودوها.`
+   - **Aljamiado**: `كہ دیوس ابنچوی و سیو تربلیو ی وها سیوها استودوها.`
    - **Notas**: Lām-Ye em `تربلیو`, sufixo nominal `-hā` em plurais (`وها`, `سیوها`, `استودوها`).
 
 7. **Frase 7 — Sabedoria e Justiça**
@@ -215,7 +215,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 10. **Frase 10 — União e Harmonia**
     - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
     - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
-    - **Aljamiado**: `ا انیناو دہ كرچوها سینچرها كنستروى اومہ ویدہ شیہ دہ پز.`
+    - **Aljamiado**: `ا انیناو دہ كرچوها سینچرها كنستروی اومہ ویدہ شیہ دہ پز.`
     - **Notas**: *uma* estritamente como `اومہ`, plural nominal `-hā` (`كرچوها`, `سینچرها`), Shīn para CH em *cheia* com Gol He Urdu (`شیہ` U+06C1), Zāy em `پز`.
 
 11. **Frase 11 — Sabedoria e Razão**
@@ -282,7 +282,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
     - **Português**: *O estudo constante ilumina o espírito e abre a mente.*
     - **IPA**: `[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]`
     - **Aljamiado**: `و استودو كنستنتہ یلومنہ و اسپرتو ی ابرہ ا منتہ.`
-    - **Notas**: Alif inicial de suporte (`استودو`, `اسپرتو`), *espírito* sem ye atónico (`اسپرتو`), Gol He final em `كنستنتہ`, `يلومنہ`, `منتہ`.
+    - **Notas**: Alif inicial de suporte (`استودو`, `اسپرتو`), *espírito* sem ye atónico (`اسپرتو`), Gol He final em `كنستنتہ`, `یلومنہ`, `منتہ`.
 
 22. **Frase 22 — Respeito e Modéstia**
     - **Português**: *Um homem sábio fala com humildade e ouve com atenção.*
@@ -299,8 +299,8 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 24. **Frase 24 — Diálogo e Concórdia**
     - **Português**: *A verdade une as pessoas e constrói a verdadeira paz.*
     - **IPA**: `[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]`
-    - **Aljamiado**: `ا ورددہ اونی اها پسوها ی كنستروى ا ورددرہ پز.`
-    - **Notas**: Sīn duplo em `پسوها` com sufixo `-hā`, ditongo `oi` em `كنستروى`, Zāy em `پز`, *verdadeira* sem ye (`ورددرہ`).
+    - **Aljamiado**: `ا ورددہ اونی اها پسوها ی كنستروی ا ورددرہ پز.`
+    - **Notas**: Sīn duplo em `پسوها` com sufixo `-hā`, ditongo `oi` em `كنستروی`, Zāy em `پز`, *verdadeira* sem ye (`ورددرہ`).
 
 25. **Frase 25 — O Mar e o Horizonte**
     - **Português**: *Os rios correm para o mar e renovam as águas da terra.*
@@ -322,7 +322,7 @@ Abaixo apresentam-se as transcrições interlineares das 25 frases fundamentais 
 | **f** | [f] | **ف** | Fā | *fazes* | `فزس` |
 | **v** | [v] | **و** | Waw | *você* | `وچہ` |
 | **k / c / q** (duro) | [k] | **ك** | Kāf | *coisa* | `كویزہ` |
-| **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستى` |
+| **g** (duro) | [g] | **گ** | Gāf | *gostei* | `گوستی` |
 | **r** (simples / brando) | [ɾ] | **ر** | Rā | *caro* | `كرو` |
 | **rr** (intervocálico forte) | [ʁ] / [h] | **ه** | He | *carro* / *terra* | `كهو` / `تہہ` |
 | **r-** (inicial forte) | [ʁ] / [r] | **ر** | Rā | *rio* / *rua* | `ریو` / `روه` |
@@ -351,15 +351,15 @@ Para manter a fidelidade ortográfica e fonológica com as raízes latinas e a t
   - *gênero* $\rightarrow$ `جینرو` / `جنرو` (proparoxítona, com Ye `ی` tónico opcional para preservação da identidade vocálica)
   - *gerúndio* $\rightarrow$ `جروندیو` / `جرندیو` (grafado estritamente com Jīm `ج` por ter raiz com *g*; com opção de Waw `و` após o Rā `ر` para marcar a vogal tónica em *-rú-*)
   - *giringonça* $\rightarrow$ `جرنگنسہ` (sem Waw `و` no sufixo paroxítono *-onça*)
-  - *Gemini* $\rightarrow$ `جمینى`
+  - *Gemini* $\rightarrow$ `جمینی`
 - **J** (grafema independente *j*, representando /ʒ/ lexical da raiz) mapeia para **Žā** (`ژ`):
   - *projeto* $\rightarrow$ `پرژتو`
   - *jogo* $\rightarrow$ `ژگو`
   - *jeito* $\rightarrow$ `ژیتو`
   - *sujeito* $\rightarrow$ `سژیتو`
 - **G duro** (antes de *a*, *o*, *u*, o oclusivo velar /ɡ/) mapeia para **Gāf** (`گ`):
-  - *gostei* $\rightarrow$ `گوستى`
-  - *gramática* $\rightarrow$ `گرمتيكہ` (Alif tónico `ا` posicionado após o Mīm `م` na sílaba tónica *-má-*)
+  - *gostei* $\rightarrow$ `گوستی`
+  - *gramática* $\rightarrow$ `گرمتیكہ` (Alif tónico `ا` posicionado após o Mīm `م` na sílaba tónica *-má-*)
   - *isoglossa* $\rightarrow$ `ایزگلسہ`
 
 
@@ -395,9 +395,9 @@ Nas posições intervocálicas onde o português opõe a fricativa alveolar sono
 A letra **X** não possui um valor único fixo e é mapeada estritamente de acordo com a sua realização fonética real:
 - **X com som de /ks/** (grupo consonantal [ks] em palavras como *táxi*, *fixo*, *sintaxe*, *anexo*, *tóxico*, *flexível*): Mapeia prioritariamente para **Chā** (`چ`):
   - *táxi* $\rightarrow$ `تاچی`
-  - *fixo* $\rightarrow$ `فيچو`
-  - *sintaxe* $\rightarrow$ `سينتچہ`
-  - *anexo* $\rightarrow$ `انيچو`
+  - *fixo* $\rightarrow$ `فیچو`
+  - *sintaxe* $\rightarrow$ `سینتچہ`
+  - *anexo* $\rightarrow$ `انیچو`
   - *tóxico* $\rightarrow$ `توچیكو`
 - **X com som de /ʃ/** (som de *ch* / *sh*, ex.: *caixa*, *lixo*, *xadrez*, *enxame*): Mapeia para **Šīn** (`ش`) ou **Chā** (`چ`):
   - *lixo* $
@@ -420,7 +420,7 @@ ightarrow$ `إزملو` / `ازملو` $\rightarrow$ `إزملو` / `ازملو`
   - *processo* $\rightarrow$ `پرچسو`
   - *passo* $\rightarrow$ `پسو`
   - *professora* $\rightarrow$ `پرفسرہ`
-  - *morfossintaxe* $\rightarrow$ `مرفسينتسہ`
+  - *morfossintaxe* $\rightarrow$ `مرفسینتسہ`
 
 ** Dígrafos Palatais (lh, nh)
 As consoantes palatais são representadas como ligaduras de consoante-semivogal usando *Lām-Ye* (`لی`) e *Nūn-Ye* (`نی`):
@@ -435,7 +435,7 @@ As consoantes palatais são representadas como ligaduras de consoante-semivogal 
   - *casa* $\rightarrow$ `كزہ`
   - *prática* $\rightarrow$ `پرًتكہ` / `پراكتیكہ`
 - **-e final (átono / geral)** mapeia prioritariamente para **Ye (`ی`)** ou variante **Gol He (`ہ`)**:
-  - *gente* $\rightarrow$ **`جنتى`** / `جنتہ`
+  - *gente* $\rightarrow$ **`جنتی`** / `جنتہ`
   - *você* $\rightarrow$ **`وچی`** / `وچہ`
   - *se* $\rightarrow$ **`سی`** / `سہ`
   - *de* $\rightarrow$ **`دی`** / `دہ`
@@ -444,7 +444,7 @@ As consoantes palatais são representadas como ligaduras de consoante-semivogal 
   - *como* $\rightarrow$ `كمو`
 - **Oxítonas Finais em *-í* e *-ú* (Suporte de Hamzah `ئ` / `ؤ` - Recomendado / Opcional)**:
   Para assinalar graficamente a acentuação tónica final nas vogais altas *-í* e *-ú* quando se busca máxima precisão e clareza visual, recomenda-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`). O uso do Hamzah é o ideal estilístico para desambiguação, embora permaneça opcional na escrita rápida (onde a *mater lectionis* simples é admitida):
-  - *aqui* [ɐ'ki] $\rightarrow$ **`اكئ`** (recomendado/explícito com Hamzah `ئ`) / `اكي` (econômico) $\neq$ *aquele* `اكلى`
+  - *aqui* [ɐ'ki] $\rightarrow$ **`اكئ`** (recomendado/explícito com Hamzah `ئ`) / `اكی` (econômico) $\neq$ *aquele* `اكلی`
   - *rubi* [ʁu'bi] $\rightarrow$ **`ربئ`** / `ربی`
   - *caju* [kɐ'ʒu] $\rightarrow$ **`كژؤ`** / `كژو`
   - *baú* [bɐ'u] $\rightarrow$ **`باؤ`** / `باو`
@@ -474,9 +474,9 @@ Ambas as convenções são variantes ortográficas plenamente válidas no Aljami
   - **Regra de Ausência de Hamzah no Alif**: O Alif nunca carrega Hamzah (`إ` ou `أ`). Neste sistema, o Hamzah é reservado exclusivamente para assinalar hiato/ditongo sobre Ye (`ئ`) e Waw (`ؤ`). As vogais iniciais escritas com Alif usam Alif simples (`ا`) ou Alif com Madd (`آ`), podendo também ser representadas por Ye direto (`ی`) e Ye Duplo (`یی`).
 
 ** Alif Tónico (ا) e Mater Lectionis em Proparoxítonas
-- **Uso Estrito do Alif Tónico (`ا`)**: O uso do Alif tónico como marcador de proparoxítona é **limitado estritamente à vogal tónica *a*** (ex.: *prática* `پراكتیكہ`, *gramática* `گرمتيكہ`, *análise* `انالیزہ`), ou para quando se tornar estritamente necessário distinguir entre **e** tónico e **i** tónico em pares mínimos proparoxítonos.
+- **Uso Estrito do Alif Tónico (`ا`)**: O uso do Alif tónico como marcador de proparoxítona é **limitado estritamente à vogal tónica *a*** (ex.: *prática* `پراكتیكہ`, *gramática* `گرمتیكہ`, *análise* `انالیزہ`), ou para quando se tornar estritamente necessário distinguir entre **e** tónico e **i** tónico em pares mínimos proparoxítonos.
 - **Proparoxítonas com e / i / o / u Tónicos**: Quando não houver tal necessidade de diferenciação de pares mínimos:
-  - **e** e **i** tónicos em proparoxítonas grafam-se com **Ye (`ی`)** (ex.: *gênero* $\rightarrow$ **`جینرو`**, *fonética* $\rightarrow$ **`فنيتكہ`**).
+  - **e** e **i** tónicos em proparoxítonas grafam-se com **Ye (`ی`)** (ex.: *gênero* $\rightarrow$ **`جینرو`**, *fonética* $\rightarrow$ **`فنیتكہ`**).
   - **o** e **u** tónicos em proparoxítonas (e em tonicidades vocálicas primárias) grafam-se analogamente com **Waw (`و`)** (ex.: *estudo* $\rightarrow$ **`استودو`**, *gerúndio* $\rightarrow$ **`جروندیو`**).
 
 ** Contrastes de Vogais Abertas vs. Fechadas (avô vs. avó)
@@ -491,7 +491,7 @@ Nas palavras **paroxítonas** (acentuação regular na penúltima sílaba), as v
 - **processo** $\rightarrow$ `پرچسو` (sem Waw `و` pré-tónico nem Ye `ی` tónico)
 - **professora** $\rightarrow$ `پرفسرہ` (sem Waw `و` tónico em *-so-*)
 
-Em contraste, as **não-paroxítonas** (proparoxítonas e oxítonas) exigem letras de *mater lectionis* tónicas quando necessário (ex.: *gramática* `گرامتیكہ` com Alif tónico `ا`, *fonética* `فنيتكہ` com Ye tónico `ی`).
+Em contraste, as **não-paroxítonas** (proparoxítonas e oxítonas) exigem letras de *mater lectionis* tónicas quando necessário (ex.: *gramática* `گرامتیكہ` com Alif tónico `ا`, *fonética* `فنیتكہ` com Ye tónico `ی`).
 
 ** Princípio da Vogal Defectiva (Minimização de Vogais Longas Internas para a, e, o)
 Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica semítica clássica (*Rasm*), as vogais médias/baixas breves (**a**, **e**, **o**) dentro de sílabas internas simples e não-ditongais **não** requerem letras explícitas de *mater lectionis* (Alif `ا`, Ye `ی`, Waw `و`).
@@ -501,10 +501,10 @@ Para preservar a compacidade visual e alinhar-se com a eficiência ortográfica 
    - **Princípio de Minimização Estrita**: As vogais *a*, *e* e *o* são **apenas escritas se for estritamente necessário** e DEVEM ser evitadas a menos que a sua omissão causasse ambiguidade real.
    - Exemplos:
      - *ortografia* [ɔɾtuɡɾɐˈfiɐ] $\rightarrow$ **ارتگرفیہ** (*o-r-t-o-g-r-a-f-i-a*: apenas o suporte de Alif `ا` inicial, sem Waw `و`, *o* e *a* internos omitidos, vogal alta *i* (`ی`) e *-a* final (`ہ`) mantidos)
-     - *gramática* [ɡɾɐˈmatikɐ] $\rightarrow$ **گرامتیكہ** (*grm* + Alif tónico `ا` + *tika* `تيكہ`)
+     - *gramática* [ɡɾɐˈmatikɐ] $\rightarrow$ **گرامتیكہ** (*grm* + Alif tónico `ا` + *tika* `تیكہ`)
      - *morfologia* [mɔɾfuluˈʒiɐ] $\rightarrow$ **مرفلجیہ** (*m-r-f-l* + Jīm `ج` para G brando + Ye `ی` + He `ہ`)
-     - *fonética* [fuˈnɛtikɐ] $\rightarrow$ **فنيتكہ** (*fn* + Ye `ی` para *e* tónico não-paroxítono + *tika* `تيكہ`)
-     - *sintaxe* [sĩˈtaksɨ] $\rightarrow$ **سينتسہ** (*sin* `سين` + *ta* `ت` + *sin* `س` + He `ہ`)
+     - *fonética* [fuˈnɛtikɐ] $\rightarrow$ **فنیتكہ** (*fn* + Ye `ی` para *e* tónico não-paroxítono + *tika* `تیكہ`)
+     - *sintaxe* [sĩˈtaksɨ] $\rightarrow$ **سینتسہ** (*sin* `سین` + *ta* `ت` + *sin* `س` + He `ہ`)
      - *semântica* [sɨˈmɐ̃tikɐ] $\rightarrow$ **سمنتیكہ** (*s-m-n-t-i-c-a*: Nūn nasalizador, *i* e *-a* final mantidos)
      - *filologia* [filuluˈʒiɐ] $\rightarrow$ **فللجیہ** (*fllg* com Jīm `ج` para G brando + Ye `ی` + He `ہ`)
      - *isoglossa* [izuˈɡlɔsɐ] $\rightarrow$ **ایزگلسہ** (*i-z-g-l-ss-a*: Ye inicial, *o* interno defectivo)
@@ -555,7 +555,7 @@ Em palavras polissilábicas cuja acentuação tónica recai na penúltima sílab
 O sistema opera mediante uma **Hierarquia de 4 Níveis de Prioridades Ortográficas** baseada em *mater lectionis* por proximidade fonética:
 
 1. **Prioridade 1 — Encontros Vocálicos e Hiatos Críticos**: Exigem ambas as *mater lectionis* para evitar ambiguidade (*país* `پایس`, *raiz* `رayz` / `رایز`), admitindo omissão pontual apenas quando o esqueleto consonantal for unívoco (*hiato* $\rightarrow$ **`هیتو`**).
-2. **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتى`, *pó* `پو`).
+2. **Prioridade 2 — Oxítonas Tónicas e Vogais Acentuadas**: Picos de intensidade mantêm seus suportes vocálicos (*fé* `فی`, *até* `اتی`, *pó* `پو`).
 3. **Prioridade 3 — Vogais Altas (I / U) e Redução de Polissílabos**: Vogais altas mantêm *Ye* (`ی`) e *Waw* (`و`), reduzindo-se apenas em polissílabos de alta redundância (*generosidade* `جنرزددہ`).
 4. **Prioridade 4 — Vogais Médias e Baixas Atónicas**: Em sílabas internas simples, *a*, *e*, *o* atónicos são estritamente defectivos (*processo* `پرچسو`, *gente* `جنتہ`).
 ** Economia Escalar por Comprimento de Palavra e Desambiguação de Pares Mínimos
@@ -726,8 +726,8 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 | **Dem. Fem. Sing.** | *esta* | `استہ` / `ستہ` | Gol He final |
 | **Dem. Fem. Plur.** | *estas* | `استها` / `ستها` | Radical *esta* + *-hā* nominal |
 | **Dem. Neutro** | *isto* | `ایستو` / `ستو` | Vogal alta *i* (`ی`) + Waw final |
-| **Dem. Masc. Distal** | *aquele* | `اكلہ` / `اكيلی` | Kāf + Gol He / Ye |
-| **Dem. Masc. Distal Plur.** | *aqueles* | `اكلها` / `اكيليها` | Base + *-hā* nominal |
+| **Dem. Masc. Distal** | *aquele* | `اكلہ` / `اكیلی` | Kāf + Gol He / Ye |
+| **Dem. Masc. Distal Plur.** | *aqueles* | `اكلها` / `اكیلیها` | Base + *-hā* nominal |
 
 ** Glossário de Termos Lingüísticos e Gramaticais em Aljamiado
 
@@ -735,14 +735,14 @@ Os escritores podem inspirar-se na ortografia histórica do português (onde os 
 |------------------------|-------------------+------------------------------------------------|
 | **linguística** | `لنگویستیكہ` | *Lām-Ye* (`لی`), Nūn nasal, Waw-Ye (`وی` ditongo), *i* alto mantido |
 | **fonologia** | `فنلجیہ` | *o* e *o* internos defectivos omitidos, Jīm (`ج`) para G brando, Ye-Gol He final |
-| **fonética** | `فنيتكہ` | *fn* + Ye (`ی`) para *e* tónico não-paroxítono + *tika* (`تيكہ`) |
+| **fonética** | `فنیتكہ` | *fn* + Ye (`ی`) para *e* tónico não-paroxítono + *tika* (`تیكہ`) |
 | **morfologia** | `مرفلجیہ` | Esqueleto consonantal *m-r-f-l* + Jīm (`ج`) para G brando, Ye-Gol He final (`ی-ہ`) |
-| **sintaxe** | `سينتسہ` | *Sīn-Ye-Nūn* (`سين`), *t* (`ت`), *x* como Sīn (`س`), Gol He final |
+| **sintaxe** | `سینتسہ` | *Sīn-Ye-Nūn* (`سین`), *t* (`ت`), *x* como Sīn (`س`), Gol He final |
 | **semântica** | `سمنتیكہ` | Nūn nasalizador interno, *i* alto mantido, Gol He final |
-| **pragmática** | `پراگمتيكہ` | Alif tónico em proparoxítona, *a* interno defectivo omitido |
+| **pragmática** | `پراگمتیكہ` | Alif tónico em proparoxítona, *a* interno defectivo omitido |
 | **etimologia** | `اتملجیہ` / `یتملجیہ` | Alif ou Ye inicial, *e*, *i*, *o* internos defectivos |
 | **filologia** | `فللجیہ` | Esqueleto *f-l-l* + Jīm (`ج`) para G brando + Ye-Gol He final (`ی-ہ`) |
-| **dialeto** / **dialecto** | `ديلتو` / `دالتم` | Ye para ditongo/hiato *ia*, Waw final |
+| **dialeto** / **dialecto** | `دیلتو` / `دالتم` | Ye para ditongo/hiato *ia*, Waw final |
 | **isoglossa** | `ایزگلسہ` | Zāy (`ز`) para *s* intervocálico /z/, Gol He final |
 
 ** Flexão Nominal e Alternâncias de Plural
@@ -807,7 +807,7 @@ Esta seção reúne a gama completa de palavras-exemplo trabalhadas ao longo das
       <tr><td>Traço Baixo (Lição 2)</td><td>pão</td><td><span class="aljamiado-naskh ar">پاوم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پاوم</span></td><td><code>[pɐ̃w̃]</code></td><td>Pā + Alif-Waw-Mīm (AOM)</td></tr>
       <tr><td>Traço Baixo (Lição 2)</td><td>tu</td><td><span class="aljamiado-naskh ar">تو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تو</span></td><td><code>[tu]</code></td><td>Tā + Waw final</td></tr>
       <tr><td>Traço Baixo (Lição 2)</td><td>tudo</td><td><span class="aljamiado-naskh ar">تودو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">تودو</span></td><td><code>['tudu]</code></td><td>Tā + Waw + Dāl + Waw</td></tr>
-      <tr><td>Traço Baixo (Lição 2)</td><td>até</td><td><span class="aljamiado-naskh ar">اتى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتى</span></td><td><code>[a'tɛ]</code></td><td>Alif + Tā + Ye tónico</td></tr>
+      <tr><td>Traço Baixo (Lição 2)</td><td>até</td><td><span class="aljamiado-naskh ar">اتی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">اتی</span></td><td><code>[a'tɛ]</code></td><td>Alif + Tā + Ye tónico</td></tr>
       <tr><td>Traço Baixo (Lição 2)</td><td>de</td><td><span class="aljamiado-naskh ar">دہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">دہ</span></td><td><code>[dʒi]</code></td><td>Dāl + Gol He final</td></tr>
       <tr><td>Traço Baixo (Lição 2)</td><td>cidade</td><td><span class="aljamiado-naskh ar">چددہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">چددہ</span></td><td><code>[si'dadʒi]</code></td><td>Chā (C brando) + Dāl + Dāl + Gol He</td></tr>
 
@@ -816,7 +816,7 @@ Esta seção reúne a gama completa de palavras-exemplo trabalhadas ao longo das
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>com</td><td><span class="aljamiado-naskh ar">كم</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كم</span></td><td><code>[kõj]</code></td><td>Kāf + Mīm final</td></tr>
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>como</td><td><span class="aljamiado-naskh ar">كمو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمو</span></td><td><code>['komu]</code></td><td>Kāf + Mīm + Waw final</td></tr>
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>cada</td><td><span class="aljamiado-naskh ar">كدہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كدہ</span></td><td><code>['kadɐ]</code></td><td>Kāf + Dāl + Gol He final</td></tr>
-      <tr><td>Cúpulas & Hastes (Lição 3)</td><td>gostei</td><td><span class="aljamiado-naskh ar">گوستى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">گوستى</span></td><td><code>[gos'tej]</code></td><td>Gāf + Waw + Sīn + Tā + Ye final</td></tr>
+      <tr><td>Cúpulas & Hastes (Lição 3)</td><td>gostei</td><td><span class="aljamiado-naskh ar">گوستی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">گوستی</span></td><td><code>[gos'tej]</code></td><td>Gāf + Waw + Sīn + Tā + Ye final</td></tr>
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>água</td><td><span class="aljamiado-naskh ar">آگوه</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">آگوه</span></td><td><code>['agwɐ]</code></td><td>Alif Madd + Gāf + Waw + Gol He</td></tr>
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>fé</td><td><span class="aljamiado-naskh ar">فی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فی</span></td><td><code>[fɛ]</code></td><td>Fā + Ye final</td></tr>
       <tr><td>Cúpulas & Hastes (Lição 3)</td><td>fazer</td><td><span class="aljamiado-naskh ar">فزر</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فزر</span></td><td><code>[fa'zeɾ]</code></td><td>Fā + Zāy + Rā final</td></tr>
@@ -842,7 +842,7 @@ Esta seção reúne a gama completa de palavras-exemplo trabalhadas ao longo das
       <tr><td>Sibilantes & Hiatos (Lição 5)</td><td>pais</td><td><span class="aljamiado-naskh ar">پایها</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">پایها</span></td><td><code>[pajʃ]</code></td><td>Ditongo <em>pai</em> + logograma <code>-hā</code> (plural)</td></tr>
 
       <!-- Lição 6: Hastes Altas & Palatais -->
-      <tr><td>Palatais & Hastes (Lição 6)</td><td>ele</td><td><span class="aljamiado-naskh ar">إلى</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">إلى</span></td><td><code>['eli]</code></td><td>Alif Kasrah + Lām + Ye final</td></tr>
+      <tr><td>Palatais & Hastes (Lição 6)</td><td>ele</td><td><span class="aljamiado-naskh ar">إلی</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">إلی</span></td><td><code>['eli]</code></td><td>Alif Kasrah + Lām + Ye final</td></tr>
       <tr><td>Palatais & Hastes (Lição 6)</td><td>ela</td><td><span class="aljamiado-naskh ar">إلہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">إلہ</span></td><td><code>['ɛlɐ]</code></td><td>Alif Kasrah + Lām + Gol He final</td></tr>
       <tr><td>Palatais & Hastes (Lição 6)</td><td>filho</td><td><span class="aljamiado-naskh ar">فیلیو</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">فیلیو</span></td><td><code>['fiʎu]</code></td><td>Fā + Ye + Lām-Ye (LH) + Waw</td></tr>
       <tr><td>Palatais & Hastes (Lição 6)</td><td>caminho</td><td><span class="aljamiado-naskh ar">كمینیہ</span></td><td class="nastaliq-col"><span class="aljamiado-nastaliq ar">كمینیہ</span></td><td><code>[kɐ'miɲu]</code></td><td>Kāf + Mīm + Ye + Nūn-Ye (NH) + Gol He</td></tr>

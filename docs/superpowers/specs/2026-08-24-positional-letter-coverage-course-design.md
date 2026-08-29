@@ -34,9 +34,9 @@ Systematically expand the vocabulary and positional exemplification in the Aljam
 | **ا** | Alif | Não-conector | Isolada / Final | *a* (`ا`) | &mdash; | &mdash; | *da* (`دا`), *já* (`ژا`) |
 | **ب** | Bā | Conector | 4 Formas | *b* (`ب`) | *boa* (`بوہ`) | *sabedoria* (`سبدریہ`) | *sob* (`سب`) |
 | **پ** | Pā | Conector | 4 Formas | *p* (`پ`) | *para* (`پرہ`) | *esperança* (`اسپرنچہ`) | *strip* (`ستریپ`) |
-| **ت** | Tā | Conector | 4 Formas | *tu* (`تو`) | *tudo* (`تودو`) | *fruto* (`فروتو`) | *até* (`اتى`) |
+| **ت** | Tā | Conector | 4 Formas | *tu* (`تو`) | *tudo* (`تودو`) | *fruto* (`فروتو`) | *até* (`اتی`) |
 | **ج** | Jīm | Conector | 4 Formas | *gênero* (`جinro`) | *gente* (`جنتہ`) | *generosidade* (`جنرزددہ`) | *gem* (`جم`) |
-| **چ** | Chā | Conector | 4 Formas | *cê* (`چہ`) | *cidade* (`چددہ`) | *você* (`وچہ`) | *fixo* (`فيچو`) |
+| **چ** | Chā | Conector | 4 Formas | *cê* (`چہ`) | *cidade* (`چددہ`) | *você* (`وچہ`) | *fixo* (`فیچو`) |
 | **د** | Dāl | Não-conector | Isolada / Final | *de* (`دہ`) | *do* (`دو`) | &mdash; | *vida* (`ویدہ`) |
 | **ر** | Rā | Não-conector | Isolada / Final | *rio* (`ریو`) | *rua* (`روه`) | &mdash; | *ver* (`ور`), *por* (`پور`) |
 | **ز** | Zāy | Não-conector | Isolada / Final | *zé* (`زہ`) | *zero* (`زرو`) | &mdash; | *paz* (`پز`), *traz* (`ترز`) |
@@ -45,13 +45,13 @@ Systematically expand the vocabulary and positional exemplification in the Aljam
 | **ش** | Shīn | Conector | 4 Formas | *chá* (`شا`) | *chave* (`شوه`) | *lixo* (`لیشو`) | *flash* (`فلاش`) |
 | **ف** | Fā | Conector | 4 Formas | *fé* (`فی`) | *faz* (`فز`) | *professora* (`پرفسرہ`) | *off* (`اف`) |
 | **ك** | Kāf | Conector | 4 Formas | *que* (`كہ`) | *cada* (`كدہ`) | *busca* (`بوسكہ`) | *check* (`چك`) |
-| **گ** | Gāf | Conector | 4 Formas | *gostei* (`گوستى`) | *guia* (`گیہ`) | *água* (`آگوه`) | *blog* (`بلگ`) |
-| **ل** | Lām | Conector | 4 Formas | *ele* (`إلى`) | *luz* (`لوز`) | *pelo* (`پلو`) | *sol* (`سل`) |
+| **گ** | Gāf | Conector | 4 Formas | *gostei* (`گوستی`) | *guia* (`گیہ`) | *água* (`آگوه`) | *blog* (`بلگ`) |
+| **ل** | Lām | Conector | 4 Formas | *ele* (`إلی`) | *luz* (`لوز`) | *pelo* (`پلو`) | *sol* (`سل`) |
 | **م** | Mīm | Conector | 4 Formas | *me* (`مہ`) | *muito* (`مویتو`) | *como* (`كمو`) | *bom* (`بم`) |
 | **ن** | Nūn | Conector | 4 Formas | *na* (`نہ`) | *não* (`ناو`) | *análise* (`انالیزہ`) | *on* (`ان`) |
 | **و** | Waw | Não-conector | Isolada / Final | *o* (`و`) | *ou* (`او`) | &mdash; | *como* (`كمو`), *livro* (`لیورو`) |
 | **ه / ہ** | He | Conector/Gol He | 4 Formas | *honra* (`هنرہ`) | *homem* (`همم`) | *carro* (`كهو`) | *boa* (`بوہ`), *vida* (`ویدہ`) |
-| **ی** | Ye | Conector | 4 Formas | *e* (`ی`) | *ilumina* (`یلومنہ`) | *minha* (`مینیہ`) | *até* (`اتى`), *gostei* (`گوستى`) |
+| **ی** | Ye | Conector | 4 Formas | *e* (`ی`) | *ilumina* (`یلومنہ`) | *minha* (`مینیہ`) | *até* (`اتی`), *gostei* (`گوستی`) |
 
 ---
 

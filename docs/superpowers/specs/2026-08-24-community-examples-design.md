@@ -47,7 +47,7 @@ Replace the existing 10 meta-linguistic example sentences (which discuss concept
 ### Frase 6 — Trabalho e Estudo
 - **Português**: *Que Deus abençoe o seu trabalho e os seus estudos.*
 - **IPA**: `[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]`
-- **Aljamiado**: `كہ دایوس ابنجوى و سیو تربلیو ی وها سیوها استودوها.`
+- **Aljamiado**: `كہ دایوس ابنجوی و سیو تربلیو ی وها سیوها استودوها.`
 - **Notas**: Lām-Ye (`لی`) em *تربلیو*, plural nominal `-hā` em *وها*, *سیوها*, *استودوها*.
 
 ### Frase 7 — Sabedoria e Justiça
@@ -71,7 +71,7 @@ Replace the existing 10 meta-linguistic example sentences (which discuss concept
 ### Frase 10 — União e Harmonia
 - **Português**: *A união de corações sinceros constrói uma vida cheia de paz.*
 - **IPA**: `[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]`
-- **Aljamiado**: `ا انیاو دہ كرجوها سنچروها كنستروى اومہ ویدہ چیه دہ پز.`
+- **Aljamiado**: `ا انیاو دہ كرجوها سنچروها كنستروی اومہ ویدہ چیه دہ پز.`
 - **Notas**: Plural nominal `-hā` em *كرجوها* e *سنچروها*, Chā (`چ`) em *شیہ*, Zāy em *پز*.
 
 ---

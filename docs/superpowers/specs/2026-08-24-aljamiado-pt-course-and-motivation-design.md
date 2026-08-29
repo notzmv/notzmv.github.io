@@ -53,11 +53,11 @@ The course is structured into 7 form-based lessons, ordering letter shape famili
 
 ### Lição 2: Traço Baixo — Bā' (`ب`, `پ`, `ت`) e Gancho Dāl (`د`)
 - **Formas**: Traço horizontal inferior com pontos + curva angular de Dāl.
-- **Novas Palavras & Vogais**: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *tudo* (`تودo`), *até* (`اتى`), *boa* (`بوہ`).
+- **Novas Palavras & Vogais**: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *tudo* (`تودo`), *até* (`اتی`), *boa* (`بوہ`).
 
 ### Lição 3: Cúpulas & Hastes — Kāf/Gāf (`ك`, `گ`) e Encontros Vocálicos Iniciais
 - **Suportes Iniciais**: Alif (`ا`), Alif Madd (`آ`), Alif-Waw (`او`), Alif-Ye (`ای`).
-- **Novas Palavras**: *que* (`كہ`), *com* (`كم`), *como* (`كمو`), *cada* (`كدہ`), *vida* (`ویدہ`), *faz* (`فز`), *até* (`اتى`).
+- **Novas Palavras**: *que* (`كہ`), *com* (`كم`), *como* (`كمو`), *cada* (`كدہ`), *vida* (`ویدہ`), *faz* (`فز`), *até* (`اتی`).
 
 ### Lição 4: Laços Circulares — Mīm (`م`), Nūn (`ن`), Ye (`ی`) e o Motor de Nasalização
 - **Formas & Nasalização**: Círculo com cauda (`م`), tigela com ponto (`ن`), curva em S (`ی`).
@@ -69,7 +69,7 @@ The course is structured into 7 form-based lessons, ordering letter shape famili
 
 ### Lição 6: Hastes Altas & Dígrafos — Lām (`ل`), LH (`ل-ی`), NH (`ن-y`), RR (`ه`)
 - **Formas**: Haste vertical longa conectiva e combinações palatais; contraste R (`ر`) vs. RR (`ه`).
-- **Novas Palavras**: *ele* (`إلى`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهo`).
+- **Novas Palavras**: *ele* (`إلی`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهo`).
 
 ### Lição 7: Sufixo Nominal de Plural (`-hā` / `ـها`) e Paradigmas Morfofonêmicos Completos
 - **Formas**: Conexão mediana de He com Alif (`ـها`).

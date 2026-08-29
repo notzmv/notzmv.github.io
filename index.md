@@ -74,11 +74,11 @@ This specification formalizes the orthographic engine for English. The system pr
 | **k / c / q** (hard) | [k] | **ك** | Kāf | *cat* / *kind* | `كات` / `كایند` |
 | **g** (hard) | [ɡ] | **گ** | Gāf | *good* / *go* | `گود` / `گو` |
 | **f** | [f] | **ف** | Fā | *find* | `فایند` |
-| **v** | [v] | **ڤ** | Vā | *very* / *voice* | `ڤرى` / `ڤویس` |
+| **v** | [v] | **ڤ** | Vā | *very* / *voice* | `ڤری` / `ڤویس` |
 | **th** (voiceless) | [θ] | **ث** | Sā | *thin* / *think* | `ثن` / `ثنك` |
 | **th** (voiced) | [ð] | **ذ** | Zāl | *this* / *the* | `ذس` / `ذ` |
-| **s** (voiceless) | [s] | **س** | Sīn | *sun* / *city* | `سن` / `ستى` |
-| **z / s** (voiced) | [z] | **ز** | Zāy | *zoo* / *easy* | `زو` / `إیزى` |
+| **s** (voiceless) | [s] | **س** | Sīn | *sun* / *city* | `سن` / `ستی` |
+| **z / s** (voiced) | [z] | **ز** | Zāy | *zoo* / *easy* | `زو` / `إیزی` |
 | **sh** | [ʃ] | **ش** | Shīn | *ship* / *show* | `شپ` / `شو` |
 | **ch** | [tʃ] | **چ** | Chā | *chair* / *much* | `چیر` / `مچ` |
 | **j / soft g** | [dʒ] | **ج** | Jīm | *job* / *page* | `جاب` / `پیج` |
@@ -95,8 +95,8 @@ This specification formalizes the orthographic engine for English. The system pr
 
 ## Dental Fricatives (th: Sā ث vs. Zāl ذ)
 To maintain historical Arabic-Perso orthographic accuracy:
-- **Voiceless th** [θ] maps to **Sā** (`ث`): *thin* $\rightarrow$ `ثن`, *think* $\rightarrow$ `ثنڭ`, *three* $\rightarrow$ `ثرى`
-- **Voiced th** [ð] maps to **Zāl** (`ذ`): *this* $\rightarrow$ `ذس`, *the* $\rightarrow$ `ذ` / `ذا`, *they* $\rightarrow$ `ذى` / `ذای`
+- **Voiceless th** [θ] maps to **Sā** (`ث`): *thin* $\rightarrow$ `ثن`, *think* $\rightarrow$ `ثنڭ`, *three* $\rightarrow$ `ثری`
+- **Voiced th** [ð] maps to **Zāl** (`ذ`): *this* $\rightarrow$ `ذس`, *the* $\rightarrow$ `ذ` / `ذا`, *they* $\rightarrow$ `ذی` / `ذای`
 
 ## Velar Nasal (ng: Sağır Kāf ڭ vs. Nūn-Gāf نگ)
 - **Option A (Primary - Sağır Kāf `ڭ`)**: Uses Ottoman three-dotted Kāf to write [ŋ] compactly:
@@ -105,7 +105,7 @@ To maintain historical Arabic-Perso orthographic accuracy:
   - *sing* $\rightarrow$ `سنگ` | *thing* $\rightarrow$ `ثنگ` | *writing* $\rightarrow$ `رایتنگ` | *king* $\rightarrow$ `كنگ`
 
 ## Labial Fricatives & Semivowels (v ڤ vs. w و)
-- **v** [v] maps to **Vā** (`ڤ`): *very* $\rightarrow$ `ڤرى`, *voice* $\rightarrow$ `ڤویس`
+- **v** [v] maps to **Vā** (`ڤ`): *very* $\rightarrow$ `ڤری`, *voice* $\rightarrow$ `ڤویس`
 - **w** [w] maps to **Waw** (`و`): *water* $\rightarrow$ `واتر`, *win* $\rightarrow$ `ون`
 
 ## Palatals & Affricates (ch چ, sh ش, j ج, zh ژ)
@@ -126,7 +126,7 @@ To maintain historical Arabic-Perso orthographic accuracy:
 | **Short o** | [ɒ]/[ɑː] | `او` / `ا` | Alif or implicit ḍammah/fatḥah. | *on* `اون`, *not* `نات`, *hot* `هات`, *from* `فرام` |
 | **Short u** | [ʌ] | `ا` / implicit | Central vowel; unwritten medially. | *up* `اپ`, *bus* `بس`, *run* `رن`, *but* `بت` |
 | **Short oo** | [ʊ] | `و` (Waw) | Mirrors "oo" orthography for readability. | *good* `گود`, *look* `لوك`, *book* `بوك`, *put* `پوت` |
-| **Long ee** | [iː] | `ی` (Ye) | Standard front long vowel letter. | *be* `بہ`/`بى`, *see* `سى`, *he* `هى`, *she* `شہ` |
+| **Long ee** | [iː] | `ی` (Ye) | Standard front long vowel letter. | *be* `بہ`/`بی`, *see* `سی`, *he* `هی`, *she* `شہ` |
 | **Long oo** | [uː] | `و` (Waw) | Standard back long vowel letter. | *too* `تو`, *do* `دو`, *who* `هو`, *you* `یو` |
 | **Broad aw**| [ɔː] | `آ` (Alif Madd) | Denotes open broad back long vowel. | *all* `آل`, *call* `كال`, *law* `لا`, *water* `واتر` |
 | **Diphthong ay** | [eɪ] | `ای` / `ی` | Open vowel + front glide. | *make* `میك`, *day* `دای`, *they* `ذای` |
@@ -148,7 +148,7 @@ To maintain historical Arabic-Perso orthographic accuracy:
 Nominal plurals (`-s` / `-es`) use graphic logogram **`-hā` (`ـها`)**: *books* $\rightarrow$ `بوكها`, *cats* $\rightarrow$ `كتها`, *dogs* $\rightarrow$ `داگها`, *cities* $\rightarrow$ `ستیها`.
 
 ## Rule II: Verbal Agreement & Lexical Sibilant Domain (س / ز)
-3rd-person singular verbs and lexical sibilants retain explicit `س` / `ز`: *he speaks* $\rightarrow$ `هى اسپیكس`, *she runs* $\rightarrow$ `شہ رنز`, *this* $\rightarrow$ `ذس`.
+3rd-person singular verbs and lexical sibilants retain explicit `س` / `ز`: *he speaks* $\rightarrow$ `هی اسپیكس`, *she runs* $\rightarrow$ `شہ رنز`, *this* $\rightarrow$ `ذس`.
 
 ## Rule III: Verbal Past Tense Domain (-d / -t: ـد / ـت)
 Past tense `-ed` uses surface morphophonemic **`-d` (`ـد`)** or **`-t` (`ـت`)**: *walked* [t] $\rightarrow$ `واكت`, *played* [d] $\rightarrow$ `پلاید`, *wanted* [ɪd] $\rightarrow$ `وانتد`.
@@ -167,8 +167,8 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
 | **these** | [ðiːz] | `ذیزها` / `ذیسها` | Nominal plural `-hā` |
 | **that / those** | [ðæt] / [ðoʊz] | `ذات` / `ذوزها` | Singular / Plural `-hā` |
 | **I / my / me** | [aɪ] / [maɪ] / [miː] | `ای` / `مای` / `مہ` | Personal pronouns |
-| **he / she / it**| [hiː] / [ʃiː] / [ɪt]| `هى` / `شہ` / `إت` | 3rd person singular |
-| **we / they** | [wiː] / [ðeɪ] | `وى` / `ذى` | Personal plurals |
+| **he / she / it**| [hiː] / [ʃiː] / [ɪt]| `هی` / `شہ` / `إت` | 3rd person singular |
+| **we / they** | [wiː] / [ðeɪ] | `وی` / `ذی` | Personal plurals |
 
 ## Nominal & Adjectival Inflection
 
@@ -177,23 +177,23 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
 | **book** | `بوك` | *books* | `بوكها` | Nominal `-hā` |
 | **cat** | `كات` | *cats* | `كتها` | Nominal `-hā` |
 | **dog** | `داگ` | *dogs* | `داگها` | Nominal `-hā` |
-| **city** | `ستى` | *cities* | `ستیها` | Nominal `-hā` |
+| **city** | `ستی` | *cities* | `ستیها` | Nominal `-hā` |
 
 ## Verbal Paradigms
 
 | Category | Example Construction | Aljamiado Script | Sibilant / Tense Handling |
 |----------+----------------------+------------------+---------------------------|
-| **3rd Sing. Present** | *he speaks* | `هى اسپیكس` | Verbal Sīn (`س`) |
+| **3rd Sing. Present** | *he speaks* | `هی اسپیكس` | Verbal Sīn (`س`) |
 | **3rd Sing. Present** | *she runs* | `شہ رنز` | Verbal Zāy (`ز`) |
-| **Past Tense (-t)** | *he walked* | `هى واكت` | Surface past tense `-t` (`ـت`) |
+| **Past Tense (-t)** | *he walked* | `هی واكت` | Surface past tense `-t` (`ـت`) |
 | **Past Tense (-d)** | *she played* | `شہ پلاید` | Surface past tense `-d` (`ـد`) |
 
 # 5. Expanded Corpus & Sample Transcriptions
 
 ## Pangrams & Benchmarks
 1. **The quick brown fox jumps over the lazy dog.**
-   - **Option A (Sağır Kāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.`
-   - **Option B (Nūn-Gāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزى داگ.`
+   - **Option A (Sağır Kāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزی داگ.`
+   - **Option B (Nūn-Gāf)**: `ذا كویك براون فاكس جمپس اوڤر ذا لیزی داگ.`
 
 ## Literature & Classic Proverbs
 2. **To be, or not to be, that is the question.**
@@ -203,11 +203,11 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
    - **Aljamiado**: `آكشنها اسپیك لاودر ذان وردها.`
 
 4. **A journey of a thousand miles begins with a single step.**
-   - **Option A (Sağır Kāf)**: `ا جرنى اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.`
+   - **Option A (Sağır Kāf)**: `ا جرنی اوڤ ا ثاوزند مایلها بگینز وث ا سنگل ستپ.`
 
 ## Famous Speeches & Historical Documents
 5. **We hold these truths to be self-evident, that all men are created equal.**
-   - **Aljamiado**: `وى هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.`
+   - **Aljamiado**: `وی هولد ذیز ثروثها تو بہ سلف-إڤدنت، ذات آل من آر كرییتد ایكول.`
 
 6. **I have a dream that one day this nation will rise up.**
    - **Aljamiado**: `ای هڤ ا دریم ذات وان دی ذس نیشن وِل رایز اپ.`
@@ -218,14 +218,14 @@ Reserved for short monosyllables (*be* `بہ`, *me* `مہ`, *she* `شہ`) or exp
    - **Option B (Nūn-Gāf)**: `ای ام رایتنگ ا نیو رایتنگ سیستم فور إنگلش یوزنگ پرسو-اربیك سكریپت.`
 
 8. **She bought three books, two laptops, and five new pens.**
-   - **Aljamiado**: `شہ بات ثرى بوكها، تو لپتاپها، اند فایل نیو پنها.`
+   - **Aljamiado**: `شہ بات ثری بوكها، تو لپتاپها، اند فایل نیو پنها.`
 
 9. **The computer processor runs very fast with new memory modules.**
-   - **Aljamiado**: `ذا كمپیوتر پراسسر رنز ڤرى فاست وث نیو ممورى ماجیولها.`
+   - **Aljamiado**: `ذا كمپیوتر پراسسر رنز ڤری فاست وث نیو مموری ماجیولها.`
 
 ## Poetry & Rhymes
 10. **Two roads diverged in a yellow wood, and I took the one less traveled by.**
-    - **Aljamiado**: `تو رودها داىڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.`
+    - **Aljamiado**: `تو رودها دایڤرجد إن ا یلو وود، اند ای توك ذا وان لس ترڤلد بای.`
 
 11. **The king was singing a long song in the house.**
     - **Option A (Sağır Kāf)**: `ذا كڭ واز سڭڭ ا لاڭ ساڭ إن ذا هاوس.`

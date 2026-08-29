@@ -78,7 +78,7 @@ Table with side-by-side Naskh and Nastaliq: *a* (`ا`), *o* (`و`), *de* (`دہ`
 - [ ] **Step 4: Write Lição 2 (Traço Baixo: `ب`, `پ`, `ت` e Gancho Dāl: `د`)**
 
 Cover lower stroke family and Dāl.
-Table: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *tudo* (`تودو`), *até* (`اتى`), *boa* (`بوہ`), *bom* (`بم`).
+Table: *de* (`دہ`), *do* (`دو`), *da* (`دا`), *tudo* (`تودو`), *até* (`اتی`), *boa* (`بوہ`), *bom* (`بم`).
 
 - [ ] **Step 5: Write Lição 3 (Cúpulas & Hastes: `ك`, `گ` e Suportes Vocálicos Iniciais)**
 
@@ -98,7 +98,7 @@ Table: *se* (`سہ`), *seu* (`سیo`), *sua* (`سوه`), *paz* (`پز`), *já* (
 - [ ] **Step 8: Write Lição 6 (Hastes Altas `ل`, Dígrafos `ل-ی`, `ن-ی` e RR `ه`)**
 
 Cover Lām, LH, NH, and RR (`ه`).
-Table: *ele* (`إلى`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهو`).
+Table: *ele* (`إلی`), *ela* (`إلہ`), *filho* (`فیلیو`), *caminho* (`كمینیہ`), *terra* (`تہہ`), *carro* (`كهو`).
 
 - [ ] **Step 9: Write Lição 7 (Sufixo Nominal de Plural `-hā` / `ـها`)**
 
