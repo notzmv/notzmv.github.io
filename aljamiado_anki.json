@@ -1,0 +1,786 @@
+[
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "a <span style='font-size:0.85em; color:#8b949e;'>(ا (Alif) — Isolada)</span>",
+    "back": "Isolada (ا)",
+    "tashkil": "اَ (اَ)",
+    "notes": "Fórmula: ا"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "da <span style='font-size:0.85em; color:#8b949e;'>(ا (Alif) — Final)</span>",
+    "back": "Dāl (د) + Alif final (ـا)",
+    "tashkil": "دَا (دَا) دَا دَا دَا (دَا)",
+    "notes": "Fórmula: د + ا"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "do <span style='font-size:0.85em; color:#8b949e;'>(د (Dāl) — Isolada)</span>",
+    "back": "Dāl (د) + Waw (و)",
+    "tashkil": "دۆ (دۆ) دۆ دۆ (دۆ)",
+    "notes": "Fórmula: د + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "vida <span style='font-size:0.85em; color:#8b949e;'>(د (Dāl) — Final)</span>",
+    "back": "Waw + Ye medial + Dāl final (ـد) + Gol He",
+    "tashkil": "وِیدَہ وِیدَہ وِیدَہ وِیدَہ وِیدَہ وِیدَہ وِیدَہ (وِیدَہ) وِیدَہ وِیدَہ وِیدَہ",
+    "notes": "Fórmula: و + ی + د + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "rio <span style='font-size:0.85em; color:#8b949e;'>(ر (Rā) — Isolada)</span>",
+    "back": "Rā inicial (ر) + Ye + Waw",
+    "tashkil": "Rā inicial (ر) + Ye + Waw",
+    "notes": "Fórmula: ر + ی + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "ver <span style='font-size:0.85em; color:#8b949e;'>(ر (Rā) — Final)</span>",
+    "back": "Waw (و) + Rā final (ـر)",
+    "tashkil": "Waw (و) + Rā final (ـر)",
+    "notes": "Fórmula: و + ر"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "zero <span style='font-size:0.85em; color:#8b949e;'>(ز (Zāy) — Isolada)</span>",
+    "back": "Zāy (ز) + Rā + Waw",
+    "tashkil": "Zāy (ز) + Rā + Waw",
+    "notes": "Fórmula: ز + ر + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "paz <span style='font-size:0.85em; color:#8b949e;'>(ز (Zāy) — Final)</span>",
+    "back": "Pā inicial + Alif + Zāy final (ـز)",
+    "tashkil": "پَزْ پَزْ پَزْ پَزْ پَزْ پَزْ پَزْ (پَزْ)",
+    "notes": "Fórmula: پ + ا + ز"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "já <span style='font-size:0.85em; color:#8b949e;'>(ژ (Žā) — Isolada)</span>",
+    "back": "Žā (ژ) + Alif (ا)",
+    "tashkil": "ژَا (ژَا) ژَا ژَا (ژَا)",
+    "notes": "Fórmula: ژ + ا"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "hoje <span style='font-size:0.85em; color:#8b949e;'>(ژ (Žā) — Final)</span>",
+    "back": "Hā mudo (هـ) + Žā final (ـژ) + Gol He",
+    "tashkil": "هۆژَه هۆژَه (هۆژَه) هۆژَه هۆژَه هۆژَه (هۆژَه) هۆژَه هۆژَه هۆژَه",
+    "notes": "Fórmula: ه + ژ + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "o <span style='font-size:0.85em; color:#8b949e;'>(و (Waw) — Isolada)</span>",
+    "back": "Isolada (و)",
+    "tashkil": "وۆ (وۆ)",
+    "notes": "Fórmula: و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "lesson": "Lição 1: Os Não-Conectores Fundamentais (ا, د, ر, ز, ژ, و)",
+    "front": "livro <span style='font-size:0.85em; color:#8b949e;'>(و (Waw) — Final)</span>",
+    "back": "Lām + Ye + Waw medial + Rā + Waw final (ـو)",
+    "tashkil": "Lām + Ye + Waw medial + Rā + Waw final (ـو)",
+    "notes": "Fórmula: ل + ی + و + ر + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "sob <span style='font-size:0.85em; color:#8b949e;'>(ب (Bā) — Isolada)</span>",
+    "back": "Sīn inicial + Bā isolada (ب)",
+    "tashkil": "سَبْ سَبْ سَبْ سَبْ سَبْ (سَبْ)",
+    "notes": "Fórmula: س + ب"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "boa <span style='font-size:0.85em; color:#8b949e;'>(ب (Bā) — Inicial)</span>",
+    "back": "Bā inicial (بوـ) + Waw + Gol He",
+    "tashkil": "بوۆہ بوۆہ (بوۆہ) بوۆہ بوۆہ بوۆہ بوۆہ بوۆہ",
+    "notes": "Fórmula: ب + و + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "sabedoria <span style='font-size:0.85em; color:#8b949e;'>(ب (Bā) — Medial)</span>",
+    "back": "Sīn + Bā medial (ـبـ) + Dāl + Rā + Ye + Gol He",
+    "tashkil": "سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ (سَبَدُرِیَہ) سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ",
+    "notes": "Fórmula: س + ب + د + ر + ی + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "sob <span style='font-size:0.85em; color:#8b949e;'>(ب (Bā) — Final)</span>",
+    "back": "Sīn inicial + Bā final (ـب)",
+    "tashkil": "سَبْ سَبْ سَبْ سَبْ سَبْ (سَبْ)",
+    "notes": "Fórmula: س + ب"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "zap <span style='font-size:0.85em; color:#8b949e;'>(پ (Pā) — Isolada)</span>",
+    "back": "Zāy + Alif + Pā isolada (پ)",
+    "tashkil": "زَاپْ زَاپْ زَاپْ زَاپْ زَاپْ زَاپْ (زَاپْ)",
+    "notes": "Fórmula: ز + ا + پ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "para <span style='font-size:0.85em; color:#8b949e;'>(پ (Pā) — Inicial)</span>",
+    "back": "Pā inicial (پرـ) + Rā + Gol He",
+    "tashkil": "پَرَه پَرَه (پَرَه) پَرَه پَرَه پَرَه پَرَه پَرَه",
+    "notes": "Fórmula: پ + ر + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "esperança <span style='font-size:0.85em; color:#8b949e;'>(پ (Pā) — Medial)</span>",
+    "back": "Alif + Sīn + Pā medial (ـپـ) + Rā + Nūn + Chā + Gol He",
+    "tashkil": "اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ (اَسْپَرَنـْچَہ) اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ اَسْپَرَنـْچَہ",
+    "notes": "Fórmula: ا + س + پ + ر + ن + چ + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "zap <span style='font-size:0.85em; color:#8b949e;'>(پ (Pā) — Final)</span>",
+    "back": "Zāy + Alif + Pā final (ـپ)",
+    "tashkil": "زَاپْ زَاپْ زَاپْ زَاپْ زَاپْ زَاپْ (زَاپْ)",
+    "notes": "Fórmula: ز + ا + پ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "tu / tudo <span style='font-size:0.85em; color:#8b949e;'>(ت (Tā) — Isolada / Inicial)</span>",
+    "back": "Tā inicial (توـ) + Waw",
+    "tashkil": "تُودۆ تُودۆ (تُودۆ) تُودۆ تُودۆ",
+    "notes": "Fórmula: ت + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "fruto <span style='font-size:0.85em; color:#8b949e;'>(ت (Tā) — Medial)</span>",
+    "back": "Fā + Rā + Waw + Tā medial (ـتـ) + Waw",
+    "tashkil": "Fā + Rā + Waw + Tā medial (ـتـ) + Waw",
+    "notes": "Fórmula: ف + ر + و + ت + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "lesson": "Lição 2: A Família do Bā (ب, پ, ت) e as 4 Posições Gráficas",
+    "front": "até <span style='font-size:0.85em; color:#8b949e;'>(ت (Tā) — Final)</span>",
+    "back": "Alif + Tā medial/final (ـتـ) + Ye final (ـی)",
+    "tashkil": "اَتِی اَتِی اَتِی اَتِی (اَتِی) اَتِی اَتِی اَتِی (اَتِی)",
+    "notes": "Fórmula: ا + ت + ی"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "gente <span style='font-size:0.85em; color:#8b949e;'>(ج (Jīm) — Inicial)</span>",
+    "back": "جنتہ",
+    "tashkil": "جَنـْتَه",
+    "notes": "Fórmula: Jīm inicial (جـ) + Nūn + Tā + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "generosidade <span style='font-size:0.85em; color:#8b949e;'>(ج (Jīm) — Medial)</span>",
+    "back": "جنرزددہ",
+    "tashkil": "جَنَرُزِدَدَہ",
+    "notes": "Fórmula: Jīm inicial (جـ) + Nūn + Rā + Zāy + Dāl + Dāl + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "gem <span style='font-size:0.85em; color:#8b949e;'>(ج (Jīm) — Final)</span>",
+    "back": "جم",
+    "tashkil": "جم",
+    "notes": "Fórmula: Jīm inicial (جـ) + Mīm final (ـم)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "cidade <span style='font-size:0.85em; color:#8b949e;'>(چ (Chā) — Inicial)</span>",
+    "back": "چددہ",
+    "tashkil": "چِدَدَہ",
+    "notes": "Fórmula: Chā inicial (چـ) + Dāl + Dāl + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "você <span style='font-size:0.85em; color:#8b949e;'>(چ (Chā) — Medial)</span>",
+    "back": "وچہ",
+    "tashkil": "وۆچِی",
+    "notes": "Fórmula: Waw + Chā medial (ـچـ) + Gol He final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "fixo <span style='font-size:0.85em; color:#8b949e;'>(چ (Chā) — Final)</span>",
+    "back": "فیچو",
+    "tashkil": "فِیچۆ",
+    "notes": "Fórmula: Fā inicial + Ye + Chā medial/final (ـچـ) + Waw final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "sua <span style='font-size:0.85em; color:#8b949e;'>(س (Sīn) — Inicial)</span>",
+    "back": "سوه",
+    "tashkil": "سُۆہ",
+    "notes": "Fórmula: Sīn inicial (سـ) + Waw + Gol He final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "processo <span style='font-size:0.85em; color:#8b949e;'>(س (Sīn) — Medial)</span>",
+    "back": "پرچسو",
+    "tashkil": "پْرَچَسۆ",
+    "notes": "Fórmula: Pā + Rā + Chā + Sīn medial (ـسـ) + Waw final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "mas <span style='font-size:0.85em; color:#8b949e;'>(س (Sīn) — Final)</span>",
+    "back": "مس",
+    "tashkil": "مَسْ",
+    "notes": "Fórmula: Mīm inicial + Sīn final (ـس) com bacia inteira"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "chave <span style='font-size:0.85em; color:#8b949e;'>(ش (Šīn) — Inicial)</span>",
+    "back": "شوه",
+    "tashkil": "شَوَه",
+    "notes": "Fórmula: Šīn inicial (شـ) + Waw + Gol He final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "lixo <span style='font-size:0.85em; color:#8b949e;'>(ش (Šīn) — Medial)</span>",
+    "back": "لیشو",
+    "tashkil": "لِیشۆ",
+    "notes": "Fórmula: Lām inicial + Ye + Šīn medial (ـشـ) + Waw final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "lesson": "Lição 3: As Famílias do Jīm (ج, چ) e do Sīn (س, ش)",
+    "front": "flash <span style='font-size:0.85em; color:#8b949e;'>(ش (Šīn) — Final)</span>",
+    "back": "فلاش",
+    "tashkil": "فْلَاشْ",
+    "notes": "Fórmula: Fā + Lām + Alif + Šīn final (ـش) com bacia inteira"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "faz <span style='font-size:0.85em; color:#8b949e;'>(ف (Fā) — Inicial)</span>",
+    "back": "فز",
+    "tashkil": "فَزْ",
+    "notes": "Fórmula: Fā inicial (فـ) + Zāy final (ـز)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "professora <span style='font-size:0.85em; color:#8b949e;'>(ف (Fā) — Medial)</span>",
+    "back": "پرفسرہ",
+    "tashkil": "پرفسرَہ",
+    "notes": "Fórmula: Pā + Rā + Fā medial (ـفـ) + Sīn + Rā + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "off <span style='font-size:0.85em; color:#8b949e;'>(ف (Fā) — Final)</span>",
+    "back": "اف",
+    "tashkil": "اف",
+    "notes": "Fórmula: Alif + Fā final (ـف)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "cada <span style='font-size:0.85em; color:#8b949e;'>(ك (Kāf) — Inicial)</span>",
+    "back": "كدہ",
+    "tashkil": "كدَہ",
+    "notes": "Fórmula: Kāf inicial (كـ) + Dāl + Dāl + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "busca <span style='font-size:0.85em; color:#8b949e;'>(ك (Kāf) — Medial)</span>",
+    "back": "بوسكہ",
+    "tashkil": "بوسكَہ",
+    "notes": "Fórmula: Bā + Waw + Sīn + Kāf medial (ـكـ) + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "check <span style='font-size:0.85em; color:#8b949e;'>(ك (Kāf) — Final)</span>",
+    "back": "چك",
+    "tashkil": "چك",
+    "notes": "Fórmula: Chā inicial + Ye + Kāf final (ـك)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "guia <span style='font-size:0.85em; color:#8b949e;'>(گ (Gāf) — Inicial)</span>",
+    "back": "گیہ",
+    "tashkil": "گیَہ",
+    "notes": "Fórmula: Gāf inicial (گـ) + Ye + Gol He final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "água <span style='font-size:0.85em; color:#8b949e;'>(گ (Gāf) — Medial)</span>",
+    "back": "آگوه",
+    "tashkil": "آگۆہ",
+    "notes": "Fórmula: Alif Madd + Gāf medial (ـگـ) + Waw + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "blog <span style='font-size:0.85em; color:#8b949e;'>(گ (Gāf) — Final)</span>",
+    "back": "بلگ",
+    "tashkil": "بلگ",
+    "notes": "Fórmula: Bā + Lām + Waw + Gāf final (ـگ)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "luz <span style='font-size:0.85em; color:#8b949e;'>(ل (Lām) — Inicial)</span>",
+    "back": "لوز",
+    "tashkil": "لوُزْ",
+    "notes": "Fórmula: Lām inicial (لـ) + Waw + Zāy final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "pelo <span style='font-size:0.85em; color:#8b949e;'>(ل (Lām) — Medial)</span>",
+    "back": "پلو",
+    "tashkil": "پَلۆ",
+    "notes": "Fórmula: Pā + Lām medial (ـلـ) + Waw final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "lesson": "Lição 4: As Letras de Alça e Gancho (ف, ك, گ, ل)",
+    "front": "sol <span style='font-size:0.85em; color:#8b949e;'>(ل (Lām) — Final)</span>",
+    "back": "سل",
+    "tashkil": "سل",
+    "notes": "Fórmula: Sīn + Waw + Lām final (ـل) com bacia inteira"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "muito <span style='font-size:0.85em; color:#8b949e;'>(م (Mīm) — Inicial)</span>",
+    "back": "مویتو",
+    "tashkil": "مویتۆ",
+    "notes": "Fórmula: Mīm inicial (مـ) + Waw + Ye + Tā + Waw"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "como <span style='font-size:0.85em; color:#8b949e;'>(م (Mīm) — Medial)</span>",
+    "back": "كمو",
+    "tashkil": "كَمۆ",
+    "notes": "Fórmula: Kāf + Mīm medial (ـمـ) + Waw final"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "bom <span style='font-size:0.85em; color:#8b949e;'>(م (Mīm) — Final)</span>",
+    "back": "بم",
+    "tashkil": "بم",
+    "notes": "Fórmula: Bā + Mīm final (ـم) com cauda longa"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "não <span style='font-size:0.85em; color:#8b949e;'>(ن (Nūn) — Inicial)</span>",
+    "back": "ناوم",
+    "tashkil": "ناوم",
+    "notes": "Fórmula: Nūn inicial (نـ) + Alif + Waw + Mīm (-ãom)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "análise <span style='font-size:0.85em; color:#8b949e;'>(ن (Nūn) — Medial)</span>",
+    "back": "انالیزہ",
+    "tashkil": "انالیزَہ",
+    "notes": "Fórmula: Alif + Nūn medial (ـنـ) + Alif + Lām + Zāy + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "on <span style='font-size:0.85em; color:#8b949e;'>(ن (Nūn) — Final)</span>",
+    "back": "ان",
+    "tashkil": "ان",
+    "notes": "Fórmula: Alif + Nūn final (ـن) com bacia e ponto"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "ilumina <span style='font-size:0.85em; color:#8b949e;'>(ی (Ye) — Inicial)</span>",
+    "back": "یلومنہ",
+    "tashkil": "یِلوُمِنَہ",
+    "notes": "Fórmula: Ye inicial (یـ) + Lām + Waw + Mīm + Nūn + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "minha <span style='font-size:0.85em; color:#8b949e;'>(ی (Ye) — Medial)</span>",
+    "back": "مینیہ",
+    "tashkil": "مِینـِیَہ",
+    "notes": "Fórmula: Mīm + Ye medial (ـیـ) + Nūn + Gol He"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "lesson": "Lição 5: Laços Circulares e Nasais (م, ن, ی)",
+    "front": "até <span style='font-size:0.85em; color:#8b949e;'>(ی (Ye) — Final)</span>",
+    "back": "اتی",
+    "tashkil": "اَتِی",
+    "notes": "Fórmula: Alif + Tā + Ye final (ـی / ـی)"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "honra <span style='font-size:0.85em; color:#8b949e;'>(1. H Mudo Inicial — Inicial (هـ))</span>",
+    "back": "هنرہ",
+    "tashkil": "هَنـْرَه",
+    "notes": "Fórmula: ه + ن + ر + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "homem <span style='font-size:0.85em; color:#8b949e;'>(1. H Mudo Inicial — Inicial (هـ))</span>",
+    "back": "همم",
+    "tashkil": "هَمَم",
+    "notes": "Fórmula: ه + م + م"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "carro <span style='font-size:0.85em; color:#8b949e;'>(2. RR Intervocálico — Medial (ـهـ))</span>",
+    "back": "كاهو",
+    "tashkil": "كَہۆ",
+    "notes": "Fórmula: ك + ا + ه + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "terra <span style='font-size:0.85em; color:#8b949e;'>(2. RR Intervocálico — Medial (ـهـ))</span>",
+    "back": "تہہ",
+    "tashkil": "تہَہ",
+    "notes": "Fórmula: ت + ه + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "boa <span style='font-size:0.85em; color:#8b949e;'>(3. Vogal Final -a/-e — Final (ہ / ـه))</span>",
+    "back": "بوہ",
+    "tashkil": "بوۆہ",
+    "notes": "Fórmula: ب + و + ہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "livros <span style='font-size:0.85em; color:#8b949e;'>(4. Plural Nominal -hā — Sufixo (ـها))</span>",
+    "back": "لیوروها",
+    "tashkil": "لیوروها",
+    "notes": "Fórmula: ل + ی + و + ر + و + ه + ا"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "lesson": "Lição 6: O Universo do He (ه / ہ) e Suas Complexidades Ortográficas",
+    "front": "rio <span style='font-size:0.85em; color:#8b949e;'>(5. Contraste R- (Rā) — Rā Inicial (ر))</span>",
+    "back": "ریو",
+    "tashkil": "ریو",
+    "notes": "Fórmula: ر + ی + و"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "coração <span style='font-size:0.85em; color:#8b949e;'>(Didático / Explícito — Facilitar o aprendizado inicial e eliminar qualquer margem de dúvida.)</span>",
+    "back": "Grafam-se todas as semivogais do ditongo nasal (-ão &rarr; او).",
+    "tashkil": "كَرَچاوْم كَرَچاوْم اَها كَرَچاوْم دۆ كَرَچاوْم كَرَچاوْم (-كَرَچاوْم كَرَچاوْم; كَرَچاوْم).",
+    "notes": "Fórmula: كرچاو"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "sabedoria / generosidade <span style='font-size:0.85em; color:#8b949e;'>(Econômico / Fluente — Maximizar a velocidade de escrita manual e a elegância visual em palavras longas.)</span>",
+    "back": "Larga-se a totalidade das vogais internas não-finais, apoiando-se no esqueleto consonantal único.",
+    "tashkil": "سَبَدُرِیَہ اَ سَبَدُرِیَہ دَاها سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ, سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ سَبَدُرِیَہ.",
+    "notes": "Fórmula: سبدریہ / جنرزددہ"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "pau vs. pó <span style='font-size:0.85em; color:#8b949e;'>(Desambiguador — Evitar colisão de significado em palavras curtas ou homógrafas.)</span>",
+    "back": "Insere-se o Alif em palavras curtas para evitar colisões vocálicas.",
+    "tashkil": "Insere-se وۆ Alif em پَلَوْرها curtas پَرَه evitar colisões vocálicas.",
+    "notes": "Fórmula: پاو vs. پو"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "pau / ao / ou <span style='font-size:0.85em; color:#8b949e;'>(-au / -ao — Alif + Waw (او))</span>",
+    "back": "Alif (central [a]) + Waw (posterior [w])",
+    "tashkil": "اَوْ (اَوْ اَوْ) اَوْ اَوْ (اَوْ اَوْ)",
+    "notes": "Fórmula: پاو / او"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "pai / raiz / mais <span style='font-size:0.85em; color:#8b949e;'>(-ai / -ay — Alif + Ye (ای))</span>",
+    "back": "Alif (central [a]) + Ye (palatal [j])",
+    "tashkil": "Alif (central [a]) + Ye (palatal [j])",
+    "notes": "Fórmula: پای / رایز / مایس"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "gostei / até / fé <span style='font-size:0.85em; color:#8b949e;'>(-ei / -é — Ye final (ـی / ـی))</span>",
+    "back": "Ye (palatal [e]/[i]) atrai a terminação tónica",
+    "tashkil": "اَتِی (اَتِی اَتِی) اَتِی اَ اَتِی اَتِی",
+    "notes": "Fórmula: گوستی / اتی / فی"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "meu / rio / seu <span style='font-size:0.85em; color:#8b949e;'>(-eu / -iu — Ye + Waw (یو))</span>",
+    "back": "Ye (anterior) + Waw (posterior [w])",
+    "tashkil": "سِیوۆ (سِیوۆ) سِیوۆ سِیوۆ (سِیوۆ سِیوۆ)",
+    "notes": "Fórmula: میو / ریو / سیو"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "pau / mau / ao <span style='font-size:0.85em; color:#8b949e;'>(-au (Oral) — Alif + Waw (او))</span>",
+    "back": "Alif (central [a]) + Waw (posterior [w])",
+    "tashkil": "اَوْ (اَوْ اَوْ) اَوْ اَوْ (اَوْ اَوْ)",
+    "notes": "Fórmula: پاو / ماو / او"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "pão / mão / não / coração <span style='font-size:0.85em; color:#8b949e;'>(-ão (Nasal Singular) — Alif + Waw + Mīm (اوم))</span>",
+    "back": "AOM (Alif-Waw-Mīm): desambigua de -au (pão پاوم vs pau پاو)",
+    "tashkil": "پاوم (پاوم): پاوم دِه -پاوم (پاوم پاوم پاوم پاوم پاوم)",
+    "notes": "Fórmula: پاوم / ماوم / ناوم / كرچاوم"
+  },
+  {
+    "deck": "Aljamiado Português::01 - Curso Gradual::Lição 7: Síntese de Leitura e Costura de Frases",
+    "lesson": "Lição 7: Síntese de Leitura e Costura de Frases",
+    "front": "razões / corações <span style='font-size:0.85em; color:#8b949e;'>(-ões (Nasal Plural) — Waw + [Ye] + Mīm + Gol He + Alif (ومها / ویها))</span>",
+    "back": "Ditongo nasal [õj̃ʃ] com Mīm + logograma de plural -hā",
+    "tashkil": "كَرَچومها كَرَچومها كَرَچومها كَرَچومها كَرَچومها كَرَچومها كَرَچومها دِه كَرَچومها -كَرَچومها",
+    "notes": "Fórmula: رزومها / كرچومها"
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 1 — Saudação e Bênção",
+    "front": "Que a paz e as bênçãos de Allah estejam com o profeta Muhammad e sua família.<br><span class='ipa-text'>[ki ɐ 'pas i ɐs 'bẽsɐ̃wʃ dʒi a'lːa es'tejɐ̃w kõ u pɾo'fɛtɐ mu'xɐmɐd i 'suɐ fɐ'miljɐ]</span>",
+    "back": "كہ ا پز ی اها بنچوها دہ اللّٰہ استژم كم و پرفتہ محمّد ی سوہ فمیلیہ.",
+    "tashkil": "كَه كَه پَزْ كَه كَه كَه دِه كَه كَه كَه كَه كَه كَه كَه كَه كَه.",
+    "notes": "Gol He final (كہ, سوہ, فمیلیہ), sufixo nominal -hā (اها, بنچوها), Zāy em پز, Allah (اللّٰہ), Muhammad com Ḥā/7 (محمّد)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 2 — Busca pelo Conhecimento",
+    "front": "A busca pelo conhecimento é um dever de todos.<br><span class='ipa-text'>[ɐ 'buʃkɐ 'pelu kuɲesi'mẽtu 'ɛ ũ de'veɾ dʒi 'todus]</span>",
+    "back": "ا بوسكہ پلو كنیچمنتو ای اوم دور دہ تدوها.",
+    "tashkil": "اَ اَ پَلۆ كَنِیچْمَنـْتۆ اَ اَ اَ دِه تَدۆها.",
+    "notes": "Chā para C brando (كنیچمنتو sem i atónico interno), um estritamente como اوم (Alif-Waw-Mīm), infinitivo verbal (دور), plural nominal -hā (تدوها)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 3 — Paciência e Gratidão",
+    "front": "A paciência e a gratidão trazem paz e sabedoria ao coração.<br><span class='ipa-text'>[ɐ pɐsi'ẽsiɐ i ɐ gɾɐtʃi'dɐ̃w 'tɾazĩw 'pas i sɐbedu'ɾiɐ aw koɾɐ'sɐ̃w]</span>",
+    "back": "ا پچنچیہ ی ا گرتیداو ترزم پز ی سبدریہ او كرچاو.",
+    "tashkil": "اَ اَ اَ اَ اَ اَ پَزْ اَ سَبَدُرِیَہ اَ كَرَچاوْم.",
+    "notes": "Chā para C brando (پچنچیہ), sabedoria sem Waw (سبدریہ), Zāy em ترزم e پز, ditongo nasal (گرتیداو, كرچاو), contração ao (او)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 4 — Acolhimento e Comunidade",
+    "front": "Seja muito bem-vindo à nossa comunidade.<br><span class='ipa-text'>['seʒɐ 'mwĩtu bẽj 'vĩdu a 'nɔsɐ komuni'dadʒi]</span>",
+    "back": "سژہ مویتو بم-ویندو آ نسہ كمونددہ.",
+    "tashkil": "مویتۆ مویتۆ مویتۆ مویتۆ مویتۆ كَمُونِدَدَہ.",
+    "notes": "Žā para J/G brando (سژہ), hífen em mídia digital / ZWNJ em manuscrito (بم-ویندو / بم‌ویندو), Alif Madd inicial (آ), comunidade sem ye atónico (كمونددہ)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 5 — Boas Ações e Palavras Sinceras",
+    "front": "As boas ações e as palavras sinceras transformam o mundo.<br><span class='ipa-text'>[ɐs 'bowɐs ɐ'sɐ̃wʃ i ɐs pɐ'lavɾɐs sĩ'sɛɾɐs tɾɐ̃ʃ'fɔɾmɐ̃w u 'mũdu]</span>",
+    "back": "اها بوها اچوها ی اها پلورها سینچرها ترنسفرمم و مندو.",
+    "tashkil": "اَها بوۆها اَها اَها اَها پَلَوْرها سِینـْچَرها اَها اَها اَها.",
+    "notes": "Plurais nominais com -hā (اها, بوها, اچوها, پلورها, سینچرها), -am verbal defectivo (ترنسفرمم)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 6 — Trabalho e Estudo",
+    "front": "Que Deus abençoe o seu trabalho e os seus estudos.<br><span class='ipa-text'>[ki 'dewʃ ɐbẽ'sɔj u 'sew tɾɐ'baʎu i uz 'sewʃ is'tudus]</span>",
+    "back": "كہ دیوس ابنچوی و سیو تربلیو ی وها سیوها استودوها.",
+    "tashkil": "كَه كَه كَه كَه كَه تْرَبَلِیۆ كَه كَه كَه اَسْتُودۆها.",
+    "notes": "Lām-Ye em تربلیو, sufixo nominal -hā em plurais (وها, سیوها, استودوها)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 7 — Sabedoria e Justiça",
+    "front": "A verdade e a justiça iluminam o caminho dos homens.<br><span class='ipa-text'>[ɐ veɾ'dadʒi i ɐ ʒuʃ'tisiɐ ilu'minɐ̃w u kɐ'miɲu dus 'omẽjʃ]</span>",
+    "back": "ا ورددہ ی ا ژستچہ یلومنم و كمینیو دوها همنها.",
+    "tashkil": "اَ وَرْدَدَہ اَ اَ ژُسْتِچَہ اَ اَ كَمِینـِیۆ اَ هَمَنـْها.",
+    "notes": "Nūn-Ye em كمینیو, assimilação nasal m → n no plural (همنها), -am verbal defectivo com Ye inicial e sem i atónico (یلومنم), justiça sem ye atónico (ژستچہ)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 8 — Generosidade",
+    "front": "A verdadeira riqueza está na generosidade do coração.<br><span class='ipa-text'>[ɐ veɾdɐ'dejɾɐ ʁi'kezɐ es'ta na ʒeneɾozi'dadʒi du koɾɐ'sɐ̃w]</span>",
+    "back": "ا ورددرہ ریكزہ استا نہ جنرزددہ دو كرچاوم.",
+    "tashkil": "اَ وَرْدَدَرَہ رِیكَزَہ اَ اَ جَنَرُزِدَدَہ اَ كَرَچاوْم.",
+    "notes": "Rā em riqueza (ریكزہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Jīm para G brando (جنرزددہ), Zāy intervocálico, verdadeira sem ye (ورددرہ), generosidade sem ye (جنرزددہ), -ção com AOM (كرچاوم)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 9 — Oportunidade e Recomeço",
+    "front": "Cada novo dia é uma oportunidade para fazer o bem.<br><span class='ipa-text'>['kadɐ 'novu 'dʒiɐ 'ɛ 'umɐ opoɾtuni'dadʒi 'paɾɐ fɐ'zeɾ u 'bẽj]</span>",
+    "back": "كدہ نوو دیہ ای اومہ اپرتنددہ پرہ فزر و بم.",
+    "tashkil": "اَیْ اَیْ اَیْ اَیْ اومَه اَپَرْتُنِدَدَہ پَرَه اَیْ اَیْ اَیْ.",
+    "notes": "uma estritamente como اومہ (Alif-Waw-Mīm-He), minimização defectiva (كدہ, اپرتنددہ sem u atónico em palavra longa, پرہ), oportunidade sem ye (اپرتنددہ), infinitivo verbal (فزر)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 10 — União e Harmonia",
+    "front": "A união de corações sinceros constrói uma vida cheia de paz.<br><span class='ipa-text'>[ɐ uni'ɐ̃w dʒi koɾɐ'sɐ̃wʃ sĩ'sɛɾus kõʃ'tɾɔj 'umɐ 'vidɐ 'ʃejɐ dʒi 'pas]</span>",
+    "back": "ا انیاوم دہ كرچومها سینچرها كنستروی اومہ ویدہ شیہ دہ پز.",
+    "tashkil": "اَ انِیاوم دِه كَرَچومها سِینـْچَرها اَ اومَه وِیدَہ شِیَہ دِه پَزْ.",
+    "notes": "uma estritamente como اومہ, união com AOM (انیاوم), corações com plural -ções AOM (كرچومها), Shīn para CH em cheia com Urdu gol he (شیہ U+06C1), Zāy em پز."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 11 — Sabedoria e Razão",
+    "front": "A sabedoria ilumina a mente e o conhecimento fortalece a alma.<br><span class='ipa-text'>[ɐ sɐbedu'ɾiɐ ilu'minɐ ɐ 'mẽtʃi i u kuɲesi'mẽtu fɔɾtɐ'lɛsi ɐ 'awmɐ]</span>",
+    "back": "ا سبدریہ یلومنہ ا منتہ ی و كنیچمنتو فرتلچہ ا المہ.",
+    "tashkil": "اَ سَبَدُرِیَہ اَ اَ مَنـْتَه اَ اَ كَنِیچْمَنـْتۆ اَ اَ اَلـْمَہ.",
+    "notes": "sabedoria sem Waw (سبدریہ), Ye inicial e sem i atónico em یلومنہ, conhecimento sem i atónico em palavra longa (كنیچمنتو), Alif em المہ, C brando em فرتلچہ (Chā), Gol He final."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 12 — Semeadores de Esperança",
+    "front": "Os homens de bem semeiam a esperança e colhem a justiça.<br><span class='ipa-text'>[uz 'omẽjʃ dʒi 'bẽj se'mejɐ̃w ɐ espe'ɾɐ̃sɐ i 'kɔʎẽj ɐ ʒuʃ'tisiɐ]</span>",
+    "back": "وها همنها دہ بم سمیم ا اسپرنچہ ی كولیه ا ژستچہ.",
+    "tashkil": "وۆها هَمَنـْها دِه وۆها وۆها وۆها اَسْپَرَنـْچَہ وۆها وۆها وۆها ژُسْتِچَہ.",
+    "notes": "Assimilação nasal (همنها), ditongo ei (سمیم), Lām-Ye + Gol He em كولیه (lh para contrastar com cole), Žā em ژستچہ sem ye final (ژستچہ)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 13 — Caminho da Verdade",
+    "front": "A luz da verdade guia os nossos passos pelo caminho da paz.<br><span class='ipa-text'>[ɐ 'luʃ dɐ veɾ'dadʒi 'giɐ uz 'nɔsus 'pasus 'pelu kɐ'miɲu dɐ 'pas]</span>",
+    "back": "ا لوز دا ورددہ گیہ وها نسوها پسوها پلو كمینیو دا پز.",
+    "tashkil": "اَ لوُزْ اَ وَرْدَدَہ اَ اَ اَ پَسۆها پَلۆ كَمِینـِیۆ اَ پَزْ.",
+    "notes": "Zāy final em لوز e پز, Sīn duplo intervocálico em نسوها e پسوها com sufixo -hā."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 14 — Palavras de Fé",
+    "front": "As palavras de fé e amor renovam os corações dos homens.<br><span class='ipa-text'>[ɐs pɐ'lavɾɐs dʒi 'fɛ i ɐ'moɾ ʁe'nɔvɐ̃w uz koɾɐ'sɐ̃wʃ dus 'omẽjʃ]</span>",
+    "back": "اها پلورها دہ فی ی امور رنوم وها كرچومها دوها همنها.",
+    "tashkil": "اَها پَلَوْرها دِه اَها اَها اَها اَها اَها كَرَچومها اَها هَمَنـْها.",
+    "notes": "Rā em renovam (رنوم) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), single waw em renovam (رنوم), -am verbal defectivo, corações com -ções AOM (كرچومها), plurais nominais -hā."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 15 — Busca pela Felicidade",
+    "front": "Quem busca a sabedoria encontra a verdadeira felicidade na vida.<br><span class='ipa-text'>[kẽj 'buʃkɐ ɐ sɐbedu'ɾiɐ ẽ'kõtɾɐ ɐ veɾdɐ'dejɾɐ felisi'dadʒi na 'vidɐ]</span>",
+    "back": "كم بوسكہ ا سبدریہ انكنترہ ا ورددرہ فلچددہ نہ ویدہ.",
+    "tashkil": "اَ اَ اَ سَبَدُرِیَہ اَ اَ وَرْدَدَرَہ اَ اَ وِیدَہ.",
+    "notes": "Kāf para Q (كم), sabedoria sem Waw (سبدریہ), C brando em فلچددہ (Chā), verdadeira sem ye (ورددرہ), felicidade sem ye (فلچددہ), Gol He final."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 16 — Reflexão e Honra",
+    "front": "Um bom amigo traz honra e alegria para a nossa casa.<br><span class='ipa-text'>[ũ 'bõj ɐ'migu 'tɾaʃ 'õɾɐ i ɐle'gɾiɐ 'paɾɐ ɐ 'nɔsɐ 'kazɐ]</span>",
+    "back": "اوم بم امیگو ترز هنرہ ی الگریہ پرہ ا نسہ كزہ.",
+    "tashkil": "اوم اوم اوم اوم اوم اوم اوم پَرَه اوم اوم اوم.",
+    "notes": "um estritamente como اوم (Alif-Waw-Mīm), Hā em هنرہ (honra muda), exigindo Rā inicial em R- (ریكزہ, رنوم, ریوها) para desambiguação, Zāy em كزہ (casa /z/), Sīn duplo em نسہ (nossa /s/)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 17 — União da Família",
+    "front": "Os filhos e as filhas escutam os conselhos dos pais.<br><span class='ipa-text'>[uz 'fiʎus i ɐs 'fiʎɐs is'kutɐ̃w uz kõ'seʎus dus 'pajʃ]</span>",
+    "back": "وها فیلیوها ی اها فیلیہها اسكوتم وها كنسیلیوها دوها پایها.",
+    "tashkil": "وۆها وۆها وۆها وۆها وۆها وۆها وۆها وۆها وۆها وۆها.",
+    "notes": "Lām-Ye para LH (فیلیوها, فیلیہها, كنسیلیوها), filhas com fili + Gol He + ha (فیلیہها), plurais nominais -hā, -am verbal (اسكوتم)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 18 — Trabalho e Perseverança",
+    "front": "A paciência é uma virtude que transforma os maus momentos.<br><span class='ipa-text'>[ɐ pɐsi'ẽsiɐ 'ɛ 'umɐ vɪɾ'tudʒi ki tɾɐ̃ʃ'fɔɾmɐ uz 'mawʃ mo'mẽtus]</span>",
+    "back": "ا پچنچیہ ای اومہ ورتودہ كہ ترنسفرمہ وها ماوها مومنتها.",
+    "tashkil": "اَ اَ اَ اومَه اَ كَه اَ اَ اَ اَ.",
+    "notes": "uma estritamente como اومہ, Chā em پچنچیہ, Waw para V em ورتودہ (opção aceitável com Waw), maus em ماوها (mau ماو + plural -hā), momentos sem waw atónico (مومنتها), plurais -hā."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 19 — Esperança no Amanhã",
+    "front": "Quem planta a justiça colhe um futuro de paz e prosperidade.<br><span class='ipa-text'>[kẽj 'plɐ̃tɐ ɐ ʒuʃ'tisiɐ 'kɔʎi ũ fu'tuɾu dʒi 'pas i pɾospeɾi'dadʒi]</span>",
+    "back": "كم پلنتہ ا ژستچہ كولیه اوم فوتورو دہ پز ی پرسپرددہ.",
+    "tashkil": "اَ اَ اَ ژُسْتِچَہ اَ اَ اَ دِه پَزْ اَ اَ.",
+    "notes": "um estritamente como اوم, Žā em ژستچہ sem ye final, Lām-Ye + Gol He em كولیه (lh), futuro com ambos Waws (فوتورو) para desambiguar com faturo, Zāy em پز, prosperidade sem ye (پرسپرددہ)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 20 — Caminho e Destino",
+    "front": "As palavras voam com o vento, mas as boas obras permanecem.<br><span class='ipa-text'>[ɐs pɐ'lavɾɐs 'vwɐ̃w kõ u 'vẽtu mɐʃ ɐs 'bowɐs 'ɔbɾɐs peɾmɐ'nesẽj]</span>",
+    "back": "اها پلورها ووام كم و ونتو، مس اها بوها ابرها پرمنچم.",
+    "tashkil": "اَها پَلَوْرها اَها اَها اَها اَها مَسْ اَها بوۆها اَها اَها.",
+    "notes": "Plurais nominais -hā (پلورها, بوها, ابرها), voam com Waw-Waw-Alif-Mīm (ووام), C brando em پرمنچم (Chā), -em verbal (پرمنچم)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 21 — Conhecimento e Luz",
+    "front": "O estudo constante ilumina o espírito e abre a mente.<br><span class='ipa-text'>[u is'tudu kõʃ'tɐ̃tʃi ilu'minɐ u es'piɾitu i 'abɾi ɐ 'mẽtʃi]</span>",
+    "back": "و استودو كنستنتہ یلومنہ و اسپرتو ی ابرہ ا منتہ.",
+    "tashkil": "وۆ اَسْتُودۆ وۆ وۆ وۆ وۆ وۆ وۆ وۆ مَنـْتَه.",
+    "notes": "Alif inicial de suporte (استودو), ilumina com Ye inicial e sem i atónico (یلومنہ), espírito sem ye atónico (اسپرتو), Gol He final em كنستنتہ, منتہ."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 22 — Respeito e Modéstia",
+    "front": "Um homem sábio fala com humildade e ouve com atenção.<br><span class='ipa-text'>[ũ 'omẽj 'sabju 'falɐ kõ umiw'dadʒi i 'owvi kõ ɐtẽ'sɐ̃w]</span>",
+    "back": "اوم همم سبیو فلہ كم اوملددہ ی وو كم اتنچاوم.",
+    "tashkil": "اوم هَمَم اوم اوم اوم اوم اوم اوم اوم اوم.",
+    "notes": "um estritamente como اوم, assimilação nasal همم, Hā mudo em اوملددہ sem ye atónico, ditongo nasal -ção → اتنچاوم com AOM."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 23 — Semeando Bondade",
+    "front": "Uma boa ação traz uma grande recompensa no coração.<br><span class='ipa-text'>['umɐ 'bowɐ ɐ'sɐ̃w 'tɾaʃ 'umɐ 'gɾɐ̃dʒi ʁekõ'pẽsɐ nu koɾɐ'sɐ̃w]</span>",
+    "back": "اومہ بوہ اچاوم ترز اومہ گرندہ ركمپنسہ نو كرچاوم.",
+    "tashkil": "اومَه بوۆہ اومَه اومَه اومَه اومَه اومَه اومَه كَرَچاوْم.",
+    "notes": "uma estritamente como اومہ, ação com AOM (اچاوم), coração com AOM (كرچاوم), Rā em recompensa (ركمپنسہ) por regra de R- inicial (reservando Hā ه para H mudo em هنرہ), Zāy em ترز."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 24 — Diálogo e Concórdia",
+    "front": "A verdade une as pessoas e constrói a verdadeira paz.<br><span class='ipa-text'>[ɐ veɾ'dadʒi 'uni ɐs pe'soɐs i kõʃ'tɾɔj ɐ veɾdɐ'dejɾɐ 'pas]</span>",
+    "back": "ا ورددہ اونی اها پسوها ی كنستروی ا ورددرہ پز.",
+    "tashkil": "اَ وَرْدَدَہ اَ اَ پَسۆها اَ اَ اَ وَرْدَدَرَہ پَزْ.",
+    "notes": "Sīn duplo em پسوها com sufixo -hā, ditongo oi em كنستروی, Zāy em پز, verdadeira sem ye (ورددرہ)."
+  },
+  {
+    "deck": "Aljamiado Português::02 - Corpus de Frases",
+    "lesson": "Frase 25 — O Mar e o Horizonte",
+    "front": "Os rios correm para o mar e renovam as águas da terra.<br><span class='ipa-text'>[uz 'ʁiws 'kɔʁẽj 'paɾɐ u 'maɾ i ʁe'nɔvɐ̃w ɐs 'agwɐʃ dɐ 'tɛʁɐ]</span>",
+    "back": "وها ریوها كوهم پرہ و مر ی رنوم اها اگوها دا تہہ.",
+    "tashkil": "وۆها وۆها وۆها پَرَه وۆها وۆها وۆها وۆها وۆها وۆها وۆها وۆها.",
+    "notes": "Rā para R inicial em ریوها e رنوم (desambiguando com Hā mudo هنرہ), single waw em renovam (رنوم), He para RR intervocálico em كوهم e تہہ, desinência verbal -em defectiva (كوهم), plurais -hā (ریوها, اگوها)."
+  }
+]
