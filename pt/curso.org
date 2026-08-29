@@ -540,7 +540,7 @@ Uma das alternâncias morfológicas de maior relevância prática no Aljamiado P
 
 **Vogais Finais: -e em Ye (`ی`) e Suporte de Hamzah para Oxítonas (-í = `ـئ` / -ú = `ـؤ`)**
 - **-e final (átono / geral)**: Mapeia para **Ye (`ی`)** (*gente* ~جنتى~, *você* ~وچی~, *se* ~سی~, *de* ~دی~).
-- **Oxítonas Finais em *-í* e *-ú* e Hiatos Tónicos**: Utiliza-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`) para indicar com precisão a acentuação tónica final ou quebra de hiato (*aqui* ~اكئ~, *rubi* ~ربئ~, *caju* ~كژؤ~, *país* ~پائس~, *saúde* ~ساؤدہ~, *baú* ~باؤ~).
+- **Oxítonas Finais em *-í* e *-ú* e Hiatos Tónicos**: Recomenda-se o suporte de **Hamzah sobre Ye ou Waw** (`ئ` / `ؤ`) como o ideal gráfico para desambiguação tónica (*aqui* ~اكئ~, *rubi* ~ربئ~, *caju* ~كژؤ~, *país* ~پائس~, *saúde* ~ساؤدہ~, *baú* ~باؤ~), mantendo-se o uso do Hamzah como uma opção preferencial (não obrigatória) ao dispor do escritor.
 
 Com o domínio das 21 letras, do balanço de economia, das *Mater Lectionis*, das variantes taquigráficas e das alternâncias morfológicas de plural, você possui toda a base teórica e prática necessária para ler, escrever e apreciar a beleza do **Aljamiado Português**.
 
